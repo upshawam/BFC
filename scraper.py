@@ -13,16 +13,52 @@ from pathlib import Path
 import hashlib
 
 # Configuration
-EVENT_URL = "https://ultrasignup.com/entrants_event.aspx?did=131025"
+# Map of event keys to (display name, url). Add more events here as needed.
+EVENTS = {
+    'frozen_head_50k': (
+        'Frozen Head 50K',
+        'https://ultrasignup.com/entrants_event.aspx?did=131025'
+    ),
+    'other_race_50m': (
+        'Other Race 50 Miler',
+        'https://ultrasignup.com/entrants_event.aspx?did=127637'
+    ),
+    'other_race_55k': (
+        'Other Race 55K',
+        'https://ultrasignup.com/entrants_event.aspx?did=127638'
+    )
+}
+
 DATA_DIR = Path("data")
-ENTRANTS_FILE = DATA_DIR / "entrants.json"
-CHANGES_FILE = DATA_DIR / "changes.json"
-HISTORY_FILE = DATA_DIR / "history.csv"
+
+def data_paths_for(key: str):
+    """Return per-event data file paths for given event key."""
+    DATA_DIR.mkdir(exist_ok=True)
+    entrants = DATA_DIR / f"entrants_{key}.json"
+    changes = DATA_DIR / f"changes_{key}.json"
+    history = DATA_DIR / f"history_{key}.csv"
+    return entrants, changes, history
+
 
 class EntrantTracker:
-    def __init__(self):
+    def __init__(self, event_key: str = 'frozen_head_50k'):
         self.data_dir = DATA_DIR
         self.data_dir.mkdir(exist_ok=True)
+        if event_key not in EVENTS:
+            raise ValueError(f"Unknown event key: {event_key}")
+
+        self.event_key = event_key
+        self.event_name, self.event_url = EVENTS[event_key]
+        self.ENTRANTS_FILE, self.CHANGES_FILE, self.HISTORY_FILE = data_paths_for(event_key)
+
+        # Notification config read from environment variables
+        import os
+        self.smtp_host = os.getenv('SMTP_HOST')
+        self.smtp_port = int(os.getenv('SMTP_PORT', '0')) if os.getenv('SMTP_PORT') else None
+        self.smtp_user = os.getenv('SMTP_USER')
+        self.smtp_pass = os.getenv('SMTP_PASS')
+        self.notify_to = os.getenv('NOTIFY_TO')
+        self.notify_from = os.getenv('NOTIFY_FROM')
         
     def scrape_entrants(self) -> dict:
         """
@@ -33,7 +69,7 @@ class EntrantTracker:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             }
-            response = requests.get(EVENT_URL, headers=headers, timeout=10)
+            response = requests.get(self.event_url, headers=headers, timeout=10)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -100,15 +136,15 @@ class EntrantTracker:
             return {'count': 0, 'entrants': {}, 'timestamp': datetime.now().isoformat()}
     
     def load_previous_data(self) -> dict:
-        """Load previously saved entrant data"""
-        if ENTRANTS_FILE.exists():
-            with open(ENTRANTS_FILE, 'r') as f:
+        """Load previously saved entrant data for this event"""
+        if self.ENTRANTS_FILE.exists():
+            with open(self.ENTRANTS_FILE, 'r') as f:
                 return json.load(f)
         return {'count': 0, 'entrants': {}, 'timestamp': None}
     
     def save_current_data(self, data: dict):
-        """Save current entrant data"""
-        with open(ENTRANTS_FILE, 'w') as f:
+        """Save current entrant data for this event"""
+        with open(self.ENTRANTS_FILE, 'w') as f:
             json.dump(data, f, indent=2)
     
     def find_changes(self, previous: dict, current: dict) -> dict:
@@ -149,31 +185,34 @@ class EntrantTracker:
         return changes
     
     def save_changes(self, changes: dict):
-        """Save changes to file"""
+        """Save changes to file for this event"""
         all_changes = []
-        
-        if CHANGES_FILE.exists():
-            with open(CHANGES_FILE, 'r') as f:
-                all_changes = json.load(f)
-        
+
+        if self.CHANGES_FILE.exists():
+            with open(self.CHANGES_FILE, 'r') as f:
+                try:
+                    all_changes = json.load(f)
+                except Exception:
+                    all_changes = []
+
         all_changes.append(changes)
-        
-        with open(CHANGES_FILE, 'w') as f:
+
+        with open(self.CHANGES_FILE, 'w') as f:
             json.dump(all_changes, f, indent=2)
     
     def append_to_history(self, changes: dict):
-        """Append changes to CSV history file"""
-        file_exists = HISTORY_FILE.exists()
-        
-        with open(HISTORY_FILE, 'a', newline='') as f:
+        """Append changes to CSV history file for this event"""
+        file_exists = self.HISTORY_FILE.exists()
+
+        with open(self.HISTORY_FILE, 'a', newline='') as f:
             writer = csv.writer(f)
-            
+
             if not file_exists:
                 writer.writerow([
-                    'Date', 'Total_Entrants', 'Previous_Count', 'New_Entrants', 
+                    'Date', 'Total_Entrants', 'Previous_Count', 'New_Entrants',
                     'Dropped_Entrants', 'Net_Change'
                 ])
-            
+
             writer.writerow([
                 changes['timestamp'],
                 changes['new_count'],
@@ -182,6 +221,51 @@ class EntrantTracker:
                 changes['total_dropped'],
                 changes['count_change']
             ])
+
+    def send_notification(self, changes: dict):
+        """Send an email notification if SMTP config is present."""
+        # Only attempt to send if configured
+        if not (self.smtp_host and self.notify_to and self.notify_from):
+            return
+
+        try:
+            import smtplib
+            from email.message import EmailMessage
+
+            subject = f"[{self.event_name}] Entrant list changed: {changes['count_change']:+d}"
+            body_lines = [f"Event: {self.event_name}", f"Time: {changes['timestamp']}", f"Net change: {changes['count_change']}\n"]
+            if changes.get('total_new'):
+                body_lines.append(f"New entrants: {changes['total_new']}")
+            if changes.get('total_dropped'):
+                body_lines.append(f"Dropped entrants: {changes['total_dropped']}")
+
+            msg = EmailMessage()
+            msg['Subject'] = subject
+            msg['From'] = self.notify_from
+            msg['To'] = self.notify_to
+            msg.set_content('\n'.join(body_lines))
+
+            # Connect and send
+            if self.smtp_port:
+                server = smtplib.SMTP(self.smtp_host, self.smtp_port, timeout=10)
+            else:
+                server = smtplib.SMTP(self.smtp_host, timeout=10)
+
+            server.ehlo()
+            try:
+                server.starttls()
+                server.ehlo()
+            except Exception:
+                pass
+
+            if self.smtp_user and self.smtp_pass:
+                server.login(self.smtp_user, self.smtp_pass)
+
+            server.send_message(msg)
+            server.quit()
+            print(f"✓ Notification sent to {self.notify_to}")
+        except Exception as e:
+            print(f"Warning: failed to send notification: {e}")
     
     def run(self):
         """Execute the tracker"""
@@ -196,7 +280,7 @@ class EntrantTracker:
         previous_data = self.load_previous_data()
         
         # Find changes
-        if previous_data['count'] > 0:
+        if previous_data.get('count', 0) > 0:
             changes = self.find_changes(previous_data, current_data)
             
             print(f"\n=== CHANGES DETECTED ===")
@@ -223,6 +307,10 @@ class EntrantTracker:
             # Save changes
             self.save_changes(changes)
             self.append_to_history(changes)
+
+            # Send notification if configured and there was a change
+            if changes['count_change'] != 0:
+                self.send_notification(changes)
         else:
             print("No previous data to compare. This is the first run.")
             # Still create baseline files for first run
@@ -241,10 +329,19 @@ class EntrantTracker:
         
         # Save current data
         self.save_current_data(current_data)
-        print(f"\n✓ Data saved to {ENTRANTS_FILE}")
-        print(f"✓ Changes logged to {CHANGES_FILE}")
-        print(f"✓ History updated in {HISTORY_FILE}")
+        print(f"\n✓ Data saved to {self.ENTRANTS_FILE}")
+        print(f"✓ Changes logged to {self.CHANGES_FILE}")
+        print(f"✓ History updated in {self.HISTORY_FILE}")
 
 if __name__ == "__main__":
-    tracker = EntrantTracker()
+    import argparse
+    import os
+
+    parser = argparse.ArgumentParser(description='Entrant list tracker (multi-event)')
+    parser.add_argument('--event', '-e', help='Event key to track (overrides EVENT_KEY env var)')
+    args = parser.parse_args()
+
+    event_key = args.event or os.getenv('EVENT_KEY', 'frozen_head_50k')
+    tracker = EntrantTracker(event_key=event_key)
+    print(f"Tracking event: {tracker.event_name} (key={tracker.event_key})")
     tracker.run()

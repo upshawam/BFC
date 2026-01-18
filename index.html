@@ -294,8 +294,12 @@
             <h1>🏃 Frozen Head 50K Entrant Tracker</h1>
             <p class="subtitle">Real-time monitoring of race entrant list</p>
             <p class="subtitle" style="font-size: 0.95em; color: #999;">Tracking waitlist movement since January 2026</p>
-            <div class="last-update">
-                Last updated: <span id="lastUpdate">Loading...</span>
+            <div style="margin-top: 12px; display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+                <div class="last-update">Last updated: <span id="lastUpdate">Loading...</span></div>
+                <div>
+                    <label for="raceSelector" style="font-size:0.9em; color:#666; margin-right:8px;">Race:</label>
+                    <select id="raceSelector"></select>
+                </div>
             </div>
         </header>
 
@@ -391,26 +395,99 @@
     <script>
         let changesData = [];
         let historyData = [];
+        const EVENTS = [
+            { key: 'frozen_head_50k', name: 'Barkley Fall Classic' },
+            { key: 'other_race_50m', name: 'Dam Yeti 50 Miler' },
+            { key: 'other_race_55k', name: 'Dam Yeti 55K' }
+        ];
 
-        async function loadData() {
+        function populateRaceSelector() {
+            const sel = document.getElementById('raceSelector');
+            sel.innerHTML = '';
+            EVENTS.forEach(ev => {
+                const opt = document.createElement('option');
+                opt.value = ev.key;
+                opt.textContent = ev.name;
+                sel.appendChild(opt);
+            });
+
+            sel.addEventListener('change', () => {
+                loadDataFor(sel.value);
+            });
+        }
+
+        async function loadDataFor(eventKey) {
+            // Clear previous error banners
+            document.querySelectorAll('.error').forEach(e => e.remove());
+
+            changesData = [];
+            historyData = [];
+
+            // Fetch changes JSON
+            const changesUrl = `data/changes_${eventKey}.json`;
+            let changesResponse;
             try {
-                const changesResponse = await fetch('data/changes.json');
-                const historyResponse = await fetch('data/history.csv');
+                changesResponse = await fetch(changesUrl);
+            } catch (err) {
+                console.error('Fetch error for', changesUrl, err);
+                document.body.insertAdjacentHTML('afterbegin', `<div class="error">Network error loading <code>${changesUrl}</code>. Check server.</div>`);
+                return;
+            }
 
-                if (changesResponse.ok) {
-                    changesData = await changesResponse.json();
-                }
+            if (!changesResponse.ok) {
+                console.error('HTTP error', changesResponse.status, changesUrl);
+                document.body.insertAdjacentHTML('afterbegin', `<div class="error">Failed to load <code>${changesUrl}</code> (status ${changesResponse.status}). Make sure data files exist.</div>`);
+                return;
+            }
 
+            try {
+                changesData = await changesResponse.json();
+            } catch (err) {
+                console.error('JSON parse error for', changesUrl, err);
+                document.body.insertAdjacentHTML('afterbegin', `<div class="error">Invalid JSON in <code>${changesUrl}</code>. Check file contents.</div>`);
+                return;
+            }
+
+            // Fetch optional history CSV
+            const historyUrl = `data/history_${eventKey}.csv`;
+            try {
+                const historyResponse = await fetch(historyUrl);
                 if (historyResponse.ok) {
                     const csv = await historyResponse.text();
                     historyData = parseCSV(csv);
+                } else {
+                    // not fatal: show a small notice
+                    console.warn('History CSV not found', historyUrl, historyResponse.status);
                 }
-
-                renderDashboard();
-            } catch (error) {
-                console.error('Error loading data:', error);
-                document.body.innerHTML += `<div class="error">Error loading data. Make sure data files are in the data/ directory.</div>`;
+            } catch (err) {
+                console.warn('Failed to fetch history CSV', historyUrl, err);
             }
+
+            // Update title/header
+            const ev = EVENTS.find(e => e.key === eventKey);
+            if (ev) {
+                document.title = `${ev.name} - Entrant Tracker`;
+                document.querySelector('header h1').textContent = `🏃 ${ev.name} Entrant Tracker`;
+            }
+
+            // Debug / info banner showing which data file was loaded and the latest count
+            try {
+                const latest = changesData[changesData.length - 1];
+                const infoId = 'dataLoadedInfo';
+                let infoEl = document.getElementById(infoId);
+                const msg = `Loaded ${changesData.length} snapshot(s) from ${changesUrl} — latest count: ${latest.new_count}`;
+                if (!infoEl) {
+                    infoEl = document.createElement('div');
+                    infoEl.id = infoId;
+                    infoEl.style.cssText = 'background:#e7f8ed;border-left:4px solid #27ae60;padding:8px;margin:12px 0;border-radius:4px;color:#065f2d;font-size:0.95em;';
+                    document.querySelector('.container').insertBefore(infoEl, document.querySelector('.stats-grid'));
+                }
+                infoEl.textContent = msg;
+            } catch (e) {
+                // ignore
+            }
+
+            renderDashboard();
         }
 
         function parseCSV(csv) {
@@ -573,8 +650,19 @@
             const totalNew = changesData.reduce((sum, c) => sum + c.total_new, 0);
             const totalDropped = changesData.reduce((sum, c) => sum + c.total_dropped, 0);
 
-            const first = changesData[0];
-            const daysBetween = (new Date(latest.timestamp) - new Date(first.timestamp)) / (1000 * 60 * 60 * 24);
+            // Determine start timestamp and start count. Prefer historyData if present.
+            let startTimestamp = null;
+            let startCount = 0;
+            if (historyData && historyData.length > 0) {
+                startTimestamp = historyData[0].Date;
+                startCount = parseInt(historyData[0].Total_Entrants) || 0;
+            } else {
+                const first = changesData[0];
+                startTimestamp = first.timestamp;
+                startCount = first.previous_count || 0;
+            }
+
+            const daysBetween = (new Date(latest.timestamp) - new Date(startTimestamp)) / (1000 * 60 * 60 * 24);
             const dailyRate = daysBetween > 0 ? totalNew / daysBetween : 0;
 
             // Estimate for 2500 capacity
@@ -590,7 +678,7 @@
                     <div class="estimation-text">
                         <strong>Days Tracked:</strong> ${Math.round(daysBetween)} days<br>
                         <strong>Average Daily Growth:</strong> ${dailyRate.toFixed(2)} entrants/day<br>
-                        <strong>Total Change:</strong> ${latest.new_count - first.previous_count} (from ${first.previous_count})<br>
+                        <strong>Total Change:</strong> ${latest.new_count - startCount} (from ${startCount})<br>
                         <strong>Net Admits - Dropouts:</strong> ${totalNew - totalDropped}
                     </div>
                 </div>
@@ -684,7 +772,15 @@
         }
 
         // Load data on page load
-        document.addEventListener('DOMContentLoaded', loadData);
+        document.addEventListener('DOMContentLoaded', () => {
+            populateRaceSelector();
+            const sel = document.getElementById('raceSelector');
+            // default to first event
+            if (sel.options.length > 0) {
+                sel.selectedIndex = 0;
+                loadDataFor(sel.value);
+            }
+        });
     </script>
 </body>
 </html>
