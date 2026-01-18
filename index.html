@@ -424,10 +424,11 @@
             historyData = [];
 
             // Fetch changes JSON
-            const changesUrl = `data/changes_${eventKey}.json`;
+            // Add a cache-busting query to ensure we always fetch the latest file
+            const changesUrl = `data/changes_${eventKey}.json?t=${Date.now()}`;
             let changesResponse;
             try {
-                changesResponse = await fetch(changesUrl);
+                changesResponse = await fetch(changesUrl, { cache: 'no-store' });
             } catch (err) {
                 console.error('Fetch error for', changesUrl, err);
                 document.body.insertAdjacentHTML('afterbegin', `<div class="error">Network error loading <code>${changesUrl}</code>. Check server.</div>`);
@@ -449,9 +450,9 @@
             }
 
             // Fetch optional history CSV
-            const historyUrl = `data/history_${eventKey}.csv`;
+            const historyUrl = `data/history_${eventKey}.csv?t=${Date.now()}`;
             try {
-                const historyResponse = await fetch(historyUrl);
+                const historyResponse = await fetch(historyUrl, { cache: 'no-store' });
                 if (historyResponse.ok) {
                     const csv = await historyResponse.text();
                     historyData = parseCSV(csv);
@@ -470,22 +471,7 @@
                 document.querySelector('header h1').textContent = `🏃 ${ev.name} Entrant Tracker`;
             }
 
-            // Debug / info banner showing which data file was loaded and the latest count
-            try {
-                const latest = changesData[changesData.length - 1];
-                const infoId = 'dataLoadedInfo';
-                let infoEl = document.getElementById(infoId);
-                const msg = `Loaded ${changesData.length} snapshot(s) from ${changesUrl} — latest count: ${latest.new_count}`;
-                if (!infoEl) {
-                    infoEl = document.createElement('div');
-                    infoEl.id = infoId;
-                    infoEl.style.cssText = 'background:#e7f8ed;border-left:4px solid #27ae60;padding:8px;margin:12px 0;border-radius:4px;color:#065f2d;font-size:0.95em;';
-                    document.querySelector('.container').insertBefore(infoEl, document.querySelector('.stats-grid'));
-                }
-                infoEl.textContent = msg;
-            } catch (e) {
-                // ignore
-            }
+            
 
             renderDashboard();
         }
