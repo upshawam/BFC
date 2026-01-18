@@ -1,0 +1,17 @@
+remote_theme: jekyll/minimal
+title: Frozen Head 50K Entrant Tracker
+description: Real-time monitoring of race entrant list
+show_downloads: false
+
+# GitHub Pages settings
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - data
+  - index.html
+  - assets

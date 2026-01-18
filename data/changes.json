@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-01-17T23:44:44.259558",
+    "count_change": 0,
+    "new_count": 498,
+    "previous_count": 0,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-17T23:45:12.657712",
+    "count_change": 0,
+    "new_count": 498,
+    "previous_count": 498,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
+  }
+]
