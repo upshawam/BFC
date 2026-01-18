@@ -1,5 +1,8 @@
 name: Daily Entrant Scraper
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # run daily at 08:00 UTC (single consolidated workflow)
