@@ -1954,6 +1954,13 @@
       "location": "WA",
       "age": "M40-49"
     },
+    "nicholas_bagwell_tx": {
+      "first_name": "Nicholas",
+      "last_name": "Bagwell",
+      "city": "Houston",
+      "location": "TX",
+      "age": "M30-39"
+    },
     "jeff_goodmanson_il": {
       "first_name": "Jeff",
       "last_name": "Goodmanson",
@@ -1974,13 +1981,6 @@
       "city": "Pellenberg",
       "location": "BEL",
       "age": "M40-49"
-    },
-    "nicholas_bagwell_tx": {
-      "first_name": "Nicholas",
-      "last_name": "Bagwell",
-      "city": "Houston",
-      "location": "TX",
-      "age": "M30-39"
     },
     "nikole_tan_tx": {
       "first_name": "Nikole",
@@ -2178,13 +2178,6 @@
       "location": "MS",
       "age": "M30-39"
     },
-    "steve_griffin_tx": {
-      "first_name": "Steve",
-      "last_name": "Griffin",
-      "city": "Dallas",
-      "location": "TX",
-      "age": "M60-69"
-    },
     "anna_edwards_nc": {
       "first_name": "Anna",
       "last_name": "Edwards",
@@ -2198,6 +2191,13 @@
       "city": "Christiana",
       "location": "TN",
       "age": "M50-59"
+    },
+    "steve_griffin_tx": {
+      "first_name": "Steve",
+      "last_name": "Griffin",
+      "city": "Dallas",
+      "location": "TX",
+      "age": "M60-69"
     },
     "amanda_szewczyk_mi": {
       "first_name": "Amanda",
@@ -3488,5 +3488,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-18T13:05:17.746318"
+  "timestamp": "2026-01-19T02:03:01.207954"
 }

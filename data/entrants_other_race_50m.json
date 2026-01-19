@@ -1268,13 +1268,6 @@
       "location": "KY",
       "age": "M30-39"
     },
-    "cristina_ruiz_mo": {
-      "first_name": "Cristina",
-      "last_name": "Ruiz",
-      "city": "Independence",
-      "location": "MO",
-      "age": "F40-49"
-    },
     "george_aguirre_pa": {
       "first_name": "George",
       "last_name": "Aguirre",
@@ -1288,6 +1281,13 @@
       "city": "Leesburg",
       "location": "VA",
       "age": "M50-59"
+    },
+    "cristina_ruiz_mo": {
+      "first_name": "Cristina",
+      "last_name": "Ruiz",
+      "city": "Independence",
+      "location": "MO",
+      "age": "F40-49"
     },
     "ethan_smith_nc": {
       "first_name": "Ethan",
@@ -1535,5 +1535,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-18T13:05:18.242348"
+  "timestamp": "2026-01-19T02:03:01.860000"
 }
