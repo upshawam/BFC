@@ -428,6 +428,13 @@
       "location": "SC",
       "age": "M30-39"
     },
+    "ethan_money_ga": {
+      "first_name": "Ethan",
+      "last_name": "Money",
+      "city": "Cochran",
+      "location": "GA",
+      "age": "M30-39"
+    },
     "quinten_gordon_nc": {
       "first_name": "Quinten",
       "last_name": "Gordon",
@@ -441,13 +448,6 @@
       "city": "Gastonia",
       "location": "NC",
       "age": "F40-49"
-    },
-    "ethan_money_ga": {
-      "first_name": "Ethan",
-      "last_name": "Money",
-      "city": "Cochran",
-      "location": "GA",
-      "age": "M30-39"
     },
     "paul_gauthier_nc": {
       "first_name": "Paul",
@@ -582,13 +582,6 @@
       "location": "NC",
       "age": "F30-39"
     },
-    "laura_mitchiner_nc": {
-      "first_name": "Laura",
-      "last_name": "Mitchiner",
-      "city": "Cornelius",
-      "location": "NC",
-      "age": "F50-59"
-    },
     "amy_mcdowell_nc": {
       "first_name": "Amy",
       "last_name": "McDowell",
@@ -610,13 +603,6 @@
       "location": "NC",
       "age": "M40-49"
     },
-    "jenny_bonner_sc": {
-      "first_name": "Jenny",
-      "last_name": "Bonner",
-      "city": "Spartanburg",
-      "location": "SC",
-      "age": "F30-39"
-    },
     "cameron_zima_va": {
       "first_name": "Cameron",
       "last_name": "Zima",
@@ -631,6 +617,13 @@
       "location": "NC",
       "age": "M40-49"
     },
+    "laura_mitchiner_nc": {
+      "first_name": "Laura",
+      "last_name": "Mitchiner",
+      "city": "Cornelius",
+      "location": "NC",
+      "age": "F50-59"
+    },
     "thomas_hicks_nc": {
       "first_name": "Thomas",
       "last_name": "Hicks",
@@ -643,6 +636,13 @@
       "last_name": "Suchy",
       "city": "Winston Salem",
       "location": "NC",
+      "age": "F30-39"
+    },
+    "jenny_bonner_sc": {
+      "first_name": "Jenny",
+      "last_name": "Bonner",
+      "city": "Spartanburg",
+      "location": "SC",
       "age": "F30-39"
     },
     "brandon_burleson_nc": {
@@ -1535,5 +1535,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-19T02:03:01.860000"
+  "timestamp": "2026-01-19T08:30:36.571302"
 }
