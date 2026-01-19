@@ -414,6 +414,8 @@
     <script>
         let changesData = [];
         let historyData = [];
+        let countChart = null;
+        let changeChart = null;
         const EVENTS = [
             { key: 'frozen_head_50k', name: 'Barkley Fall Classic' },
             { key: 'other_race_50m', name: 'Dam Yeti 50 Miler' },
@@ -570,6 +572,16 @@
         }
 
         function renderCharts() {
+            // Destroy existing charts before creating new ones
+            if (countChart) {
+                countChart.destroy();
+                countChart = null;
+            }
+            if (changeChart) {
+                changeChart.destroy();
+                changeChart = null;
+            }
+
             const labels = changesData.map(c => new Date(c.timestamp).toLocaleDateString());
             const counts = changesData.map(c => c.new_count);
             const newPerDay = changesData.map(c => c.total_new);
@@ -577,7 +589,7 @@
 
             // Count chart
             const countCtx = document.getElementById('countChart').getContext('2d');
-            new Chart(countCtx, {
+            countChart = new Chart(countCtx, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -622,7 +634,7 @@
 
             // Change chart
             const changeCtx = document.getElementById('changeChart').getContext('2d');
-            new Chart(changeCtx, {
+            changeChart = new Chart(changeCtx, {
                 type: 'bar',
                 data: {
                     labels: labels,
