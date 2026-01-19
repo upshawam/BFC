@@ -43,8 +43,12 @@ jobs:
       - name: Check for meaningful changes
         id: check_changes
         run: |
-          python3 scripts/check_changes.py
-          echo "has_changes=$?" >> $GITHUB_OUTPUT
+          if python3 scripts/check_changes.py; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: true
 
       - name: Commit data changes
         run: |
@@ -59,7 +63,7 @@ jobs:
           fi
 
       - name: Create issue for entrant changes
-        if: steps.check_changes.outputs.has_changes == '0'
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: actions/github-script@v7
         with:
           script: |
