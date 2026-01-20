@@ -1,0 +1,48 @@
+name: Scrape Historical Results
+
+on:
+  # Trigger 3 days after race (Sept 23 at 2pm UTC)
+  # Then weekly for 3 weeks to catch director corrections
+  schedule:
+    # Sept 23 @ 2pm UTC (3 days after ~Sept 20 race)
+    - cron: '0 14 23 9 *'
+    # Sept 30 @ 2pm UTC (weekly)
+    - cron: '0 14 30 9 *'
+    # Oct 7 @ 2pm UTC (weekly)
+    - cron: '0 14 7 10 *'
+  
+  # Allow manual trigger anytime
+  workflow_dispatch:
+
+jobs:
+  scrape-historical:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright beautifulsoup4 requests
+          playwright install chromium
+      
+      - name: Run historical results scraper
+        run: |
+          python scraper_historical.py
+      
+      - name: Commit and push updated results
+        run: |
+          git config user.name "BFC Bot"
+          git config user.email "bot@barkleyfallclassic.com"
+          git add data/historical/results/
+          git add data/historical/barkley_archive_complete.json
+          git commit -m "chore: update historical race results - $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
