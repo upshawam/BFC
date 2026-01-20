@@ -38,5 +38,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-20T08:29:43.543513",
+    "count_change": 1,
+    "new_count": 499,
+    "previous_count": 498,
+    "new_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Ott",
+        "city": "Jacksonville",
+        "location": "FL",
+        "age": "M50-59",
+        "key": "daniel_ott_fl"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

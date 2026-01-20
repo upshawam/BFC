@@ -1,5 +1,5 @@
 {
-  "count": 498,
+  "count": 499,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -211,6 +211,13 @@
       "location": "NC",
       "age": "M40-49"
     },
+    "kyle_kalbus_tn": {
+      "first_name": "Kyle",
+      "last_name": "Kalbus",
+      "city": "Chattanooga",
+      "location": "TN",
+      "age": "M40-49"
+    },
     "austin_darley_ma": {
       "first_name": "Austin",
       "last_name": "Darley",
@@ -224,13 +231,6 @@
       "city": "Roanoke",
       "location": "VA",
       "age": "M50-59"
-    },
-    "kyle_kalbus_tn": {
-      "first_name": "Kyle",
-      "last_name": "Kalbus",
-      "city": "Chattanooga",
-      "location": "TN",
-      "age": "M40-49"
     },
     "omar_martinez_tx": {
       "first_name": "Omar",
@@ -323,13 +323,6 @@
       "location": "MT",
       "age": "M20-29"
     },
-    "jamie_saunders_fl": {
-      "first_name": "Jamie",
-      "last_name": "Saunders",
-      "city": "Gainesville",
-      "location": "FL",
-      "age": "F40-49"
-    },
     "molly_kash_oh": {
       "first_name": "Molly",
       "last_name": "Kash",
@@ -421,6 +414,13 @@
       "location": "TN",
       "age": "F30-39"
     },
+    "jamie_saunders_fl": {
+      "first_name": "Jamie",
+      "last_name": "Saunders",
+      "city": "Gainesville",
+      "location": "FL",
+      "age": "F40-49"
+    },
     "kevin_dockemeyer_il": {
       "first_name": "Kevin",
       "last_name": "Dockemeyer",
@@ -498,6 +498,13 @@
       "location": "IN",
       "age": "M30-39"
     },
+    "viktoria_brown_hun": {
+      "first_name": "Viktoria",
+      "last_name": "Brown",
+      "city": "Budapest",
+      "location": "HUN",
+      "age": "F50-59"
+    },
     "bram_bell_ky": {
       "first_name": "Bram",
       "last_name": "Bell",
@@ -546,13 +553,6 @@
       "city": "Bryson City",
       "location": "NC",
       "age": "F40-49"
-    },
-    "viktoria_brown_hun": {
-      "first_name": "Viktoria",
-      "last_name": "Brown",
-      "city": "Budapest",
-      "location": "HUN",
-      "age": "F50-59"
     },
     "patrick_bene_fl": {
       "first_name": "Patrick",
@@ -1057,6 +1057,13 @@
       "city": "Charlotte",
       "location": "NC",
       "age": "F40-49"
+    },
+    "daniel_ott_fl": {
+      "first_name": "Daniel",
+      "last_name": "Ott",
+      "city": "Jacksonville",
+      "location": "FL",
+      "age": "M50-59"
     },
     "matthew_kirts_tn": {
       "first_name": "Matthew",
@@ -1835,6 +1842,13 @@
       "location": "TN",
       "age": "F30-39"
     },
+    "brad_brown_mi": {
+      "first_name": "Brad",
+      "last_name": "Brown",
+      "city": "Grand Blanc",
+      "location": "MI",
+      "age": "M40-49"
+    },
     "lee_rynearson_nc": {
       "first_name": "Lee",
       "last_name": "Rynearson",
@@ -2101,13 +2115,6 @@
       "location": "CT",
       "age": "M30-39"
     },
-    "stephen_ball_ga": {
-      "first_name": "Stephen",
-      "last_name": "Ball",
-      "city": "Rock Spring",
-      "location": "GA",
-      "age": "M40-49"
-    },
     "christian_nissen_wi": {
       "first_name": "Christian",
       "last_name": "Nissen",
@@ -2282,6 +2289,13 @@
       "city": "Bettendorf",
       "location": "IA",
       "age": "M70+"
+    },
+    "stephen_ball_ga": {
+      "first_name": "Stephen",
+      "last_name": "Ball",
+      "city": "Rock Spring",
+      "location": "GA",
+      "age": "M40-49"
     },
     "kevin_price_ct": {
       "first_name": "Kevin",
@@ -2619,13 +2633,6 @@
       "location": "KY",
       "age": "M40-49"
     },
-    "brad_brown_mi": {
-      "first_name": "Brad",
-      "last_name": "Brown",
-      "city": "Grand Blanc",
-      "location": "MI",
-      "age": "M40-49"
-    },
     "mariel_rosen_fl": {
       "first_name": "Mariel",
       "last_name": "Rosen",
@@ -2808,13 +2815,6 @@
       "location": "IL",
       "age": "M50-59"
     },
-    "dexter_padgett_tn": {
-      "first_name": "Dexter",
-      "last_name": "Padgett",
-      "city": "Jacksboro",
-      "location": "TN",
-      "age": "M40-49"
-    },
     "paul_blunt_on": {
       "first_name": "Paul",
       "last_name": "Blunt",
@@ -2884,6 +2884,13 @@
       "city": "MEUDON",
       "location": "FRA",
       "age": "M50-59"
+    },
+    "dexter_padgett_tn": {
+      "first_name": "Dexter",
+      "last_name": "Padgett",
+      "city": "Jacksboro",
+      "location": "TN",
+      "age": "M40-49"
     },
     "laval_blanchette_ma": {
       "first_name": "Laval",
@@ -3488,5 +3495,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-19T08:30:35.713949"
+  "timestamp": "2026-01-20T08:29:43.541656"
 }
