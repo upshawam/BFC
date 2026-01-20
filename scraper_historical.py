@@ -18,16 +18,16 @@ from playwright.sync_api import sync_playwright
 # Configuration for all years - maps year to (50K_did, Marathon_did)
 BARKLEY_HISTORICAL = {
     2025: (119817, 119818),
-    2024: (108870, 108871),
-    2023: (97857, 97858),
-    2022: (88170, 88171),
-    2021: (79789, 79790),
-    2020: (71482, 71483),
-    2019: (60848, 60849),
-    2018: (50528, 50529),
-    2017: (41232, 41233),
-    2016: (34630, 34631),
-    2015: (32215, 32216),
+    2024: (108870, 116578),
+    2023: (97857, 108677),
+    2022: (88170, 97828),
+    2021: (79789, 88389),
+    2020: (71482, 79480),
+    2019: (60848, 71684),
+    2018: (50528, 60817),
+    2017: (41232, 50516),
+    2016: (34630, 34629),
+    2015: (32215, 34599),
 }
 
 DATA_DIR = Path(__file__).parent / "data" / "historical"
@@ -45,6 +45,46 @@ class HistoricalResultsScraper:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
+
+    def resolve_event_links(self, seed_did):
+        """Resolve sibling event DIDs (50K/Marathon) from a seed event page.
+        Returns a dict like {'50K': did, 'Marathon': did} discovered from the toggle links.
+        """
+        url = f"https://ultrasignup.com/results_event.aspx?did={seed_did}"
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(url, wait_until='domcontentloaded', timeout=60000)
+            # Look for the toggle container with the event links
+            links = page.evaluate(
+                """
+                () => {
+                    const container = document.querySelector('div.unit-1.text-right');
+                    if (!container) return [];
+                    return Array.from(container.querySelectorAll('a')).map(a => ({
+                        text: (a.textContent || '').trim(),
+                        href: a.getAttribute('href') || ''
+                    }));
+                }
+                """
+            )
+            browser.close()
+        mapping = {}
+        for link in links:
+            href = link.get('href', '')
+            text = link.get('text', '')
+            if 'did=' in href:
+                try:
+                    did_val = int(href.split('did=')[1].split('#')[0])
+                    # Normalize distance label
+                    label = text.lower()
+                    if '50k' in label:
+                        mapping['50K'] = did_val
+                    elif 'marathon' in label:
+                        mapping['Marathon'] = did_val
+                except ValueError:
+                    continue
+        return mapping
     
     def scrape_year(self, year, did):
         """Scrape results for a specific year and distance."""
@@ -53,25 +93,22 @@ class HistoricalResultsScraper:
         url = f"https://ultrasignup.com/results_event.aspx?did={did}"
         
         try:
-            # Use Playwright to render JavaScript
+            # Use Playwright to render JavaScript and extract jqGrid data
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page()
-                page.goto(url, wait_until='networkidle', timeout=30000)
+                page.goto(url, wait_until='domcontentloaded', timeout=90000)
                 
-                # Wait for the jqGrid table to load
-                try:
-                    page.wait_for_selector('table#list', timeout=10000)
-                except:
-                    pass
+                # Wait for jqGrid table to load with generous timeout
+                page.wait_for_selector('table#list', timeout=30000)
                 
-                # Get rendered HTML
-                html = page.content()
-                soup = BeautifulSoup(html, 'html.parser')
+                # Give jqGrid extra time to populate with data
+                time.sleep(10)
+                
+                # Extract results using jqGrid JavaScript API
+                results = self._extract_from_jqgrid_api(page, year, distance, did)
+                
                 browser.close()
-            
-            # Extract results from the jqGrid table
-            results = self._extract_results_from_jqgrid(soup, year, distance, did)
             
             if results['finishers']:
                 # Save raw results
@@ -89,77 +126,88 @@ class HistoricalResultsScraper:
             print(f"  ✗ Error scraping {year} {distance}: {e}")
             return None
     
-    def _extract_results_from_jqgrid(self, soup, year, distance, did):
-        """Extract finisher data from jqGrid table."""
+    def _extract_from_jqgrid_api(self, page, year, distance, did):
+        """Extract data using jqGrid JavaScript API to get status codes."""
+        # Get all row IDs from jqGrid
+        row_ids = page.evaluate("jQuery('#list').jqGrid('getDataIDs')")
+        
         finishers = []
-        dnf_count = 0
-        dns_count = 0
+        status_counts = {'1': 0, '2': 0, '3': 0, '5': 0}
         
-        # Find the jqGrid table with id="list"
-        grid_table = soup.find('table', {'id': 'list'})
-        if not grid_table:
-            return {
-                'year': year,
-                'distance': distance,
-                'did': did,
-                'scraped_at': datetime.now().isoformat(),
-                'total_finishers': 0,
-                'total_dnf': 0,
-                'total_dns': 0,
-                'finishers': []
-            }
-        
-        # Find all data rows in tbody
-        tbody = grid_table.find('tbody')
-        if not tbody:
-            return {
-                'year': year,
-                'distance': distance,
-                'did': did,
-                'scraped_at': datetime.now().isoformat(),
-                'total_finishers': 0,
-                'total_dnf': 0,
-                'total_dns': 0,
-                'finishers': []
-            }
-        
-        rows = tbody.find_all('tr')
-        
-        for row_idx, row in enumerate(rows):
-            # Get row classes
-            row_classes = row.get('class', [])
+        for row_id in row_ids:
+            # Get full row data from jqGrid (includes status field)
+            row_data = page.evaluate(f"jQuery('#list').jqGrid('getRowData', '{row_id}')")
             
-            # Skip structure rows (jqgfirstrow), grouping headers (jqgroup), and rows without id
-            row_id = row.get('id', '')
-            if 'jqgfirstrow' in row_classes or 'jqgroup' in row_classes or not row_id or row_id.startswith('listghead'):
-                continue
+            # Status codes: 1=Finisher, 2=DNF, 3=DNS
+            status_code = str(row_data.get('status', ''))
+            status_counts[status_code] = status_counts.get(status_code, 0) + 1
             
-            cells = row.find_all('td')
-            if len(cells) < 10:
-                continue
+            # Map status code to text
+            if status_code == '1':
+                status = 'Finished'
+            elif status_code == '2':
+                status = 'DNF'
+            elif status_code == '3':
+                status = 'DNS'
+            elif status_code == '5':
+                status = 'Disqualified'
+            else:
+                status = 'Unknown'
             
+            # Parse place
+            place = 0
             try:
-                finisher = self._parse_jqgrid_row(cells, year, distance)
-                if finisher:
-                    finishers.append(finisher)
-                    if finisher['status'] == 'DNF':
-                        dnf_count += 1
-                    elif finisher['status'] == 'DNS':
-                        dns_count += 1
-            except Exception as e:
-                continue
+                place_text = str(row_data.get('place', '0'))
+                if place_text and place_text != '0':
+                    place = int(place_text)
+            except:
+                pass
+            
+            # Parse time (only for finishers)
+            finish_time_seconds = None
+            finish_time_formatted = row_data.get('formattime', '')
+            
+            if status == 'Finished' and finish_time_formatted:
+                finish_time_seconds = self._parse_time(finish_time_formatted)
+            
+            # Parse age
+            age = None
+            try:
+                age_text = str(row_data.get('age', ''))
+                if age_text and age_text != '':
+                    age = int(age_text)
+            except:
+                pass
+            
+            finisher_data = {
+                'year': year,
+                'distance': distance,
+                'place': place,
+                'first_name': row_data.get('firstname', ''),
+                'last_name': row_data.get('lastname', ''),
+                'city': row_data.get('city', ''),
+                'state': row_data.get('state', ''),
+                'age': age,
+                'division': row_data.get('agegroup', ''),
+                'status': status,
+                'finish_time_seconds': finish_time_seconds,
+                'finish_time_formatted': finish_time_formatted if status == 'Finished' else ''
+            }
+            
+            finishers.append(finisher_data)
         
-        # Sort by place
-        finishers.sort(key=lambda x: x['place'] if isinstance(x['place'], int) else float('inf'))
+        # Sort by status (Finished first) then by place
+        finishers.sort(key=lambda x: (0 if x['status'] == 'Finished' else (1 if x['status'] == 'DNF' else 2), x['place']))
         
         return {
             'year': year,
             'distance': distance,
             'did': did,
             'scraped_at': datetime.now().isoformat(),
-            'total_finishers': len([f for f in finishers if f['status'] == 'Finished']),
-            'total_dnf': dnf_count,
-            'total_dns': dns_count,
+            'total_finishers': status_counts.get('1', 0),
+            'total_dnf': status_counts.get('2', 0),
+            'total_dns': status_counts.get('3', 0),
+            'total_disqualified': status_counts.get('5', 0),
             'finishers': finishers
         }
     

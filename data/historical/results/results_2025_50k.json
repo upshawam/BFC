@@ -2,10 +2,11 @@
   "year": 2025,
   "distance": "50K",
   "did": 119817,
-  "scraped_at": "2026-01-20T10:44:07.906962",
+  "scraped_at": "2026-01-20T12:20:45.167696",
   "total_finishers": 20,
   "total_dnf": 0,
   "total_dns": 0,
+  "total_disqualified": 0,
   "finishers": [
     {
       "year": 2025,
@@ -16,7 +17,7 @@
       "city": "Montreal",
       "state": "QC",
       "age": 37,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 37244,
       "finish_time_formatted": "10:20:44"
@@ -30,7 +31,7 @@
       "city": "Draper",
       "state": "UT",
       "age": 43,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 37495,
       "finish_time_formatted": "10:24:55"
@@ -44,7 +45,7 @@
       "city": "Whitefish",
       "state": "MT",
       "age": 26,
-      "division": "M",
+      "division": "20-29",
       "status": "Finished",
       "finish_time_seconds": 40832,
       "finish_time_formatted": "11:20:32"
@@ -58,7 +59,7 @@
       "city": "Salem",
       "state": "VA",
       "age": 38,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 41301,
       "finish_time_formatted": "11:28:21"
@@ -72,7 +73,7 @@
       "city": "Rimouski",
       "state": "QC",
       "age": 48,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 41328,
       "finish_time_formatted": "11:28:48"
@@ -86,7 +87,7 @@
       "city": "Hot Springs",
       "state": "NC",
       "age": 34,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 41851,
       "finish_time_formatted": "11:37:31"
@@ -100,7 +101,7 @@
       "city": "Richmond",
       "state": "VA",
       "age": 39,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 43241,
       "finish_time_formatted": "12:00:41"
@@ -114,7 +115,7 @@
       "city": "Louisville",
       "state": "KY",
       "age": 33,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 43292,
       "finish_time_formatted": "12:01:32"
@@ -128,7 +129,7 @@
       "city": "Chattanooga",
       "state": "TN",
       "age": 40,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 43583,
       "finish_time_formatted": "12:06:23"
@@ -142,7 +143,7 @@
       "city": "Sugar Land",
       "state": "TX",
       "age": 45,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 43882,
       "finish_time_formatted": "12:11:22"
@@ -156,7 +157,7 @@
       "city": "Huntersville",
       "state": "NC",
       "age": 32,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 44405,
       "finish_time_formatted": "12:20:05"
@@ -170,7 +171,7 @@
       "city": "Franklin",
       "state": "TN",
       "age": 31,
-      "division": "F",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 44739,
       "finish_time_formatted": "12:25:39"
@@ -184,7 +185,7 @@
       "city": "Dixon",
       "state": "IL",
       "age": 46,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 45002,
       "finish_time_formatted": "12:30:02"
@@ -198,7 +199,7 @@
       "city": "Ona",
       "state": "WV",
       "age": 49,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 45220,
       "finish_time_formatted": "12:33:40"
@@ -212,7 +213,7 @@
       "city": "London",
       "state": "GBR",
       "age": 40,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 46264,
       "finish_time_formatted": "12:51:04"
@@ -226,7 +227,7 @@
       "city": "Lebanon",
       "state": "TN",
       "age": 39,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 46424,
       "finish_time_formatted": "12:53:44"
@@ -240,7 +241,7 @@
       "city": "Aberdeen",
       "state": "NC",
       "age": 42,
-      "division": "M",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 46580,
       "finish_time_formatted": "12:56:20"
@@ -254,7 +255,7 @@
       "city": "Hollidaysburg",
       "state": "PA",
       "age": 58,
-      "division": "M",
+      "division": "50-59",
       "status": "Finished",
       "finish_time_seconds": 46586,
       "finish_time_formatted": "12:56:26"
@@ -268,7 +269,7 @@
       "city": "Saint Louis",
       "state": "MO",
       "age": 39,
-      "division": "M",
+      "division": "30-39",
       "status": "Finished",
       "finish_time_seconds": 47121,
       "finish_time_formatted": "13:05:21"
@@ -282,7 +283,7 @@
       "city": "Olathe",
       "state": "KS",
       "age": 40,
-      "division": "F",
+      "division": "40-49",
       "status": "Finished",
       "finish_time_seconds": 47201,
       "finish_time_formatted": "13:06:41"

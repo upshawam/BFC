@@ -2,11 +2,10 @@
   "year": 2025,
   "distance": "Marathon",
   "did": 119818,
-  "scraped_at": "2026-01-20T12:20:59.058146",
-  "total_finishers": 198,
-  "total_dnf": 188,
-  "total_dns": 50,
-  "total_disqualified": 0,
+  "scraped_at": "2026-01-20T11:14:25.266907",
+  "total_finishers": 436,
+  "total_dnf": 0,
+  "total_dns": 0,
   "finishers": [
     {
       "year": 2025,
@@ -17,7 +16,7 @@
       "city": "Milan",
       "state": "TN",
       "age": 48,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 30940,
       "finish_time_formatted": "8:35:40"
@@ -31,7 +30,7 @@
       "city": "Roanoke",
       "state": "VA",
       "age": 49,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 33573,
       "finish_time_formatted": "9:19:33"
@@ -45,7 +44,7 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 33981,
       "finish_time_formatted": "9:26:21"
@@ -59,7 +58,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34067,
       "finish_time_formatted": "9:27:47"
@@ -73,7 +72,7 @@
       "city": "Venice",
       "state": "FL",
       "age": 32,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34109,
       "finish_time_formatted": "9:28:29"
@@ -87,7 +86,7 @@
       "city": "Whitby",
       "state": "ON",
       "age": 50,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 34435,
       "finish_time_formatted": "9:33:55"
@@ -101,7 +100,7 @@
       "city": "Riverside",
       "state": "MO",
       "age": 41,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 34473,
       "finish_time_formatted": "9:34:33"
@@ -115,7 +114,7 @@
       "city": "Myrtle Beach",
       "state": "SC",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34475,
       "finish_time_formatted": "9:34:35"
@@ -129,7 +128,7 @@
       "city": "Staunton",
       "state": "VA",
       "age": 38,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34477,
       "finish_time_formatted": "9:34:37"
@@ -143,7 +142,7 @@
       "city": "Bradley",
       "state": "IL",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34548,
       "finish_time_formatted": "9:35:48"
@@ -157,7 +156,7 @@
       "city": "Shelbyville",
       "state": "KY",
       "age": 55,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34781,
       "finish_time_formatted": "9:39:41"
@@ -171,7 +170,7 @@
       "city": "Longmeadow",
       "state": "MA",
       "age": 33,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34798,
       "finish_time_formatted": "9:39:58"
@@ -185,7 +184,7 @@
       "city": "Mt Juliet",
       "state": "TN",
       "age": 35,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 34965,
       "finish_time_formatted": "9:42:45"
@@ -199,7 +198,7 @@
       "city": "Quebec City",
       "state": "QC",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35128,
       "finish_time_formatted": "9:45:28"
@@ -213,7 +212,7 @@
       "city": "Bedford",
       "state": "IN",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35392,
       "finish_time_formatted": "9:49:52"
@@ -227,7 +226,7 @@
       "city": "Tecumseh",
       "state": "ON",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35479,
       "finish_time_formatted": "9:51:19"
@@ -241,7 +240,7 @@
       "city": "Belle River",
       "state": "ON",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35479,
       "finish_time_formatted": "9:51:19"
@@ -255,7 +254,7 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35511,
       "finish_time_formatted": "9:51:51"
@@ -269,7 +268,7 @@
       "city": "Niantic",
       "state": "CT",
       "age": 35,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35521,
       "finish_time_formatted": "9:52:01"
@@ -283,7 +282,7 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35530,
       "finish_time_formatted": "9:52:10"
@@ -297,7 +296,7 @@
       "city": "Windsor",
       "state": "ON",
       "age": 61,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35605,
       "finish_time_formatted": "9:53:25"
@@ -311,7 +310,7 @@
       "city": "Princeton",
       "state": "NJ",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35732,
       "finish_time_formatted": "9:55:32"
@@ -325,7 +324,7 @@
       "city": "Montreal",
       "state": "QC",
       "age": 52,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 35753,
       "finish_time_formatted": "9:55:53"
@@ -339,7 +338,7 @@
       "city": "Downers Grove",
       "state": "IL",
       "age": 31,
-      "division": "30-39",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 35841,
       "finish_time_formatted": "9:57:21"
@@ -353,7 +352,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 35867,
       "finish_time_formatted": "9:57:47"
@@ -367,7 +366,7 @@
       "city": "Bethel",
       "state": "OH",
       "age": 59,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36062,
       "finish_time_formatted": "10:01:02"
@@ -381,7 +380,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36068,
       "finish_time_formatted": "10:01:08"
@@ -395,7 +394,7 @@
       "city": "Phoenix",
       "state": "AZ",
       "age": 51,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36079,
       "finish_time_formatted": "10:01:19"
@@ -409,7 +408,7 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36135,
       "finish_time_formatted": "10:02:15"
@@ -423,7 +422,7 @@
       "city": "Elmer",
       "state": "LA",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36314,
       "finish_time_formatted": "10:05:14"
@@ -437,7 +436,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36425,
       "finish_time_formatted": "10:07:05"
@@ -451,7 +450,7 @@
       "city": "Bellaire",
       "state": "OH",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36578,
       "finish_time_formatted": "10:09:38"
@@ -465,7 +464,7 @@
       "city": "Livingston",
       "state": "TX",
       "age": 59,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36607,
       "finish_time_formatted": "10:10:07"
@@ -479,7 +478,7 @@
       "city": "Prince Edward Cty",
       "state": "ON",
       "age": 43,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36620,
       "finish_time_formatted": "10:10:20"
@@ -493,7 +492,7 @@
       "city": "Lexington",
       "state": "KY",
       "age": 49,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36774,
       "finish_time_formatted": "10:12:54"
@@ -507,7 +506,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 36851,
       "finish_time_formatted": "10:14:11"
@@ -521,7 +520,7 @@
       "city": "Middletown",
       "state": "MD",
       "age": 46,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 36921,
       "finish_time_formatted": "10:15:21"
@@ -535,7 +534,7 @@
       "city": "Berne",
       "state": "IN",
       "age": 56,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37150,
       "finish_time_formatted": "10:19:10"
@@ -549,7 +548,7 @@
       "city": "Campbell",
       "state": "CA",
       "age": 58,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37415,
       "finish_time_formatted": "10:23:35"
@@ -563,7 +562,7 @@
       "city": "Dusseldorf",
       "state": "",
       "age": 40,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37543,
       "finish_time_formatted": "10:25:43"
@@ -577,7 +576,7 @@
       "city": "Johnsburg",
       "state": "IL",
       "age": 59,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37560,
       "finish_time_formatted": "10:26:00"
@@ -591,7 +590,7 @@
       "city": "Stanford",
       "state": "CA",
       "age": 27,
-      "division": "20-29",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37607,
       "finish_time_formatted": "10:26:47"
@@ -605,7 +604,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "age": 33,
-      "division": "30-39",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 37628,
       "finish_time_formatted": "10:27:08"
@@ -619,7 +618,7 @@
       "city": "Newport Beach",
       "state": "CA",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37631,
       "finish_time_formatted": "10:27:11"
@@ -633,7 +632,7 @@
       "city": "Cumming",
       "state": "GA",
       "age": 60,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37745,
       "finish_time_formatted": "10:29:05"
@@ -647,7 +646,7 @@
       "city": "West Lafayette",
       "state": "IN",
       "age": 56,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37750,
       "finish_time_formatted": "10:29:10"
@@ -661,7 +660,7 @@
       "city": "Palatine",
       "state": "IL",
       "age": 48,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 37756,
       "finish_time_formatted": "10:29:16"
@@ -675,7 +674,7 @@
       "city": "Hoover",
       "state": "AL",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37786,
       "finish_time_formatted": "10:29:46"
@@ -689,7 +688,7 @@
       "city": "Front Royal",
       "state": "VA",
       "age": 61,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37786,
       "finish_time_formatted": "10:29:46"
@@ -703,7 +702,7 @@
       "city": "Cunningham",
       "state": "KY",
       "age": 67,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37877,
       "finish_time_formatted": "10:31:17"
@@ -717,7 +716,7 @@
       "city": "Brentwood",
       "state": "TN",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37877,
       "finish_time_formatted": "10:31:17"
@@ -731,7 +730,7 @@
       "city": "Newtownards",
       "state": "",
       "age": 44,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37904,
       "finish_time_formatted": "10:31:44"
@@ -745,7 +744,7 @@
       "city": "Adams",
       "state": "TN",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37963,
       "finish_time_formatted": "10:32:43"
@@ -759,7 +758,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 37964,
       "finish_time_formatted": "10:32:44"
@@ -773,7 +772,7 @@
       "city": "Cape Girardeau",
       "state": "MO",
       "age": 55,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 37976,
       "finish_time_formatted": "10:32:56"
@@ -787,7 +786,7 @@
       "city": "Vancouver",
       "state": "BC",
       "age": 33,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38001,
       "finish_time_formatted": "10:33:21"
@@ -801,7 +800,7 @@
       "city": "Nashville",
       "state": "TN",
       "age": 33,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38068,
       "finish_time_formatted": "10:34:28"
@@ -815,7 +814,7 @@
       "city": "Thorndale",
       "state": "PA",
       "age": 59,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38072,
       "finish_time_formatted": "10:34:32"
@@ -829,7 +828,7 @@
       "city": "Guntersville",
       "state": "AL",
       "age": 45,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38086,
       "finish_time_formatted": "10:34:46"
@@ -843,7 +842,7 @@
       "city": "Rockwood",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38088,
       "finish_time_formatted": "10:34:48"
@@ -857,7 +856,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 38,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38096,
       "finish_time_formatted": "10:34:56"
@@ -871,7 +870,7 @@
       "city": "Helena",
       "state": "AL",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38111,
       "finish_time_formatted": "10:35:11"
@@ -885,7 +884,7 @@
       "city": "Raleigh",
       "state": "NC",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38142,
       "finish_time_formatted": "10:35:42"
@@ -899,7 +898,7 @@
       "city": "Franklin",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 38204,
       "finish_time_formatted": "10:36:44"
@@ -913,7 +912,7 @@
       "city": "Belle Isle",
       "state": "FL",
       "age": 45,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 38206,
       "finish_time_formatted": "10:36:46"
@@ -927,7 +926,7 @@
       "city": "Coventry",
       "state": "RI",
       "age": 47,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 38249,
       "finish_time_formatted": "10:37:29"
@@ -941,7 +940,7 @@
       "city": "Trussville",
       "state": "AL",
       "age": 45,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 38282,
       "finish_time_formatted": "10:38:02"
@@ -955,7 +954,7 @@
       "city": "Stockholm",
       "state": "",
       "age": 53,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38329,
       "finish_time_formatted": "10:38:49"
@@ -969,7 +968,7 @@
       "city": "Danville",
       "state": "KY",
       "age": 53,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38430,
       "finish_time_formatted": "10:40:30"
@@ -983,7 +982,7 @@
       "city": "Oakville",
       "state": "ON",
       "age": 58,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38439,
       "finish_time_formatted": "10:40:39"
@@ -997,7 +996,7 @@
       "city": "Hartford",
       "state": "TN",
       "age": 40,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38460,
       "finish_time_formatted": "10:41:00"
@@ -1011,7 +1010,7 @@
       "city": "Nashville",
       "state": "TN",
       "age": 62,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38461,
       "finish_time_formatted": "10:41:01"
@@ -1025,7 +1024,7 @@
       "city": "Oak Park",
       "state": "MI",
       "age": 44,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38477,
       "finish_time_formatted": "10:41:17"
@@ -1039,7 +1038,7 @@
       "city": "Chattanooga",
       "state": "TN",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38755,
       "finish_time_formatted": "10:45:55"
@@ -1053,7 +1052,7 @@
       "city": "Hurricane",
       "state": "WV",
       "age": 51,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 38920,
       "finish_time_formatted": "10:48:40"
@@ -1067,7 +1066,7 @@
       "city": "Cleveland",
       "state": "MS",
       "age": 60,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39108,
       "finish_time_formatted": "10:51:48"
@@ -1081,7 +1080,7 @@
       "city": "Fort Worth",
       "state": "TX",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39108,
       "finish_time_formatted": "10:51:48"
@@ -1095,7 +1094,7 @@
       "city": "Murfreesboro",
       "state": "TN",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39174,
       "finish_time_formatted": "10:52:54"
@@ -1109,7 +1108,7 @@
       "city": "Hopkinsville",
       "state": "KY",
       "age": 48,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39201,
       "finish_time_formatted": "10:53:21"
@@ -1123,7 +1122,7 @@
       "city": "Fall Creek",
       "state": "WI",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39381,
       "finish_time_formatted": "10:56:21"
@@ -1137,7 +1136,7 @@
       "city": "Attica",
       "state": "MI",
       "age": 31,
-      "division": "30-39",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 39648,
       "finish_time_formatted": "11:00:48"
@@ -1151,7 +1150,7 @@
       "city": "Lancing",
       "state": "TN",
       "age": 53,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39648,
       "finish_time_formatted": "11:00:48"
@@ -1165,7 +1164,7 @@
       "city": "Seneca",
       "state": "SC",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39648,
       "finish_time_formatted": "11:00:48"
@@ -1179,7 +1178,7 @@
       "city": "Yonkers",
       "state": "NY",
       "age": 28,
-      "division": "20-29",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39664,
       "finish_time_formatted": "11:01:04"
@@ -1193,7 +1192,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39691,
       "finish_time_formatted": "11:01:31"
@@ -1207,7 +1206,7 @@
       "city": "York",
       "state": "",
       "age": 36,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39754,
       "finish_time_formatted": "11:02:34"
@@ -1221,7 +1220,7 @@
       "city": "Bulverde",
       "state": "TX",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39762,
       "finish_time_formatted": "11:02:42"
@@ -1235,7 +1234,7 @@
       "city": "Trinity",
       "state": "FL",
       "age": 44,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39792,
       "finish_time_formatted": "11:03:12"
@@ -1249,7 +1248,7 @@
       "city": "Lebbeke",
       "state": "",
       "age": 51,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39830,
       "finish_time_formatted": "11:03:50"
@@ -1263,7 +1262,7 @@
       "city": "Hoeilaart",
       "state": "",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39831,
       "finish_time_formatted": "11:03:51"
@@ -1277,7 +1276,7 @@
       "city": "Huntington",
       "state": "WV",
       "age": 41,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 39927,
       "finish_time_formatted": "11:05:27"
@@ -1291,7 +1290,7 @@
       "city": "Byram Twp",
       "state": "NJ",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39946,
       "finish_time_formatted": "11:05:46"
@@ -1305,7 +1304,7 @@
       "city": "Bellevue",
       "state": "WA",
       "age": 49,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 39964,
       "finish_time_formatted": "11:06:04"
@@ -1319,7 +1318,7 @@
       "city": "Round Rock",
       "state": "TX",
       "age": 65,
-      "division": "60-69",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 40008,
       "finish_time_formatted": "11:06:48"
@@ -1333,7 +1332,7 @@
       "city": "Lasalle",
       "state": "ON",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40057,
       "finish_time_formatted": "11:07:37"
@@ -1347,7 +1346,7 @@
       "city": "Biloxi",
       "state": "MS",
       "age": 38,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40058,
       "finish_time_formatted": "11:07:38"
@@ -1361,7 +1360,7 @@
       "city": "Tecumseh",
       "state": "ON",
       "age": 51,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40062,
       "finish_time_formatted": "11:07:42"
@@ -1375,7 +1374,7 @@
       "city": "Horten",
       "state": "",
       "age": 57,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40152,
       "finish_time_formatted": "11:09:12"
@@ -1389,7 +1388,7 @@
       "city": "Wauwatosa",
       "state": "WI",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40171,
       "finish_time_formatted": "11:09:31"
@@ -1403,7 +1402,7 @@
       "city": "Coalfield",
       "state": "TN",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40277,
       "finish_time_formatted": "11:11:17"
@@ -1417,7 +1416,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40283,
       "finish_time_formatted": "11:11:23"
@@ -1431,7 +1430,7 @@
       "city": "Louisville",
       "state": "KY",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40317,
       "finish_time_formatted": "11:11:57"
@@ -1445,7 +1444,7 @@
       "city": "Temperance",
       "state": "MI",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40323,
       "finish_time_formatted": "11:12:03"
@@ -1459,7 +1458,7 @@
       "city": "Orlando",
       "state": "FL",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40326,
       "finish_time_formatted": "11:12:06"
@@ -1473,7 +1472,7 @@
       "city": "Christiana",
       "state": "TN",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40339,
       "finish_time_formatted": "11:12:19"
@@ -1487,7 +1486,7 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40502,
       "finish_time_formatted": "11:15:02"
@@ -1501,7 +1500,7 @@
       "city": "Gainesville",
       "state": "FL",
       "age": 40,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 40827,
       "finish_time_formatted": "11:20:27"
@@ -1515,7 +1514,7 @@
       "city": "Oxford",
       "state": "MS",
       "age": 55,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40828,
       "finish_time_formatted": "11:20:28"
@@ -1529,7 +1528,7 @@
       "city": "Florham Park",
       "state": "NJ",
       "age": 58,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40831,
       "finish_time_formatted": "11:20:31"
@@ -1543,7 +1542,7 @@
       "city": "Sunnyvale",
       "state": "CA",
       "age": 28,
-      "division": "20-29",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 40874,
       "finish_time_formatted": "11:21:14"
@@ -1557,7 +1556,7 @@
       "city": "Bell Buckle",
       "state": "TN",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40880,
       "finish_time_formatted": "11:21:20"
@@ -1571,7 +1570,7 @@
       "city": "Mission Viejo",
       "state": "CA",
       "age": 50,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 40890,
       "finish_time_formatted": "11:21:30"
@@ -1585,7 +1584,7 @@
       "city": "Arden",
       "state": "NC",
       "age": 55,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40907,
       "finish_time_formatted": "11:21:47"
@@ -1599,7 +1598,7 @@
       "city": "Weatherford",
       "state": "TX",
       "age": 58,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40956,
       "finish_time_formatted": "11:22:36"
@@ -1613,7 +1612,7 @@
       "city": "Atlanta",
       "state": "GA",
       "age": 53,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 40956,
       "finish_time_formatted": "11:22:36"
@@ -1627,7 +1626,7 @@
       "city": "Drums",
       "state": "PA",
       "age": 43,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40977,
       "finish_time_formatted": "11:22:57"
@@ -1641,7 +1640,7 @@
       "city": "Decatur",
       "state": "GA",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 40980,
       "finish_time_formatted": "11:23:00"
@@ -1655,7 +1654,7 @@
       "city": "Hattiesburg",
       "state": "MS",
       "age": 55,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41022,
       "finish_time_formatted": "11:23:42"
@@ -1669,7 +1668,7 @@
       "city": "Waterdown",
       "state": "ON",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41025,
       "finish_time_formatted": "11:23:45"
@@ -1683,7 +1682,7 @@
       "city": "Versailles",
       "state": "KY",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41044,
       "finish_time_formatted": "11:24:04"
@@ -1697,7 +1696,7 @@
       "city": "Tucson",
       "state": "AZ",
       "age": 61,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41095,
       "finish_time_formatted": "11:24:55"
@@ -1711,7 +1710,7 @@
       "city": "Lisle",
       "state": "IL",
       "age": 36,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41169,
       "finish_time_formatted": "11:26:09"
@@ -1725,7 +1724,7 @@
       "city": "Nashville",
       "state": "TN",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41263,
       "finish_time_formatted": "11:27:43"
@@ -1739,7 +1738,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41689,
       "finish_time_formatted": "11:34:49"
@@ -1753,7 +1752,7 @@
       "city": "Chatham",
       "state": "LA",
       "age": 43,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41776,
       "finish_time_formatted": "11:36:16"
@@ -1767,7 +1766,7 @@
       "city": "Portland",
       "state": "OR",
       "age": 41,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 41912,
       "finish_time_formatted": "11:38:32"
@@ -1781,7 +1780,7 @@
       "city": "Portland",
       "state": "OR",
       "age": 43,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 41912,
       "finish_time_formatted": "11:38:32"
@@ -1795,7 +1794,7 @@
       "city": "Middlesbrough",
       "state": "",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42194,
       "finish_time_formatted": "11:43:14"
@@ -1809,7 +1808,7 @@
       "city": "Brooklyn",
       "state": "CT",
       "age": 33,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42391,
       "finish_time_formatted": "11:46:31"
@@ -1823,7 +1822,7 @@
       "city": "Nashville",
       "state": "TN",
       "age": 32,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42407,
       "finish_time_formatted": "11:46:47"
@@ -1837,7 +1836,7 @@
       "city": "Maple",
       "state": "ON",
       "age": 49,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42461,
       "finish_time_formatted": "11:47:41"
@@ -1851,7 +1850,7 @@
       "city": "Rock Spring",
       "state": "GA",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42515,
       "finish_time_formatted": "11:48:35"
@@ -1865,7 +1864,7 @@
       "city": "Sugar Land",
       "state": "TX",
       "age": 53,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 42547,
       "finish_time_formatted": "11:49:07"
@@ -1879,7 +1878,7 @@
       "city": "Panama City Bch",
       "state": "FL",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42587,
       "finish_time_formatted": "11:49:47"
@@ -1893,7 +1892,7 @@
       "city": "West Jordan",
       "state": "UT",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 42844,
       "finish_time_formatted": "11:54:04"
@@ -1907,7 +1906,7 @@
       "city": "Great Meadows",
       "state": "NJ",
       "age": 44,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43170,
       "finish_time_formatted": "11:59:30"
@@ -1921,7 +1920,7 @@
       "city": "Sturgis",
       "state": "KY",
       "age": 44,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43200,
       "finish_time_formatted": "12:00:00"
@@ -1935,7 +1934,7 @@
       "city": "Jacksonville",
       "state": "FL",
       "age": 53,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43204,
       "finish_time_formatted": "12:00:04"
@@ -1949,7 +1948,7 @@
       "city": "Gastonia",
       "state": "NC",
       "age": 38,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43410,
       "finish_time_formatted": "12:03:30"
@@ -1963,7 +1962,7 @@
       "city": "Roanoke",
       "state": "VA",
       "age": 46,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43438,
       "finish_time_formatted": "12:03:58"
@@ -1977,7 +1976,7 @@
       "city": "Elkins",
       "state": "AR",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43451,
       "finish_time_formatted": "12:04:11"
@@ -1991,7 +1990,7 @@
       "city": "Birmingham",
       "state": "AL",
       "age": 48,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43482,
       "finish_time_formatted": "12:04:42"
@@ -2005,7 +2004,7 @@
       "city": "Vestavia Hills",
       "state": "AL",
       "age": 58,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43483,
       "finish_time_formatted": "12:04:43"
@@ -2019,7 +2018,7 @@
       "city": "Durango",
       "state": "CO",
       "age": 51,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43484,
       "finish_time_formatted": "12:04:44"
@@ -2033,7 +2032,7 @@
       "city": "Clearwater",
       "state": "FL",
       "age": 64,
-      "division": "60-69",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 43496,
       "finish_time_formatted": "12:04:56"
@@ -2047,7 +2046,7 @@
       "city": "Georgetown",
       "state": "IN",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43590,
       "finish_time_formatted": "12:06:30"
@@ -2061,7 +2060,7 @@
       "city": "Cherry Valley",
       "state": "IL",
       "age": 49,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 43590,
       "finish_time_formatted": "12:06:30"
@@ -2075,7 +2074,7 @@
       "city": "Ball Ground",
       "state": "GA",
       "age": 51,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 43801,
       "finish_time_formatted": "12:10:01"
@@ -2089,7 +2088,7 @@
       "city": "Cumming",
       "state": "GA",
       "age": 63,
-      "division": "60-69",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 43801,
       "finish_time_formatted": "12:10:01"
@@ -2103,7 +2102,7 @@
       "city": "Lasalle",
       "state": "ON",
       "age": 55,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 43922,
       "finish_time_formatted": "12:12:02"
@@ -2117,7 +2116,7 @@
       "city": "Round Rock",
       "state": "TX",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44084,
       "finish_time_formatted": "12:14:44"
@@ -2131,7 +2130,7 @@
       "city": "Newton",
       "state": "NJ",
       "age": 49,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44095,
       "finish_time_formatted": "12:14:55"
@@ -2145,7 +2144,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 30,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44115,
       "finish_time_formatted": "12:15:15"
@@ -2159,7 +2158,7 @@
       "city": "Jackson",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 44128,
       "finish_time_formatted": "12:15:28"
@@ -2173,7 +2172,7 @@
       "city": "Bonnet Bay",
       "state": "",
       "age": 53,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44177,
       "finish_time_formatted": "12:16:17"
@@ -2187,7 +2186,7 @@
       "city": "Clearwater",
       "state": "FL",
       "age": 67,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44274,
       "finish_time_formatted": "12:17:54"
@@ -2201,7 +2200,7 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44315,
       "finish_time_formatted": "12:18:35"
@@ -2215,7 +2214,7 @@
       "city": "Playa Del Rey",
       "state": "CA",
       "age": 34,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44317,
       "finish_time_formatted": "12:18:37"
@@ -2229,7 +2228,7 @@
       "city": "Powell",
       "state": "TN",
       "age": 62,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44321,
       "finish_time_formatted": "12:18:41"
@@ -2243,7 +2242,7 @@
       "city": "Caerphilly",
       "state": "",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44321,
       "finish_time_formatted": "12:18:41"
@@ -2257,7 +2256,7 @@
       "city": "Cincinnati",
       "state": "OH",
       "age": 56,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44379,
       "finish_time_formatted": "12:19:39"
@@ -2271,7 +2270,7 @@
       "city": "Tickfaw",
       "state": "LA",
       "age": 35,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44502,
       "finish_time_formatted": "12:21:42"
@@ -2285,7 +2284,7 @@
       "city": "Bryson City",
       "state": "NC",
       "age": 39,
-      "division": "30-39",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 44505,
       "finish_time_formatted": "12:21:45"
@@ -2299,7 +2298,7 @@
       "city": "Gonzales",
       "state": "LA",
       "age": 46,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 44564,
       "finish_time_formatted": "12:22:44"
@@ -2313,7 +2312,7 @@
       "city": "Baton Rouge",
       "state": "LA",
       "age": 33,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44564,
       "finish_time_formatted": "12:22:44"
@@ -2327,7 +2326,7 @@
       "city": "Manotick",
       "state": "ON",
       "age": 55,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 44747,
       "finish_time_formatted": "12:25:47"
@@ -2341,7 +2340,7 @@
       "city": "Lewisburg",
       "state": "TN",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44765,
       "finish_time_formatted": "12:26:05"
@@ -2355,7 +2354,7 @@
       "city": "Oakville",
       "state": "ON",
       "age": 60,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44809,
       "finish_time_formatted": "12:26:49"
@@ -2369,7 +2368,7 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44811,
       "finish_time_formatted": "12:26:51"
@@ -2383,7 +2382,7 @@
       "city": "Monte Mor",
       "state": "",
       "age": 59,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 44839,
       "finish_time_formatted": "12:27:19"
@@ -2397,7 +2396,7 @@
       "city": "Long Beach",
       "state": "CA",
       "age": 42,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 45005,
       "finish_time_formatted": "12:30:05"
@@ -2411,7 +2410,7 @@
       "city": "Vestavia Hills",
       "state": "AL",
       "age": 55,
-      "division": "50-59",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 45023,
       "finish_time_formatted": "12:30:23"
@@ -2425,7 +2424,7 @@
       "city": "Spring Arbor",
       "state": "MI",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45049,
       "finish_time_formatted": "12:30:49"
@@ -2439,7 +2438,7 @@
       "city": "Beckley",
       "state": "WV",
       "age": 45,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45061,
       "finish_time_formatted": "12:31:01"
@@ -2453,7 +2452,7 @@
       "city": "Houston",
       "state": "TX",
       "age": 57,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45282,
       "finish_time_formatted": "12:34:42"
@@ -2467,7 +2466,7 @@
       "city": "Quebec",
       "state": "QC",
       "age": 42,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45437,
       "finish_time_formatted": "12:37:17"
@@ -2481,7 +2480,7 @@
       "city": "Annapolis",
       "state": "MD",
       "age": 37,
-      "division": "30-39",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 45459,
       "finish_time_formatted": "12:37:39"
@@ -2495,7 +2494,7 @@
       "city": "Randalstown",
       "state": "",
       "age": 52,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45616,
       "finish_time_formatted": "12:40:16"
@@ -2509,7 +2508,7 @@
       "city": "Stamford",
       "state": "CT",
       "age": 45,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 45738,
       "finish_time_formatted": "12:42:18"
@@ -2523,7 +2522,7 @@
       "city": "Gorey",
       "state": "",
       "age": 37,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45913,
       "finish_time_formatted": "12:45:13"
@@ -2537,7 +2536,7 @@
       "city": "High Springs",
       "state": "FL",
       "age": 57,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 45914,
       "finish_time_formatted": "12:45:14"
@@ -2551,7 +2550,7 @@
       "city": "Polk City",
       "state": "IA",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 46185,
       "finish_time_formatted": "12:49:45"
@@ -2565,7 +2564,7 @@
       "city": "E Berlin",
       "state": "PA",
       "age": 49,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 46217,
       "finish_time_formatted": "12:50:17"
@@ -2579,7 +2578,7 @@
       "city": "Irvine",
       "state": "CA",
       "age": 48,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 46282,
       "finish_time_formatted": "12:51:22"
@@ -2593,7 +2592,7 @@
       "city": "Banbridge",
       "state": "",
       "age": 54,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 46306,
       "finish_time_formatted": "12:51:46"
@@ -2607,7 +2606,7 @@
       "city": "Banbridge",
       "state": "",
       "age": 47,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 46307,
       "finish_time_formatted": "12:51:47"
@@ -2621,7 +2620,7 @@
       "city": "Essex",
       "state": "ON",
       "age": 41,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 46329,
       "finish_time_formatted": "12:52:09"
@@ -2635,7 +2634,7 @@
       "city": "Boonville",
       "state": "IN",
       "age": 39,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 46531,
       "finish_time_formatted": "12:55:31"
@@ -2649,7 +2648,7 @@
       "city": "Ottawa",
       "state": "ON",
       "age": 46,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 46654,
       "finish_time_formatted": "12:57:34"
@@ -2663,7 +2662,7 @@
       "city": "Columbia",
       "state": "MO",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 47009,
       "finish_time_formatted": "13:03:29"
@@ -2677,7 +2676,7 @@
       "city": "Maineville",
       "state": "OH",
       "age": 47,
-      "division": "40-49",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 47030,
       "finish_time_formatted": "13:03:50"
@@ -2691,7 +2690,7 @@
       "city": "Johnson City",
       "state": "TN",
       "age": 36,
-      "division": "30-39",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 47077,
       "finish_time_formatted": "13:04:37"
@@ -2705,7 +2704,7 @@
       "city": "Erie",
       "state": "PA",
       "age": 62,
-      "division": "60-69",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 47198,
       "finish_time_formatted": "13:06:38"
@@ -2719,7 +2718,7 @@
       "city": "Erie",
       "state": "PA",
       "age": 60,
-      "division": "60-69",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 47199,
       "finish_time_formatted": "13:06:39"
@@ -2733,7 +2732,7 @@
       "city": "Jonesborough",
       "state": "TN",
       "age": 44,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 47429,
       "finish_time_formatted": "13:10:29"
@@ -2747,7 +2746,7 @@
       "city": "Avery",
       "state": "CA",
       "age": 41,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 47632,
       "finish_time_formatted": "13:13:52"
@@ -2761,7 +2760,7 @@
       "city": "Columbia",
       "state": "TN",
       "age": 43,
-      "division": "40-49",
+      "division": "F",
       "status": "Finished",
       "finish_time_seconds": 47686,
       "finish_time_formatted": "13:14:46"
@@ -2775,7 +2774,7 @@
       "city": "Birmingham",
       "state": "AL",
       "age": 50,
-      "division": "50-59",
+      "division": "M",
       "status": "Finished",
       "finish_time_seconds": 47766,
       "finish_time_formatted": "13:16:06"
@@ -2789,10 +2788,10 @@
       "city": "New Port Richey",
       "state": "FL",
       "age": 61,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2803,10 +2802,10 @@
       "city": "Lakewood",
       "state": "IL",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2817,10 +2816,10 @@
       "city": "Omaha",
       "state": "NE",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2831,10 +2830,10 @@
       "city": "Coatesville",
       "state": "IN",
       "age": 65,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2845,10 +2844,10 @@
       "city": "Nashville",
       "state": "TN",
       "age": 54,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2859,10 +2858,10 @@
       "city": "Bettendorf",
       "state": "IA",
       "age": 76,
-      "division": "70+",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2873,10 +2872,10 @@
       "city": "Castle Rock",
       "state": "CO",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2887,10 +2886,10 @@
       "city": "Leander",
       "state": "TX",
       "age": 50,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2901,10 +2900,10 @@
       "city": "Austin",
       "state": "TX",
       "age": 57,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2915,10 +2914,10 @@
       "city": "Lake Orion",
       "state": "MI",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2929,10 +2928,10 @@
       "city": "Newton",
       "state": "NJ",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2943,10 +2942,10 @@
       "city": "Rockmart",
       "state": "GA",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2957,10 +2956,10 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 56,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2971,10 +2970,10 @@
       "city": "Flagstaff",
       "state": "AZ",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2985,10 +2984,10 @@
       "city": "Conroe",
       "state": "TX",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -2999,10 +2998,10 @@
       "city": "New Ipswich",
       "state": "NH",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3013,10 +3012,10 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 60,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3027,10 +3026,10 @@
       "city": "Nashville",
       "state": "TN",
       "age": 37,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3041,10 +3040,10 @@
       "city": "Carrboro",
       "state": "NC",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3055,10 +3054,10 @@
       "city": "Alexandria",
       "state": "VA",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3069,10 +3068,10 @@
       "city": "Whitmore Lake",
       "state": "MI",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3083,10 +3082,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3097,10 +3096,10 @@
       "city": "Germantown",
       "state": "TN",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3111,10 +3110,10 @@
       "city": "Clarksville",
       "state": "TN",
       "age": 68,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3125,10 +3124,10 @@
       "city": "Rochester",
       "state": "NY",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3139,10 +3138,10 @@
       "city": "Pensacola",
       "state": "FL",
       "age": 27,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3153,10 +3152,10 @@
       "city": "Woodland Park",
       "state": "CO",
       "age": 40,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3167,10 +3166,10 @@
       "city": "Village Of Lakewood",
       "state": "IL",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3181,10 +3180,10 @@
       "city": "Moon Twp",
       "state": "PA",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3195,10 +3194,10 @@
       "city": "Pioche",
       "state": "NV",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3209,10 +3208,10 @@
       "city": "Marietta",
       "state": "GA",
       "age": 44,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3223,10 +3222,10 @@
       "city": "Arlington",
       "state": "VA",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3237,10 +3236,10 @@
       "city": "New London",
       "state": "WI",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3251,10 +3250,10 @@
       "city": "Emerson",
       "state": "GA",
       "age": 47,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3265,10 +3264,10 @@
       "city": "Houston",
       "state": "TX",
       "age": 35,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3279,10 +3278,10 @@
       "city": "Huntington",
       "state": "WV",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3293,10 +3292,10 @@
       "city": "Huntsville",
       "state": "AL",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3307,10 +3306,10 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3321,10 +3320,10 @@
       "city": "Denver",
       "state": "CO",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3335,10 +3334,10 @@
       "city": "Woodstock",
       "state": "IL",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3349,10 +3348,10 @@
       "city": "Elizabethtown",
       "state": "KY",
       "age": 67,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3363,10 +3362,10 @@
       "city": "Springdale",
       "state": "AR",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3377,10 +3376,10 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3391,10 +3390,10 @@
       "city": "Homewood",
       "state": "AL",
       "age": 65,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3405,10 +3404,10 @@
       "city": "Brookville",
       "state": "IN",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3419,10 +3418,10 @@
       "city": "Toccoa",
       "state": "GA",
       "age": 54,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3433,10 +3432,10 @@
       "city": "Munster",
       "state": "IN",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3447,10 +3446,10 @@
       "city": "Essex Fells",
       "state": "NJ",
       "age": 56,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3461,10 +3460,10 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3475,10 +3474,10 @@
       "city": "Gurnee",
       "state": "IL",
       "age": 64,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3489,10 +3488,10 @@
       "city": "Manchester",
       "state": "IA",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3503,10 +3502,10 @@
       "city": "Windsor",
       "state": "ON",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3517,10 +3516,10 @@
       "city": "Forest Hills",
       "state": "NY",
       "age": 59,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3531,10 +3530,10 @@
       "city": "Hensley",
       "state": "AR",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3545,10 +3544,10 @@
       "city": "Winchester",
       "state": "MA",
       "age": 54,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3559,10 +3558,10 @@
       "city": "Spring Grove",
       "state": "PA",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3573,10 +3572,10 @@
       "city": "Highlands Ranch",
       "state": "CO",
       "age": 61,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3587,10 +3586,10 @@
       "city": "Wartrace",
       "state": "TN",
       "age": 60,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3601,10 +3600,10 @@
       "city": "Maple Grove",
       "state": "MN",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3615,10 +3614,10 @@
       "city": "Pittsburgh",
       "state": "PA",
       "age": 43,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3629,10 +3628,10 @@
       "city": "Wellington",
       "state": "",
       "age": 31,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3643,10 +3642,10 @@
       "city": "Cincinnati",
       "state": "OH",
       "age": 41,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3657,10 +3656,10 @@
       "city": "Asheville",
       "state": "NC",
       "age": 38,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3671,10 +3670,10 @@
       "city": "Coventry",
       "state": "RI",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3685,10 +3684,10 @@
       "city": "Memphis",
       "state": "TN",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3699,10 +3698,10 @@
       "city": "Colorado Springs",
       "state": "CO",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3713,10 +3712,10 @@
       "city": "Waukesha",
       "state": "WI",
       "age": 56,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3727,10 +3726,10 @@
       "city": "Chapel Hill",
       "state": "NC",
       "age": 40,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3741,10 +3740,10 @@
       "city": "Forest",
       "state": "MS",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3755,10 +3754,10 @@
       "city": "West Chester",
       "state": "OH",
       "age": 40,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3769,10 +3768,10 @@
       "city": "Pittsfield",
       "state": "VT",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3783,10 +3782,10 @@
       "city": "Webster",
       "state": "NY",
       "age": 64,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3797,10 +3796,10 @@
       "city": "Gahanna",
       "state": "OH",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3811,10 +3810,10 @@
       "city": "Socorro",
       "state": "NM",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3825,10 +3824,10 @@
       "city": "Wauwatosa",
       "state": "WI",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3839,10 +3838,10 @@
       "city": "Norwich",
       "state": "NY",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3853,10 +3852,10 @@
       "city": "Dewitt",
       "state": "MI",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3867,10 +3866,10 @@
       "city": "Canton",
       "state": "MI",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3881,10 +3880,10 @@
       "city": "Cincinnati",
       "state": "OH",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3895,10 +3894,10 @@
       "city": "Louisville",
       "state": "KY",
       "age": 31,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3909,10 +3908,10 @@
       "city": "Pipersville",
       "state": "PA",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3923,10 +3922,10 @@
       "city": "Ottawa",
       "state": "ON",
       "age": 54,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3937,10 +3936,10 @@
       "city": "Exton",
       "state": "PA",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3951,10 +3950,10 @@
       "city": "Sarnia",
       "state": "ON",
       "age": 59,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3965,10 +3964,10 @@
       "city": "Casablanca",
       "state": "",
       "age": 41,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3979,10 +3978,10 @@
       "city": "Bloomington",
       "state": "IN",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -3993,10 +3992,10 @@
       "city": "Webster",
       "state": "NY",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4007,10 +4006,10 @@
       "city": "Springfield",
       "state": "IL",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4021,10 +4020,10 @@
       "city": "Petty Harbour",
       "state": "NL",
       "age": 47,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4035,10 +4034,10 @@
       "city": "Lunenburg",
       "state": "MA",
       "age": 50,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4049,10 +4048,10 @@
       "city": "Manchester",
       "state": "MD",
       "age": 50,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4063,10 +4062,10 @@
       "city": "Troy",
       "state": "MO",
       "age": 74,
-      "division": "70+",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4077,10 +4076,10 @@
       "city": "Charleston",
       "state": "SC",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4091,10 +4090,10 @@
       "city": "Jasper",
       "state": "AL",
       "age": 41,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4105,10 +4104,10 @@
       "city": "Austin",
       "state": "TX",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4119,10 +4118,10 @@
       "city": "Stratford",
       "state": "CT",
       "age": 37,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4133,10 +4132,10 @@
       "city": "Richmond",
       "state": "KY",
       "age": 32,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4147,10 +4146,10 @@
       "city": "Franklin",
       "state": "TN",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4161,10 +4160,10 @@
       "city": "Birmingham",
       "state": "AL",
       "age": 44,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4175,10 +4174,10 @@
       "city": "Madison",
       "state": "WI",
       "age": 37,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4189,10 +4188,10 @@
       "city": "Punta Gorda",
       "state": "FL",
       "age": 36,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4203,10 +4202,10 @@
       "city": "Madison",
       "state": "WI",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4217,10 +4216,10 @@
       "city": "Quincy",
       "state": "IL",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4231,10 +4230,10 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 28,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4245,10 +4244,10 @@
       "city": "Raleigh",
       "state": "NC",
       "age": 25,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4259,10 +4258,10 @@
       "city": "Lake Villa",
       "state": "IL",
       "age": 66,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4273,10 +4272,10 @@
       "city": "Toledo",
       "state": "OH",
       "age": 37,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4287,10 +4286,10 @@
       "city": "Bryant",
       "state": "AR",
       "age": 45,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4301,10 +4300,10 @@
       "city": "Etobicoke",
       "state": "ON",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4315,10 +4314,10 @@
       "city": "Strawberry",
       "state": "IA",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4329,10 +4328,10 @@
       "city": "Poquoson",
       "state": "VA",
       "age": 56,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4343,10 +4342,10 @@
       "city": "Salem",
       "state": "VA",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4357,10 +4356,10 @@
       "city": "Anchorage",
       "state": "AK",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4371,10 +4370,10 @@
       "city": "Rapid City",
       "state": "SD",
       "age": 72,
-      "division": "70+",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4385,10 +4384,10 @@
       "city": "Flushing",
       "state": "MI",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4399,10 +4398,10 @@
       "city": "Madisonville",
       "state": "KY",
       "age": 51,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4413,10 +4412,10 @@
       "city": "S Woodslee",
       "state": "ON",
       "age": 40,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4427,10 +4426,10 @@
       "city": "Nashville",
       "state": "TN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4441,10 +4440,10 @@
       "city": "Richmond",
       "state": "VA",
       "age": 44,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4455,10 +4454,10 @@
       "city": "Lincoln",
       "state": "",
       "age": 43,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4469,10 +4468,10 @@
       "city": "New Port Richey",
       "state": "FL",
       "age": 41,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4483,10 +4482,10 @@
       "city": "Conway",
       "state": "AR",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4497,10 +4496,10 @@
       "city": "Bryant",
       "state": "AR",
       "age": 44,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4511,10 +4510,10 @@
       "city": "Raleigh",
       "state": "NC",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4525,10 +4524,10 @@
       "city": "Asheboro",
       "state": "NC",
       "age": 43,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4539,10 +4538,10 @@
       "city": "Quantico",
       "state": "VA",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4553,10 +4552,10 @@
       "city": "Sterling",
       "state": "IL",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4567,10 +4566,10 @@
       "city": "Bonney Lake",
       "state": "WA",
       "age": 48,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4581,10 +4580,10 @@
       "city": "Rockwood",
       "state": "TN",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4595,10 +4594,10 @@
       "city": "Quakertown",
       "state": "PA",
       "age": 35,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4609,10 +4608,10 @@
       "city": "Windsor",
       "state": "ON",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4623,10 +4622,10 @@
       "city": "Windsor",
       "state": "ON",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4637,10 +4636,10 @@
       "city": "White Lake",
       "state": "MI",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4651,10 +4650,10 @@
       "city": "Wixom",
       "state": "MI",
       "age": 58,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4665,10 +4664,10 @@
       "city": "Troy",
       "state": "MO",
       "age": 43,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4679,10 +4678,10 @@
       "city": "Martin",
       "state": "GA",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4693,10 +4692,10 @@
       "city": "Cortland",
       "state": "NY",
       "age": 54,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4707,10 +4706,10 @@
       "city": "Amherstburg",
       "state": "ON",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4721,10 +4720,10 @@
       "city": "Spring",
       "state": "TX",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4735,10 +4734,10 @@
       "city": "New Smyrna Bch",
       "state": "FL",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4749,10 +4748,10 @@
       "city": "Forest City",
       "state": "NC",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4763,10 +4762,10 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 53,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4777,10 +4776,10 @@
       "city": "Austin",
       "state": "TX",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4791,10 +4790,10 @@
       "city": "Etobicoke",
       "state": "ON",
       "age": 61,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4805,10 +4804,10 @@
       "city": "Alma",
       "state": "AR",
       "age": 36,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4819,10 +4818,10 @@
       "city": "Oak Ridge",
       "state": "TN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4833,10 +4832,10 @@
       "city": "Ft Mitchell",
       "state": "KY",
       "age": 22,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4847,10 +4846,10 @@
       "city": "Manchester",
       "state": "IA",
       "age": 31,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4861,10 +4860,10 @@
       "city": "Bainbridge",
       "state": "IN",
       "age": 61,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4875,10 +4874,10 @@
       "city": "Woburn",
       "state": "MA",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4889,10 +4888,10 @@
       "city": "Tampa",
       "state": "FL",
       "age": 35,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4903,10 +4902,10 @@
       "city": "Statham",
       "state": "GA",
       "age": 30,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4917,10 +4916,10 @@
       "city": "Richmond",
       "state": "VA",
       "age": 36,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "X",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4931,10 +4930,10 @@
       "city": "Woodstock",
       "state": "IL",
       "age": 25,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4945,10 +4944,10 @@
       "city": "Gadsden",
       "state": "AL",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4959,10 +4958,10 @@
       "city": "Lunenburg",
       "state": "MA",
       "age": 27,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4973,10 +4972,10 @@
       "city": "Newburgh",
       "state": "IN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -4987,10 +4986,10 @@
       "city": "Boonville",
       "state": "IN",
       "age": 30,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5001,10 +5000,10 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5015,10 +5014,10 @@
       "city": "Byram Twp",
       "state": "NJ",
       "age": 32,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5029,10 +5028,10 @@
       "city": "Cottens",
       "state": "",
       "age": 56,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5043,10 +5042,10 @@
       "city": "Listowel",
       "state": "ON",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5057,10 +5056,10 @@
       "city": "Listowel",
       "state": "ON",
       "age": 60,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5071,10 +5070,10 @@
       "city": "Sarnia",
       "state": "ON",
       "age": 20,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5085,10 +5084,10 @@
       "city": "Knoxville",
       "state": "TN",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5099,10 +5098,10 @@
       "city": "Dordrecht",
       "state": "",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5113,10 +5112,10 @@
       "city": "Gardnerville",
       "state": "NV",
       "age": 62,
-      "division": "60-69",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5127,10 +5126,10 @@
       "city": "Maryville",
       "state": "TN",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5141,10 +5140,10 @@
       "city": "Chicago",
       "state": "IL",
       "age": 38,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5155,10 +5154,10 @@
       "city": "Hamilton",
       "state": "ON",
       "age": 30,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5169,10 +5168,10 @@
       "city": "Caerphilly",
       "state": "",
       "age": 50,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5183,10 +5182,10 @@
       "city": "San Carlos",
       "state": "CA",
       "age": 50,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5197,10 +5196,10 @@
       "city": "Sierra Madre",
       "state": "CA",
       "age": 37,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5211,10 +5210,10 @@
       "city": "Little Elm",
       "state": "TX",
       "age": 28,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5225,10 +5224,10 @@
       "city": "Alma",
       "state": "AR",
       "age": 36,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5239,10 +5238,10 @@
       "city": "Franklin",
       "state": "TN",
       "age": 39,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5253,10 +5252,10 @@
       "city": "Gig Harbor",
       "state": "WA",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5267,10 +5266,10 @@
       "city": "Columbus",
       "state": "OH",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5281,10 +5280,10 @@
       "city": "Mayfield",
       "state": "KY",
       "age": 25,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5295,10 +5294,10 @@
       "city": "Cave Spring",
       "state": "GA",
       "age": 46,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5309,10 +5308,10 @@
       "city": "Omaha",
       "state": "NE",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5323,10 +5322,10 @@
       "city": "Omaha",
       "state": "NE",
       "age": 49,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5337,10 +5336,10 @@
       "city": "Nags Head",
       "state": "NC",
       "age": 27,
-      "division": "20-29",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5351,10 +5350,10 @@
       "city": "Nashville",
       "state": "TN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5365,10 +5364,10 @@
       "city": "Liberty Twp",
       "state": "OH",
       "age": 42,
-      "division": "40-49",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5379,10 +5378,10 @@
       "city": "Lawrence",
       "state": "KS",
       "age": 33,
-      "division": "30-39",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5393,10 +5392,10 @@
       "city": "St Johns",
       "state": "MI",
       "age": 52,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5407,10 +5406,10 @@
       "city": "Gainesville",
       "state": "GA",
       "age": 55,
-      "division": "50-59",
-      "status": "DNF",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5421,10 +5420,10 @@
       "city": "Stillwater",
       "state": "OK",
       "age": 63,
-      "division": "60-69",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5435,10 +5434,10 @@
       "city": "Texas",
       "state": "AL",
       "age": 53,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5449,10 +5448,10 @@
       "city": "Gunnison",
       "state": "CO",
       "age": 46,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5463,10 +5462,10 @@
       "city": "Deming",
       "state": "WA",
       "age": 55,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5477,10 +5476,10 @@
       "city": "Riverside",
       "state": "CA",
       "age": 61,
-      "division": "60-69",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5491,10 +5490,10 @@
       "city": "Omaha",
       "state": "NE",
       "age": 56,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5505,10 +5504,10 @@
       "city": "Grapevine",
       "state": "TX",
       "age": 49,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5519,10 +5518,10 @@
       "city": "Coventry",
       "state": "RI",
       "age": 51,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5533,10 +5532,10 @@
       "city": "Meridian",
       "state": "MS",
       "age": 62,
-      "division": "60-69",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5547,10 +5546,10 @@
       "city": "Appleton",
       "state": "WI",
       "age": 52,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5561,10 +5560,10 @@
       "city": "Lexington",
       "state": "KY",
       "age": 37,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5575,10 +5574,10 @@
       "city": "Half Moon Bay",
       "state": "CA",
       "age": 47,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5589,10 +5588,10 @@
       "city": "Ft Collins",
       "state": "CO",
       "age": 35,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5603,10 +5602,10 @@
       "city": "Hot Springs",
       "state": "AR",
       "age": 54,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5617,10 +5616,10 @@
       "city": "Rochester",
       "state": "NY",
       "age": 48,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5631,10 +5630,10 @@
       "city": "Clinton",
       "state": "MS",
       "age": 51,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5645,10 +5644,10 @@
       "city": "Snoqualmie",
       "state": "WA",
       "age": 49,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5659,10 +5658,10 @@
       "city": "Burlington",
       "state": "ON",
       "age": 57,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5673,10 +5672,10 @@
       "city": "La Verkin",
       "state": "UT",
       "age": 39,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5687,10 +5686,10 @@
       "city": "Oakland",
       "state": "MD",
       "age": 49,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5701,10 +5700,10 @@
       "city": "Chicago",
       "state": "IL",
       "age": 57,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5715,10 +5714,10 @@
       "city": "Biloxi",
       "state": "MS",
       "age": 42,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5729,10 +5728,10 @@
       "city": "Raleigh",
       "state": "NC",
       "age": 44,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5743,10 +5742,10 @@
       "city": "Mason",
       "state": "OH",
       "age": 47,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5757,10 +5756,10 @@
       "city": "Ramsey",
       "state": "NJ",
       "age": 49,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5771,10 +5770,10 @@
       "city": "Aptos",
       "state": "CA",
       "age": 65,
-      "division": "60-69",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5785,10 +5784,10 @@
       "city": "Fayetteville",
       "state": "TN",
       "age": 43,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5799,10 +5798,10 @@
       "city": "Leonardtown",
       "state": "MD",
       "age": 40,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5813,10 +5812,10 @@
       "city": "Phoenix",
       "state": "AZ",
       "age": 38,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5827,10 +5826,10 @@
       "city": "Maryville",
       "state": "TN",
       "age": 56,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5841,10 +5840,10 @@
       "city": "Irvington",
       "state": "NY",
       "age": 49,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5855,10 +5854,10 @@
       "city": "Flagstaff",
       "state": "AZ",
       "age": 44,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5869,10 +5868,10 @@
       "city": "Denver",
       "state": "CO",
       "age": 27,
-      "division": "20-29",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5883,10 +5882,10 @@
       "city": "Indianapolis",
       "state": "IN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5897,10 +5896,10 @@
       "city": "Red House",
       "state": "WV",
       "age": 38,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5911,10 +5910,10 @@
       "city": "Hamlin",
       "state": "WV",
       "age": 45,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5925,10 +5924,10 @@
       "city": "Fredericksburg",
       "state": "VA",
       "age": 45,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5939,10 +5938,10 @@
       "city": "Lee's Summit",
       "state": "MO",
       "age": 58,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5953,10 +5952,10 @@
       "city": "Virginia Beach",
       "state": "VA",
       "age": 70,
-      "division": "70+",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5967,10 +5966,10 @@
       "city": "Muskego",
       "state": "WI",
       "age": 41,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5981,10 +5980,10 @@
       "city": "Seymour",
       "state": "IN",
       "age": 35,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -5995,10 +5994,10 @@
       "city": "Pune",
       "state": "",
       "age": 53,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6009,10 +6008,10 @@
       "city": "Melbourne",
       "state": "FL",
       "age": 33,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6023,10 +6022,10 @@
       "city": "Newton Abbot",
       "state": "",
       "age": 31,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6037,10 +6036,10 @@
       "city": "Ogden",
       "state": "UT",
       "age": 24,
-      "division": "20-29",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6051,10 +6050,10 @@
       "city": "New York",
       "state": "NY",
       "age": 44,
-      "division": "40-49",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6065,10 +6064,10 @@
       "city": "White Plains",
       "state": "NY",
       "age": 36,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6079,10 +6078,10 @@
       "city": "Helenwood",
       "state": "TN",
       "age": 50,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6093,10 +6092,10 @@
       "city": "Newburgh",
       "state": "IN",
       "age": 34,
-      "division": "30-39",
-      "status": "DNS",
+      "division": "F",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     },
     {
       "year": 2025,
@@ -6107,10 +6106,10 @@
       "city": "Sunbright",
       "state": "TN",
       "age": 54,
-      "division": "50-59",
-      "status": "DNS",
+      "division": "M",
+      "status": "Finished",
       "finish_time_seconds": null,
-      "finish_time_formatted": ""
+      "finish_time_formatted": "0"
     }
   ]
 }
