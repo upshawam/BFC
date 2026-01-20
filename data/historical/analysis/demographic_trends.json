@@ -1,0 +1,113 @@
+{
+  "2015": {
+    "year": 2015,
+    "avg_age": 40.7,
+    "median_age": 41,
+    "gender_distribution": {
+      "F": 34,
+      "M": 111
+    },
+    "finisher_count": 145
+  },
+  "2016": {
+    "year": 2016,
+    "avg_age": 39.4,
+    "median_age": 39,
+    "gender_distribution": {
+      "M": 33,
+      "F": 12
+    },
+    "finisher_count": 45
+  },
+  "2017": {
+    "year": 2017,
+    "avg_age": 40.3,
+    "median_age": 40.0,
+    "gender_distribution": {
+      "M": 93,
+      "F": 27
+    },
+    "finisher_count": 120
+  },
+  "2018": {
+    "year": 2018,
+    "avg_age": 45,
+    "median_age": 44.5,
+    "gender_distribution": {
+      "M": 18,
+      "F": 20
+    },
+    "finisher_count": 38
+  },
+  "2019": {
+    "year": 2019,
+    "avg_age": 42.1,
+    "median_age": 41.0,
+    "gender_distribution": {
+      "M": 40,
+      "F": 22
+    },
+    "finisher_count": 62
+  },
+  "2020": {
+    "year": 2020,
+    "avg_age": 38.1,
+    "median_age": 38,
+    "gender_distribution": {
+      "M": 59,
+      "F": 66
+    },
+    "finisher_count": 125
+  },
+  "2021": {
+    "year": 2021,
+    "avg_age": 41.1,
+    "median_age": 41,
+    "gender_distribution": {
+      "M": 147,
+      "F": 30
+    },
+    "finisher_count": 177
+  },
+  "2022": {
+    "year": 2022,
+    "avg_age": 41.9,
+    "median_age": 41,
+    "gender_distribution": {
+      "M": 85,
+      "F": 22
+    },
+    "finisher_count": 107
+  },
+  "2023": {
+    "year": 2023,
+    "avg_age": 42.6,
+    "median_age": 42.0,
+    "gender_distribution": {
+      "F": 76,
+      "M": 196
+    },
+    "finisher_count": 272
+  },
+  "2024": {
+    "year": 2024,
+    "avg_age": 39.8,
+    "median_age": 39.5,
+    "gender_distribution": {
+      "M": 14,
+      "F": 4
+    },
+    "finisher_count": 18
+  },
+  "2025": {
+    "year": 2025,
+    "avg_age": 46.7,
+    "median_age": 47.0,
+    "gender_distribution": {
+      "M": 318,
+      "F": 117,
+      "X": 1
+    },
+    "finisher_count": 436
+  }
+}

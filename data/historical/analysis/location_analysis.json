@@ -1,0 +1,702 @@
+[
+  {
+    "location": "Knoxville",
+    "total_participants": 107,
+    "finishers": 107,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "San Diego",
+    "total_participants": 74,
+    "finishers": 74,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Nashville",
+    "total_participants": 43,
+    "finishers": 43,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Huntsville",
+    "total_participants": 32,
+    "finishers": 32,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Oak Ridge",
+    "total_participants": 24,
+    "finishers": 24,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Columbus",
+    "total_participants": 24,
+    "finishers": 24,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Phoenix",
+    "total_participants": 21,
+    "finishers": 21,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Louisville",
+    "total_participants": 20,
+    "finishers": 20,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Madison",
+    "total_participants": 19,
+    "finishers": 19,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Chattanooga",
+    "total_participants": 19,
+    "finishers": 19,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Johnson City",
+    "total_participants": 17,
+    "finishers": 17,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Chula Vista",
+    "total_participants": 16,
+    "finishers": 16,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Gainesville",
+    "total_participants": 14,
+    "finishers": 14,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Colorado Springs",
+    "total_participants": 14,
+    "finishers": 14,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Fallbrook",
+    "total_participants": 14,
+    "finishers": 14,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Atlanta",
+    "total_participants": 13,
+    "finishers": 13,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Salt Lake City",
+    "total_participants": 13,
+    "finishers": 13,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Clarksville",
+    "total_participants": 12,
+    "finishers": 12,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Lexington",
+    "total_participants": 12,
+    "finishers": 12,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Houston",
+    "total_participants": 12,
+    "finishers": 12,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "New York",
+    "total_participants": 11,
+    "finishers": 11,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Cincinnati",
+    "total_participants": 11,
+    "finishers": 11,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Oakville",
+    "total_participants": 11,
+    "finishers": 11,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Escondido",
+    "total_participants": 11,
+    "finishers": 11,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Brentwood",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Columbia",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Decatur",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Scottsdale",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Murfreesboro",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Franklin",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Ottawa",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Austin",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Huntington",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Sandy",
+    "total_participants": 10,
+    "finishers": 10,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "St. Louis",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Christiana",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "South Lancaster",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Gunnison",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Bell Buckle",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Tulsa",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Grand Rapids",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Philadelphia",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Chapel Hill",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Rochester",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Oceanside",
+    "total_participants": 9,
+    "finishers": 9,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Memphis",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Richmond",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Lakewood",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Mesa",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Arlington",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Biloxi",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Encinitas",
+    "total_participants": 8,
+    "finishers": 8,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Raleigh",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Virginia Beach",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Blacksburg",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Denver",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Burlington",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Pittsburgh",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Fayetteville",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Tecumseh",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Los Angeles",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Mission Viejo",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Staunton",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Omaha",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Lancing",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Quebec City",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Stratford",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Flagstaff",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Sugar Land",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Muskegon",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "South Jordan",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Rimouski",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "La Mesa",
+    "total_participants": 7,
+    "finishers": 7,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Saint Louis",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Cary",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Wellington",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Washington",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Bloomington",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Maryville",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Oakland",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Alpharetta",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Gahanna",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Owens Cross Roads",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Peoria",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Meridian",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Portland",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Jackson",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Newburgh",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Manchester",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Montreal",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Pittsboro",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Chicago",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Dubuque",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Paducah",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Winchester",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Draper",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "Baton Rouge",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "West Jordan",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  },
+  {
+    "location": "San Marcos",
+    "total_participants": 6,
+    "finishers": 6,
+    "dnf": 0,
+    "finish_rate": 100.0
+  }
+]

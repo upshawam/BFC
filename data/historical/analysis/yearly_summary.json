@@ -1,0 +1,200 @@
+[
+  {
+    "year": 2015,
+    "distance": "50K",
+    "total_starters": 145,
+    "total_finished": 145,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.55,
+    "median_finish_time_hours": 11.77
+  },
+  {
+    "year": 2016,
+    "distance": "50K",
+    "total_starters": 119,
+    "total_finished": 119,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.75,
+    "median_finish_time_hours": 12.03
+  },
+  {
+    "year": 2016,
+    "distance": "Marathon",
+    "total_starters": 45,
+    "total_finished": 45,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 7.84,
+    "median_finish_time_hours": 7.87
+  },
+  {
+    "year": 2017,
+    "distance": "50K",
+    "total_starters": 120,
+    "total_finished": 120,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.85,
+    "median_finish_time_hours": 11.97
+  },
+  {
+    "year": 2018,
+    "distance": "50K",
+    "total_starters": 329,
+    "total_finished": 329,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.58,
+    "median_finish_time_hours": 11.7
+  },
+  {
+    "year": 2018,
+    "distance": "Marathon",
+    "total_starters": 38,
+    "total_finished": 38,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": null,
+    "median_finish_time_hours": null
+  },
+  {
+    "year": 2019,
+    "distance": "50K",
+    "total_starters": 413,
+    "total_finished": 413,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 12.01,
+    "median_finish_time_hours": 12.14
+  },
+  {
+    "year": 2019,
+    "distance": "Marathon",
+    "total_starters": 62,
+    "total_finished": 62,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 4.92,
+    "median_finish_time_hours": 4.78
+  },
+  {
+    "year": 2020,
+    "distance": "50K",
+    "total_starters": 118,
+    "total_finished": 118,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 10.96,
+    "median_finish_time_hours": 10.91
+  },
+  {
+    "year": 2020,
+    "distance": "Marathon",
+    "total_starters": 125,
+    "total_finished": 125,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 2.18,
+    "median_finish_time_hours": 2.1
+  },
+  {
+    "year": 2021,
+    "distance": "50K",
+    "total_starters": 177,
+    "total_finished": 177,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.89,
+    "median_finish_time_hours": 12.1
+  },
+  {
+    "year": 2022,
+    "distance": "50K",
+    "total_starters": 107,
+    "total_finished": 107,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 12.37,
+    "median_finish_time_hours": 12.64
+  },
+  {
+    "year": 2023,
+    "distance": "50K",
+    "total_starters": 135,
+    "total_finished": 135,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.91,
+    "median_finish_time_hours": 12.0
+  },
+  {
+    "year": 2023,
+    "distance": "Marathon",
+    "total_starters": 272,
+    "total_finished": 272,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 7.62,
+    "median_finish_time_hours": 7.68
+  },
+  {
+    "year": 2024,
+    "distance": "50K",
+    "total_starters": 95,
+    "total_finished": 95,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 12.02,
+    "median_finish_time_hours": 12.22
+  },
+  {
+    "year": 2024,
+    "distance": "Marathon",
+    "total_starters": 18,
+    "total_finished": 18,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 16.34,
+    "median_finish_time_hours": 16.86
+  },
+  {
+    "year": 2025,
+    "distance": "50K",
+    "total_starters": 20,
+    "total_finished": 20,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 12.13,
+    "median_finish_time_hours": 12.26
+  },
+  {
+    "year": 2025,
+    "distance": "Marathon",
+    "total_starters": 436,
+    "total_finished": 436,
+    "finish_rate": 100.0,
+    "dnf_total": 0,
+    "dns_total": 0,
+    "avg_finish_time_hours": 11.27,
+    "median_finish_time_hours": 11.17
+  }
+]

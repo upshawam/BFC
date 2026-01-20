@@ -1,0 +1,261 @@
+[
+  {
+    "year": 2015,
+    "gender": "M",
+    "total_participants": 111,
+    "finishers": 111,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2015,
+    "gender": "F",
+    "total_participants": 34,
+    "finishers": 34,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2016,
+    "gender": "M",
+    "total_participants": 96,
+    "finishers": 96,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2016,
+    "gender": "F",
+    "total_participants": 23,
+    "finishers": 23,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2016,
+    "gender": "M",
+    "total_participants": 33,
+    "finishers": 33,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2016,
+    "gender": "F",
+    "total_participants": 12,
+    "finishers": 12,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2017,
+    "gender": "M",
+    "total_participants": 93,
+    "finishers": 93,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2017,
+    "gender": "F",
+    "total_participants": 27,
+    "finishers": 27,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2018,
+    "gender": "M",
+    "total_participants": 248,
+    "finishers": 248,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2018,
+    "gender": "F",
+    "total_participants": 81,
+    "finishers": 81,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2018,
+    "gender": "M",
+    "total_participants": 18,
+    "finishers": 18,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2018,
+    "gender": "F",
+    "total_participants": 20,
+    "finishers": 20,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "gender": "M",
+    "total_participants": 300,
+    "finishers": 300,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "gender": "F",
+    "total_participants": 113,
+    "finishers": 113,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "gender": "M",
+    "total_participants": 40,
+    "finishers": 40,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "gender": "F",
+    "total_participants": 22,
+    "finishers": 22,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "gender": "M",
+    "total_participants": 89,
+    "finishers": 89,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "gender": "F",
+    "total_participants": 29,
+    "finishers": 29,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "gender": "M",
+    "total_participants": 59,
+    "finishers": 59,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "gender": "F",
+    "total_participants": 66,
+    "finishers": 66,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2021,
+    "gender": "M",
+    "total_participants": 147,
+    "finishers": 147,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2021,
+    "gender": "F",
+    "total_participants": 30,
+    "finishers": 30,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2022,
+    "gender": "M",
+    "total_participants": 85,
+    "finishers": 85,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2022,
+    "gender": "F",
+    "total_participants": 22,
+    "finishers": 22,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2023,
+    "gender": "M",
+    "total_participants": 113,
+    "finishers": 113,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2023,
+    "gender": "F",
+    "total_participants": 22,
+    "finishers": 22,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2023,
+    "gender": "M",
+    "total_participants": 196,
+    "finishers": 196,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2023,
+    "gender": "F",
+    "total_participants": 76,
+    "finishers": 76,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "gender": "M",
+    "total_participants": 74,
+    "finishers": 74,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "gender": "F",
+    "total_participants": 21,
+    "finishers": 21,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "gender": "M",
+    "total_participants": 14,
+    "finishers": 14,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "gender": "F",
+    "total_participants": 4,
+    "finishers": 4,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "gender": "M",
+    "total_participants": 18,
+    "finishers": 18,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "gender": "F",
+    "total_participants": 2,
+    "finishers": 2,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "gender": "M",
+    "total_participants": 318,
+    "finishers": 318,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "gender": "F",
+    "total_participants": 117,
+    "finishers": 117,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "gender": "X",
+    "total_participants": 1,
+    "finishers": 1,
+    "finish_rate": 100.0
+  }
+]

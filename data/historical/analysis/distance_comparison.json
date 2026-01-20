@@ -1,0 +1,254 @@
+[
+  {
+    "year": 2015,
+    "distance": "50K",
+    "started": 145,
+    "finished": 145,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2015,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2016,
+    "distance": "50K",
+    "started": 119,
+    "finished": 119,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2016,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2016,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2016,
+    "distance": "Marathon",
+    "started": 45,
+    "finished": 45,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2017,
+    "distance": "50K",
+    "started": 120,
+    "finished": 120,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2017,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2018,
+    "distance": "50K",
+    "started": 329,
+    "finished": 329,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2018,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2018,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2018,
+    "distance": "Marathon",
+    "started": 38,
+    "finished": 38,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "distance": "50K",
+    "started": 413,
+    "finished": 413,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2019,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2019,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2019,
+    "distance": "Marathon",
+    "started": 62,
+    "finished": 62,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "distance": "50K",
+    "started": 118,
+    "finished": 118,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2020,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2020,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2020,
+    "distance": "Marathon",
+    "started": 125,
+    "finished": 125,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2021,
+    "distance": "50K",
+    "started": 177,
+    "finished": 177,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2021,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2022,
+    "distance": "50K",
+    "started": 107,
+    "finished": 107,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2022,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2023,
+    "distance": "50K",
+    "started": 135,
+    "finished": 135,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2023,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2023,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2023,
+    "distance": "Marathon",
+    "started": 272,
+    "finished": 272,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "distance": "50K",
+    "started": 95,
+    "finished": 95,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2024,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2024,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2024,
+    "distance": "Marathon",
+    "started": 18,
+    "finished": 18,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "distance": "50K",
+    "started": 20,
+    "finished": 20,
+    "finish_rate": 100.0
+  },
+  {
+    "year": 2025,
+    "distance": "Marathon",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2025,
+    "distance": "50K",
+    "started": 0,
+    "finished": 0,
+    "finish_rate": 0
+  },
+  {
+    "year": 2025,
+    "distance": "Marathon",
+    "started": 436,
+    "finished": 436,
+    "finish_rate": 100.0
+  }
+]

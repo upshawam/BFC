@@ -1,0 +1,172 @@
+[
+  {
+    "year": 2015,
+    "distance": "50K",
+    "finishers": 101,
+    "avg_time_hours": 11.55,
+    "median_time_hours": 11.77,
+    "min_time_hours": 7.62,
+    "max_time_hours": 13.22,
+    "stdev_hours": 1.2
+  },
+  {
+    "year": 2016,
+    "distance": "50K",
+    "finishers": 119,
+    "avg_time_hours": 11.75,
+    "median_time_hours": 12.03,
+    "min_time_hours": 8.34,
+    "max_time_hours": 13.29,
+    "stdev_hours": 1.07
+  },
+  {
+    "year": 2016,
+    "distance": "Marathon",
+    "finishers": 45,
+    "avg_time_hours": 7.84,
+    "median_time_hours": 7.87,
+    "min_time_hours": 5.13,
+    "max_time_hours": 11.17,
+    "stdev_hours": 1.42
+  },
+  {
+    "year": 2017,
+    "distance": "50K",
+    "finishers": 120,
+    "avg_time_hours": 11.85,
+    "median_time_hours": 11.97,
+    "min_time_hours": 9.47,
+    "max_time_hours": 13.25,
+    "stdev_hours": 0.84
+  },
+  {
+    "year": 2018,
+    "distance": "50K",
+    "finishers": 205,
+    "avg_time_hours": 11.58,
+    "median_time_hours": 11.7,
+    "min_time_hours": 8.93,
+    "max_time_hours": 13.29,
+    "stdev_hours": 1.08
+  },
+  {
+    "year": 2019,
+    "distance": "50K",
+    "finishers": 188,
+    "avg_time_hours": 12.01,
+    "median_time_hours": 12.14,
+    "min_time_hours": 10.06,
+    "max_time_hours": 13.32,
+    "stdev_hours": 0.84
+  },
+  {
+    "year": 2019,
+    "distance": "Marathon",
+    "finishers": 62,
+    "avg_time_hours": 4.92,
+    "median_time_hours": 4.78,
+    "min_time_hours": 3.39,
+    "max_time_hours": 7.08,
+    "stdev_hours": 0.87
+  },
+  {
+    "year": 2020,
+    "distance": "50K",
+    "finishers": 101,
+    "avg_time_hours": 10.96,
+    "median_time_hours": 10.91,
+    "min_time_hours": 8.5,
+    "max_time_hours": 13.26,
+    "stdev_hours": 1.17
+  },
+  {
+    "year": 2020,
+    "distance": "Marathon",
+    "finishers": 124,
+    "avg_time_hours": 2.18,
+    "median_time_hours": 2.1,
+    "min_time_hours": 1.3,
+    "max_time_hours": 5.65,
+    "stdev_hours": 0.52
+  },
+  {
+    "year": 2021,
+    "distance": "50K",
+    "finishers": 176,
+    "avg_time_hours": 11.89,
+    "median_time_hours": 12.1,
+    "min_time_hours": 9.58,
+    "max_time_hours": 13.32,
+    "stdev_hours": 1.08
+  },
+  {
+    "year": 2022,
+    "distance": "50K",
+    "finishers": 107,
+    "avg_time_hours": 12.37,
+    "median_time_hours": 12.64,
+    "min_time_hours": 9.48,
+    "max_time_hours": 13.33,
+    "stdev_hours": 0.9
+  },
+  {
+    "year": 2023,
+    "distance": "50K",
+    "finishers": 135,
+    "avg_time_hours": 11.91,
+    "median_time_hours": 12.0,
+    "min_time_hours": 9.23,
+    "max_time_hours": 13.32,
+    "stdev_hours": 0.96
+  },
+  {
+    "year": 2023,
+    "distance": "Marathon",
+    "finishers": 231,
+    "avg_time_hours": 7.62,
+    "median_time_hours": 7.68,
+    "min_time_hours": 4.62,
+    "max_time_hours": 9.97,
+    "stdev_hours": 1.23
+  },
+  {
+    "year": 2024,
+    "distance": "50K",
+    "finishers": 94,
+    "avg_time_hours": 12.02,
+    "median_time_hours": 12.22,
+    "min_time_hours": 9.11,
+    "max_time_hours": 13.32,
+    "stdev_hours": 1.0
+  },
+  {
+    "year": 2024,
+    "distance": "Marathon",
+    "finishers": 13,
+    "avg_time_hours": 16.34,
+    "median_time_hours": 16.86,
+    "min_time_hours": 12.68,
+    "max_time_hours": 21.79,
+    "stdev_hours": 2.3
+  },
+  {
+    "year": 2025,
+    "distance": "50K",
+    "finishers": 20,
+    "avg_time_hours": 12.13,
+    "median_time_hours": 12.26,
+    "min_time_hours": 10.35,
+    "max_time_hours": 13.11,
+    "stdev_hours": 0.82
+  },
+  {
+    "year": 2025,
+    "distance": "Marathon",
+    "finishers": 198,
+    "avg_time_hours": 11.27,
+    "median_time_hours": 11.17,
+    "min_time_hours": 8.59,
+    "max_time_hours": 13.27,
+    "stdev_hours": 1.04
+  }
+]
