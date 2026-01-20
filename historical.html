@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkley Fall Classic - Historical Analysis (2015-2025)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .nav-btn {
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-size: 0.9em;
+        }
+
+        .nav-btn:hover {
+            background: #764ba2;
+        }
+
+        .nav-btn.active {
+            background: #764ba2;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            height: 400px;
+        }
+
+        .chart-title {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        canvas {
+            max-height: 100%;
+        }
+
+        .data-table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .table-title {
+            background: #667eea;
+            color: white;
+            padding: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f5f5f5;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            color: #333;
+            border-bottom: 2px solid #eee;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f9f9f9;
+        }
+
+        .finish-rate {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .low-finish-rate {
+            color: #e74c3c;
+        }
+
+        .insights {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .insights h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .insight-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .insight-item:last-child {
+            border-bottom: none;
+        }
+
+        .insight-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .insight-value {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏔️ Barkley Fall Classic</h1>
+            <p class="subtitle">Historical Analysis (2015-2025)</p>
+            <p class="subtitle" style="font-size: 0.9em; color: #999;">11 Years of Race Data</p>
+            <div class="nav-buttons">
+                <a href="index.html" class="nav-btn">← Back to Tracker</a>
+                <a href="historical.html" class="nav-btn active">Historical Analysis</a>
+            </div>
+        </header>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <div class="stat-label">Total Participants</div>
+                <div class="stat-value" id="totalParticipants">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total Finishers</div>
+                <div class="stat-value" id="totalFinishers">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Overall Finish Rate</div>
+                <div class="stat-value" id="overallFinishRate">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Average Finishers/Year</div>
+                <div class="stat-value" id="avgFinishers">-</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-title">Marathon Participation & Finish Rate Trend</div>
+                <canvas id="marathonTrendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">50K Participation & Finish Rate Trend</div>
+                <canvas id="fiftyKTrendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">Finish Rate by Distance (2015-2025)</div>
+                <canvas id="finishRateChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">Participant Status Distribution (2025)</div>
+                <canvas id="statusChart"></canvas>
+            </div>
+        </div>
+
+        <div class="insights">
+            <h2>📊 Key Insights</h2>
+            <div class="insight-item">
+                <div class="insight-label">Difficulty Trend:</div>
+                <div class="insight-value" id="difficultyTrend">Loading...</div>
+            </div>
+            <div class="insight-item">
+                <div class="insight-label">Most Challenging Year (Marathon):</div>
+                <div class="insight-value" id="mostChallenging">Loading...</div>
+            </div>
+            <div class="insight-item">
+                <div class="insight-label">Best Year (Marathon):</div>
+                <div class="insight-value" id="bestYear">Loading...</div>
+            </div>
+            <div class="insight-item">
+                <div class="insight-label">50K Finish Rates:</div>
+                <div class="insight-value" id="fiftyKInsight">Loading...</div>
+            </div>
+        </div>
+
+        <div class="data-table">
+            <div class="table-title">Overall Outcomes by Year (Starters Only, DNS Excluded from %)</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Starters</th>
+                        <th>DNS</th>
+                        <th>50K Finish</th>
+                        <th>Marathon Finish</th>
+                        <th>DNF</th>
+                        <th>DQ</th>
+                        <th>50K %</th>
+                        <th>Marathon %</th>
+                        <th>DNF %</th>
+                        <th>DQ %</th>
+                    </tr>
+                </thead>
+                <tbody id="outcomeTable">
+                    <tr><td colspan="11" style="text-align: center;">Loading data...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="data-table">
+            <div class="table-title">Year-by-Year Summary</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Marathon Participants</th>
+                        <th>Marathon Finishers</th>
+                        <th>Finish Rate</th>
+                        <th>50K Participants</th>
+                        <th>50K Finishers</th>
+                        <th>Finish Rate</th>
+                    </tr>
+                </thead>
+                <tbody id="summaryTable">
+                    <tr><td colspan="7" style="text-align: center;">Loading data...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>📈 Historical data scraped from UltraSignup | Updated: <span id="lastUpdate">-</span></p>
+    </footer>
+
+    <script>
+        // Data structure to hold all historical data
+        const historicalData = {};
+        let allYears = [];
+
+        // Load all historical data
+        async function loadHistoricalData() {
+            try {
+                // Load all result files
+                for (let year = 2015; year <= 2025; year++) {
+                    for (const distance of ['50k', 'marathon']) {
+                        try {
+                            const response = await fetch(`data/historical/results/results_${year}_${distance}.json`);
+                            if (response.ok) {
+                                const data = await response.json();
+                                if (!historicalData[year]) {
+                                    historicalData[year] = {};
+                                }
+                                historicalData[year][distance] = data;
+                            }
+                        } catch (e) {
+                            console.log(`No data for ${year} ${distance}`);
+                        }
+                    }
+                }
+
+                allYears = Object.keys(historicalData).map(y => parseInt(y)).sort((a, b) => a - b);
+                console.log('Loaded data for years:', allYears);
+                
+                generateAnalysis();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function calculateStats() {
+            let totalStarters = 0;
+            let totalFinishers = 0;
+
+            allYears.forEach(year => {
+                const yearData = historicalData[year];
+                if (yearData.marathon) {
+                    const m = yearData.marathon;
+                    const starters = (m.total_finishers + m.total_dnf + m.total_disqualified);
+                    totalStarters += starters;
+                    totalFinishers += m.total_finishers;
+                }
+                if (yearData['50k']) {
+                    const k = yearData['50k'];
+                    const starters = (k.total_finishers + k.total_dnf + k.total_disqualified);
+                    totalStarters += starters;
+                    totalFinishers += k.total_finishers;
+                }
+            });
+
+            const finishRate = totalStarters > 0 ? ((totalFinishers / totalStarters) * 100).toFixed(1) : 0;
+            const avgFinishers = allYears.length > 0 ? (totalFinishers / allYears.length).toFixed(0) : 0;
+
+            document.getElementById('totalParticipants').textContent = totalStarters.toLocaleString();
+            document.getElementById('totalFinishers').textContent = totalFinishers.toLocaleString();
+            document.getElementById('overallFinishRate').textContent = finishRate + '%';
+            document.getElementById('avgFinishers').textContent = avgFinishers;
+        }
+
+        function generateMarathonTrendChart() {
+            const years = [];
+            const participants = [];
+            const finishers = [];
+            const finishRates = [];
+
+            allYears.forEach(year => {
+                if (historicalData[year] && historicalData[year].marathon) {
+                    const m = historicalData[year].marathon;
+                    const starters = m.total_finishers + m.total_dnf + m.total_disqualified;
+                    const rate = starters > 0 ? ((m.total_finishers / starters) * 100).toFixed(1) : 0;
+                    
+                    years.push(year.toString());
+                    participants.push(starters);
+                    finishers.push(m.total_finishers);
+                    finishRates.push(parseFloat(rate));
+                }
+            });
+
+            const ctx = document.getElementById('marathonTrendChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            label: 'Total Participants',
+                            data: participants,
+                            borderColor: '#667eea',
+                            backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                            yAxisID: 'y',
+                            tension: 0.4,
+                            fill: true,
+                            pointRadius: 5,
+                            pointHoverRadius: 7,
+                        },
+                        {
+                            label: 'Finish Rate (%)',
+                            data: finishRates,
+                            borderColor: '#27ae60',
+                            backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                            yAxisID: 'y1',
+                            tension: 0.4,
+                            pointRadius: 5,
+                            pointHoverRadius: 7,
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: { display: true, text: 'Participants' }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: { display: true, text: 'Finish Rate (%)' },
+                            grid: { drawOnChartArea: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateFiftyKTrendChart() {
+            const years = [];
+            const participants = [];
+            const finishers = [];
+            const finishRates = [];
+
+            allYears.forEach(year => {
+                if (historicalData[year] && historicalData[year]['50k']) {
+                    const k = historicalData[year]['50k'];
+                    const starters = k.total_finishers + k.total_dnf + k.total_disqualified;
+                    const rate = starters > 0 ? ((k.total_finishers / starters) * 100).toFixed(1) : 0;
+                    
+                    years.push(year.toString());
+                    participants.push(starters);
+                    finishers.push(k.total_finishers);
+                    finishRates.push(parseFloat(rate));
+                }
+            });
+
+            const ctx = document.getElementById('fiftyKTrendChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            label: 'Total Participants',
+                            data: participants,
+                            borderColor: '#f39c12',
+                            backgroundColor: 'rgba(243, 156, 18, 0.1)',
+                            yAxisID: 'y',
+                            tension: 0.4,
+                            fill: true,
+                            pointRadius: 5,
+                            pointHoverRadius: 7,
+                        },
+                        {
+                            label: 'Finish Rate (%)',
+                            data: finishRates,
+                            borderColor: '#27ae60',
+                            backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                            yAxisID: 'y1',
+                            tension: 0.4,
+                            pointRadius: 5,
+                            pointHoverRadius: 7,
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: { display: true, text: 'Participants' }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: { display: true, text: 'Finish Rate (%)' },
+                            grid: { drawOnChartArea: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateFinishRateChart() {
+            const years = [];
+            const marathonRates = [];
+            const fiftyKRates = [];
+
+            allYears.forEach(year => {
+                years.push(year.toString());
+                
+                if (historicalData[year] && historicalData[year].marathon) {
+                    const m = historicalData[year].marathon;
+                    const starters = m.total_finishers + m.total_dnf + m.total_disqualified;
+                    marathonRates.push(starters > 0 ? ((m.total_finishers / starters) * 100).toFixed(1) : 0);
+                }
+                
+                if (historicalData[year] && historicalData[year]['50k']) {
+                    const k = historicalData[year]['50k'];
+                    const starters = k.total_finishers + k.total_dnf + k.total_disqualified;
+                    fiftyKRates.push(starters > 0 ? ((k.total_finishers / starters) * 100).toFixed(1) : 0);
+                }
+            });
+
+            const ctx = document.getElementById('finishRateChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            label: 'Marathon Finish Rate (%)',
+                            data: marathonRates,
+                            backgroundColor: '#667eea',
+                        },
+                        {
+                            label: '50K Finish Rate (%)',
+                            data: fiftyKRates,
+                            backgroundColor: '#f39c12',
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: { display: true, text: 'Finish Rate (%)' }
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateStatusChart() {
+            // Use most recent year (2025) for status breakdown
+            const year = Math.max(...allYears);
+            const data = historicalData[year];
+            
+            if (!data || !data.marathon) return;
+
+            const m = data.marathon;
+            const ctx = document.getElementById('statusChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Finished', 'DNF', 'DNS'],
+                    datasets: [{
+                        data: [m.total_finishers, m.total_dnf, m.total_dns],
+                        backgroundColor: [
+                            '#27ae60',
+                            '#e74c3c',
+                            '#f39c12'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateInsights() {
+            let marathonRates = [];
+            let mostChallenging = { year: 0, rate: 100 };
+            let bestYear = { year: 0, rate: 0 };
+
+            allYears.forEach(year => {
+                if (historicalData[year] && historicalData[year].marathon) {
+                    const m = historicalData[year].marathon;
+                    const starters = m.total_finishers + m.total_dnf + m.total_disqualified;
+                    const rate = starters > 0 ? (m.total_finishers / starters) * 100 : 0;
+                    marathonRates.push(rate);
+
+                    if (rate < mostChallenging.rate) {
+                        mostChallenging = { year, rate: rate.toFixed(1) };
+                    }
+                    if (rate > bestYear.rate) {
+                        bestYear = { year, rate: rate.toFixed(1) };
+                    }
+                }
+            });
+
+            const trend = marathonRates.length > 1 
+                ? (marathonRates[marathonRates.length - 1] > marathonRates[marathonRates.length - 5] 
+                    ? '📈 Getting harder' 
+                    : '📉 Getting easier')
+                : 'Insufficient data';
+
+            let fiftyKInsight = '';
+            allYears.forEach(year => {
+                if (historicalData[year] && historicalData[year]['50k']) {
+                    const k = historicalData[year]['50k'];
+                    const starters = k.total_finishers + k.total_dnf + k.total_disqualified;
+                    const rate = starters > 0 ? ((k.total_finishers / starters) * 100).toFixed(1) : 0;
+                    fiftyKInsight = `Consistently high finish rates (avg ~${rate}% in recent years)`;
+                }
+            });
+
+            document.getElementById('difficultyTrend').textContent = trend;
+            document.getElementById('mostChallenging').textContent = `${mostChallenging.year} (${mostChallenging.rate}% finish rate)`;
+            document.getElementById('bestYear').textContent = `${bestYear.year} (${bestYear.rate}% finish rate)`;
+            document.getElementById('fiftyKInsight').textContent = fiftyKInsight;
+        }
+
+        function generateSummaryTable() {
+            const tbody = document.getElementById('summaryTable');
+            tbody.innerHTML = '';
+
+            allYears.forEach(year => {
+                const m = historicalData[year]?.marathon || {};
+                const k = historicalData[year]?.['50k'] || {};
+
+                const mTotal = m.total_finishers ? (m.total_finishers + m.total_dnf + m.total_disqualified) : 0;
+                const kTotal = k.total_finishers ? (k.total_finishers + k.total_dnf + k.total_disqualified) : 0;
+                const mRate = mTotal > 0 ? ((m.total_finishers / mTotal) * 100).toFixed(1) : '-';
+                const kRate = kTotal > 0 ? ((k.total_finishers / kTotal) * 100).toFixed(1) : '-';
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><strong>${year}</strong></td>
+                    <td>${mTotal}</td>
+                    <td>${m.total_finishers || 0}</td>
+                    <td><span class="${mRate !== '-' && parseFloat(mRate) > 30 ? 'finish-rate' : 'low-finish-rate'}">${mRate}%</span></td>
+                    <td>${kTotal}</td>
+                    <td>${k.total_finishers || 0}</td>
+                    <td><span class="${kRate !== '-' && parseFloat(kRate) > 50 ? 'finish-rate' : 'low-finish-rate'}">${kRate}%</span></td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString();
+        }
+
+        function generateOutcomeTable() {
+            const tbody = document.getElementById('outcomeTable');
+            tbody.innerHTML = '';
+
+            allYears.forEach(year => {
+                const m = historicalData[year]?.marathon || {};
+                const k = historicalData[year]?.['50k'] || {};
+
+                const starters = (m.total_finishers || 0) + (m.total_dnf || 0) + (m.total_disqualified || 0)
+                    + (k.total_finishers || 0) + (k.total_dnf || 0) + (k.total_disqualified || 0);
+                const dns = (m.total_dns || 0) + (k.total_dns || 0);
+                const finish50k = k.total_finishers || 0;
+                const finishMar = m.total_finishers || 0;
+                const dnf = (m.total_dnf || 0) + (k.total_dnf || 0);
+                const dq = (m.total_disqualified || 0) + (k.total_disqualified || 0);
+
+                const pct = starters > 0 ? (val => ((val / starters) * 100).toFixed(2)) : () => '0.00';
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><strong>${year}</strong></td>
+                    <td>${starters}</td>
+                    <td>${dns}</td>
+                    <td>${finish50k}</td>
+                    <td>${finishMar}</td>
+                    <td>${dnf}</td>
+                    <td>${dq}</td>
+                    <td>${pct(finish50k)}%</td>
+                    <td>${pct(finishMar)}%</td>
+                    <td>${pct(dnf)}%</td>
+                    <td>${pct(dq)}%</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function generateAnalysis() {
+            calculateStats();
+            generateMarathonTrendChart();
+            generateFiftyKTrendChart();
+            generateFinishRateChart();
+            generateStatusChart();
+            generateInsights();
+            generateSummaryTable();
+            generateOutcomeTable();
+        }
+
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', loadHistoricalData);
+    </script>
+</body>
+</html>

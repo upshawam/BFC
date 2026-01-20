@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-01-20T14:03:44.123277",
+  "metrics": {
+    "overall": {
+      "total_participants": 3748,
+      "total_finishers": 2541,
+      "overall_finish_rate": 67.8,
+      "years_tracked": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "years_count": 11
+    },
+    "by_year": {
+      "2015": {
+        "50k": {
+          "participants": 145,
+          "finishers": 101,
+          "dnf": 44,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 69.7
+        },
+        "marathon": {
+          "participants": 69,
+          "finishers": 69,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        }
+      },
+      "2016": {
+        "50k": {
+          "participants": 119,
+          "finishers": 119,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        },
+        "marathon": {
+          "participants": 132,
+          "finishers": 132,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        }
+      },
+      "2017": {
+        "50k": {
+          "participants": 120,
+          "finishers": 120,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        },
+        "marathon": {
+          "participants": 178,
+          "finishers": 178,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        }
+      },
+      "2018": {
+        "50k": {
+          "participants": 323,
+          "finishers": 205,
+          "dnf": 118,
+          "dns": 6,
+          "disqualified": 0,
+          "finish_rate": 63.5
+        },
+        "marathon": {
+          "participants": 127,
+          "finishers": 127,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        }
+      },
+      "2019": {
+        "50k": {
+          "participants": 355,
+          "finishers": 188,
+          "dnf": 167,
+          "dns": 58,
+          "disqualified": 0,
+          "finish_rate": 53.0
+        },
+        "marathon": {
+          "participants": 101,
+          "finishers": 100,
+          "dnf": 1,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 99.0
+        }
+      },
+      "2020": {
+        "50k": {
+          "participants": 105,
+          "finishers": 101,
+          "dnf": 4,
+          "dns": 13,
+          "disqualified": 0,
+          "finish_rate": 96.2
+        },
+        "marathon": {
+          "participants": 7,
+          "finishers": 7,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        }
+      },
+      "2021": {
+        "50k": {
+          "participants": 177,
+          "finishers": 176,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 1,
+          "finish_rate": 99.4
+        },
+        "marathon": {
+          "participants": 239,
+          "finishers": 72,
+          "dnf": 166,
+          "dns": 52,
+          "disqualified": 1,
+          "finish_rate": 30.1
+        }
+      },
+      "2022": {
+        "50k": {
+          "participants": 107,
+          "finishers": 107,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        },
+        "marathon": {
+          "participants": 266,
+          "finishers": 70,
+          "dnf": 196,
+          "dns": 26,
+          "disqualified": 0,
+          "finish_rate": 26.3
+        }
+      },
+      "2023": {
+        "50k": {
+          "participants": 135,
+          "finishers": 135,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        },
+        "marathon": {
+          "participants": 237,
+          "finishers": 77,
+          "dnf": 159,
+          "dns": 49,
+          "disqualified": 1,
+          "finish_rate": 32.5
+        }
+      },
+      "2024": {
+        "50k": {
+          "participants": 95,
+          "finishers": 94,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 1,
+          "finish_rate": 98.9
+        },
+        "marathon": {
+          "participants": 305,
+          "finishers": 145,
+          "dnf": 159,
+          "dns": 45,
+          "disqualified": 1,
+          "finish_rate": 47.5
+        }
+      },
+      "2025": {
+        "50k": {
+          "participants": 20,
+          "finishers": 20,
+          "dnf": 0,
+          "dns": 0,
+          "disqualified": 0,
+          "finish_rate": 100.0
+        },
+        "marathon": {
+          "participants": 386,
+          "finishers": 198,
+          "dnf": 188,
+          "dns": 50,
+          "disqualified": 0,
+          "finish_rate": 51.3
+        }
+      }
+    },
+    "by_distance": {},
+    "trends": {
+      "marathon_finish_rates": [
+        {
+          "year": 2015,
+          "rate": 100.0
+        },
+        {
+          "year": 2016,
+          "rate": 100.0
+        },
+        {
+          "year": 2017,
+          "rate": 100.0
+        },
+        {
+          "year": 2018,
+          "rate": 100.0
+        },
+        {
+          "year": 2019,
+          "rate": 99.0
+        },
+        {
+          "year": 2020,
+          "rate": 100.0
+        },
+        {
+          "year": 2021,
+          "rate": 30.1
+        },
+        {
+          "year": 2022,
+          "rate": 26.3
+        },
+        {
+          "year": 2023,
+          "rate": 32.5
+        },
+        {
+          "year": 2024,
+          "rate": 47.5
+        },
+        {
+          "year": 2025,
+          "rate": 51.3
+        }
+      ],
+      "hardest_year": {
+        "year": 2022,
+        "rate": 26.3
+      },
+      "easiest_year": {
+        "year": 2015,
+        "rate": 100.0
+      },
+      "avg_marathon_finish_rate": 71.5,
+      "50k_finish_rates": [
+        {
+          "year": 2015,
+          "rate": 69.7
+        },
+        {
+          "year": 2016,
+          "rate": 100.0
+        },
+        {
+          "year": 2017,
+          "rate": 100.0
+        },
+        {
+          "year": 2018,
+          "rate": 63.5
+        },
+        {
+          "year": 2019,
+          "rate": 53.0
+        },
+        {
+          "year": 2020,
+          "rate": 96.2
+        },
+        {
+          "year": 2021,
+          "rate": 99.4
+        },
+        {
+          "year": 2022,
+          "rate": 100.0
+        },
+        {
+          "year": 2023,
+          "rate": 100.0
+        },
+        {
+          "year": 2024,
+          "rate": 98.9
+        },
+        {
+          "year": 2025,
+          "rate": 100.0
+        }
+      ],
+      "avg_50k_finish_rate": 89.2
+    }
+  },
+  "insights": {
+    "summary": [
+      "Over 11 years, 3,748 runners participated with 2,541 finishers (67.8% finish rate)"
+    ],
+    "marathon": [
+      "Average marathon finish rate: 71.5%",
+      "Hardest year: 2022 (26.3% finish rate)",
+      "Easiest year: 2015 (100.0% finish rate)"
+    ],
+    "50k": [
+      "Average 50K finish rate: 89.2%",
+      "50K is significantly easier than Marathon"
+    ],
+    "trends": []
+  }
+}
