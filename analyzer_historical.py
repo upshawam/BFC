@@ -45,6 +45,7 @@ class HistoricalAnalyzer:
         self.generate_age_analysis()
         self.generate_gender_trends()
         self.generate_distance_comparison()
+        self.generate_veterans_analysis()
         
         print("✓ All analysis reports generated")
     
@@ -293,6 +294,94 @@ class HistoricalAnalyzer:
         if times:
             return round(median(times) / 3600, 2)
         return None
+    
+    def generate_veterans_analysis(self):
+        """Analyze runners who participated multiple years."""
+        runner_participations = defaultdict(list)
+        
+        for year_data in self.data:
+            year = year_data['year']
+            distance = year_data.get('distance', 'Unknown')
+            
+            for finisher in year_data.get('finishers', []):
+                first_name = finisher.get('first_name', '').strip()
+                last_name = finisher.get('last_name', '').strip()
+                
+                if not first_name or not last_name:
+                    continue
+                
+                # Use normalized name as key
+                name_key = (first_name.lower(), last_name.lower())
+                
+                runner_participations[name_key].append({
+                    'year': year,
+                    'distance': distance,
+                    'status': finisher.get('status', 'Unknown'),
+                    'place': finisher.get('place'),
+                    'finish_time_seconds': finisher.get('finish_time_seconds'),
+                    'finish_time_formatted': finisher.get('finish_time_formatted', ''),
+                    'age': finisher.get('age'),
+                    'city': finisher.get('city', ''),
+                    'state': finisher.get('state', ''),
+                    'division': finisher.get('division', ''),
+                    'display_name': f"{first_name} {last_name}"
+                })
+        
+        # Filter to only multi-year participants
+        veterans = []
+        for name_key, participations in runner_participations.items():
+            if len(participations) >= 2:
+                # Sort by year
+                participations.sort(key=lambda x: x['year'])
+                
+                # Calculate statistics
+                years_participated = sorted(list(set(p['year'] for p in participations)))
+                total_races = len(participations)
+                finishes = len([p for p in participations if p['status'] == 'Finished'])
+                dnfs = len([p for p in participations if p['status'] == 'DNF'])
+                dns = len([p for p in participations if p['status'] == 'DNS'])
+                
+                # Get best finish time
+                finish_times = [p['finish_time_seconds'] for p in participations 
+                              if p['finish_time_seconds'] and p['status'] == 'Finished']
+                best_time_seconds = min(finish_times) if finish_times else None
+                best_time_formatted = None
+                if best_time_seconds:
+                    hours = int(best_time_seconds // 3600)
+                    minutes = int((best_time_seconds % 3600) // 60)
+                    seconds = int(best_time_seconds % 60)
+                    best_time_formatted = f"{hours}:{minutes:02d}:{seconds:02d}"
+                
+                # Find best placement
+                placements = [p['place'] for p in participations 
+                             if p['place'] and isinstance(p['place'], int)]
+                best_place = min(placements) if placements else None
+                
+                veterans.append({
+                    'name': participations[0]['display_name'],
+                    'total_participations': total_races,
+                    'years': years_participated,
+                    'year_range': f"{years_participated[0]}-{years_participated[-1]}" if len(years_participated) > 1 else str(years_participated[0]),
+                    'finishes': finishes,
+                    'dnf': dnfs,
+                    'dns': dns,
+                    'finish_rate': round(finishes / total_races * 100, 1) if total_races > 0 else 0,
+                    'best_time_formatted': best_time_formatted,
+                    'best_place': best_place,
+                    'most_recent_year': years_participated[-1],
+                    'location': participations[-1]['city'] + ', ' + participations[-1]['state'] if participations[-1]['city'] else participations[-1]['state'],
+                    'participations': participations
+                })
+        
+        # Sort by total participations (descending), then by name
+        veterans.sort(key=lambda x: (-x['total_participations'], x['name']))
+        
+        output_file = ANALYSIS_DIR / "veterans.json"
+        with open(output_file, 'w') as f:
+            json.dump(veterans, f, indent=2)
+        
+        print(f"  ✓ Veterans analysis: {output_file}")
+        return veterans
 
 def main():
     analyzer = HistoricalAnalyzer()

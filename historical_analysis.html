@@ -241,6 +241,7 @@
                 <button class="nav-tab" onclick="showSection('performance')">Performance</button>
                 <button class="nav-tab" onclick="showSection('locations')">Locations</button>
                 <button class="nav-tab" onclick="showSection('distance')">Distance Analysis</button>
+                <button class="nav-tab" onclick="showSection('veterans')">Barkley Veterans</button>
             </div>
         </header>
 
@@ -367,6 +368,67 @@
                 </table>
             </div>
         </div>
+
+        <!-- Veterans Section -->
+        <div id="veterans" class="section">
+            <div class="card">
+                <h2>🏔️ Barkley Veterans</h2>
+                <p style="color: #666; margin-bottom: 20px;">
+                    Runners who have participated in Barkley Fall Classic multiple times (2015-2025)
+                </p>
+                
+                <div class="stats-grid" style="margin-bottom: 30px;">
+                    <div class="stat-box">
+                        <h3>Total Veterans</h3>
+                        <div class="value" id="totalVeterans">--</div>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Most Participations</h3>
+                        <div class="value" id="maxParticipations">--</div>
+                    </div>
+                    <div class="stat-box">
+                        <h3>10+ Year Veterans</h3>
+                        <div class="value" id="tenYearVets">--</div>
+                    </div>
+                    <div class="stat-box">
+                        <h3>100% Finish Rate</h3>
+                        <div class="value" id="perfectFinishers">--</div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <label for="veteranFilter" style="margin-right: 10px; font-weight: 500;">Filter:</label>
+                    <select id="veteranFilter" onchange="filterVeterans()" style="padding: 8px; border-radius: 5px; border: 1px solid #ddd;">
+                        <option value="all">All Veterans (2+ races)</option>
+                        <option value="3">3+ Participations</option>
+                        <option value="5">5+ Participations</option>
+                        <option value="7">7+ Participations</option>
+                        <option value="10">10+ Participations</option>
+                        <option value="perfect">100% Finish Rate</option>
+                    </select>
+                </div>
+
+                <table id="veteransTable">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Total Races</th>
+                            <th>50K Finishes</th>
+                            <th>Marathon Finishes</th>
+                            <th>Years Active</th>
+                            <th>DNF</th>
+                            <th>DNS</th>
+                            <th>Finish Rate</th>
+                            <th>Best Time</th>
+                            <th>Best Place</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <footer>
@@ -387,7 +449,8 @@
                     'location_analysis.json',
                     'age_analysis.json',
                     'gender_trends.json',
-                    'distance_comparison.json'
+                    'distance_comparison.json',
+                    'veterans.json'
                 ];
 
                 for (const file of files) {
@@ -411,6 +474,7 @@
             renderPerformance();
             renderLocations();
             renderDistance();
+            renderVeterans();
         }
 
         function renderYearlySummary() {
@@ -739,6 +803,64 @@
                     <td>${c.finish_rate}%</td>
                 </tr>
             `).join('');
+        }
+
+        let allVeterans = [];
+
+        function renderVeterans() {
+            const veterans = analysisData.veterans || [];
+            allVeterans = veterans;
+
+            // Update summary stats
+            document.getElementById('totalVeterans').textContent = veterans.length;
+            
+            const maxParticipations = Math.max(...veterans.map(v => v.total_participations), 0);
+            document.getElementById('maxParticipations').textContent = maxParticipations;
+            
+            const tenYearVets = veterans.filter(v => v.total_participations >= 10).length;
+            document.getElementById('tenYearVets').textContent = tenYearVets;
+            
+            const perfectFinishers = veterans.filter(v => v.finish_rate === 100 && v.total_participations >= 2).length;
+            document.getElementById('perfectFinishers').textContent = perfectFinishers;
+
+            // Render table
+            renderVeteransTable(veterans);
+        }
+
+        function renderVeteransTable(veterans) {
+            const tbody = document.querySelector('#veteransTable tbody');
+            tbody.innerHTML = veterans.map((vet, index) => `
+                <tr>
+                    <td style="text-align: center;">${index + 1}</td>
+                    <td><strong>${vet.name}</strong></td>
+                    <td style="text-align: center;">${vet.total_participations}</td>
+                    <td style="text-align: center; color: #8b5cf6;">${vet.finishes_50k || 0} / ${vet.races_50k || 0}</td>
+                    <td style="text-align: center; color: #f59e0b;">${vet.finishes_marathon || 0} / ${vet.races_marathon || 0}</td>
+                    <td>${vet.year_range}</td>
+                    <td style="text-align: center; color: #ef4444;">${vet.dnf}</td>
+                    <td style="text-align: center; color: #fbbf24;">${vet.dns}</td>
+                    <td style="text-align: center;"><strong>${vet.finish_rate}%</strong></td>
+                    <td style="text-align: center;">${vet.best_time_formatted || '--'}</td>
+                    <td style="text-align: center;">${vet.best_place || '--'}</td>
+                    <td>${vet.location}</td>
+                </tr>
+            `).join('');
+        }
+
+        function filterVeterans() {
+            const filterValue = document.getElementById('veteranFilter').value;
+            let filtered = allVeterans;
+
+            if (filterValue === 'all') {
+                filtered = allVeterans;
+            } else if (filterValue === 'perfect') {
+                filtered = allVeterans.filter(v => v.finish_rate === 100);
+            } else {
+                const minRaces = parseInt(filterValue);
+                filtered = allVeterans.filter(v => v.total_participations >= minRaces);
+            }
+
+            renderVeteransTable(filtered);
         }
 
         function showSection(sectionId) {
