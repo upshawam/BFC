@@ -217,6 +217,13 @@
             padding: 20px;
             margin-top: 30px;
         }
+
+        .note {
+            color: #555;
+            font-size: 0.9em;
+            margin: 10px 0 20px 0;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -233,41 +240,42 @@
 
         <div class="stats-grid" id="statsGrid">
             <div class="stat-card">
-                <div class="stat-label">Total Participants</div>
-                <div class="stat-value" id="totalParticipants">-</div>
+                <div class="stat-label">Total Starters (DNS Excluded)</div>
+                <div class="stat-value" id="totalStarters">-</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">Total Finishers</div>
-                <div class="stat-value" id="totalFinishers">-</div>
+                <div class="stat-label">50K Finishers</div>
+                <div class="stat-value" id="totalFinishers50k">-</div>
+                <div class="stat-change" id="pct50k">-</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">Overall Finish Rate</div>
-                <div class="stat-value" id="overallFinishRate">-</div>
+                <div class="stat-label">Marathon Finishers</div>
+                <div class="stat-value" id="totalFinishersMarathon">-</div>
+                <div class="stat-change" id="pctMarathon">-</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">Average Finishers/Year</div>
-                <div class="stat-value" id="avgFinishers">-</div>
+                <div class="stat-label">DNF (All Starters)</div>
+                <div class="stat-value" id="totalDnf">-</div>
+                <div class="stat-change" id="pctDnf">-</div>
             </div>
         </div>
 
         <div class="charts-grid">
-            <div class="chart-container">
-                <div class="chart-title">Marathon Participation & Finish Rate Trend</div>
-                <canvas id="marathonTrendChart"></canvas>
-            </div>
-            <div class="chart-container">
-                <div class="chart-title">50K Participation & Finish Rate Trend</div>
-                <canvas id="fiftyKTrendChart"></canvas>
+            <div class="chart-container" style="grid-column: span 2;">
+                <div class="chart-title">Outcome Distribution by Year (Single Race, Starter-based %)</div>
+                <canvas id="outcomeStackedChart"></canvas>
             </div>
             <div class="chart-container">
                 <div class="chart-title">Finish Rate by Distance (2015-2025)</div>
                 <canvas id="finishRateChart"></canvas>
             </div>
             <div class="chart-container">
-                <div class="chart-title">Participant Status Distribution (2025)</div>
+                <div class="chart-title">Participant Status Distribution (Latest Year)</div>
                 <canvas id="statusChart"></canvas>
             </div>
         </div>
+
+        <p class="note">Note: 2016 and 2017 have missing DNF data; 2020 was virtual. These years are shown per-year but excluded from aggregate stats to avoid skew.</p>
 
         <div class="insights">
             <h2>📊 Key Insights</h2>
@@ -286,6 +294,10 @@
             <div class="insight-item">
                 <div class="insight-label">50K Finish Rates:</div>
                 <div class="insight-value" id="fiftyKInsight">Loading...</div>
+            </div>
+            <div class="insight-item">
+                <div class="insight-label">Last 4 Real Races (starter %):</div>
+                <div class="insight-value" id="lastFourTrend">Loading...</div>
             </div>
         </div>
 
@@ -342,6 +354,8 @@
         // Data structure to hold all historical data
         const historicalData = {};
         let allYears = [];
+        const incompleteYears = [2016, 2017]; // Years with missing DNF data on UltraSignup
+        const excludedFromAggregates = [2016, 2017, 2020]; // Skip these for aggregate stats (DNF missing or virtual year)
 
         // Load all historical data
         async function loadHistoricalData() {
@@ -375,176 +389,123 @@
 
         function calculateStats() {
             let totalStarters = 0;
-            let totalFinishers = 0;
+            let totalFinishers50k = 0;
+            let totalFinishersMarathon = 0;
+            let totalDnf = 0;
 
             allYears.forEach(year => {
+                if (excludedFromAggregates.includes(year)) {
+                    // Skip incomplete years for aggregate stats to avoid skew
+                    return;
+                }
                 const yearData = historicalData[year];
                 if (yearData.marathon) {
                     const m = yearData.marathon;
                     const starters = (m.total_finishers + m.total_dnf + m.total_disqualified);
                     totalStarters += starters;
-                    totalFinishers += m.total_finishers;
+                    totalFinishersMarathon += m.total_finishers;
+                    totalDnf += m.total_dnf;
                 }
                 if (yearData['50k']) {
                     const k = yearData['50k'];
                     const starters = (k.total_finishers + k.total_dnf + k.total_disqualified);
                     totalStarters += starters;
-                    totalFinishers += k.total_finishers;
+                    totalFinishers50k += k.total_finishers;
+                    totalDnf += k.total_dnf;
                 }
             });
 
-            const finishRate = totalStarters > 0 ? ((totalFinishers / totalStarters) * 100).toFixed(1) : 0;
-            const avgFinishers = allYears.length > 0 ? (totalFinishers / allYears.length).toFixed(0) : 0;
+            const pct50k = totalStarters > 0 ? ((totalFinishers50k / totalStarters) * 100).toFixed(1) : 0;
+            const pctMarathon = totalStarters > 0 ? ((totalFinishersMarathon / totalStarters) * 100).toFixed(1) : 0;
+            const pctDnf = totalStarters > 0 ? ((totalDnf / totalStarters) * 100).toFixed(1) : 0;
 
-            document.getElementById('totalParticipants').textContent = totalStarters.toLocaleString();
-            document.getElementById('totalFinishers').textContent = totalFinishers.toLocaleString();
-            document.getElementById('overallFinishRate').textContent = finishRate + '%';
-            document.getElementById('avgFinishers').textContent = avgFinishers;
+            document.getElementById('totalStarters').textContent = totalStarters.toLocaleString();
+            document.getElementById('totalFinishers50k').textContent = totalFinishers50k.toLocaleString();
+            document.getElementById('totalFinishersMarathon').textContent = totalFinishersMarathon.toLocaleString();
+            document.getElementById('totalDnf').textContent = totalDnf.toLocaleString();
+            document.getElementById('pct50k').textContent = `${pct50k}% of starters`;
+            document.getElementById('pctMarathon').textContent = `${pctMarathon}% of starters`;
+            document.getElementById('pctDnf').textContent = `${pctDnf}% of starters`;
         }
 
-        function generateMarathonTrendChart() {
+        function generateOutcomeStackedChart() {
             const years = [];
-            const participants = [];
-            const finishers = [];
-            const finishRates = [];
+            const pct50k = [];
+            const pctMarathon = [];
+            const pctDnf = [];
+            const pctDq = [];
+            const count50k = [];
+            const countMarathon = [];
+            const countDnf = [];
+            const countDq = [];
+            const startCounts = [];
 
             allYears.forEach(year => {
-                if (historicalData[year] && historicalData[year].marathon) {
-                    const m = historicalData[year].marathon;
-                    const starters = m.total_finishers + m.total_dnf + m.total_disqualified;
-                    const rate = starters > 0 ? ((m.total_finishers / starters) * 100).toFixed(1) : 0;
-                    
-                    years.push(year.toString());
-                    participants.push(starters);
-                    finishers.push(m.total_finishers);
-                    finishRates.push(parseFloat(rate));
+                const m = historicalData[year]?.marathon || {};
+                const k = historicalData[year]?.['50k'] || {};
+
+                const starters = (m.total_finishers || 0) + (m.total_dnf || 0) + (m.total_disqualified || 0)
+                    + (k.total_finishers || 0) + (k.total_dnf || 0) + (k.total_disqualified || 0);
+                years.push(year.toString());
+                startCounts.push(starters);
+
+                if (starters > 0) {
+                    const c50k = k.total_finishers || 0;
+                    const cMar = m.total_finishers || 0;
+                    const cDnf = (m.total_dnf || 0) + (k.total_dnf || 0);
+                    const cDq = (m.total_disqualified || 0) + (k.total_disqualified || 0);
+                    count50k.push(c50k);
+                    countMarathon.push(cMar);
+                    countDnf.push(cDnf);
+                    countDq.push(cDq);
+                    pct50k.push(((c50k) / starters * 100).toFixed(2));
+                    pctMarathon.push(((cMar) / starters * 100).toFixed(2));
+                    pctDnf.push((( cDnf ) / starters * 100).toFixed(2));
+                    pctDq.push((( cDq ) / starters * 100).toFixed(2));
+                } else {
+                    count50k.push(0); countMarathon.push(0); countDnf.push(0); countDq.push(0);
+                    pct50k.push(0); pctMarathon.push(0); pctDnf.push(0); pctDq.push(0);
                 }
             });
 
-            const ctx = document.getElementById('marathonTrendChart').getContext('2d');
+            const ctx = document.getElementById('outcomeStackedChart').getContext('2d');
             new Chart(ctx, {
-                type: 'line',
+                type: 'bar',
                 data: {
                     labels: years,
                     datasets: [
-                        {
-                            label: 'Total Participants',
-                            data: participants,
-                            borderColor: '#667eea',
-                            backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                            yAxisID: 'y',
-                            tension: 0.4,
-                            fill: true,
-                            pointRadius: 5,
-                            pointHoverRadius: 7,
-                        },
-                        {
-                            label: 'Finish Rate (%)',
-                            data: finishRates,
-                            borderColor: '#27ae60',
-                            backgroundColor: 'rgba(39, 174, 96, 0.1)',
-                            yAxisID: 'y1',
-                            tension: 0.4,
-                            pointRadius: 5,
-                            pointHoverRadius: 7,
-                        }
+                        { label: '50K Finish', data: pct50k, backgroundColor: '#CC9E1D', stack: 'outcome' },
+                        { label: 'Marathon Finish', data: pctMarathon, backgroundColor: '#7AA356', stack: 'outcome' },
+                        { label: 'DNF', data: pctDnf, backgroundColor: '#e74c3c', stack: 'outcome' },
+                        { label: 'DQ', data: pctDq, backgroundColor: '#f1c40f', stack: 'outcome' },
                     ]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false,
-                    },
                     scales: {
-                        y: {
-                            type: 'linear',
-                            display: true,
-                            position: 'left',
-                            title: { display: true, text: 'Participants' }
-                        },
-                        y1: {
-                            type: 'linear',
-                            display: true,
-                            position: 'right',
-                            title: { display: true, text: 'Finish Rate (%)' },
-                            grid: { drawOnChartArea: false }
-                        }
-                    }
-                }
-            });
-        }
-
-        function generateFiftyKTrendChart() {
-            const years = [];
-            const participants = [];
-            const finishers = [];
-            const finishRates = [];
-
-            allYears.forEach(year => {
-                if (historicalData[year] && historicalData[year]['50k']) {
-                    const k = historicalData[year]['50k'];
-                    const starters = k.total_finishers + k.total_dnf + k.total_disqualified;
-                    const rate = starters > 0 ? ((k.total_finishers / starters) * 100).toFixed(1) : 0;
-                    
-                    years.push(year.toString());
-                    participants.push(starters);
-                    finishers.push(k.total_finishers);
-                    finishRates.push(parseFloat(rate));
-                }
-            });
-
-            const ctx = document.getElementById('fiftyKTrendChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: years,
-                    datasets: [
-                        {
-                            label: 'Total Participants',
-                            data: participants,
-                            borderColor: '#f39c12',
-                            backgroundColor: 'rgba(243, 156, 18, 0.1)',
-                            yAxisID: 'y',
-                            tension: 0.4,
-                            fill: true,
-                            pointRadius: 5,
-                            pointHoverRadius: 7,
-                        },
-                        {
-                            label: 'Finish Rate (%)',
-                            data: finishRates,
-                            borderColor: '#27ae60',
-                            backgroundColor: 'rgba(39, 174, 96, 0.1)',
-                            yAxisID: 'y1',
-                            tension: 0.4,
-                            pointRadius: 5,
-                            pointHoverRadius: 7,
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false,
+                        x: { stacked: true },
+                        y: { stacked: true, beginAtZero: true, max: 100, title: { display: true, text: 'Percent of Starters' } }
                     },
-                    scales: {
-                        y: {
-                            type: 'linear',
-                            display: true,
-                            position: 'left',
-                            title: { display: true, text: 'Participants' }
+                    plugins: {
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            callbacks: {
+                                label: function(context) {
+                                    const yearIdx = context.dataIndex;
+                                    const totalStarters = startCounts[yearIdx];
+                                    let count = 0;
+                                    if (context.dataset.label === '50K Finish') count = count50k[yearIdx];
+                                    else if (context.dataset.label === 'Marathon Finish') count = countMarathon[yearIdx];
+                                    else if (context.dataset.label === 'DNF') count = countDnf[yearIdx];
+                                    else if (context.dataset.label === 'DQ') count = countDq[yearIdx];
+                                    const pct = context.parsed.y || 0;
+                                    return `${context.dataset.label}: ${count} finishers (${pct}%)`;
+                                }
+                            }
                         },
-                        y1: {
-                            type: 'linear',
-                            display: true,
-                            position: 'right',
-                            title: { display: true, text: 'Finish Rate (%)' },
-                            grid: { drawOnChartArea: false }
-                        }
+                        legend: { position: 'bottom' }
                     }
                 }
             });
@@ -643,6 +604,9 @@
             let bestYear = { year: 0, rate: 0 };
 
             allYears.forEach(year => {
+                if (excludedFromAggregates.includes(year)) {
+                    return;
+                }
                 if (historicalData[year] && historicalData[year].marathon) {
                     const m = historicalData[year].marathon;
                     const starters = m.total_finishers + m.total_dnf + m.total_disqualified;
@@ -666,6 +630,9 @@
 
             let fiftyKInsight = '';
             allYears.forEach(year => {
+                if (excludedFromAggregates.includes(year)) {
+                    return;
+                }
                 if (historicalData[year] && historicalData[year]['50k']) {
                     const k = historicalData[year]['50k'];
                     const starters = k.total_finishers + k.total_dnf + k.total_disqualified;
@@ -678,6 +645,30 @@
             document.getElementById('mostChallenging').textContent = `${mostChallenging.year} (${mostChallenging.rate}% finish rate)`;
             document.getElementById('bestYear').textContent = `${bestYear.year} (${bestYear.rate}% finish rate)`;
             document.getElementById('fiftyKInsight').textContent = fiftyKInsight;
+            document.getElementById('lastFourTrend').textContent = buildLastFourTrend();
+        }
+
+        function buildLastFourTrend() {
+            // Exclude years marked in excludedFromAggregates (missing DNF or virtual)
+            const validYears = allYears.filter(y => !excludedFromAggregates.includes(y)).sort((a,b)=>a-b);
+            const lastFour = validYears.slice(-4);
+            if (!lastFour.length) return 'No data';
+
+            let starters = 0, finish50k = 0, finishMar = 0, dnf = 0, dq = 0;
+            lastFour.forEach(year => {
+                const m = historicalData[year]?.marathon || {};
+                const k = historicalData[year]?.['50k'] || {};
+                starters += (m.total_finishers || 0) + (m.total_dnf || 0) + (m.total_disqualified || 0)
+                         + (k.total_finishers || 0) + (k.total_dnf || 0) + (k.total_disqualified || 0);
+                finish50k += (k.total_finishers || 0);
+                finishMar += (m.total_finishers || 0);
+                dnf += (m.total_dnf || 0) + (k.total_dnf || 0);
+                dq += (m.total_disqualified || 0) + (k.total_disqualified || 0);
+            });
+
+            if (starters === 0) return 'No data';
+            const pct = v => ((v / starters) * 100).toFixed(1);
+            return `${lastFour.join(', ')} → 50K ${pct(finish50k)}%, Marathon ${pct(finishMar)}%, DNF ${pct(dnf)}%, DQ ${pct(dq)}% (of starters)`;
         }
 
         function generateSummaryTable() {
@@ -747,8 +738,7 @@
 
         function generateAnalysis() {
             calculateStats();
-            generateMarathonTrendChart();
-            generateFiftyKTrendChart();
+            generateOutcomeStackedChart();
             generateFinishRateChart();
             generateStatusChart();
             generateInsights();
