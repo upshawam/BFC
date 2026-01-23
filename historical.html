@@ -346,7 +346,49 @@
         </div>
 
         <div class="data-table">
-            <div class="table-title">🏆 Barkley Veterans - Multi-Year Participants</div>
+            <div class="table-title">🏆 2026 Registered Veterans (50K+ Finishers)</div>
+            <p style="margin-bottom: 15px; color: #666; font-size: 0.95em;">
+                These runners are registered for 2026 and have a history of 50K finishes. 
+                <strong>Reliability Index</strong> = (50K finishes × 15) + (years × 10) - (marathons × 5). 
+                <strong>Pace Tier</strong> based on avg finish time from last 4 years (2022-2025).
+            </p>
+            
+            <div style="margin-bottom: 20px;">
+                <label for="paceFilter" style="margin-right: 10px; font-weight: 500;">Filter by Pace Tier:</label>
+                <select id="paceFilter" onchange="filterRegisteredVeterans()" style="padding: 8px; border-radius: 5px; border: 1px solid #ddd;">
+                    <option value="all">All Pace Tiers</option>
+                    <option value="Elite (Top 25%)">Elite (Top 25%)</option>
+                    <option value="Fast (Top 50%)">Fast (Top 50%)</option>
+                    <option value="Steady (Top 75%)">Steady (Top 75%)</option>
+                    <option value="Conservative (Back 25%)">Conservative (Back 25%)</option>
+                </select>
+            </div>
+            
+            <table id="registeredVeteransTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Location</th>
+                        <th>RI</th>
+                        <th>Years</th>
+                        <th>50K</th>
+                        <th>Pace Tier</th>
+                        <th>Avg Time (Recent)</th>
+                        <th>Recent Performance (2022-2025)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="10" style="text-align: center;">Loading 2026 veterans...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="data-table">
+            <div class="table-title" style="cursor: pointer; user-select: none;" onclick="toggleVeteransTable()">
+                🏆 Barkley Veterans - Multi-Year Participants <span id="expandToggle" style="float: right; font-size: 0.8em; color: #999;">[Show More]</span>
+            </div>
             
             <div class="stats-grid" style="margin-bottom: 20px;">
                 <div class="stat-card">
@@ -379,6 +421,7 @@
                 </select>
             </div>
 
+            <div id="veteransTableContainer" style="max-height: 400px; overflow-y: auto; border: 1px solid #ddd; border-radius: 5px;">
             <table id="veteransTable">
                 <thead>
                     <tr>
@@ -400,6 +443,10 @@
                     <tr><td colspan="12" style="text-align: center;">Loading veterans...</td></tr>
                 </tbody>
             </table>
+            </div>
+            <div style="text-align: center; padding: 15px; background: #f9f9f9; border-top: 1px solid #ddd; cursor: pointer;" onclick="toggleVeteransTable()">
+                <span id="expandText">Show all veterans ▼</span>
+            </div>
         </div>
     </div>
 
@@ -413,6 +460,7 @@
         let allYears = [];
         const incompleteYears = [2016, 2017]; // Years with missing DNF data on UltraSignup
         const excludedFromAggregates = [2016, 2017, 2020]; // Skip these for aggregate stats (DNF missing or virtual year)
+        let veteransExpanded = false;
 
         // Load all historical data
         async function loadHistoricalData() {
@@ -870,8 +918,104 @@
             renderVeteransTable(filtered);
         }
 
+        function toggleVeteransTable() {
+            const container = document.getElementById('veteransTableContainer');
+            const expandText = document.getElementById('expandText');
+            const expandToggle = document.getElementById('expandToggle');
+            
+            veteransExpanded = !veteransExpanded;
+            
+            if (veteransExpanded) {
+                container.style.maxHeight = 'none';
+                expandText.textContent = 'Show less ▲';
+                expandToggle.textContent = '[Show Less]';
+            } else {
+                container.style.maxHeight = '400px';
+                expandText.textContent = 'Show all veterans ▼';
+                expandToggle.textContent = '[Show More]';
+            }
+        }
+
+        let registeredVeteransData = [];
+
+        async function loadRegisteredVeterans() {
+            try {
+                const response = await fetch('data/veterans_2026.json');
+                if (!response.ok) throw new Error('Failed to load veterans data');
+                
+                const data = await response.json();
+                registeredVeteransData = data.veterans || [];
+                renderRegisteredVeterans(registeredVeteransData);
+            } catch (error) {
+                console.error('Error loading registered veterans:', error);
+                document.querySelector('#registeredVeteransTable tbody').innerHTML = 
+                    '<tr><td colspan="9" style="text-align: center; color: #999;">No veteran data available</td></tr>';
+            }
+        }
+
+        function filterRegisteredVeterans() {
+            const paceFilter = document.getElementById('paceFilter').value;
+            let filtered = registeredVeteransData;
+
+            if (paceFilter !== 'all') {
+                filtered = registeredVeteransData.filter(v => v.experience.pace_tier === paceFilter);
+            }
+
+            renderRegisteredVeterans(filtered);
+        }
+
+        function renderRegisteredVeterans(veterans) {
+            const tbody = document.querySelector('#registeredVeteransTable tbody');
+            
+            if (veterans.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="10" style="text-align: center; color: #999;">No veterans match this filter</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = veterans.slice(0, 50).map((vet, idx) => {
+                const reliabilityClass = vet.experience.reliability_index >= 200 ? 'style="background-color: #fef3c7;"' :
+                                        vet.experience.reliability_index >= 150 ? 'style="background-color: #dbeafe;"' : '';
+                
+                const paceColor = vet.experience.pace_tier === 'Elite (Top 25%)' ? '#16a34a' :
+                                 vet.experience.pace_tier === 'Fast (Top 50%)' ? '#2563eb' :
+                                 vet.experience.pace_tier === 'Steady (Top 75%)' ? '#f59e0b' :
+                                 vet.experience.pace_tier === 'Conservative (Back 25%)' ? '#9333ea' : '#666';
+                
+                const recentCount = vet.experience.recent_finishes_count || 0;
+                const recentMarathonCount = vet.experience.recent_marathon_count || 0;
+                const recentSummary = vet.experience.recent_summary || 'No recent data';
+                
+                // Color code the recent summary
+                let summaryHtml = recentSummary;
+                if (recentSummary !== 'No recent data' && recentSummary !== 'No recent finishes') {
+                    summaryHtml = recentSummary
+                        .replace(/50K/g, '<span style="color: #CC9E1D; font-weight: bold;">50K</span>')
+                        .replace(/Marathon/g, '<span style="color: #7AA356;">Marathon</span>')
+                        .replace(/DNF/g, '<span style="color: #e74c3c; font-weight: bold;">DNF</span>');
+                }
+                
+                return `
+                    <tr ${reliabilityClass}>
+                        <td style="text-align: center; font-weight: bold;">${idx + 1}</td>
+                        <td><strong>${vet.name.first} ${vet.name.last}</strong></td>
+                        <td style="text-align: center;">${vet.age_category || 'N/A'}</td>
+                        <td style="font-size: 0.9em;">${vet.location.city || ''}, ${vet.location.state || ''}</td>
+                        <td style="text-align: center; font-weight: bold; color: #8b5cf6; font-size: 1.1em;">${vet.experience.reliability_index}</td>
+                        <td style="text-align: center;">${vet.experience.years_participated}</td>
+                        <td style="text-align: center; color: #CC9E1D; font-weight: bold;">${vet.experience['50k_finishes']}</td>
+                        <td style="text-align: center; color: ${paceColor}; font-weight: 500; font-size: 0.85em;">${vet.experience.pace_tier || 'N/A'}</td>
+                        <td style="text-align: center; font-weight: bold;">${vet.experience.avg_recent_time_formatted || 'N/A'}</td>
+                        <td style="font-size: 0.85em; text-align: center;">${summaryHtml}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
         // Load data when page loads
-        document.addEventListener('DOMContentLoaded', loadHistoricalData);
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHistoricalData();
+            loadRegisteredVeterans();
+        });
     </script>
 </body>
 </html>
