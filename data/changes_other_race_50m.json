@@ -68,5 +68,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-23T08:28:11.982906",
+    "count_change": 1,
+    "new_count": 220,
+    "previous_count": 219,
+    "new_entrants": [
+      {
+        "first_name": "Jack",
+        "last_name": "Shepherd",
+        "city": "Hastings on Hudson",
+        "location": "NY",
+        "age": "M40-49",
+        "key": "jack_shepherd_ny"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

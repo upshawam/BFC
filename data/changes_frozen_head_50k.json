@@ -77,5 +77,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-23T08:28:11.492447",
+    "count_change": 1,
+    "new_count": 500,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Maurice",
+        "last_name": "Ninnemann",
+        "city": "D\u00fcsseldorf",
+        "location": "DEU",
+        "age": "M40-49",
+        "key": "maurice_ninnemann_deu"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

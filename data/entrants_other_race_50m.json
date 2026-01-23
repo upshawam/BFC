@@ -1,13 +1,6 @@
 {
-  "count": 219,
+  "count": 220,
   "entrants": {
-    "lauren_campbell_va": {
-      "first_name": "Lauren",
-      "last_name": "Campbell",
-      "city": "Locust Grove",
-      "location": "VA",
-      "age": "F40-49"
-    },
     "amelie_roy_hi": {
       "first_name": "Amelie",
       "last_name": "Roy",
@@ -70,13 +63,6 @@
       "city": "newberry",
       "location": "FL",
       "age": "F30-39"
-    },
-    "johnny_gardner_va": {
-      "first_name": "Johnny",
-      "last_name": "Gardner",
-      "city": "Martinsville",
-      "location": "VA",
-      "age": "M30-39"
     },
     "ashley_woods_nc": {
       "first_name": "Ashley",
@@ -693,6 +679,13 @@
       "city": "Galax",
       "location": "VA",
       "age": "M60-69"
+    },
+    "jack_shepherd_ny": {
+      "first_name": "Jack",
+      "last_name": "Shepherd",
+      "city": "Hastings on Hudson",
+      "location": "NY",
+      "age": "M40-49"
     },
     "ruthie_williams_nc": {
       "first_name": "Ruthie",
@@ -1345,6 +1338,13 @@
       "location": "MN",
       "age": "F40-49"
     },
+    "lauren_campbell_va": {
+      "first_name": "Lauren",
+      "last_name": "Campbell",
+      "city": "Locust Grove",
+      "location": "VA",
+      "age": "F40-49"
+    },
     "davy_blessing_va": {
       "first_name": "Davy",
       "last_name": "Blessing",
@@ -1443,19 +1443,19 @@
       "location": "TN",
       "age": "F30-39"
     },
-    "kady_braswell_nc": {
-      "first_name": "Kady",
-      "last_name": "Braswell",
-      "city": "Lenoir",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "wade_baker_va": {
       "first_name": "Wade",
       "last_name": "Baker",
       "city": "Sterling",
       "location": "VA",
       "age": "M40-49"
+    },
+    "kady_braswell_nc": {
+      "first_name": "Kady",
+      "last_name": "Braswell",
+      "city": "Lenoir",
+      "location": "NC",
+      "age": "F30-39"
     },
     "jamie_benion_nc": {
       "first_name": "Jamie",
@@ -1527,6 +1527,13 @@
       "location": "NC",
       "age": "F50-59"
     },
+    "johnny_gardner_va": {
+      "first_name": "Johnny",
+      "last_name": "Gardner",
+      "city": "Martinsville",
+      "location": "VA",
+      "age": "M30-39"
+    },
     "jill_orton_va": {
       "first_name": "Jill",
       "last_name": "Orton",
@@ -1535,5 +1542,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-22T08:30:04.475376"
+  "timestamp": "2026-01-23T08:28:11.981228"
 }
