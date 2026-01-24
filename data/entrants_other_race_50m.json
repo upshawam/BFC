@@ -995,13 +995,6 @@
       "location": "GA",
       "age": "M70+"
     },
-    "jackie_nance_nc": {
-      "first_name": "Jackie",
-      "last_name": "Nance",
-      "city": "Elizabethtown",
-      "location": "NC",
-      "age": "F40-49"
-    },
     "tarek_haidar_nc": {
       "first_name": "Tarek",
       "last_name": "Haidar",
@@ -1036,6 +1029,13 @@
       "city": "Salisbury",
       "location": "NC",
       "age": "M50-59"
+    },
+    "jackie_nance_nc": {
+      "first_name": "Jackie",
+      "last_name": "Nance",
+      "city": "Elizabethtown",
+      "location": "NC",
+      "age": "F40-49"
     },
     "tiffany_van orden_va": {
       "first_name": "Tiffany",
@@ -1542,5 +1542,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-23T08:28:11.981228"
+  "timestamp": "2026-01-24T08:24:41.315915"
 }
