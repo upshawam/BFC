@@ -106,5 +106,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-25T08:25:37.379746",
+    "count_change": -500,
+    "new_count": 0,
+    "previous_count": 500,
+    "new_entrants": [
+      {
+        "first_name": "Anna",
+        "last_name": "Schermerhorn",
+        "city": "Riverview",
+        "location": "FL",
+        "age": "F40-49",
+        "key": "anna_schermerhorn_fl"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
