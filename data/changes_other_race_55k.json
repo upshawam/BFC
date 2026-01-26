@@ -98,5 +98,56 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-26T08:30:18.952884",
+    "count_change": 5,
+    "new_count": 238,
+    "previous_count": 233,
+    "new_entrants": [
+      {
+        "first_name": "Kathryn",
+        "last_name": "Schade",
+        "city": "San Antonio",
+        "location": "TX",
+        "age": "F50-59",
+        "key": "kathryn_schade_tx"
+      },
+      {
+        "first_name": "Krista",
+        "last_name": "Cleaver",
+        "city": "Holly Springs",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "krista_cleaver_nc"
+      },
+      {
+        "first_name": "Margaret",
+        "last_name": "Branick-Abilla",
+        "city": "Half Moon Bay",
+        "location": "CA",
+        "age": "F50-59",
+        "key": "margaret_branick-abilla_ca"
+      },
+      {
+        "first_name": "Nathan",
+        "last_name": "Jentink",
+        "city": "Harrisburg",
+        "location": "PA",
+        "age": "M30-39",
+        "key": "nathan_jentink_pa"
+      },
+      {
+        "first_name": "Ruth Ann",
+        "last_name": "Glass",
+        "city": "Fuquay Varina",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "ruth ann_glass_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 5,
+    "total_dropped": 0
   }
 ]
