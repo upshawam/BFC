@@ -149,5 +149,32 @@
     "dropped_entrants": [],
     "total_new": 5,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-27T08:31:18.506412",
+    "count_change": 2,
+    "new_count": 240,
+    "previous_count": 238,
+    "new_entrants": [
+      {
+        "first_name": "Bridget",
+        "last_name": "Wilson",
+        "city": "Ithaca",
+        "location": "NY",
+        "age": "F50-59",
+        "key": "bridget_wilson_ny"
+      },
+      {
+        "first_name": "Jacob",
+        "last_name": "Mitchell",
+        "city": "Honaker",
+        "location": "VA",
+        "age": "M30-39",
+        "key": "jacob_mitchell_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
