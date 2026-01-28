@@ -127,5 +127,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-28T08:29:55.525363",
+    "count_change": -1,
+    "new_count": 219,
+    "previous_count": 220,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jamie",
+        "last_name": "Benion",
+        "city": "Salisbury",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "jamie_benion_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
