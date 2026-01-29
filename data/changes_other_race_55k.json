@@ -195,5 +195,15 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-29T08:36:55.189913",
+    "count_change": 0,
+    "new_count": 241,
+    "previous_count": 241,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
   }
 ]
