@@ -165,5 +165,56 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-30T08:12:06.522629",
+    "count_change": -5,
+    "new_count": 496,
+    "previous_count": 501,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Bob",
+        "last_name": "Boyd",
+        "city": "Davidson",
+        "location": "NC",
+        "age": "M60-69",
+        "key": "bob_boyd_nc"
+      },
+      {
+        "first_name": "Brandon",
+        "last_name": "Callahan",
+        "city": "Elmer",
+        "location": "LA",
+        "age": "M50-59",
+        "key": "brandon_callahan_la"
+      },
+      {
+        "first_name": "Chad",
+        "last_name": "Benson",
+        "city": "Jonesville",
+        "location": "MI",
+        "age": "M50-59",
+        "key": "chad_benson_mi"
+      },
+      {
+        "first_name": "Clint",
+        "last_name": "Carr",
+        "city": "Bonney Lake",
+        "location": "WA",
+        "age": "M40-49",
+        "key": "clint_carr_wa"
+      },
+      {
+        "first_name": "John",
+        "last_name": "Hord",
+        "city": "Takoma Park",
+        "location": "MD",
+        "age": "M50-59",
+        "key": "john_hord_md"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 5
   }
 ]

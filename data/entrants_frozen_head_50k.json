@@ -1,5 +1,5 @@
 {
-  "count": 501,
+  "count": 496,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -1114,13 +1114,6 @@
       "location": "CA",
       "age": "F40-49"
     },
-    "austin_gros_tn": {
-      "first_name": "Austin",
-      "last_name": "Gros",
-      "city": "Lebanon",
-      "location": "TN",
-      "age": "M40-49"
-    },
     "joseph_daniski_mn": {
       "first_name": "Joseph",
       "last_name": "Daniski",
@@ -1128,12 +1121,12 @@
       "location": "MN",
       "age": "M40-49"
     },
-    "brandon_callahan_la": {
-      "first_name": "Brandon",
-      "last_name": "Callahan",
-      "city": "Elmer",
-      "location": "LA",
-      "age": "M50-59"
+    "austin_gros_tn": {
+      "first_name": "Austin",
+      "last_name": "Gros",
+      "city": "Lebanon",
+      "location": "TN",
+      "age": "M40-49"
     },
     "jay_hunt_co": {
       "first_name": "Jay",
@@ -1807,13 +1800,6 @@
       "location": "OR",
       "age": "M20-29"
     },
-    "bob_boyd_nc": {
-      "first_name": "Bob",
-      "last_name": "Boyd",
-      "city": "Davidson",
-      "location": "NC",
-      "age": "M60-69"
-    },
     "todd_clay_al": {
       "first_name": "Todd",
       "last_name": "Clay",
@@ -1959,13 +1945,6 @@
       "last_name": "Gauthier",
       "city": "Quebec",
       "location": "QC",
-      "age": "M40-49"
-    },
-    "clint_carr_wa": {
-      "first_name": "Clint",
-      "last_name": "Carr",
-      "city": "Bonney Lake",
-      "location": "WA",
       "age": "M40-49"
     },
     "nicholas_bagwell_tx": {
@@ -2528,13 +2507,6 @@
       "location": "OH",
       "age": "M50-59"
     },
-    "chad_benson_mi": {
-      "first_name": "Chad",
-      "last_name": "Benson",
-      "city": "Jonesville",
-      "location": "MI",
-      "age": "M50-59"
-    },
     "jason_stevens_oh": {
       "first_name": "Jason",
       "last_name": "Stevens",
@@ -2548,13 +2520,6 @@
       "city": "New Ipswich",
       "location": "NH",
       "age": "M40-49"
-    },
-    "john_hord_md": {
-      "first_name": "John",
-      "last_name": "Hord",
-      "city": "Takoma Park",
-      "location": "MD",
-      "age": "M50-59"
     },
     "annette_levean_on": {
       "first_name": "Annette",
@@ -3270,13 +3235,6 @@
       "location": "NOR",
       "age": "M30-39"
     },
-    "nils_tracy_nc": {
-      "first_name": "Nils",
-      "last_name": "Tracy",
-      "city": "Cornelius",
-      "location": "NC",
-      "age": "M40-49"
-    },
     "fatos_vllahinja_alb": {
       "first_name": "Fatos",
       "last_name": "Vllahinja",
@@ -3410,6 +3368,13 @@
       "location": "DEU",
       "age": "M30-39"
     },
+    "nils_tracy_nc": {
+      "first_name": "Nils",
+      "last_name": "Tracy",
+      "city": "Cornelius",
+      "location": "NC",
+      "age": "M40-49"
+    },
     "laina_rogers_on": {
       "first_name": "Laina",
       "last_name": "Rogers",
@@ -3459,26 +3424,12 @@
       "location": "ON",
       "age": "M60-69"
     },
-    "sam_marcengill_sc": {
-      "first_name": "Sam",
-      "last_name": "Marcengill",
-      "city": "Anderson",
-      "location": "SC",
-      "age": "M40-49"
-    },
     "deborah_kelly_sd": {
       "first_name": "Deborah",
       "last_name": "Kelly",
       "city": "Sioux Falls",
       "location": "SD",
       "age": "F50-59"
-    },
-    "eleanor_mcdonough_tn": {
-      "first_name": "Eleanor",
-      "last_name": "McDonough",
-      "city": "Knoxville",
-      "location": "TN",
-      "age": "F30-39"
     },
     "megan_kretschmer_tx": {
       "first_name": "Megan",
@@ -3487,12 +3438,26 @@
       "location": "TX",
       "age": "F40-49"
     },
+    "eleanor_mcdonough_tn": {
+      "first_name": "Eleanor",
+      "last_name": "McDonough",
+      "city": "Knoxville",
+      "location": "TN",
+      "age": "F30-39"
+    },
     "gregory_harris_on": {
       "first_name": "Gregory",
       "last_name": "Harris",
       "city": "Etobicoke",
       "location": "ON",
       "age": "M60-69"
+    },
+    "sam_marcengill_sc": {
+      "first_name": "Sam",
+      "last_name": "Marcengill",
+      "city": "Anderson",
+      "location": "SC",
+      "age": "M40-49"
     },
     "daniel_r\u00f6mer_swe": {
       "first_name": "Daniel",
@@ -3509,5 +3474,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-29T08:36:53.426936"
+  "timestamp": "2026-01-30T08:12:06.520749"
 }

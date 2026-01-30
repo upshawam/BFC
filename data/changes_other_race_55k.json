@@ -205,5 +205,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-30T08:12:07.202140",
+    "count_change": 1,
+    "new_count": 242,
+    "previous_count": 241,
+    "new_entrants": [
+      {
+        "first_name": "Robert",
+        "last_name": "Brooks",
+        "city": "Durham",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "robert_brooks_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
