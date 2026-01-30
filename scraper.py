@@ -74,22 +74,6 @@ class EntrantTracker:
             
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Extract entrant count from page text
-            # Looking for "498 Entrants" pattern
-            current_count = 0
-            for text in soup.strings:
-                text_str = str(text).strip()
-                if "Entrants" in text_str and any(c.isdigit() for c in text_str):
-                    # Extract first number
-                    import re
-                    match = re.search(r'(\d+)\s+Entrants', text_str)
-                    if match:
-                        current_count = int(match.group(1))
-                        if current_count > 500:  # The "2026 The Barkley..." has 2026 in it
-                            current_count = 0  # Reset, keep looking
-                        elif current_count < 500:  # 498 is the right one
-                            break
-            
             entrants = {}
             
             # Find the main entrants table (table index 2 based on page structure)
@@ -122,6 +106,9 @@ class EntrantTracker:
                                 }
                         except (IndexError, AttributeError):
                             continue
+            
+            # Count is the actual number of entrants scraped (most reliable source)
+            current_count = len(entrants)
             
             return {
                 'count': current_count,
