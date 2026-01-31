@@ -837,8 +837,8 @@
         function renderAllChanges() {
             let html = '';
             
-            // Iterate through all changes and collect adds and drops
-            changesData.forEach(change => {
+            // Iterate through all changes in reverse (newest first) and collect adds and drops
+            changesData.slice().reverse().forEach(change => {
                 const date = new Date(change.timestamp);
                 const dateStr = date.toLocaleString('en-US', {
                     month: 'short',
