@@ -275,5 +275,24 @@
     "dropped_entrants": [],
     "total_new": 6,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-01-31T19:09:20.495558",
+    "count_change": -1,
+    "new_count": 501,
+    "previous_count": 502,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Tim",
+        "last_name": "Purol",
+        "city": "Clearwater",
+        "location": "FL",
+        "age": "M60-69",
+        "key": "tim_purol_fl"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
