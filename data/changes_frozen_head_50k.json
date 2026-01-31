@@ -216,5 +216,64 @@
     ],
     "total_new": 0,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-01-31T08:07:12.083220",
+    "count_change": 6,
+    "new_count": 502,
+    "previous_count": 496,
+    "new_entrants": [
+      {
+        "first_name": "Brandon",
+        "last_name": "Crews",
+        "city": "Asheville",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "brandon_crews_nc"
+      },
+      {
+        "first_name": "Kelly",
+        "last_name": "Junkins",
+        "city": "Wichita",
+        "location": "KS",
+        "age": "F30-39",
+        "key": "kelly_junkins_ks"
+      },
+      {
+        "first_name": "Kyle",
+        "last_name": "Weber",
+        "city": "Strawberry Point",
+        "location": "IA",
+        "age": "M30-39",
+        "key": "kyle_weber_ia"
+      },
+      {
+        "first_name": "Lise",
+        "last_name": "Brackbill",
+        "city": "Los Alamos",
+        "location": "NM",
+        "age": "F50-59",
+        "key": "lise_brackbill_nm"
+      },
+      {
+        "first_name": "Lydia",
+        "last_name": "Schweitzer",
+        "city": "Sunnyvale",
+        "location": "CA",
+        "age": "F20-29",
+        "key": "lydia_schweitzer_ca"
+      },
+      {
+        "first_name": "Ryan",
+        "last_name": "Cooper",
+        "city": "Boulder",
+        "location": "CO",
+        "age": "M50-59",
+        "key": "ryan_cooper_co"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 6,
+    "total_dropped": 0
   }
 ]
