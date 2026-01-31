@@ -754,6 +754,26 @@
                     ? `<span class="negative">${change.count_change}</span>`
                     : 'No change';
 
+                // Build list of new entrants
+                let newEntrantsList = '';
+                if (change.new_entrants && change.new_entrants.length > 0) {
+                    newEntrantsList = '<div style="margin-top: 8px;"><strong style="color: #27ae60;">Added:</strong><ul style="margin: 5px 0 0 20px; font-size: 0.9em;">';
+                    change.new_entrants.forEach(e => {
+                        newEntrantsList += `<li>${e.first_name} ${e.last_name} (${e.location})</li>`;
+                    });
+                    newEntrantsList += '</ul></div>';
+                }
+
+                // Build list of dropped entrants
+                let droppedEntrantsList = '';
+                if (change.dropped_entrants && change.dropped_entrants.length > 0) {
+                    droppedEntrantsList = '<div style="margin-top: 8px;"><strong style="color: #e74c3c;">Dropped:</strong><ul style="margin: 5px 0 0 20px; font-size: 0.9em;">';
+                    change.dropped_entrants.forEach(e => {
+                        droppedEntrantsList += `<li>${e.first_name} ${e.last_name} (${e.location})</li>`;
+                    });
+                    droppedEntrantsList += '</ul></div>';
+                }
+
                 html += `
                     <div class="activity-item">
                         <div class="activity-date">${dateStr}</div>
@@ -765,6 +785,8 @@
                             ${change.total_dropped > 0 ? `❌ ${change.total_dropped} dropped` : ''}
                             ${change.total_new === 0 && change.total_dropped === 0 ? 'No changes' : ''}
                         </div>
+                        ${newEntrantsList}
+                        ${droppedEntrantsList}
                     </div>
                 `;
             });
