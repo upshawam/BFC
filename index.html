@@ -378,6 +378,7 @@
             <div class="tabs">
                 <button class="tab active" onclick="switchTab('recent')">Recent Changes</button>
                 <button class="tab" onclick="switchTab('history')">Full History</button>
+                <button class="tab" onclick="switchTab('allchanges')">All Adds & Drops</button>
             </div>
 
             <div id="recent" class="tab-content active">
@@ -400,6 +401,24 @@
                         </thead>
                         <tbody id="historyBody">
                             <tr><td colspan="5" style="text-align: center; color: #999;">Loading...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="allchanges" class="tab-content">
+                <div style="overflow-x: auto;">
+                    <table id="allchangesTable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Type</th>
+                                <th>Name</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody id="allchangesBody">
+                            <tr><td colspan="4" style="text-align: center; color: #999;">Loading...</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -542,6 +561,7 @@
             renderAnalysis();
             renderRecentActivity();
             renderHistory();
+            renderAllChanges();
         }
 
         function updateStats() {
@@ -798,7 +818,8 @@
             if (historyData.length === 0) return;
 
             let html = '';
-            historyData.forEach(row => {
+            // Reverse to show most recent on top
+            historyData.slice().reverse().forEach(row => {
                 html += `
                     <tr>
                         <td>${row.Date}</td>
@@ -811,6 +832,56 @@
             });
 
             document.getElementById('historyBody').innerHTML = html;
+        }
+
+        function renderAllChanges() {
+            let html = '';
+            
+            // Iterate through all changes and collect adds and drops
+            changesData.forEach(change => {
+                const date = new Date(change.timestamp);
+                const dateStr = date.toLocaleString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                // Add new entrants
+                if (change.new_entrants && change.new_entrants.length > 0) {
+                    change.new_entrants.forEach(entrant => {
+                        html += `
+                            <tr>
+                                <td>${dateStr}</td>
+                                <td><span class="positive" style="font-weight: bold;">✅ Added</span></td>
+                                <td>${entrant.first_name} ${entrant.last_name}</td>
+                                <td>${entrant.location}</td>
+                            </tr>
+                        `;
+                    });
+                }
+
+                // Add dropped entrants
+                if (change.dropped_entrants && change.dropped_entrants.length > 0) {
+                    change.dropped_entrants.forEach(entrant => {
+                        html += `
+                            <tr>
+                                <td>${dateStr}</td>
+                                <td><span class="negative" style="font-weight: bold;">❌ Dropped</span></td>
+                                <td>${entrant.first_name} ${entrant.last_name}</td>
+                                <td>${entrant.location}</td>
+                            </tr>
+                        `;
+                    });
+                }
+            });
+
+            if (html === '') {
+                html = '<tr><td colspan="4" style="text-align: center; color: #999;">No changes recorded yet</td></tr>';
+            }
+
+            document.getElementById('allchangesBody').innerHTML = html;
         }
 
         function switchTab(tabName) {
