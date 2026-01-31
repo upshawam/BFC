@@ -109,8 +109,8 @@
   },
   {
     "timestamp": "2026-01-25T08:25:37.379746",
-    "count_change": -500,
-    "new_count": 0,
+    "count_change": 1,
+    "new_count": 501,
     "previous_count": 500,
     "new_entrants": [
       {
@@ -129,8 +129,8 @@
   {
     "timestamp": "2026-01-26T08:30:17.901028",
     "count_change": 0,
-    "new_count": 0,
-    "previous_count": 0,
+    "new_count": 501,
+    "previous_count": 501,
     "new_entrants": [],
     "dropped_entrants": [],
     "total_new": 0,
@@ -139,8 +139,8 @@
   {
     "timestamp": "2026-01-27T08:31:16.848224",
     "count_change": 0,
-    "new_count": 0,
-    "previous_count": 0,
+    "new_count": 501,
+    "previous_count": 501,
     "new_entrants": [],
     "dropped_entrants": [],
     "total_new": 0,
@@ -149,8 +149,8 @@
   {
     "timestamp": "2026-01-28T08:29:54.763010",
     "count_change": 0,
-    "new_count": 0,
-    "previous_count": 0,
+    "new_count": 501,
+    "previous_count": 501,
     "new_entrants": [],
     "dropped_entrants": [],
     "total_new": 0,
@@ -159,8 +159,8 @@
   {
     "timestamp": "2026-01-29T08:36:53.428806",
     "count_change": 0,
-    "new_count": 0,
-    "previous_count": 0,
+    "new_count": 501,
+    "previous_count": 501,
     "new_entrants": [],
     "dropped_entrants": [],
     "total_new": 0,
