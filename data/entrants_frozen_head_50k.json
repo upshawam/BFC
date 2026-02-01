@@ -638,12 +638,12 @@
       "location": "TN",
       "age": "F40-49"
     },
-    "tim_atkins_la": {
-      "first_name": "Tim",
-      "last_name": "Atkins",
-      "city": "Chatham",
-      "location": "LA",
-      "age": "M40-49"
+    "kelly_wichtendahl_ny": {
+      "first_name": "Kelly",
+      "last_name": "Wichtendahl",
+      "city": "Webster",
+      "location": "NY",
+      "age": "F40-49"
     },
     "drew_martel_ia": {
       "first_name": "Drew",
@@ -652,18 +652,18 @@
       "location": "IA",
       "age": "M40-49"
     },
+    "tim_atkins_la": {
+      "first_name": "Tim",
+      "last_name": "Atkins",
+      "city": "Chatham",
+      "location": "LA",
+      "age": "M40-49"
+    },
     "kristina_myint_ne": {
       "first_name": "Kristina",
       "last_name": "Myint",
       "city": "Omaha",
       "location": "NE",
-      "age": "F40-49"
-    },
-    "kelly_wichtendahl_ny": {
-      "first_name": "Kelly",
-      "last_name": "Wichtendahl",
-      "city": "Webster",
-      "location": "NY",
       "age": "F40-49"
     },
     "jeffrey_kern_mo": {
@@ -2332,6 +2332,13 @@
       "location": "VA",
       "age": "M30-39"
     },
+    "rick_bennett_ny": {
+      "first_name": "Rick",
+      "last_name": "Bennett",
+      "city": "Webster",
+      "location": "NY",
+      "age": "M60-69"
+    },
     "miranda_smith_ms": {
       "first_name": "Miranda",
       "last_name": "Smith",
@@ -2380,13 +2387,6 @@
       "city": "salem",
       "location": "NH",
       "age": "F40-49"
-    },
-    "rick_bennett_ny": {
-      "first_name": "Rick",
-      "last_name": "Bennett",
-      "city": "Webster",
-      "location": "NY",
-      "age": "M60-69"
     },
     "kristal_romans_nv": {
       "first_name": "Kristal",
@@ -3509,5 +3509,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-01-31T19:09:20.493802"
+  "timestamp": "2026-02-01T08:08:33.978183"
 }
