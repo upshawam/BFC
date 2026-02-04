@@ -274,5 +274,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-04T08:14:09.446140",
+    "count_change": 0,
+    "new_count": 242,
+    "previous_count": 242,
+    "new_entrants": [
+      {
+        "first_name": "Pat",
+        "last_name": "Hartzell",
+        "city": "Raleigh",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "pat_hartzell_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Patrick",
+        "last_name": "Hartzell",
+        "city": "Raleigh",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "patrick_hartzell_nc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
