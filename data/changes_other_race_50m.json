@@ -236,5 +236,48 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-05T18:58:58.047327",
+    "count_change": 4,
+    "new_count": 223,
+    "previous_count": 219,
+    "new_entrants": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Upshaw",
+        "city": "Gallatin",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "aaron_upshaw_tn"
+      },
+      {
+        "first_name": "Justin",
+        "last_name": "Mueller",
+        "city": "MOUNT JULIET",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "justin_mueller_tn"
+      },
+      {
+        "first_name": "Rachel",
+        "last_name": "Brunner",
+        "city": "Cary",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "rachel_brunner_nc"
+      },
+      {
+        "first_name": "Sven",
+        "last_name": "Macaller",
+        "city": "Chapel Hill",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "sven_macaller_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 4,
+    "total_dropped": 0
   }
 ]

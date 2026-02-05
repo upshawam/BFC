@@ -312,5 +312,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-05T18:58:58.844196",
+    "count_change": 1,
+    "new_count": 243,
+    "previous_count": 242,
+    "new_entrants": [
+      {
+        "first_name": "Kathy",
+        "last_name": "Taylor",
+        "city": "Sevierville",
+        "location": "TN",
+        "age": "F60-69",
+        "key": "kathy_taylor_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
