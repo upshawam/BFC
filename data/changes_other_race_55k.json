@@ -331,5 +331,48 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-06T08:14:43.436746",
+    "count_change": 4,
+    "new_count": 247,
+    "previous_count": 243,
+    "new_entrants": [
+      {
+        "first_name": "Britt",
+        "last_name": "Draughn",
+        "city": "Asheville",
+        "location": "NC",
+        "age": "F30-39",
+        "key": "britt_draughn_nc"
+      },
+      {
+        "first_name": "John",
+        "last_name": "Bricker",
+        "city": "Danielsville",
+        "location": "GA",
+        "age": "M50-59",
+        "key": "john_bricker_ga"
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Lovell",
+        "city": "Georgetwon",
+        "location": "KY",
+        "age": "M50-59",
+        "key": "jonathan_lovell_ky"
+      },
+      {
+        "first_name": "Matthew",
+        "last_name": "Frazier",
+        "city": "Norfolk",
+        "location": "VA",
+        "age": "M40-49",
+        "key": "matthew_frazier_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 4,
+    "total_dropped": 0
   }
 ]

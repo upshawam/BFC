@@ -279,5 +279,32 @@
     "dropped_entrants": [],
     "total_new": 4,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-06T08:14:43.067199",
+    "count_change": 2,
+    "new_count": 225,
+    "previous_count": 223,
+    "new_entrants": [
+      {
+        "first_name": "Amy",
+        "last_name": "Lambert",
+        "city": "Cary",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "amy_lambert_nc"
+      },
+      {
+        "first_name": "Kristin",
+        "last_name": "Upshaw",
+        "city": "Gallatin",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "kristin_upshaw_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
