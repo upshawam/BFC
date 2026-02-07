@@ -306,5 +306,24 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-07T08:08:14.804785",
+    "count_change": 1,
+    "new_count": 226,
+    "previous_count": 225,
+    "new_entrants": [
+      {
+        "first_name": "Patrick",
+        "last_name": "O\u2019Toole",
+        "city": "Princeton",
+        "location": "NJ",
+        "age": "M60-69",
+        "key": "patrick_o\u2019toole_nj"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
