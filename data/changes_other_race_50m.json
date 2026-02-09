@@ -344,5 +344,32 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-09T08:17:03.182395",
+    "count_change": 2,
+    "new_count": 229,
+    "previous_count": 227,
+    "new_entrants": [
+      {
+        "first_name": "Andrew",
+        "last_name": "Long",
+        "city": "Hampstead",
+        "location": "MD",
+        "age": "M20-29",
+        "key": "andrew_long_md"
+      },
+      {
+        "first_name": "Delia",
+        "last_name": "Large-Hart",
+        "city": "Falls Church",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "delia_large-hart_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
