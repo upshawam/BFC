@@ -371,5 +371,24 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-10T08:17:33.558253",
+    "count_change": -1,
+    "new_count": 228,
+    "previous_count": 229,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Alexandria",
+        "last_name": "Jones",
+        "city": "elberton",
+        "location": "GA",
+        "age": "F40-49",
+        "key": "alexandria_jones_ga"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

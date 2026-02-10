@@ -1,5 +1,5 @@
 {
-  "count": 229,
+  "count": 228,
   "entrants": {
     "amelie_roy_hi": {
       "first_name": "Amelie",
@@ -393,6 +393,13 @@
       "location": "NC",
       "age": "M30-39"
     },
+    "karen_ashbrook-barnes_va": {
+      "first_name": "Karen",
+      "last_name": "Ashbrook-Barnes",
+      "city": "VIENNA",
+      "location": "VA",
+      "age": "F50-59"
+    },
     "matthew_verley_sc": {
       "first_name": "Matthew",
       "last_name": "Verley",
@@ -469,13 +476,6 @@
       "city": "Winston Salem",
       "location": "NC",
       "age": "M50-59"
-    },
-    "karen_ashbrook-barnes_va": {
-      "first_name": "Karen",
-      "last_name": "Ashbrook-Barnes",
-      "city": "VIENNA",
-      "location": "VA",
-      "age": "F50-59"
     },
     "jackson_weikel-sandstrom_pa": {
       "first_name": "Jackson",
@@ -925,13 +925,6 @@
       "location": "SC",
       "age": "F40-49"
     },
-    "jessica_lucas-judy_va": {
-      "first_name": "Jessica",
-      "last_name": "Lucas-Judy",
-      "city": "Falls Church",
-      "location": "VA",
-      "age": "F50-59"
-    },
     "isac_dominguez_nc": {
       "first_name": "Isac",
       "last_name": "Dominguez",
@@ -951,6 +944,13 @@
       "last_name": "Nash",
       "city": "Collierville",
       "location": "TN",
+      "age": "F50-59"
+    },
+    "jessica_lucas-judy_va": {
+      "first_name": "Jessica",
+      "last_name": "Lucas-Judy",
+      "city": "Falls Church",
+      "location": "VA",
       "age": "F50-59"
     },
     "stephanie_pamplin_ga": {
@@ -1191,13 +1191,6 @@
       "location": "VA",
       "age": "F30-39"
     },
-    "amanda_morken_va": {
-      "first_name": "Amanda",
-      "last_name": "Morken",
-      "city": "Alexandria",
-      "location": "VA",
-      "age": "F50-59"
-    },
     "teresa_amundson_va": {
       "first_name": "Teresa",
       "last_name": "Amundson",
@@ -1219,19 +1212,19 @@
       "location": "MD",
       "age": "M40-49"
     },
+    "amanda_morken_va": {
+      "first_name": "Amanda",
+      "last_name": "Morken",
+      "city": "Alexandria",
+      "location": "VA",
+      "age": "F50-59"
+    },
     "james_jones_va": {
       "first_name": "James",
       "last_name": "Jones",
       "city": "Moseley",
       "location": "VA",
       "age": "M30-39"
-    },
-    "alexandria_jones_ga": {
-      "first_name": "Alexandria",
-      "last_name": "Jones",
-      "city": "elberton",
-      "location": "GA",
-      "age": "F40-49"
     },
     "raechel_attaway_sc": {
       "first_name": "Raechel",
@@ -1590,20 +1583,20 @@
       "location": "VA",
       "age": "F40-49"
     },
-    "kady_braswell_nc": {
-      "first_name": "Kady",
-      "last_name": "Braswell",
-      "city": "Lenoir",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "wade_baker_va": {
       "first_name": "Wade",
       "last_name": "Baker",
       "city": "Sterling",
       "location": "VA",
       "age": "M40-49"
+    },
+    "kady_braswell_nc": {
+      "first_name": "Kady",
+      "last_name": "Braswell",
+      "city": "Lenoir",
+      "location": "NC",
+      "age": "F30-39"
     }
   },
-  "timestamp": "2026-02-09T08:17:03.181080"
+  "timestamp": "2026-02-10T08:17:33.556822"
 }
