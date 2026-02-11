@@ -390,5 +390,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-02-11T08:16:51.488310",
+    "count_change": 1,
+    "new_count": 229,
+    "previous_count": 228,
+    "new_entrants": [
+      {
+        "first_name": "Nathan",
+        "last_name": "McClure",
+        "city": "Glen Alpine",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "nathan_mcclure_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
