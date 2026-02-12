@@ -409,5 +409,24 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-12T08:15:38.265899",
+    "count_change": 1,
+    "new_count": 230,
+    "previous_count": 229,
+    "new_entrants": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Albright",
+        "city": "Norfolk",
+        "location": "VA",
+        "age": "M20-29",
+        "key": "aaron_albright_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
