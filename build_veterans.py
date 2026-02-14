@@ -37,7 +37,10 @@ veterans = {}  # {normalized_name: {'entrant_info': {...}, '50k': [...], 'marath
 historical_path = Path('data/historical/results')
 
 # Process each year's results
-for year in range(2015, 2026):
+FIRST_YEAR = 2015
+LAST_YEAR = 2025
+
+for year in range(FIRST_YEAR, LAST_YEAR + 1):
     # Process 50K
     file_50k = historical_path / f'results_{year}_50k.json'
     if file_50k.exists():
@@ -159,10 +162,17 @@ for name, data in sorted(veterans_50k_only.items()):
         avg_time_formatted = f"{hours}:{minutes:02d}:{seconds:02d}"
     
     # Calculate Reliability Index
-    # Formula: (50K finishes × 15) + (years participated × 10) - (marathon finishes × 5)
+    # Formula: (50K finishes × 15) + (years participated × 10) - (marathon finishes × 5) + recency bonus
+    # Recency bonus rewards latest 50K finishers: last 4 years get +2/+4/+6/+8 (oldest -> newest)
     # This rewards: consistent 50K finishing, longevity, but penalizes settling for marathon
     # Speed is NOT considered - we want steady reliable finishers, not fast ones
-    reliability_index = (num_50k_finishes * 15) + (years_participated * 10) - (num_marathon_finishes * 5)
+    recency_start = LAST_YEAR - 3
+    recency_bonus = sum(
+        max(0, (f['year'] - recency_start + 1)) * 2
+        for f in data['50k']
+        if f['year'] >= recency_start
+    )
+    reliability_index = (num_50k_finishes * 15) + (years_participated * 10) - (num_marathon_finishes * 5) + recency_bonus
     
     # Calculate 50K consistency rate (how often they finish 50K when they show up)
     consistency_rate = round((num_50k_finishes / years_participated) * 100) if years_participated > 0 else 0
@@ -182,6 +192,7 @@ for name, data in sorted(veterans_50k_only.items()):
             '50k_finishes': num_50k_finishes,
             'marathon_finishes': num_marathon_finishes,
             'reliability_index': reliability_index,
+            'recency_bonus': recency_bonus,
             'consistency_rate': consistency_rate,
             'avg_recent_time_seconds': avg_recent_time_seconds,
             'avg_recent_time_formatted': avg_time_formatted,
