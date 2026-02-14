@@ -162,17 +162,34 @@ for name, data in sorted(veterans_50k_only.items()):
         avg_time_formatted = f"{hours}:{minutes:02d}:{seconds:02d}"
     
     # Calculate Reliability Index
-    # Formula: (50K finishes × 15) + (years participated × 10) - (marathon finishes × 5) + recency bonus
-    # Recency bonus rewards latest 50K finishers: last 4 years get +2/+4/+6/+8 (oldest -> newest)
-    # This rewards: consistent 50K finishing, longevity, but penalizes settling for marathon
+    # Formula: (50K finishes × 20) + (years participated × 10) - (marathon finishes × 5) + recency bonus + streak bonus
+    # Recency bonus rewards latest 50K finishers (last 4 years): +5/+10/+15/+20 (oldest -> newest)
+    # Streak bonus: +10 per consecutive recent-year 50K finish (2024-2025 = +20)
+    # This rewards: consistent multi-year 50K finishing, longevity, and strong recent success
     # Speed is NOT considered - we want steady reliable finishers, not fast ones
     recency_start = LAST_YEAR - 3
     recency_bonus = sum(
-        max(0, (f['year'] - recency_start + 1)) * 2
+        max(0, (f['year'] - recency_start + 1)) * 5
         for f in data['50k']
         if f['year'] >= recency_start
     )
-    reliability_index = (num_50k_finishes * 15) + (years_participated * 10) - (num_marathon_finishes * 5) + recency_bonus
+
+    recent_50k_years = sorted({f['year'] for f in data['50k'] if f['year'] >= recency_start})
+    consecutive = 0
+    for year in range(LAST_YEAR, recency_start - 1, -1):
+        if year in recent_50k_years:
+            consecutive += 1
+        else:
+            break
+    streak_bonus = consecutive * 10
+
+    reliability_index = (
+        (num_50k_finishes * 20)
+        + (years_participated * 10)
+        - (num_marathon_finishes * 5)
+        + recency_bonus
+        + streak_bonus
+    )
     
     # Calculate 50K consistency rate (how often they finish 50K when they show up)
     consistency_rate = round((num_50k_finishes / years_participated) * 100) if years_participated > 0 else 0
@@ -193,6 +210,7 @@ for name, data in sorted(veterans_50k_only.items()):
             'marathon_finishes': num_marathon_finishes,
             'reliability_index': reliability_index,
             'recency_bonus': recency_bonus,
+            'streak_bonus': streak_bonus,
             'consistency_rate': consistency_rate,
             'avg_recent_time_seconds': avg_recent_time_seconds,
             'avg_recent_time_formatted': avg_time_formatted,
