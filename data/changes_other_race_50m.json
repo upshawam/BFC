@@ -438,5 +438,32 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-14T08:08:29.847258",
+    "count_change": 2,
+    "new_count": 232,
+    "previous_count": 230,
+    "new_entrants": [
+      {
+        "first_name": "Billy",
+        "last_name": "Akin",
+        "city": "Pikeville",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "billy_akin_tn"
+      },
+      {
+        "first_name": "Rachael",
+        "last_name": "Akin",
+        "city": "Pikeville",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "rachael_akin_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
