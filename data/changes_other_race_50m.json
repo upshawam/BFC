@@ -465,5 +465,24 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-15T08:09:09.636015",
+    "count_change": 1,
+    "new_count": 233,
+    "previous_count": 232,
+    "new_entrants": [
+      {
+        "first_name": "Art",
+        "last_name": "Jur",
+        "city": "Bristol",
+        "location": "VA",
+        "age": "M50-59",
+        "key": "art_jur_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

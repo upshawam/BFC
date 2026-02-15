@@ -1,5 +1,5 @@
 {
-  "count": 232,
+  "count": 233,
   "entrants": {
     "amelie_roy_hi": {
       "first_name": "Amelie",
@@ -428,6 +428,13 @@
       "location": "NC",
       "age": "F40-49"
     },
+    "art_jur_va": {
+      "first_name": "Art",
+      "last_name": "Jur",
+      "city": "Bristol",
+      "location": "VA",
+      "age": "M50-59"
+    },
     "edward_smith_va": {
       "first_name": "Edward",
       "last_name": "Smith",
@@ -792,13 +799,6 @@
       "location": "NC",
       "age": "M50-59"
     },
-    "richard_abernathy_nc": {
-      "first_name": "Richard",
-      "last_name": "Abernathy",
-      "city": "Ellenboro",
-      "location": "NC",
-      "age": "M40-49"
-    },
     "thomas_green_md": {
       "first_name": "Thomas",
       "last_name": "Green",
@@ -811,6 +811,13 @@
       "last_name": "Burton",
       "city": "Somerset",
       "location": "KY",
+      "age": "M40-49"
+    },
+    "richard_abernathy_nc": {
+      "first_name": "Richard",
+      "last_name": "Abernathy",
+      "city": "Ellenboro",
+      "location": "NC",
       "age": "M40-49"
     },
     "justin_king_ga": {
@@ -1626,5 +1633,5 @@
       "age": "M20-29"
     }
   },
-  "timestamp": "2026-02-14T08:08:29.846014"
+  "timestamp": "2026-02-15T08:09:09.634629"
 }
