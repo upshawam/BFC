@@ -176,13 +176,6 @@
       "location": "NY",
       "age": "M40-49"
     },
-    "remy_jegard_fra": {
-      "first_name": "Remy",
-      "last_name": "Jegard",
-      "city": "Teulat",
-      "location": "FRA",
-      "age": "M50-59"
-    },
     "omar_martinez_tx": {
       "first_name": "Omar",
       "last_name": "Martinez",
@@ -980,6 +973,13 @@
       "city": "Hixson",
       "location": "TN",
       "age": "M40-49"
+    },
+    "remy_jegard_fra": {
+      "first_name": "Remy",
+      "last_name": "Jegard",
+      "city": "Teulat",
+      "location": "FRA",
+      "age": "M50-59"
     },
     "bud_wilson_nj": {
       "first_name": "Bud",
@@ -1982,13 +1982,6 @@
       "location": "CA",
       "age": "M50-59"
     },
-    "kevin_eulaerts_bel": {
-      "first_name": "Kevin",
-      "last_name": "Eulaerts",
-      "city": "Pellenberg",
-      "location": "BEL",
-      "age": "M40-49"
-    },
     "nikole_tan_tx": {
       "first_name": "Nikole",
       "last_name": "Tan",
@@ -2037,6 +2030,13 @@
       "city": "Jonesborough",
       "location": "TN",
       "age": "F40-49"
+    },
+    "kevin_eulaerts_bel": {
+      "first_name": "Kevin",
+      "last_name": "Eulaerts",
+      "city": "Pellenberg",
+      "location": "BEL",
+      "age": "M40-49"
     },
     "jeff_goodmanson_il": {
       "first_name": "Jeff",
@@ -2283,6 +2283,13 @@
       "location": "NM",
       "age": "F50-59"
     },
+    "kevin_price_ct": {
+      "first_name": "Kevin",
+      "last_name": "Price",
+      "city": "Groton",
+      "location": "CT",
+      "age": "M50-59"
+    },
     "doug_farley_va": {
       "first_name": "Doug",
       "last_name": "Farley",
@@ -2317,13 +2324,6 @@
       "city": "Bettendorf",
       "location": "IA",
       "age": "M70+"
-    },
-    "kevin_price_ct": {
-      "first_name": "Kevin",
-      "last_name": "Price",
-      "city": "Groton",
-      "location": "CT",
-      "age": "M50-59"
     },
     "miranda_smith_ms": {
       "first_name": "Miranda",
@@ -3509,5 +3509,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-02-16T08:16:20.693185"
+  "timestamp": "2026-02-17T08:16:05.567342"
 }
