@@ -504,5 +504,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-18T08:15:03.357032",
+    "count_change": 1,
+    "new_count": 234,
+    "previous_count": 233,
+    "new_entrants": [
+      {
+        "first_name": "Lisa",
+        "last_name": "Kolas",
+        "city": "Leesburg",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "lisa_kolas_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

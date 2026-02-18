@@ -1,5 +1,5 @@
 {
-  "count": 501,
+  "count": 502,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -239,11 +239,11 @@
       "location": "VA",
       "age": "M50-59"
     },
-    "kyle_kalbus_tn": {
+    "kyle_kalbus_nc": {
       "first_name": "Kyle",
       "last_name": "Kalbus",
-      "city": "Chattanooga",
-      "location": "TN",
+      "city": "Charlotte",
+      "location": "NC",
       "age": "M40-49"
     },
     "april_bailey_nc": {
@@ -491,19 +491,19 @@
       "location": "CO",
       "age": "M30-39"
     },
-    "lester_burris_in": {
-      "first_name": "Lester",
-      "last_name": "Burris",
-      "city": "Bedford",
-      "location": "IN",
-      "age": "M30-39"
-    },
     "addison_hendricks_fl": {
       "first_name": "Addison",
       "last_name": "Hendricks",
       "city": "Pensacola",
       "location": "FL",
       "age": "M20-29"
+    },
+    "lester_burris_in": {
+      "first_name": "Lester",
+      "last_name": "Burris",
+      "city": "Bedford",
+      "location": "IN",
+      "age": "M30-39"
     },
     "viktoria_brown_hun": {
       "first_name": "Viktoria",
@@ -701,12 +701,12 @@
       "location": "TN",
       "age": "M50-59"
     },
-    "jeffrey_lenard_il": {
-      "first_name": "Jeffrey",
-      "last_name": "Lenard",
-      "city": "Johnsburg",
-      "location": "IL",
-      "age": "M60-69"
+    "richard_easter_tn": {
+      "first_name": "Richard",
+      "last_name": "Easter",
+      "city": "Bartlett",
+      "location": "TN",
+      "age": "M30-39"
     },
     "christopher_acree_tn": {
       "first_name": "Christopher",
@@ -714,6 +714,13 @@
       "city": "Nashville",
       "location": "TN",
       "age": "M30-39"
+    },
+    "jeffrey_lenard_il": {
+      "first_name": "Jeffrey",
+      "last_name": "Lenard",
+      "city": "Johnsburg",
+      "location": "IL",
+      "age": "M60-69"
     },
     "torben_gjerstad_nor": {
       "first_name": "Torben",
@@ -1121,19 +1128,19 @@
       "location": "FL",
       "age": "M50-59"
     },
-    "zach_compton_ga": {
-      "first_name": "Zach",
-      "last_name": "Compton",
-      "city": "Statham",
-      "location": "GA",
-      "age": "M30-39"
-    },
     "al_vigne_fl": {
       "first_name": "Al",
       "last_name": "Vigne",
       "city": "Babson Park",
       "location": "FL",
       "age": "M60-69"
+    },
+    "zach_compton_ga": {
+      "first_name": "Zach",
+      "last_name": "Compton",
+      "city": "Statham",
+      "location": "GA",
+      "age": "M30-39"
     },
     "bernadette_grismer_ca": {
       "first_name": "Bernadette",
@@ -1142,18 +1149,18 @@
       "location": "CA",
       "age": "F40-49"
     },
-    "joseph_daniski_mn": {
-      "first_name": "Joseph",
-      "last_name": "Daniski",
-      "city": "Minnetonka",
-      "location": "MN",
-      "age": "M40-49"
-    },
     "austin_gros_tn": {
       "first_name": "Austin",
       "last_name": "Gros",
       "city": "Lebanon",
       "location": "TN",
+      "age": "M40-49"
+    },
+    "joseph_daniski_mn": {
+      "first_name": "Joseph",
+      "last_name": "Daniski",
+      "city": "Minnetonka",
+      "location": "MN",
       "age": "M40-49"
     },
     "jay_hunt_co": {
@@ -1429,13 +1436,6 @@
       "location": "TN",
       "age": "M30-39"
     },
-    "larry_irsik_va": {
-      "first_name": "Larry",
-      "last_name": "Irsik",
-      "city": "Quantico",
-      "location": "VA",
-      "age": "M40-49"
-    },
     "rob_abcug_fl": {
       "first_name": "Rob",
       "last_name": "Abcug",
@@ -1611,6 +1611,13 @@
       "location": "TN",
       "age": "M60-69"
     },
+    "larry_irsik_va": {
+      "first_name": "Larry",
+      "last_name": "Irsik",
+      "city": "Quantico",
+      "location": "VA",
+      "age": "M40-49"
+    },
     "chris_restad_mn": {
       "first_name": "Chris",
       "last_name": "Restad",
@@ -1702,13 +1709,6 @@
       "location": "AR",
       "age": "F50-59"
     },
-    "karin_jessop_ga": {
-      "first_name": "Karin",
-      "last_name": "Jessop",
-      "city": "Atlanta",
-      "location": "GA",
-      "age": "F50-59"
-    },
     "jacqueline_milzman_md": {
       "first_name": "Jacqueline",
       "last_name": "Milzman",
@@ -1743,6 +1743,13 @@
       "city": "Coalfield",
       "location": "TN",
       "age": "M50-59"
+    },
+    "karin_jessop_ga": {
+      "first_name": "Karin",
+      "last_name": "Jessop",
+      "city": "Atlanta",
+      "location": "GA",
+      "age": "F50-59"
     },
     "shannon_martin_nv": {
       "first_name": "Shannon",
@@ -3053,13 +3060,6 @@
       "location": "WI",
       "age": "F50-59"
     },
-    "victor_mckenna_ri": {
-      "first_name": "Victor",
-      "last_name": "McKenna",
-      "city": "Coventry",
-      "location": "RI",
-      "age": "M50-59"
-    },
     "kara_volk_pa": {
       "first_name": "Kara",
       "last_name": "Volk",
@@ -3073,6 +3073,13 @@
       "city": "RIO DE JANEIRO",
       "location": "BRA",
       "age": "M40-49"
+    },
+    "victor_mckenna_ri": {
+      "first_name": "Victor",
+      "last_name": "McKenna",
+      "city": "Coventry",
+      "location": "RI",
+      "age": "M50-59"
     },
     "julie_ingle_ar": {
       "first_name": "Julie",
@@ -3473,19 +3480,19 @@
       "location": "TX",
       "age": "F40-49"
     },
-    "gregory_harris_on": {
-      "first_name": "Gregory",
-      "last_name": "Harris",
-      "city": "Etobicoke",
-      "location": "ON",
-      "age": "M60-69"
-    },
     "sam_marcengill_sc": {
       "first_name": "Sam",
       "last_name": "Marcengill",
       "city": "Anderson",
       "location": "SC",
       "age": "M40-49"
+    },
+    "gregory_harris_on": {
+      "first_name": "Gregory",
+      "last_name": "Harris",
+      "city": "Etobicoke",
+      "location": "ON",
+      "age": "M60-69"
     },
     "eleanor_mcdonough_tn": {
       "first_name": "Eleanor",
@@ -3509,5 +3516,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-02-17T08:16:05.567342"
+  "timestamp": "2026-02-18T08:15:02.911996"
 }

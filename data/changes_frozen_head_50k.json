@@ -474,5 +474,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-18T08:15:02.913780",
+    "count_change": 1,
+    "new_count": 502,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Kyle",
+        "last_name": "Kalbus",
+        "city": "Charlotte",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "kyle_kalbus_nc"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Easter",
+        "city": "Bartlett",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "richard_easter_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Kyle",
+        "last_name": "Kalbus",
+        "city": "Chattanooga",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "kyle_kalbus_tn"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
