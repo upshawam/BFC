@@ -504,5 +504,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-20T08:15:17.790384",
+    "count_change": 1,
+    "new_count": 248,
+    "previous_count": 247,
+    "new_entrants": [
+      {
+        "first_name": "Rachel",
+        "last_name": "Flint",
+        "city": "Durham",
+        "location": "NC",
+        "age": "F30-39",
+        "key": "rachel_flint_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

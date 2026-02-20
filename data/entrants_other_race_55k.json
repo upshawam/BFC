@@ -1,5 +1,5 @@
 {
-  "count": 247,
+  "count": 248,
   "entrants": {
     "therese_howe_md": {
       "first_name": "Therese",
@@ -231,6 +231,13 @@
       "city": "Siler City",
       "location": "NC",
       "age": "F50-59"
+    },
+    "rachel_flint_nc": {
+      "first_name": "Rachel",
+      "last_name": "Flint",
+      "city": "Durham",
+      "location": "NC",
+      "age": "F30-39"
     },
     "shelli_frey_pa": {
       "first_name": "Shelli",
@@ -1731,5 +1738,5 @@
       "age": "M30-39"
     }
   },
-  "timestamp": "2026-02-19T08:15:26.225628"
+  "timestamp": "2026-02-20T08:15:17.788808"
 }
