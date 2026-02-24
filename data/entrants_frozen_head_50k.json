@@ -960,13 +960,6 @@
       "location": "AL",
       "age": "M30-39"
     },
-    "phil_dammarell_oh": {
-      "first_name": "Phil",
-      "last_name": "Dammarell",
-      "city": "Cincinnati",
-      "location": "OH",
-      "age": "M50-59"
-    },
     "stephen_thomas_tn": {
       "first_name": "Stephen",
       "last_name": "Thomas",
@@ -1007,13 +1000,6 @@
       "last_name": "Butler",
       "city": "Pittsboro",
       "location": "NC",
-      "age": "M50-59"
-    },
-    "tom_amrine_oh": {
-      "first_name": "Tom",
-      "last_name": "Amrine",
-      "city": "Cincinnati",
-      "location": "OH",
       "age": "M50-59"
     },
     "kyle_weber_ia": {
@@ -1063,6 +1049,13 @@
       "last_name": "Rosinski",
       "city": "Brentwood",
       "location": "TN",
+      "age": "M50-59"
+    },
+    "phil_dammarell_oh": {
+      "first_name": "Phil",
+      "last_name": "Dammarell",
+      "city": "Cincinnati",
+      "location": "OH",
       "age": "M50-59"
     },
     "david_musgrave_co": {
@@ -1141,6 +1134,13 @@
       "city": "Avery",
       "location": "CA",
       "age": "F40-49"
+    },
+    "tom_amrine_oh": {
+      "first_name": "Tom",
+      "last_name": "Amrine",
+      "city": "Cincinnati",
+      "location": "OH",
+      "age": "M50-59"
     },
     "austin_gros_tn": {
       "first_name": "Austin",
@@ -2528,13 +2528,6 @@
       "location": "TN",
       "age": "M50-59"
     },
-    "jurgen_keppens_bel": {
-      "first_name": "Jurgen",
-      "last_name": "Keppens",
-      "city": "Lebbeke",
-      "location": "BEL",
-      "age": "M50-59"
-    },
     "jason_cotter_oh": {
       "first_name": "Jason",
       "last_name": "Cotter",
@@ -2779,6 +2772,13 @@
       "city": "Bryant",
       "location": "AR",
       "age": "M40-49"
+    },
+    "jurgen_keppens_bel": {
+      "first_name": "Jurgen",
+      "last_name": "Keppens",
+      "city": "Lebbeke",
+      "location": "BEL",
+      "age": "M50-59"
     },
     "john_price_va": {
       "first_name": "John",
@@ -3523,5 +3523,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-02-23T08:16:21.262626"
+  "timestamp": "2026-02-24T08:16:18.818175"
 }
