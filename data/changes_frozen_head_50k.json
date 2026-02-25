@@ -579,5 +579,65 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-25T08:16:41.010005",
+    "count_change": -4,
+    "new_count": 499,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Anna",
+        "last_name": "Taylor",
+        "city": "Calgary",
+        "location": "AB",
+        "age": "F40-49",
+        "key": "anna_taylor_ab"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Alicia",
+        "last_name": "Louk",
+        "city": "Lexington",
+        "location": "SC",
+        "age": "F50-59",
+        "key": "alicia_louk_sc"
+      },
+      {
+        "first_name": "Cory",
+        "last_name": "Adams",
+        "city": "Germantown",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "cory_adams_tn"
+      },
+      {
+        "first_name": "Mike",
+        "last_name": "Brown",
+        "city": "Wellington",
+        "location": "NZL",
+        "age": "M60-69",
+        "key": "mike_brown_nzl"
+      },
+      {
+        "first_name": "Patrick",
+        "last_name": "Deloose",
+        "city": "Sint-Joris-Weert",
+        "location": "BEL",
+        "age": "M40-49",
+        "key": "patrick_deloose_bel"
+      },
+      {
+        "first_name": "Sian",
+        "last_name": "Jones",
+        "city": "Axminster",
+        "location": "GBR",
+        "age": "F50-59",
+        "key": "sian_jones_gbr"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 5
   }
 ]
