@@ -649,5 +649,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-02-27T08:14:11.498696",
+    "count_change": 1,
+    "new_count": 500,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Jean",
+        "last_name": "Pissas",
+        "city": "Grenoble",
+        "location": "FRA",
+        "age": "M40-49",
+        "key": "jean_pissas_fra"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
