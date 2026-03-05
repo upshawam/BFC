@@ -753,5 +753,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-05T08:12:44.162669",
+    "count_change": 1,
+    "new_count": 505,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Jesus",
+        "last_name": "Cerdas",
+        "city": "Hatillo",
+        "location": "CRI",
+        "age": "M20-29",
+        "key": "jesus_cerdas_cri"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
