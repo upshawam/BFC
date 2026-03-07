@@ -782,5 +782,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-07T08:07:19.123139",
+    "count_change": 0,
+    "new_count": 505,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Fernando",
+        "last_name": "Toledo-Camargo",
+        "city": "Queens",
+        "location": "NY",
+        "age": "M20-29",
+        "key": "fernando_toledo-camargo_ny"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Kevin",
+        "last_name": "Eulaerts",
+        "city": "Pellenberg",
+        "location": "BEL",
+        "age": "M40-49",
+        "key": "kevin_eulaerts_bel"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
