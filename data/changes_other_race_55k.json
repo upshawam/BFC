@@ -682,5 +682,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-08T08:07:41.915507",
+    "count_change": -1,
+    "new_count": 248,
+    "previous_count": 249,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Ann Marie",
+        "last_name": "Young",
+        "city": "Hurricane",
+        "location": "WV",
+        "age": "F50-59",
+        "key": "ann marie_young_wv"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
