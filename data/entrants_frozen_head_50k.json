@@ -1,5 +1,5 @@
 {
-  "count": 505,
+  "count": 504,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -106,13 +106,6 @@
       "location": "KY",
       "age": "M30-39"
     },
-    "dub_krauth_pa": {
-      "first_name": "Dub",
-      "last_name": "Krauth",
-      "city": "North Wales",
-      "location": "PA",
-      "age": "M50-59"
-    },
     "randy_goldberg_tn": {
       "first_name": "Randy",
       "last_name": "Goldberg",
@@ -133,6 +126,13 @@
       "city": "Wooster",
       "location": "OH",
       "age": "M30-39"
+    },
+    "dub_krauth_pa": {
+      "first_name": "Dub",
+      "last_name": "Krauth",
+      "city": "North Wales",
+      "location": "PA",
+      "age": "M50-59"
     },
     "david_carraway_la": {
       "first_name": "David",
@@ -378,13 +378,6 @@
       "city": "Richmond",
       "location": "VA",
       "age": "M30-39"
-    },
-    "jenna_gould_ga": {
-      "first_name": "Jenna",
-      "last_name": "Gould",
-      "city": "Ringgold",
-      "location": "GA",
-      "age": "F30-39"
     },
     "seva_granin_fl": {
       "first_name": "Seva",
@@ -673,6 +666,13 @@
       "location": "TN",
       "age": "F30-39"
     },
+    "christopher_acree_tn": {
+      "first_name": "Christopher",
+      "last_name": "Acree",
+      "city": "Nashville",
+      "location": "TN",
+      "age": "M30-39"
+    },
     "amy_richards_tn": {
       "first_name": "Amy",
       "last_name": "Richards",
@@ -707,13 +707,6 @@
       "city": "Johnsburg",
       "location": "IL",
       "age": "M60-69"
-    },
-    "christopher_acree_tn": {
-      "first_name": "Christopher",
-      "last_name": "Acree",
-      "city": "Nashville",
-      "location": "TN",
-      "age": "M30-39"
     },
     "torben_gjerstad_nor": {
       "first_name": "Torben",
@@ -876,6 +869,20 @@
       "location": "MA",
       "age": "M50-59"
     },
+    "ran_crump_al": {
+      "first_name": "Ran",
+      "last_name": "Crump",
+      "city": "Madison",
+      "location": "AL",
+      "age": "M30-39"
+    },
+    "dan_albert_tn": {
+      "first_name": "Dan",
+      "last_name": "Albert",
+      "city": "Nashville",
+      "location": "TN",
+      "age": "M50-59"
+    },
     "ben_smith_ky": {
       "first_name": "Ben",
       "last_name": "Smith",
@@ -897,25 +904,11 @@
       "location": "VA",
       "age": "M40-49"
     },
-    "dan_albert_tn": {
-      "first_name": "Dan",
-      "last_name": "Albert",
-      "city": "Nashville",
-      "location": "TN",
-      "age": "M50-59"
-    },
     "chad_ragains_nc": {
       "first_name": "Chad",
       "last_name": "Ragains",
       "city": "Raleigh",
       "location": "NC",
-      "age": "M50-59"
-    },
-    "kenneth_vetter_pa": {
-      "first_name": "Kenneth",
-      "last_name": "Vetter",
-      "city": "Bala Cynwyd",
-      "location": "PA",
       "age": "M50-59"
     },
     "shreyas_muralidharan_tn": {
@@ -930,6 +923,13 @@
       "last_name": "Charlebois",
       "city": "West Lafayette",
       "location": "IN",
+      "age": "M50-59"
+    },
+    "kenneth_vetter_pa": {
+      "first_name": "Kenneth",
+      "last_name": "Vetter",
+      "city": "Bala Cynwyd",
+      "location": "PA",
       "age": "M50-59"
     },
     "mariana_murto edvinsson_swe": {
@@ -987,13 +987,6 @@
       "city": "Audubon",
       "location": "NJ",
       "age": "M50-59"
-    },
-    "ran_crump_al": {
-      "first_name": "Ran",
-      "last_name": "Crump",
-      "city": "Madison",
-      "location": "AL",
-      "age": "M30-39"
     },
     "denise_quarles_ga": {
       "first_name": "Denise",
@@ -1198,6 +1191,13 @@
       "location": "FL",
       "age": "M50-59"
     },
+    "jared_gross_ks": {
+      "first_name": "Jared",
+      "last_name": "Gross",
+      "city": "Chapman",
+      "location": "KS",
+      "age": "M30-39"
+    },
     "trevor_greene_tn": {
       "first_name": "Trevor",
       "last_name": "Greene",
@@ -1260,13 +1260,6 @@
       "city": "Comfort",
       "location": "TX",
       "age": "F40-49"
-    },
-    "jared_gross_ks": {
-      "first_name": "Jared",
-      "last_name": "Gross",
-      "city": "Chapman",
-      "location": "KS",
-      "age": "M30-39"
     },
     "terra_turner_ga": {
       "first_name": "Terra",
@@ -2332,6 +2325,13 @@
       "location": "AK",
       "age": "F50-59"
     },
+    "miranda_smith_ms": {
+      "first_name": "Miranda",
+      "last_name": "Smith",
+      "city": "Gulfport",
+      "location": "MS",
+      "age": "F30-39"
+    },
     "lynn_hawbaker_ia": {
       "first_name": "Lynn",
       "last_name": "Hawbaker",
@@ -2339,12 +2339,12 @@
       "location": "IA",
       "age": "M70+"
     },
-    "miranda_smith_ms": {
-      "first_name": "Miranda",
-      "last_name": "Smith",
-      "city": "Gulfport",
-      "location": "MS",
-      "age": "F30-39"
+    "kristal_romans_nv": {
+      "first_name": "Kristal",
+      "last_name": "Romans",
+      "city": "Pioche",
+      "location": "NV",
+      "age": "F50-59"
     },
     "daniel_mora_ca": {
       "first_name": "Daniel",
@@ -2401,13 +2401,6 @@
       "city": "Webster",
       "location": "NY",
       "age": "M60-69"
-    },
-    "kristal_romans_nv": {
-      "first_name": "Kristal",
-      "last_name": "Romans",
-      "city": "Pioche",
-      "location": "NV",
-      "age": "F50-59"
     },
     "kyle_muladore_ca": {
       "first_name": "Kyle",
@@ -3025,13 +3018,6 @@
       "location": "NJ",
       "age": "M50-59"
     },
-    "nagesh_shanthappa_pa": {
-      "first_name": "Nagesh",
-      "last_name": "Shanthappa",
-      "city": "Exton",
-      "location": "PA",
-      "age": "M50-59"
-    },
     "clint_simmons_ga": {
       "first_name": "Clint",
       "last_name": "Simmons",
@@ -3066,6 +3052,13 @@
       "city": "Waterford",
       "location": "WI",
       "age": "F40-49"
+    },
+    "nagesh_shanthappa_pa": {
+      "first_name": "Nagesh",
+      "last_name": "Shanthappa",
+      "city": "Exton",
+      "location": "PA",
+      "age": "M50-59"
     },
     "margie_vail_ny": {
       "first_name": "Margie",
@@ -3537,5 +3530,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-03-08T08:07:41.093531"
+  "timestamp": "2026-03-09T08:15:15.020690"
 }

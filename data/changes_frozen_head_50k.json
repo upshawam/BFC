@@ -820,5 +820,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-09T08:15:15.022499",
+    "count_change": -1,
+    "new_count": 504,
+    "previous_count": 505,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jenna",
+        "last_name": "Gould",
+        "city": "Ringgold",
+        "location": "GA",
+        "age": "F30-39",
+        "key": "jenna_gould_ga"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
