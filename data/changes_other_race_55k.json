@@ -721,5 +721,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-11T08:13:17.266864",
+    "count_change": -1,
+    "new_count": 247,
+    "previous_count": 248,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Heather",
+        "last_name": "Hanks",
+        "city": "Gainesville",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "heather_hanks_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
