@@ -918,5 +918,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-17T08:17:16.039920",
+    "count_change": -1,
+    "new_count": 504,
+    "previous_count": 505,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Bruce",
+        "last_name": "Lundie",
+        "city": "RAPID CITY",
+        "location": "SD",
+        "age": "M70+",
+        "key": "bruce_lundie_sd"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

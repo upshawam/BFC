@@ -1,5 +1,5 @@
 {
-  "count": 505,
+  "count": 504,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -1548,6 +1548,13 @@
       "location": "TN",
       "age": "F50-59"
     },
+    "lucy_newton_tn": {
+      "first_name": "Lucy",
+      "last_name": "Newton",
+      "city": "Memphis",
+      "location": "TN",
+      "age": "F30-39"
+    },
     "slade_hubbard_al": {
       "first_name": "Slade",
       "last_name": "Hubbard",
@@ -1583,19 +1590,19 @@
       "location": "IL",
       "age": "M30-39"
     },
-    "mike_samuelson_tn": {
-      "first_name": "Mike",
-      "last_name": "Samuelson",
-      "city": "Lakeland",
-      "location": "TN",
-      "age": "M60-69"
-    },
     "amy_thompson_tx": {
       "first_name": "Amy",
       "last_name": "Thompson",
       "city": "GRAPEVINE",
       "location": "TX",
       "age": "F50-59"
+    },
+    "mike_samuelson_tn": {
+      "first_name": "Mike",
+      "last_name": "Samuelson",
+      "city": "Lakeland",
+      "location": "TN",
+      "age": "M60-69"
     },
     "jeff_stafford_tn": {
       "first_name": "Jeff",
@@ -1855,13 +1862,6 @@
       "city": "Birmingham",
       "location": "AL",
       "age": "M40-49"
-    },
-    "lucy_newton_tn": {
-      "first_name": "Lucy",
-      "last_name": "Newton",
-      "city": "Memphis",
-      "location": "TN",
-      "age": "F30-39"
     },
     "brad_brown_mi": {
       "first_name": "Brad",
@@ -3144,13 +3144,6 @@
       "location": "PA",
       "age": "F50-59"
     },
-    "bruce_lundie_sd": {
-      "first_name": "Bruce",
-      "last_name": "Lundie",
-      "city": "RAPID CITY",
-      "location": "SD",
-      "age": "M70+"
-    },
     "sarah_peel-yates_aus": {
       "first_name": "Sarah",
       "last_name": "Peel-Yates",
@@ -3537,5 +3530,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-03-16T08:25:25.551267"
+  "timestamp": "2026-03-17T08:17:16.038272"
 }
