@@ -810,5 +810,32 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-19T08:15:16.054730",
+    "count_change": 2,
+    "new_count": 249,
+    "previous_count": 247,
+    "new_entrants": [
+      {
+        "first_name": "Donna",
+        "last_name": "Reynolds",
+        "city": "Dresden",
+        "location": "TN",
+        "age": "F60-69",
+        "key": "donna_reynolds_tn"
+      },
+      {
+        "first_name": "Lesa",
+        "last_name": "Finch",
+        "city": "Dresden",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "lesa_finch_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
