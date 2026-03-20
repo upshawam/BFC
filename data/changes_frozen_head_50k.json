@@ -957,5 +957,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-20T08:13:41.610695",
+    "count_change": 0,
+    "new_count": 504,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Viktoria",
+        "last_name": "Brown",
+        "city": "Budapest",
+        "location": "ON",
+        "age": "F50-59",
+        "key": "viktoria_brown_on"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Viktoria",
+        "last_name": "Brown",
+        "city": "Budapest",
+        "location": "HUN",
+        "age": "F50-59",
+        "key": "viktoria_brown_hun"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
