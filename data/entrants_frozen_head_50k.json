@@ -1366,6 +1366,13 @@
       "location": "GA",
       "age": "M40-49"
     },
+    "staci_thomas_tn": {
+      "first_name": "Staci",
+      "last_name": "Thomas",
+      "city": "Jackson",
+      "location": "TN",
+      "age": "F40-49"
+    },
     "kayla_fitzgerald_sc": {
       "first_name": "Kayla",
       "last_name": "Fitzgerald",
@@ -1420,13 +1427,6 @@
       "last_name": "Cottrell",
       "city": "Huntington",
       "location": "WV",
-      "age": "F40-49"
-    },
-    "staci_thomas_tn": {
-      "first_name": "Staci",
-      "last_name": "Thomas",
-      "city": "Jackson",
-      "location": "TN",
       "age": "F40-49"
     },
     "ryan_brinkley_tn": {
@@ -3530,5 +3530,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-03-24T08:17:03.824599"
+  "timestamp": "2026-03-25T08:16:54.036380"
 }

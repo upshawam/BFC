@@ -896,5 +896,32 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-25T08:16:55.739914",
+    "count_change": -2,
+    "new_count": 248,
+    "previous_count": 250,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Dorothy",
+        "last_name": "Woodrum",
+        "city": "Atlanta",
+        "location": "GA",
+        "age": "F40-49",
+        "key": "dorothy_woodrum_ga"
+      },
+      {
+        "first_name": "Heidi",
+        "last_name": "Trout",
+        "city": "Ellicott City",
+        "location": "MD",
+        "age": "F60-69",
+        "key": "heidi_trout_md"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
