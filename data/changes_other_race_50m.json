@@ -910,5 +910,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-27T08:17:33.226378",
+    "count_change": 1,
+    "new_count": 232,
+    "previous_count": 231,
+    "new_entrants": [
+      {
+        "first_name": "Christine",
+        "last_name": "Vance",
+        "city": "Acworth",
+        "location": "GA",
+        "age": "F40-49",
+        "key": "christine_vance_ga"
+      },
+      {
+        "first_name": "Felicia",
+        "last_name": "Harrell",
+        "city": "Adairsville",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "felicia_harrell_ga"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Rachel",
+        "last_name": "Flint",
+        "city": "Durham",
+        "location": "NC",
+        "age": "F30-39",
+        "key": "rachel_flint_nc"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
