@@ -1,5 +1,5 @@
 {
-  "count": 232,
+  "count": 236,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -729,12 +729,19 @@
       "location": "NC",
       "age": "M40-49"
     },
-    "lucas_adams_ky": {
-      "first_name": "Lucas",
-      "last_name": "Adams",
-      "city": "Louisville",
-      "location": "KY",
-      "age": "M40-49"
+    "steven_hendricks_nc": {
+      "first_name": "Steven",
+      "last_name": "Hendricks",
+      "city": "Nebo",
+      "location": "NC",
+      "age": "M60-69"
+    },
+    "robert_baldwin_nc": {
+      "first_name": "Robert",
+      "last_name": "Baldwin",
+      "city": "Greensboro",
+      "location": "NC",
+      "age": "M20-29"
     },
     "sarah_bradley_nc": {
       "first_name": "Sarah",
@@ -749,6 +756,13 @@
       "city": "North Chesterfield",
       "location": "VA",
       "age": "M30-39"
+    },
+    "lucas_adams_ky": {
+      "first_name": "Lucas",
+      "last_name": "Adams",
+      "city": "Louisville",
+      "location": "KY",
+      "age": "M40-49"
     },
     "frankie_swaha_sc": {
       "first_name": "Frankie",
@@ -953,6 +967,13 @@
       "location": "MD",
       "age": "M70+"
     },
+    "steve_brockman_va": {
+      "first_name": "Steve",
+      "last_name": "Brockman",
+      "city": "Roanoke",
+      "location": "VA",
+      "age": "M50-59"
+    },
     "sally_sauer_ga": {
       "first_name": "Sally",
       "last_name": "Sauer",
@@ -980,6 +1001,13 @@
       "city": "Winston Salem",
       "location": "NC",
       "age": "F30-39"
+    },
+    "courtney_palmoore_nc": {
+      "first_name": "Courtney",
+      "last_name": "Palmoore",
+      "city": "Rockingham",
+      "location": "NC",
+      "age": "F40-49"
     },
     "laura_davis_tn": {
       "first_name": "Laura",
@@ -1422,26 +1450,12 @@
       "location": "NC",
       "age": "M50-59"
     },
-    "britta_vivaldi_nc": {
-      "first_name": "Britta",
-      "last_name": "Vivaldi",
-      "city": "Holly Ridge",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "kady_braswell_nc": {
       "first_name": "Kady",
       "last_name": "Braswell",
       "city": "Lenoir",
       "location": "NC",
       "age": "F30-39"
-    },
-    "wade_baker_va": {
-      "first_name": "Wade",
-      "last_name": "Baker",
-      "city": "Sterling",
-      "location": "VA",
-      "age": "M40-49"
     },
     "bryce_davis_nc": {
       "first_name": "Bryce",
@@ -1513,12 +1527,26 @@
       "location": "TN",
       "age": "F30-39"
     },
+    "britta_vivaldi_nc": {
+      "first_name": "Britta",
+      "last_name": "Vivaldi",
+      "city": "Holly Ridge",
+      "location": "NC",
+      "age": "F30-39"
+    },
     "jill_orton_va": {
       "first_name": "Jill",
       "last_name": "Orton",
       "city": "Leesburg",
       "location": "VA",
       "age": "F40-49"
+    },
+    "wade_baker_va": {
+      "first_name": "Wade",
+      "last_name": "Baker",
+      "city": "Sterling",
+      "location": "VA",
+      "age": "M40-49"
     },
     "skyler_mcmurray_va": {
       "first_name": "Skyler",
@@ -1626,5 +1654,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-03-27T08:17:33.224864"
+  "timestamp": "2026-03-28T08:13:05.753037"
 }

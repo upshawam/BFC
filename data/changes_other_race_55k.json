@@ -943,5 +943,40 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-28T08:13:06.336740",
+    "count_change": 3,
+    "new_count": 251,
+    "previous_count": 248,
+    "new_entrants": [
+      {
+        "first_name": "Adam",
+        "last_name": "Stuart",
+        "city": "Lexington",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "adam_stuart_ky"
+      },
+      {
+        "first_name": "Rachel",
+        "last_name": "Melancon",
+        "city": "Stanardsville",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "rachel_melancon_va"
+      },
+      {
+        "first_name": "Tyler",
+        "last_name": "Haar",
+        "city": "Signal Mountain",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "tyler_haar_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 3,
+    "total_dropped": 0
   }
 ]

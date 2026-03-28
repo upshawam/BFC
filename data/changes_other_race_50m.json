@@ -946,5 +946,48 @@
     ],
     "total_new": 2,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-03-28T08:13:05.754386",
+    "count_change": 4,
+    "new_count": 236,
+    "previous_count": 232,
+    "new_entrants": [
+      {
+        "first_name": "Courtney",
+        "last_name": "Palmoore",
+        "city": "Rockingham",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "courtney_palmoore_nc"
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Baldwin",
+        "city": "Greensboro",
+        "location": "NC",
+        "age": "M20-29",
+        "key": "robert_baldwin_nc"
+      },
+      {
+        "first_name": "Steve",
+        "last_name": "Brockman",
+        "city": "Roanoke",
+        "location": "VA",
+        "age": "M50-59",
+        "key": "steve_brockman_va"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Hendricks",
+        "city": "Nebo",
+        "location": "NC",
+        "age": "M60-69",
+        "key": "steven_hendricks_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 4,
+    "total_dropped": 0
   }
 ]
