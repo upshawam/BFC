@@ -978,5 +978,15 @@
     "dropped_entrants": [],
     "total_new": 3,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-29T08:13:12.525785",
+    "count_change": 0,
+    "new_count": 251,
+    "previous_count": 251,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
   }
 ]

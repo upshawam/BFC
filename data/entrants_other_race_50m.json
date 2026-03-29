@@ -1,5 +1,5 @@
 {
-  "count": 236,
+  "count": 237,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -497,6 +497,13 @@
       "city": "Crozet",
       "location": "VA",
       "age": "F40-49"
+    },
+    "ryan_anderson_sc": {
+      "first_name": "Ryan",
+      "last_name": "Anderson",
+      "city": "Spartanburg",
+      "location": "SC",
+      "age": "M20-29"
     },
     "edward_smith_va": {
       "first_name": "Edward",
@@ -1654,5 +1661,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-03-28T08:13:05.753037"
+  "timestamp": "2026-03-29T08:13:11.930596"
 }

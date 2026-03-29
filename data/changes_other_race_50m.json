@@ -989,5 +989,24 @@
     "dropped_entrants": [],
     "total_new": 4,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-29T08:13:11.932122",
+    "count_change": 1,
+    "new_count": 237,
+    "previous_count": 236,
+    "new_entrants": [
+      {
+        "first_name": "Ryan",
+        "last_name": "Anderson",
+        "city": "Spartanburg",
+        "location": "SC",
+        "age": "M20-29",
+        "key": "ryan_anderson_sc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
