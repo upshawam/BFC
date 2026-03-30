@@ -1075,5 +1075,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-30T08:34:50.236182",
+    "count_change": -1,
+    "new_count": 503,
+    "previous_count": 504,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Shane",
+        "last_name": "McGill",
+        "city": "Manitou Springs",
+        "location": "CO",
+        "age": "M60-69",
+        "key": "shane_mcgill_co"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

@@ -1008,5 +1008,33 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-03-30T08:34:50.625322",
+    "count_change": 0,
+    "new_count": 237,
+    "previous_count": 237,
+    "new_entrants": [
+      {
+        "first_name": "Brent",
+        "last_name": "Csehy",
+        "city": "Lilburn",
+        "location": "GA",
+        "age": "M50-59",
+        "key": "brent_csehy_ga"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Alan",
+        "last_name": "Clemons",
+        "city": "Owens Cross Roads",
+        "location": "AL",
+        "age": "M60-69",
+        "key": "alan_clemons_al"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
