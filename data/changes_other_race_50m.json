@@ -1036,5 +1036,41 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-03-31T08:25:28.628641",
+    "count_change": 1,
+    "new_count": 238,
+    "previous_count": 237,
+    "new_entrants": [
+      {
+        "first_name": "Corey",
+        "last_name": "Coll",
+        "city": "Greenville",
+        "location": "SC",
+        "age": "M50-59",
+        "key": "corey_coll_sc"
+      },
+      {
+        "first_name": "Travis",
+        "last_name": "Pace",
+        "city": "Zebulon",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "travis_pace_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Brent",
+        "last_name": "Csehy",
+        "city": "Lilburn",
+        "location": "GA",
+        "age": "M50-59",
+        "key": "brent_csehy_ga"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
