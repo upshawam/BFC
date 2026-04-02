@@ -1091,5 +1091,33 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-02T08:23:52.541054",
+    "count_change": 0,
+    "new_count": 239,
+    "previous_count": 239,
+    "new_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Ball",
+        "city": "Johnson City",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "daniel_ball_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Kristin",
+        "last_name": "Upshaw",
+        "city": "Gallatin",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "kristin_upshaw_tn"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]

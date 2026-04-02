@@ -1027,5 +1027,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-02T08:23:53.091525",
+    "count_change": 0,
+    "new_count": 250,
+    "previous_count": 250,
+    "new_entrants": [
+      {
+        "first_name": "Kristin",
+        "last_name": "Upshaw",
+        "city": "Gallatin",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "kristin_upshaw_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Annika",
+        "last_name": "Kushner",
+        "city": "Rockville",
+        "location": "MD",
+        "age": "F20-29",
+        "key": "annika_kushner_md"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]

@@ -1114,5 +1114,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-02T08:23:51.805537",
+    "count_change": 1,
+    "new_count": 504,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Madeline",
+        "last_name": "Fresonke",
+        "city": "Albuquerque",
+        "location": "NM",
+        "age": "F20-29",
+        "key": "madeline_fresonke_nm"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
