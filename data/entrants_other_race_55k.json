@@ -1394,13 +1394,6 @@
       "location": "NC",
       "age": "M70+"
     },
-    "brett_weisser_co": {
-      "first_name": "Brett",
-      "last_name": "Weisser",
-      "city": "Highlands Ranch",
-      "location": "CO",
-      "age": "M50-59"
-    },
     "mark_bean_il": {
       "first_name": "Mark",
       "last_name": "Bean",
@@ -1470,6 +1463,13 @@
       "city": "Stamford",
       "location": "CT",
       "age": "M40-49"
+    },
+    "brett_weisser_co": {
+      "first_name": "Brett",
+      "last_name": "Weisser",
+      "city": "Highlands Ranch",
+      "location": "CO",
+      "age": "M50-59"
     },
     "cameron_martz_nc": {
       "first_name": "Cameron",
@@ -1752,5 +1752,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-04-02T08:23:53.090124"
+  "timestamp": "2026-04-03T08:19:32.671981"
 }
