@@ -1178,5 +1178,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-08T08:28:12.762493",
+    "count_change": 1,
+    "new_count": 241,
+    "previous_count": 240,
+    "new_entrants": [
+      {
+        "first_name": "Wayne",
+        "last_name": "Casey",
+        "city": "Paris",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "wayne_casey_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

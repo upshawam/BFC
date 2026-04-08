@@ -1183,5 +1183,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-08T08:28:11.946696",
+    "count_change": 1,
+    "new_count": 505,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Rick",
+        "last_name": "Cubbedge",
+        "city": "Orange Park",
+        "location": "FL",
+        "age": "M50-59",
+        "key": "rick_cubbedge_fl"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
