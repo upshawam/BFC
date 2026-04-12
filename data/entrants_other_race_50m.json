@@ -1,5 +1,5 @@
 {
-  "count": 241,
+  "count": 240,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -589,13 +589,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "marta_lopez_nc": {
-      "first_name": "Marta",
-      "last_name": "Lopez",
-      "city": "Goldsboro",
-      "location": "NC",
-      "age": "F60-69"
-    },
     "leah_shipley_nc": {
       "first_name": "Leah",
       "last_name": "Shipley",
@@ -904,13 +897,6 @@
       "location": "VA",
       "age": "M60-69"
     },
-    "eric_stevens_nc": {
-      "first_name": "Eric",
-      "last_name": "Stevens",
-      "city": "Pittsboro",
-      "location": "NC",
-      "age": "M50-59"
-    },
     "kimberly_skipworth_ky": {
       "first_name": "Kimberly",
       "last_name": "Skipworth",
@@ -959,6 +945,13 @@
       "city": "La Plata",
       "location": "MD",
       "age": "F50-59"
+    },
+    "eric_stevens_nc": {
+      "first_name": "Eric",
+      "last_name": "Stevens",
+      "city": "Pittsboro",
+      "location": "NC",
+      "age": "M50-59"
     },
     "kathleen_lokey_nc": {
       "first_name": "Kathleen",
@@ -1689,5 +1682,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-04-11T08:14:20.503942"
+  "timestamp": "2026-04-12T08:19:06.464435"
 }

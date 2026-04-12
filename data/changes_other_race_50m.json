@@ -1227,5 +1227,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-12T08:19:06.465893",
+    "count_change": -1,
+    "new_count": 240,
+    "previous_count": 241,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Marta",
+        "last_name": "Lopez",
+        "city": "Goldsboro",
+        "location": "NC",
+        "age": "F60-69",
+        "key": "marta_lopez_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

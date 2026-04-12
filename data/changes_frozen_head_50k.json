@@ -1232,5 +1232,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-12T08:19:06.095268",
+    "count_change": 1,
+    "new_count": 506,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Boris",
+        "last_name": "Mizaikoff",
+        "city": "Ulm",
+        "location": "DEU",
+        "age": "M60-69",
+        "key": "boris_mizaikoff_deu"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
