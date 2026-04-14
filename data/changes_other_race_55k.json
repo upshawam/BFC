@@ -1174,5 +1174,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-14T08:36:14.821002",
+    "count_change": 1,
+    "new_count": 252,
+    "previous_count": 251,
+    "new_entrants": [
+      {
+        "first_name": "Patty",
+        "last_name": "Gentry",
+        "city": "Telford",
+        "location": "TN",
+        "age": "F50-59",
+        "key": "patty_gentry_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
