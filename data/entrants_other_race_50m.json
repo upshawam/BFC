@@ -939,13 +939,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "richard_abernathy_nc": {
-      "first_name": "Richard",
-      "last_name": "Abernathy",
-      "city": "Ellenboro",
-      "location": "NC",
-      "age": "M40-49"
-    },
     "lori_applebach_va": {
       "first_name": "Lori",
       "last_name": "Applebach",
@@ -973,6 +966,13 @@
       "city": "Columbia",
       "location": "MD",
       "age": "M70+"
+    },
+    "richard_abernathy_nc": {
+      "first_name": "Richard",
+      "last_name": "Abernathy",
+      "city": "Ellenboro",
+      "location": "NC",
+      "age": "M40-49"
     },
     "justin_king_ga": {
       "first_name": "Justin",
@@ -1135,13 +1135,6 @@
       "location": "VA",
       "age": "F50-59"
     },
-    "francisco_espinoza_il": {
-      "first_name": "Francisco",
-      "last_name": "Espinoza",
-      "city": "Oak Lawn",
-      "location": "IL",
-      "age": "M40-49"
-    },
     "stephanie_roddy_va": {
       "first_name": "Stephanie",
       "last_name": "Roddy",
@@ -1204,6 +1197,13 @@
       "city": "Cary",
       "location": "NC",
       "age": "M50-59"
+    },
+    "francisco_espinoza_il": {
+      "first_name": "Francisco",
+      "last_name": "Espinoza",
+      "city": "Oak Lawn",
+      "location": "IL",
+      "age": "M40-49"
     },
     "brea_taylor_oh": {
       "first_name": "Brea",
@@ -1675,5 +1675,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-04-14T08:36:13.964302"
+  "timestamp": "2026-04-15T08:36:31.790531"
 }
