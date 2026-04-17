@@ -1295,5 +1295,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-17T08:36:24.044816",
+    "count_change": -1,
+    "new_count": 238,
+    "previous_count": 239,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Charity",
+        "last_name": "Coffey",
+        "city": "Grove City",
+        "location": "OH",
+        "age": "F50-59",
+        "key": "charity_coffey_oh"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

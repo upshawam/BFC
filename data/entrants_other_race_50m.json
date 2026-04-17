@@ -1,5 +1,5 @@
 {
-  "count": 239,
+  "count": 238,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -1100,13 +1100,6 @@
       "location": "TN",
       "age": "M30-39"
     },
-    "charity_coffey_oh": {
-      "first_name": "Charity",
-      "last_name": "Coffey",
-      "city": "Grove City",
-      "location": "OH",
-      "age": "F50-59"
-    },
     "bethany_lannon_sc": {
       "first_name": "Bethany",
       "last_name": "Lannon",
@@ -1464,6 +1457,20 @@
       "location": "NC",
       "age": "M50-59"
     },
+    "britta_vivaldi_nc": {
+      "first_name": "Britta",
+      "last_name": "Vivaldi",
+      "city": "Holly Ridge",
+      "location": "NC",
+      "age": "F30-39"
+    },
+    "wade_baker_va": {
+      "first_name": "Wade",
+      "last_name": "Baker",
+      "city": "Sterling",
+      "location": "VA",
+      "age": "M40-49"
+    },
     "kady_braswell_nc": {
       "first_name": "Kady",
       "last_name": "Braswell",
@@ -1541,26 +1548,12 @@
       "location": "TN",
       "age": "F30-39"
     },
-    "britta_vivaldi_nc": {
-      "first_name": "Britta",
-      "last_name": "Vivaldi",
-      "city": "Holly Ridge",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "jill_orton_va": {
       "first_name": "Jill",
       "last_name": "Orton",
       "city": "Leesburg",
       "location": "VA",
       "age": "F40-49"
-    },
-    "wade_baker_va": {
-      "first_name": "Wade",
-      "last_name": "Baker",
-      "city": "Sterling",
-      "location": "VA",
-      "age": "M40-49"
     },
     "skyler_mcmurray_va": {
       "first_name": "Skyler",
@@ -1675,5 +1668,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-04-16T08:37:03.077396"
+  "timestamp": "2026-04-17T08:36:24.043435"
 }

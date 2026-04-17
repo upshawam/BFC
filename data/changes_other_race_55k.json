@@ -1213,5 +1213,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-17T08:36:24.482393",
+    "count_change": 0,
+    "new_count": 252,
+    "previous_count": 252,
+    "new_entrants": [
+      {
+        "first_name": "Charity",
+        "last_name": "Coffey",
+        "city": "Grove City",
+        "location": "OH",
+        "age": "F50-59",
+        "key": "charity_coffey_oh"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Martha",
+        "last_name": "Grib-Kachman",
+        "city": "Hagerstown",
+        "location": "MD",
+        "age": "F60-69",
+        "key": "martha_grib-kachman_md"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
