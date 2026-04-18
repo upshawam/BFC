@@ -680,6 +680,13 @@
       "location": "TN",
       "age": "M50-59"
     },
+    "jeffrey_lenard_il": {
+      "first_name": "Jeffrey",
+      "last_name": "Lenard",
+      "city": "Johnsburg",
+      "location": "IL",
+      "age": "M60-69"
+    },
     "kelly_wichtendahl_ny": {
       "first_name": "Kelly",
       "last_name": "Wichtendahl",
@@ -721,13 +728,6 @@
       "city": "Ona",
       "location": "WV",
       "age": "M50-59"
-    },
-    "jeffrey_lenard_il": {
-      "first_name": "Jeffrey",
-      "last_name": "Lenard",
-      "city": "Johnsburg",
-      "location": "IL",
-      "age": "M60-69"
     },
     "jimmy_kuhn_al": {
       "first_name": "Jimmy",
@@ -3544,5 +3544,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-04-17T08:36:23.644594"
+  "timestamp": "2026-04-18T08:16:01.728134"
 }

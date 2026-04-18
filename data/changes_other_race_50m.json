@@ -1314,5 +1314,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-04-18T08:16:02.081508",
+    "count_change": -1,
+    "new_count": 237,
+    "previous_count": 238,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Janine",
+        "last_name": "Myatt",
+        "city": "Bristol",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "janine_myatt_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
