@@ -1261,5 +1261,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-20T08:48:11.677944",
+    "count_change": 1,
+    "new_count": 253,
+    "previous_count": 252,
+    "new_entrants": [
+      {
+        "first_name": "Janine",
+        "last_name": "Myatt",
+        "city": "Bristol",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "janine_myatt_va"
+      },
+      {
+        "first_name": "Rebekah",
+        "last_name": "Byrd",
+        "city": "Damascus",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "rebekah_byrd_va"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Rebekah",
+        "last_name": "Byrd",
+        "city": "Marshall",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "rebekah_byrd_nc"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
