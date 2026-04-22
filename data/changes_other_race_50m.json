@@ -1363,5 +1363,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-22T08:37:44.020061",
+    "count_change": 1,
+    "new_count": 238,
+    "previous_count": 237,
+    "new_entrants": [
+      {
+        "first_name": "Nicolas",
+        "last_name": "Gambetta",
+        "city": "Lynchburg",
+        "location": "VA",
+        "age": "M20-29",
+        "key": "nicolas_gambetta_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

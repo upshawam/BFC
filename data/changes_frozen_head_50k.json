@@ -1341,5 +1341,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-22T08:37:43.581326",
+    "count_change": 1,
+    "new_count": 507,
+    "previous_count": 506,
+    "new_entrants": [
+      {
+        "first_name": "Kevin",
+        "last_name": "Kuchinsky",
+        "city": "Perkasie",
+        "location": "PA",
+        "age": "M40-49",
+        "key": "kevin_kuchinsky_pa"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
