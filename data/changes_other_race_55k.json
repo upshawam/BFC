@@ -1356,5 +1356,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-26T08:28:54.643451",
+    "count_change": -1,
+    "new_count": 251,
+    "previous_count": 252,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Lisa",
+        "last_name": "Boyd",
+        "city": "Pittsburgh",
+        "location": "PA",
+        "age": "F40-49",
+        "key": "lisa_boyd_pa"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

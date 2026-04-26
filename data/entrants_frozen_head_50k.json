@@ -1093,13 +1093,6 @@
       "location": "NY",
       "age": "M40-49"
     },
-    "nicholas_spivey_ga": {
-      "first_name": "Nicholas",
-      "last_name": "Spivey",
-      "city": "Clermont",
-      "location": "GA",
-      "age": "M40-49"
-    },
     "bart_schreck_sc": {
       "first_name": "Bart",
       "last_name": "Schreck",
@@ -1218,6 +1211,13 @@
       "city": "Jacksonville",
       "location": "FL",
       "age": "M50-59"
+    },
+    "nicholas_spivey_ga": {
+      "first_name": "Nicholas",
+      "last_name": "Spivey",
+      "city": "Clermont",
+      "location": "GA",
+      "age": "M40-49"
     },
     "trevor_greene_tn": {
       "first_name": "Trevor",
@@ -3551,5 +3551,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-04-25T08:22:05.680087"
+  "timestamp": "2026-04-26T08:28:53.932085"
 }

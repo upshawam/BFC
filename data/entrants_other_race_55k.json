@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 251,
   "entrants": {
     "zack_dobson_md": {
       "first_name": "Zack",
@@ -679,13 +679,6 @@
       "city": "Dresden",
       "location": "TN",
       "age": "M70+"
-    },
-    "lisa_boyd_pa": {
-      "first_name": "Lisa",
-      "last_name": "Boyd",
-      "city": "Pittsburgh",
-      "location": "PA",
-      "age": "F40-49"
     },
     "kristen_rinehart_sc": {
       "first_name": "Kristen",
@@ -1766,5 +1759,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-04-25T08:22:06.232819"
+  "timestamp": "2026-04-26T08:28:54.641885"
 }
