@@ -1375,5 +1375,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-04-27T08:53:43.517813",
+    "count_change": -1,
+    "new_count": 250,
+    "previous_count": 251,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Janice",
+        "last_name": "Sutton",
+        "city": "Madison",
+        "location": "AL",
+        "age": "F70+",
+        "key": "janice_sutton_al"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

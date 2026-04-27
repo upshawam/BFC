@@ -2521,13 +2521,6 @@
       "location": "DEU",
       "age": "M40-49"
     },
-    "chelsey_richardson_sc": {
-      "first_name": "Chelsey",
-      "last_name": "Richardson",
-      "city": "Myrtle beach",
-      "location": "SC",
-      "age": "F30-39"
-    },
     "minel_diaz_tx": {
       "first_name": "Minel",
       "last_name": "Diaz",
@@ -2562,6 +2555,13 @@
       "city": "Merrill",
       "location": "WI",
       "age": "M40-49"
+    },
+    "chelsey_richardson_sc": {
+      "first_name": "Chelsey",
+      "last_name": "Richardson",
+      "city": "Myrtle beach",
+      "location": "SC",
+      "age": "F30-39"
     },
     "marty_hagan_irl": {
       "first_name": "Marty",
@@ -2701,13 +2701,6 @@
       "last_name": "Stahlecker",
       "city": "Denver",
       "location": "CO",
-      "age": "M40-49"
-    },
-    "clint_simmons_ga": {
-      "first_name": "Clint",
-      "last_name": "Simmons",
-      "city": "Toccoa",
-      "location": "GA",
       "age": "M40-49"
     },
     "josh_caldwell_al": {
@@ -3128,6 +3121,13 @@
       "last_name": "Bunch",
       "city": "Forest City",
       "location": "NC",
+      "age": "M40-49"
+    },
+    "clint_simmons_ga": {
+      "first_name": "Clint",
+      "last_name": "Simmons",
+      "city": "Toccoa",
+      "location": "GA",
       "age": "M40-49"
     },
     "amy_egan_pa": {
@@ -3551,5 +3551,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-04-26T08:28:53.932085"
+  "timestamp": "2026-04-27T08:53:42.793162"
 }
