@@ -1432,5 +1432,40 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-28T08:52:05.225554",
+    "count_change": -3,
+    "new_count": 235,
+    "previous_count": 238,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Ashley",
+        "last_name": "Woods",
+        "city": "Kings Mountain",
+        "location": "NC",
+        "age": "F50-59",
+        "key": "ashley_woods_nc"
+      },
+      {
+        "first_name": "Emily",
+        "last_name": "Hansen",
+        "city": "Lake Stevens",
+        "location": "WA",
+        "age": "F30-39",
+        "key": "emily_hansen_wa"
+      },
+      {
+        "first_name": "Morgan",
+        "last_name": "Robertson",
+        "city": "Amherst",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "morgan_robertson_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 3
   }
 ]
