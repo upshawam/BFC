@@ -1413,5 +1413,24 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-29T08:49:02.985564",
+    "count_change": 1,
+    "new_count": 252,
+    "previous_count": 251,
+    "new_entrants": [
+      {
+        "first_name": "Richard",
+        "last_name": "Abernathy",
+        "city": "Ellenboro",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "richard_abernathy_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]

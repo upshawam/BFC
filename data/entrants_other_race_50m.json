@@ -1,5 +1,5 @@
 {
-  "count": 235,
+  "count": 234,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -925,13 +925,6 @@
       "location": "MD",
       "age": "M70+"
     },
-    "richard_abernathy_nc": {
-      "first_name": "Richard",
-      "last_name": "Abernathy",
-      "city": "Ellenboro",
-      "location": "NC",
-      "age": "M40-49"
-    },
     "brooklyn_dawson_nc": {
       "first_name": "Brooklyn",
       "last_name": "Dawson",
@@ -1647,5 +1640,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-04-28T08:52:05.224076"
+  "timestamp": "2026-04-29T08:49:02.438000"
 }
