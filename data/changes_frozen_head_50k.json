@@ -1430,5 +1430,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-04-30T08:49:00.121235",
+    "count_change": -1,
+    "new_count": 506,
+    "previous_count": 507,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Todd",
+        "last_name": "Fernandez",
+        "city": "Atlanta",
+        "location": "GA",
+        "age": "M40-49",
+        "key": "todd_fernandez_ga"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
