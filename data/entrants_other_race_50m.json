@@ -1,5 +1,5 @@
 {
-  "count": 233,
+  "count": 232,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -981,13 +981,6 @@
       "location": "TN",
       "age": "M40-49"
     },
-    "sally_sauer_ga": {
-      "first_name": "Sally",
-      "last_name": "Sauer",
-      "city": "Evans",
-      "location": "GA",
-      "age": "F40-49"
-    },
     "lori_applebach_va": {
       "first_name": "Lori",
       "last_name": "Applebach",
@@ -1163,6 +1156,13 @@
       "location": "MN",
       "age": "F40-49"
     },
+    "sally_sauer_ga": {
+      "first_name": "Sally",
+      "last_name": "Sauer",
+      "city": "Evans",
+      "location": "GA",
+      "age": "F40-49"
+    },
     "bryce_davis_nc": {
       "first_name": "Bryce",
       "last_name": "Davis",
@@ -1197,13 +1197,6 @@
       "city": "Ironton",
       "location": "OH",
       "age": "F40-49"
-    },
-    "randy_querry_md": {
-      "first_name": "Randy",
-      "last_name": "Querry",
-      "city": "New Market",
-      "location": "MD",
-      "age": "M50-59"
     },
     "jason_tolley_pa": {
       "first_name": "Jason",
@@ -1633,5 +1626,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-04-30T08:49:00.404493"
+  "timestamp": "2026-05-01T08:42:17.453524"
 }

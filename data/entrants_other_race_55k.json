@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 253,
   "entrants": {
     "zack_dobson_md": {
       "first_name": "Zack",
@@ -790,6 +790,13 @@
       "last_name": "Sears",
       "city": "Phoenix",
       "location": "AZ",
+      "age": "M50-59"
+    },
+    "randy_querry_md": {
+      "first_name": "Randy",
+      "last_name": "Querry",
+      "city": "New Market",
+      "location": "MD",
       "age": "M50-59"
     },
     "wes_watts_ky": {
@@ -1766,5 +1773,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-04-30T08:49:00.647720"
+  "timestamp": "2026-05-01T08:42:17.833908"
 }

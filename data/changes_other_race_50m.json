@@ -1505,5 +1505,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-01T08:42:17.454746",
+    "count_change": -1,
+    "new_count": 232,
+    "previous_count": 233,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Randy",
+        "last_name": "Querry",
+        "city": "New Market",
+        "location": "MD",
+        "age": "M50-59",
+        "key": "randy_querry_md"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
