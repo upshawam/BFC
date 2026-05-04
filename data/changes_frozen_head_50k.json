@@ -1479,5 +1479,177 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-04T08:52:36.061522",
+    "count_change": -8,
+    "new_count": 498,
+    "previous_count": 506,
+    "new_entrants": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Hardwick",
+        "city": "Baysville",
+        "location": "ON",
+        "age": "M40-49",
+        "key": "aaron_hardwick_on"
+      },
+      {
+        "first_name": "Derek",
+        "last_name": "Jobson",
+        "city": "Canmore",
+        "location": "AB",
+        "age": "M40-49",
+        "key": "derek_jobson_ab"
+      },
+      {
+        "first_name": "Emily",
+        "last_name": "Jobson",
+        "city": "Canmore",
+        "location": "AB",
+        "age": "F40-49",
+        "key": "emily_jobson_ab"
+      },
+      {
+        "first_name": "Jimmy",
+        "last_name": "Warren",
+        "city": "Nashville",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "jimmy_warren_tn"
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Youngren",
+        "city": "Huntsville",
+        "location": "AL",
+        "age": "M50-59",
+        "key": "robert_youngren_al"
+      },
+      {
+        "first_name": "Thibault",
+        "last_name": "Lou\u00e9",
+        "city": "Paris",
+        "location": "FRA",
+        "age": "M30-39",
+        "key": "thibault_lou\u00e9_fra"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Bill",
+        "last_name": "Colbert",
+        "city": "OMAHA",
+        "location": "NE",
+        "age": "M50-59",
+        "key": "bill_colbert_ne"
+      },
+      {
+        "first_name": "Dub",
+        "last_name": "Krauth",
+        "city": "North Wales",
+        "location": "PA",
+        "age": "M50-59",
+        "key": "dub_krauth_pa"
+      },
+      {
+        "first_name": "Grant",
+        "last_name": "Robb",
+        "city": "Bulverde",
+        "location": "TX",
+        "age": "M30-39",
+        "key": "grant_robb_tx"
+      },
+      {
+        "first_name": "Isaac",
+        "last_name": "Wait",
+        "city": "Ona",
+        "location": "WV",
+        "age": "M50-59",
+        "key": "isaac_wait_wv"
+      },
+      {
+        "first_name": "Jamie",
+        "last_name": "Power",
+        "city": "Bluffton",
+        "location": "SC",
+        "age": "F50-59",
+        "key": "jamie_power_sc"
+      },
+      {
+        "first_name": "Jason",
+        "last_name": "Stevens",
+        "city": "Centerville",
+        "location": "OH",
+        "age": "M50-59",
+        "key": "jason_stevens_oh"
+      },
+      {
+        "first_name": "Jimmy",
+        "last_name": "Kuhn",
+        "city": "Dadeville",
+        "location": "AL",
+        "age": "M60-69",
+        "key": "jimmy_kuhn_al"
+      },
+      {
+        "first_name": "Joanna",
+        "last_name": "Vickers",
+        "city": "Manchester",
+        "location": "MD",
+        "age": "F50-59",
+        "key": "joanna_vickers_md"
+      },
+      {
+        "first_name": "Kyle",
+        "last_name": "Knapp",
+        "city": "Broken Arrow",
+        "location": "OK",
+        "age": "M50-59",
+        "key": "kyle_knapp_ok"
+      },
+      {
+        "first_name": "Louis",
+        "last_name": "Raes",
+        "city": "Mechelen",
+        "location": "BEL",
+        "age": "M40-49",
+        "key": "louis_raes_bel"
+      },
+      {
+        "first_name": "Mariel",
+        "last_name": "Rosen",
+        "city": "Saint Petersburg",
+        "location": "FL",
+        "age": "F30-39",
+        "key": "mariel_rosen_fl"
+      },
+      {
+        "first_name": "Sarah",
+        "last_name": "Clay",
+        "city": "Vestavia Hills",
+        "location": "AL",
+        "age": "F50-59",
+        "key": "sarah_clay_al"
+      },
+      {
+        "first_name": "Sarah",
+        "last_name": "Peel-Yates",
+        "city": "Numulgi",
+        "location": "AUS",
+        "age": "F50-59",
+        "key": "sarah_peel-yates_aus"
+      },
+      {
+        "first_name": "Todd",
+        "last_name": "Clay",
+        "city": "Vestavia Hills",
+        "location": "AL",
+        "age": "M50-59",
+        "key": "todd_clay_al"
+      }
+    ],
+    "total_new": 6,
+    "total_dropped": 14
   }
 ]
