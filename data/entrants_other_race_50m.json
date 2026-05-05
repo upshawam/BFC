@@ -1,5 +1,5 @@
 {
-  "count": 232,
+  "count": 230,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -232,13 +232,6 @@
       "location": "NC",
       "age": "M20-29"
     },
-    "matthew_verley_sc": {
-      "first_name": "Matthew",
-      "last_name": "Verley",
-      "city": "Greenville",
-      "location": "SC",
-      "age": "M40-49"
-    },
     "jen_metcalf_in": {
       "first_name": "Jen",
       "last_name": "Metcalf",
@@ -456,6 +449,13 @@
       "location": "NC",
       "age": "M30-39"
     },
+    "matthew_verley_sc": {
+      "first_name": "Matthew",
+      "last_name": "Verley",
+      "city": "Greenville",
+      "location": "SC",
+      "age": "M40-49"
+    },
     "ashley_caskey_va": {
       "first_name": "Ashley",
       "last_name": "Caskey",
@@ -505,13 +505,6 @@
       "location": "NC",
       "age": "M40-49"
     },
-    "ethan_money_ga": {
-      "first_name": "Ethan",
-      "last_name": "Money",
-      "city": "Cochran",
-      "location": "GA",
-      "age": "M30-39"
-    },
     "louise_warner_nc": {
       "first_name": "Louise",
       "last_name": "Warner",
@@ -546,6 +539,13 @@
       "city": "Raleigh",
       "location": "NC",
       "age": "F50-59"
+    },
+    "ethan_money_ga": {
+      "first_name": "Ethan",
+      "last_name": "Money",
+      "city": "Cochran",
+      "location": "GA",
+      "age": "M30-39"
     },
     "jackson_weikel-sandstrom_pa": {
       "first_name": "Jackson",
@@ -967,20 +967,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "richard_fobell_tn": {
-      "first_name": "Richard",
-      "last_name": "Fobell",
-      "city": "Arlington",
-      "location": "TN",
-      "age": "M40-49"
-    },
-    "lori_applebach_va": {
-      "first_name": "Lori",
-      "last_name": "Applebach",
-      "city": "Henrico",
-      "location": "VA",
-      "age": "F40-49"
-    },
     "chip_norman_ga": {
       "first_name": "Chip",
       "last_name": "Norman",
@@ -1022,6 +1008,13 @@
       "city": "Cleveland",
       "location": "GA",
       "age": "M20-29"
+    },
+    "richard_fobell_tn": {
+      "first_name": "Richard",
+      "last_name": "Fobell",
+      "city": "Arlington",
+      "location": "TN",
+      "age": "M40-49"
     },
     "jackie_nance_nc": {
       "first_name": "Jackie",
@@ -1100,13 +1093,6 @@
       "location": "VA",
       "age": "F50-59"
     },
-    "stephanie_roddy_va": {
-      "first_name": "Stephanie",
-      "last_name": "Roddy",
-      "city": "Henrico",
-      "location": "VA",
-      "age": "F30-39"
-    },
     "ann_cools_mi": {
       "first_name": "Ann",
       "last_name": "Cools",
@@ -1133,13 +1119,6 @@
       "last_name": "Amundson",
       "city": "Woodbridge",
       "location": "VA",
-      "age": "F50-59"
-    },
-    "nicole_baxter_md": {
-      "first_name": "Nicole",
-      "last_name": "Baxter",
-      "city": "La Plata",
-      "location": "MD",
       "age": "F50-59"
     },
     "jennifer_leeson_mn": {
@@ -1191,6 +1170,13 @@
       "location": "NC",
       "age": "M50-59"
     },
+    "stephanie_roddy_va": {
+      "first_name": "Stephanie",
+      "last_name": "Roddy",
+      "city": "Henrico",
+      "location": "VA",
+      "age": "F30-39"
+    },
     "brea_taylor_oh": {
       "first_name": "Brea",
       "last_name": "Taylor",
@@ -1204,6 +1190,13 @@
       "city": "Reading",
       "location": "PA",
       "age": "M40-49"
+    },
+    "nicole_baxter_md": {
+      "first_name": "Nicole",
+      "last_name": "Baxter",
+      "city": "La Plata",
+      "location": "MD",
+      "age": "F50-59"
     },
     "ted_coberly_nc": {
       "first_name": "Ted",
@@ -1407,13 +1400,6 @@
       "city": "Montoursville",
       "location": "PA",
       "age": "M30-39"
-    },
-    "cristina_ruiz_mo": {
-      "first_name": "Cristina",
-      "last_name": "Ruiz",
-      "city": "Independence",
-      "location": "MO",
-      "age": "F40-49"
     },
     "jason_kelling_mo": {
       "first_name": "Jason",
@@ -1626,5 +1612,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-04T08:52:36.434921"
+  "timestamp": "2026-05-05T08:47:26.767751"
 }

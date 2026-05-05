@@ -1651,5 +1651,48 @@
     ],
     "total_new": 6,
     "total_dropped": 14
+  },
+  {
+    "timestamp": "2026-05-05T08:47:26.001790",
+    "count_change": 4,
+    "new_count": 502,
+    "previous_count": 498,
+    "new_entrants": [
+      {
+        "first_name": "Ezequiel",
+        "last_name": "Rios Pita",
+        "city": "Sao Paulo",
+        "location": "BRA",
+        "age": "M50-59",
+        "key": "ezequiel_rios pita_bra"
+      },
+      {
+        "first_name": "Jorge",
+        "last_name": "Combe",
+        "city": "Mexico City",
+        "location": "MEX",
+        "age": "M40-49",
+        "key": "jorge_combe_mex"
+      },
+      {
+        "first_name": "Mark",
+        "last_name": "Lilley",
+        "city": "Prince Edward County",
+        "location": "ON",
+        "age": "M40-49",
+        "key": "mark_lilley_on"
+      },
+      {
+        "first_name": "Victoria",
+        "last_name": "Hoch",
+        "city": "Tampa",
+        "location": "FL",
+        "age": "F30-39",
+        "key": "victoria_hoch_fl"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 4,
+    "total_dropped": 0
   }
 ]

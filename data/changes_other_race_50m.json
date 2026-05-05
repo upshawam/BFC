@@ -1554,5 +1554,32 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-05T08:47:26.768996",
+    "count_change": -2,
+    "new_count": 230,
+    "previous_count": 232,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Cristina",
+        "last_name": "Ruiz",
+        "city": "Independence",
+        "location": "MO",
+        "age": "F40-49",
+        "key": "cristina_ruiz_mo"
+      },
+      {
+        "first_name": "Lori",
+        "last_name": "Applebach",
+        "city": "Henrico",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "lori_applebach_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
