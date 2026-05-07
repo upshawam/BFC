@@ -1518,5 +1518,24 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-07T08:56:30.806906",
+    "count_change": -1,
+    "new_count": 254,
+    "previous_count": 255,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Shawna",
+        "last_name": "Bryce",
+        "city": "Mars Hill",
+        "location": "NC",
+        "age": "F50-59",
+        "key": "shawna_bryce_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
