@@ -568,13 +568,6 @@
       "location": "MD",
       "age": "F40-49"
     },
-    "victoria_kendra_nc": {
-      "first_name": "Victoria",
-      "last_name": "Kendra",
-      "city": "Siler City",
-      "location": "NC",
-      "age": "F50-59"
-    },
     "max_thomas_ga": {
       "first_name": "Max",
       "last_name": "Thomas",
@@ -616,6 +609,13 @@
       "city": "Sevierville",
       "location": "TN",
       "age": "F60-69"
+    },
+    "victoria_kendra_nc": {
+      "first_name": "Victoria",
+      "last_name": "Kendra",
+      "city": "Siler City",
+      "location": "NC",
+      "age": "F50-59"
     },
     "angela_allen_wi": {
       "first_name": "Angela",
@@ -1086,13 +1086,6 @@
       "location": "OH",
       "age": "F50-59"
     },
-    "latisha_cannon_nc": {
-      "first_name": "Latisha",
-      "last_name": "Cannon",
-      "city": "Marion",
-      "location": "NC",
-      "age": "F50-59"
-    },
     "susan_devine_nc": {
       "first_name": "Susan",
       "last_name": "Devine",
@@ -1113,6 +1106,13 @@
       "city": "Bristol",
       "location": "VA",
       "age": "M40-49"
+    },
+    "latisha_cannon_nc": {
+      "first_name": "Latisha",
+      "last_name": "Cannon",
+      "city": "Marion",
+      "location": "NC",
+      "age": "F50-59"
     },
     "trisha_christian_va": {
       "first_name": "Trisha",
@@ -1780,5 +1780,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-05-07T08:56:30.805642"
+  "timestamp": "2026-05-08T08:34:05.150732"
 }
