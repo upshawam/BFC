@@ -1547,5 +1547,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-09T08:35:05.131123",
+    "count_change": -1,
+    "new_count": 253,
+    "previous_count": 254,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "David",
+        "last_name": "Sobyra",
+        "city": "Fredericksburg",
+        "location": "VA",
+        "age": "M60-69",
+        "key": "david_sobyra_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
