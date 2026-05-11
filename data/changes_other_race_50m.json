@@ -1621,5 +1621,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-11T09:12:07.886227",
+    "count_change": -1,
+    "new_count": 229,
+    "previous_count": 230,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Gregory",
+        "last_name": "Loomis",
+        "city": "Midlothian",
+        "location": "VA",
+        "age": "M50-59",
+        "key": "gregory_loomis_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
