@@ -1,5 +1,5 @@
 {
-  "count": 229,
+  "count": 228,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -351,6 +351,13 @@
       "location": "NC",
       "age": "F40-49"
     },
+    "carrie_edwards_va": {
+      "first_name": "Carrie",
+      "last_name": "Edwards",
+      "city": "North Chesterfield",
+      "location": "VA",
+      "age": "F40-49"
+    },
     "christian_gonzalez_nc": {
       "first_name": "Christian",
       "last_name": "Gonzalez",
@@ -364,13 +371,6 @@
       "city": "Gallatin",
       "location": "TN",
       "age": "M30-39"
-    },
-    "carrie_edwards_va": {
-      "first_name": "Carrie",
-      "last_name": "Edwards",
-      "city": "North Chesterfield",
-      "location": "VA",
-      "age": "F40-49"
     },
     "art_jur_va": {
       "first_name": "Art",
@@ -603,6 +603,13 @@
       "location": "AR",
       "age": "F30-39"
     },
+    "erin_trodden_va": {
+      "first_name": "Erin",
+      "last_name": "Trodden",
+      "city": "Charlottesville",
+      "location": "VA",
+      "age": "F40-49"
+    },
     "johnny_gardner_va": {
       "first_name": "Johnny",
       "last_name": "Gardner",
@@ -806,13 +813,6 @@
       "location": "IL",
       "age": "F50-59"
     },
-    "erin_trodden_va": {
-      "first_name": "Erin",
-      "last_name": "Trodden",
-      "city": "Charlottesville",
-      "location": "VA",
-      "age": "F40-49"
-    },
     "jack_shepherd_ny": {
       "first_name": "Jack",
       "last_name": "Shepherd",
@@ -826,13 +826,6 @@
       "city": "Spruce Pine",
       "location": "NC",
       "age": "M30-39"
-    },
-    "ruthie_williams_nc": {
-      "first_name": "Ruthie",
-      "last_name": "Williams",
-      "city": "Cary, NC",
-      "location": "NC",
-      "age": "F50-59"
     },
     "billy_akin_tn": {
       "first_name": "Billy",
@@ -1605,5 +1598,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-11T09:12:07.884985"
+  "timestamp": "2026-05-12T09:00:04.786118"
 }

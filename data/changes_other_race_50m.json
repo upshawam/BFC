@@ -1640,5 +1640,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-12T09:00:04.787726",
+    "count_change": -1,
+    "new_count": 228,
+    "previous_count": 229,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Ruthie",
+        "last_name": "Williams",
+        "city": "Cary, NC",
+        "location": "NC",
+        "age": "F50-59",
+        "key": "ruthie_williams_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

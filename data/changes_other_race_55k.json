@@ -1586,5 +1586,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-12T09:00:05.023966",
+    "count_change": 0,
+    "new_count": 253,
+    "previous_count": 253,
+    "new_entrants": [
+      {
+        "first_name": "Janine",
+        "last_name": "Myatt",
+        "city": "Bristol",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "janine_myatt_va"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Ben",
+        "last_name": "Herron",
+        "city": "Dresden",
+        "location": "TN",
+        "age": "M70+",
+        "key": "ben_herron_tn"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
