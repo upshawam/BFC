@@ -1659,5 +1659,49 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-13T09:03:46.110619",
+    "count_change": -2,
+    "new_count": 226,
+    "previous_count": 228,
+    "new_entrants": [
+      {
+        "first_name": "Angela",
+        "last_name": "Knepprath",
+        "city": "Charlotte",
+        "location": "NC",
+        "age": "F30-39",
+        "key": "angela_knepprath_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Caleb",
+        "last_name": "Steedley",
+        "city": "China Grove",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "caleb_steedley_nc"
+      },
+      {
+        "first_name": "Hugo",
+        "last_name": "Lagomasino",
+        "city": "Cumming",
+        "location": "GA",
+        "age": "M70+",
+        "key": "hugo_lagomasino_ga"
+      },
+      {
+        "first_name": "Karla",
+        "last_name": "Steedley",
+        "city": "China Grove",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "karla_steedley_nc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 3
   }
 ]
