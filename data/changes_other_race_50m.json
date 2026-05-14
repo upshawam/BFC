@@ -1703,5 +1703,24 @@
     ],
     "total_new": 1,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-05-14T08:58:26.413582",
+    "count_change": -1,
+    "new_count": 225,
+    "previous_count": 226,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Stephanie",
+        "last_name": "Roddy",
+        "city": "Henrico",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "stephanie_roddy_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

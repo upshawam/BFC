@@ -1674,5 +1674,41 @@
     ],
     "total_new": 3,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-05-14T08:58:26.888395",
+    "count_change": -1,
+    "new_count": 252,
+    "previous_count": 253,
+    "new_entrants": [
+      {
+        "first_name": "Stephanie",
+        "last_name": "Roddy",
+        "city": "Henrico",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "stephanie_roddy_va"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Smith",
+        "city": "Arlington",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "aaron_smith_tn"
+      },
+      {
+        "first_name": "Gregory",
+        "last_name": "Echtman",
+        "city": "Leland",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "gregory_echtman_nc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 2
   }
 ]
