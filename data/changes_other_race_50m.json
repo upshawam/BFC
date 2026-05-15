@@ -1722,5 +1722,41 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-15T09:06:49.067809",
+    "count_change": -1,
+    "new_count": 224,
+    "previous_count": 225,
+    "new_entrants": [
+      {
+        "first_name": "Zachary",
+        "last_name": "Lister",
+        "city": "Cordova",
+        "location": "MD",
+        "age": "M<20",
+        "key": "zachary_lister_md"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Cynthia",
+        "last_name": "Burrey",
+        "city": "Lancaster",
+        "location": "PA",
+        "age": "F50-59",
+        "key": "cynthia_burrey_pa"
+      },
+      {
+        "first_name": "Lisa",
+        "last_name": "Kolas",
+        "city": "Leesburg",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "lisa_kolas_va"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 2
   }
 ]

@@ -1710,5 +1710,32 @@
     ],
     "total_new": 1,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-05-15T09:06:49.490399",
+    "count_change": 2,
+    "new_count": 254,
+    "previous_count": 252,
+    "new_entrants": [
+      {
+        "first_name": "Cynthia",
+        "last_name": "Burrey",
+        "city": "Lancaster",
+        "location": "PA",
+        "age": "F50-59",
+        "key": "cynthia_burrey_pa"
+      },
+      {
+        "first_name": "Lisa",
+        "last_name": "Kolas",
+        "city": "Leesburg",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "lisa_kolas_va"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]

@@ -1783,5 +1783,48 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-15T09:06:48.673657",
+    "count_change": -4,
+    "new_count": 499,
+    "previous_count": 503,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Mora",
+        "city": "North Hollywood",
+        "location": "CA",
+        "age": "M30-39",
+        "key": "daniel_mora_ca"
+      },
+      {
+        "first_name": "Jenny",
+        "last_name": "Stipp",
+        "city": "Shawnee",
+        "location": "KS",
+        "age": "F40-49",
+        "key": "jenny_stipp_ks"
+      },
+      {
+        "first_name": "Jocelyn",
+        "last_name": "Outlaw",
+        "city": "Etobicoke",
+        "location": "ON",
+        "age": "F40-49",
+        "key": "jocelyn_outlaw_on"
+      },
+      {
+        "first_name": "Jonny",
+        "last_name": "Gill",
+        "city": "York",
+        "location": "GBR",
+        "age": "M30-39",
+        "key": "jonny_gill_gbr"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 4
   }
 ]

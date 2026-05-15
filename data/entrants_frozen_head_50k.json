@@ -1,5 +1,5 @@
 {
-  "count": 503,
+  "count": 499,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -35,13 +35,6 @@
       "city": "Chattanooga",
       "location": "TN",
       "age": "M30-39"
-    },
-    "jenny_stipp_ks": {
-      "first_name": "Jenny",
-      "last_name": "Stipp",
-      "city": "Shawnee",
-      "location": "KS",
-      "age": "F40-49"
     },
     "jonathan_penn_tn": {
       "first_name": "Jonathan",
@@ -393,19 +386,19 @@
       "location": "AL",
       "age": "M50-59"
     },
-    "jamie_saunders_fl": {
-      "first_name": "Jamie",
-      "last_name": "Saunders",
-      "city": "Gainesville",
-      "location": "FL",
-      "age": "F40-49"
-    },
     "kevin_dockemeyer_il": {
       "first_name": "Kevin",
       "last_name": "Dockemeyer",
       "city": "Bradley",
       "location": "IL",
       "age": "M40-49"
+    },
+    "jamie_saunders_fl": {
+      "first_name": "Jamie",
+      "last_name": "Saunders",
+      "city": "Gainesville",
+      "location": "FL",
+      "age": "F40-49"
     },
     "scott_thornhill_la": {
       "first_name": "Scott",
@@ -2080,13 +2073,6 @@
       "location": "IL",
       "age": "M60-69"
     },
-    "jonny_gill_gbr": {
-      "first_name": "Jonny",
-      "last_name": "Gill",
-      "city": "York",
-      "location": "GBR",
-      "age": "M30-39"
-    },
     "michael_parman_mo": {
       "first_name": "Michael",
       "last_name": "Parman",
@@ -2408,13 +2394,6 @@
       "city": "Knoxville",
       "location": "TN",
       "age": "M50-59"
-    },
-    "daniel_mora_ca": {
-      "first_name": "Daniel",
-      "last_name": "Mora",
-      "city": "North Hollywood",
-      "location": "CA",
-      "age": "M30-39"
     },
     "tara_scott_ca": {
       "first_name": "Tara",
@@ -3207,13 +3186,6 @@
       "location": "IL",
       "age": "M50-59"
     },
-    "jocelyn_outlaw_on": {
-      "first_name": "Jocelyn",
-      "last_name": "Outlaw",
-      "city": "Etobicoke",
-      "location": "ON",
-      "age": "F40-49"
-    },
     "william_cooper_ky": {
       "first_name": "William",
       "last_name": "Cooper",
@@ -3290,6 +3262,27 @@
       "city": "Avon",
       "location": "NY",
       "age": "M20-29"
+    },
+    "pascal_patterson_gbr": {
+      "first_name": "Pascal",
+      "last_name": "Patterson",
+      "city": "London",
+      "location": "GBR",
+      "age": "M40-49"
+    },
+    "jesus_cerdas_cri": {
+      "first_name": "Jesus",
+      "last_name": "Cerdas",
+      "city": "Hatillo",
+      "location": "CRI",
+      "age": "M20-29"
+    },
+    "derek_jobson_ab": {
+      "first_name": "Derek",
+      "last_name": "Jobson",
+      "city": "Canmore",
+      "location": "AB",
+      "age": "M40-49"
     },
     "aksel_u_nor": {
       "first_name": "Aksel",
@@ -3431,27 +3424,6 @@
       "location": "BRA",
       "age": "M50-59"
     },
-    "pascal_patterson_gbr": {
-      "first_name": "Pascal",
-      "last_name": "Patterson",
-      "city": "London",
-      "location": "GBR",
-      "age": "M40-49"
-    },
-    "jesus_cerdas_cri": {
-      "first_name": "Jesus",
-      "last_name": "Cerdas",
-      "city": "Hatillo",
-      "location": "CRI",
-      "age": "M20-29"
-    },
-    "derek_jobson_ab": {
-      "first_name": "Derek",
-      "last_name": "Jobson",
-      "city": "Canmore",
-      "location": "AB",
-      "age": "M40-49"
-    },
     "brian_maclennan_on": {
       "first_name": "Brian",
       "last_name": "Maclennan",
@@ -3523,5 +3495,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-05-14T08:58:25.885699"
+  "timestamp": "2026-05-15T09:06:48.671798"
 }
