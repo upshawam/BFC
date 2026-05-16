@@ -1737,5 +1737,33 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-16T08:36:59.329414",
+    "count_change": 0,
+    "new_count": 254,
+    "previous_count": 254,
+    "new_entrants": [
+      {
+        "first_name": "Mike",
+        "last_name": "Parton",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M60-69",
+        "key": "mike_parton_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Sarah",
+        "last_name": "Smith",
+        "city": "Birmingham",
+        "location": "AL",
+        "age": "F40-49",
+        "key": "sarah_smith_al"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]

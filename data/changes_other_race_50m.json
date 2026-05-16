@@ -1758,5 +1758,24 @@
     ],
     "total_new": 1,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-05-16T08:36:58.973300",
+    "count_change": -1,
+    "new_count": 223,
+    "previous_count": 224,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Mike",
+        "last_name": "Parton",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M60-69",
+        "key": "mike_parton_tn"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
