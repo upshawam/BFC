@@ -1,5 +1,5 @@
 {
-  "count": 223,
+  "count": 222,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -771,13 +771,6 @@
       "location": "NC",
       "age": "M30-39"
     },
-    "pam_white_tn": {
-      "first_name": "Pam",
-      "last_name": "White",
-      "city": "Knoxville",
-      "location": "TN",
-      "age": "F50-59"
-    },
     "delia_large-hart_va": {
       "first_name": "Delia",
       "last_name": "Large-Hart",
@@ -1366,13 +1359,6 @@
       "location": "NC",
       "age": "M50-59"
     },
-    "britta_vivaldi_nc": {
-      "first_name": "Britta",
-      "last_name": "Vivaldi",
-      "city": "Holly Ridge",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "kady_braswell_nc": {
       "first_name": "Kady",
       "last_name": "Braswell",
@@ -1548,6 +1534,13 @@
       "location": "VA",
       "age": "F40-49"
     },
+    "britta_vivaldi_nc": {
+      "first_name": "Britta",
+      "last_name": "Vivaldi",
+      "city": "Holly Ridge",
+      "location": "NC",
+      "age": "F30-39"
+    },
     "michael_perrotti_pa": {
       "first_name": "Michael",
       "last_name": "Perrotti",
@@ -1563,5 +1556,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-16T08:36:58.972083"
+  "timestamp": "2026-05-17T08:45:15.968862"
 }

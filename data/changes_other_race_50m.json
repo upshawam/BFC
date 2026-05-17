@@ -1777,5 +1777,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-17T08:45:15.970332",
+    "count_change": -1,
+    "new_count": 222,
+    "previous_count": 223,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Pam",
+        "last_name": "White",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "F50-59",
+        "key": "pam_white_tn"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
