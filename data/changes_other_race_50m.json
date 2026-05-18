@@ -1796,5 +1796,32 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-18T09:14:06.100563",
+    "count_change": -2,
+    "new_count": 220,
+    "previous_count": 222,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Bridget",
+        "last_name": "Perry",
+        "city": "Pittsboro",
+        "location": "NC",
+        "age": "F50-59",
+        "key": "bridget_perry_nc"
+      },
+      {
+        "first_name": "Laura",
+        "last_name": "Davis",
+        "city": "Powell",
+        "location": "TN",
+        "age": "F50-59",
+        "key": "laura_davis_tn"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]

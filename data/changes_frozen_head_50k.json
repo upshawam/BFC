@@ -1846,5 +1846,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-18T09:14:05.661114",
+    "count_change": 1,
+    "new_count": 500,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Samuel",
+        "last_name": "Herrington",
+        "city": "Pearl",
+        "location": "MS",
+        "age": "M40-49",
+        "key": "samuel_herrington_ms"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
