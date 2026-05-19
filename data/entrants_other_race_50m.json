@@ -1,5 +1,5 @@
 {
-  "count": 220,
+  "count": 218,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -253,13 +253,6 @@
       "location": "IN",
       "age": "F50-59"
     },
-    "heather_oaks_ga": {
-      "first_name": "Heather",
-      "last_name": "Oaks",
-      "city": "Canton",
-      "location": "GA",
-      "age": "F50-59"
-    },
     "trevor_caskey_va": {
       "first_name": "Trevor",
       "last_name": "Caskey",
@@ -280,6 +273,13 @@
       "city": "Ashland",
       "location": "KY",
       "age": "F40-49"
+    },
+    "heather_oaks_ga": {
+      "first_name": "Heather",
+      "last_name": "Oaks",
+      "city": "Canton",
+      "location": "GA",
+      "age": "F50-59"
     },
     "martha_wright_va": {
       "first_name": "Martha",
@@ -511,13 +511,6 @@
       "city": "Raleigh",
       "location": "NC",
       "age": "F50-59"
-    },
-    "leah_mink_ct": {
-      "first_name": "Leah",
-      "last_name": "Mink",
-      "city": "Danbury",
-      "location": "CT",
-      "age": "F40-49"
     },
     "jackson_weikel-sandstrom_pa": {
       "first_name": "Jackson",
@@ -848,13 +841,6 @@
       "location": "VA",
       "age": "M60-69"
     },
-    "vickie_bryant_va": {
-      "first_name": "Vickie",
-      "last_name": "Bryant",
-      "city": "Mechanicsville",
-      "location": "VA",
-      "age": "F50-59"
-    },
     "eric_stevens_nc": {
       "first_name": "Eric",
       "last_name": "Stevens",
@@ -911,13 +897,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "sally_sauer_ga": {
-      "first_name": "Sally",
-      "last_name": "Sauer",
-      "city": "Evans",
-      "location": "GA",
-      "age": "F40-49"
-    },
     "jessica_lucas-judy_va": {
       "first_name": "Jessica",
       "last_name": "Lucas-Judy",
@@ -931,13 +910,6 @@
       "city": "Leesburg",
       "location": "GA",
       "age": "M50-59"
-    },
-    "richard_fobell_tn": {
-      "first_name": "Richard",
-      "last_name": "Fobell",
-      "city": "Arlington",
-      "location": "TN",
-      "age": "M40-49"
     },
     "steve_brockman_va": {
       "first_name": "Steve",
@@ -1006,6 +978,13 @@
       "first_name": "Michael",
       "last_name": "Holder",
       "city": "Johnson City",
+      "location": "TN",
+      "age": "M40-49"
+    },
+    "richard_fobell_tn": {
+      "first_name": "Richard",
+      "last_name": "Fobell",
+      "city": "Arlington",
       "location": "TN",
       "age": "M40-49"
     },
@@ -1099,6 +1078,13 @@
       "city": "Leesburg",
       "location": "VA",
       "age": "M50-59"
+    },
+    "sally_sauer_ga": {
+      "first_name": "Sally",
+      "last_name": "Sauer",
+      "city": "Evans",
+      "location": "GA",
+      "age": "F40-49"
     },
     "bryce_davis_nc": {
       "first_name": "Bryce",
@@ -1542,5 +1528,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-18T09:14:06.099504"
+  "timestamp": "2026-05-19T09:12:15.064558"
 }

@@ -1823,5 +1823,32 @@
     ],
     "total_new": 0,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-05-19T09:12:15.066048",
+    "count_change": -2,
+    "new_count": 218,
+    "previous_count": 220,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Leah",
+        "last_name": "Mink",
+        "city": "Danbury",
+        "location": "CT",
+        "age": "F40-49",
+        "key": "leah_mink_ct"
+      },
+      {
+        "first_name": "Vickie",
+        "last_name": "Bryant",
+        "city": "Mechanicsville",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "vickie_bryant_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
