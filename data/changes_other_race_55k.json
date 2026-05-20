@@ -1838,5 +1838,24 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-20T09:10:34.194053",
+    "count_change": -1,
+    "new_count": 258,
+    "previous_count": 259,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Michelle",
+        "last_name": "Foster",
+        "city": "Nashville",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "michelle_foster_tn"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
