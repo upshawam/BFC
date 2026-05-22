@@ -1895,5 +1895,56 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-22T09:08:55.011601",
+    "count_change": -5,
+    "new_count": 495,
+    "previous_count": 500,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jamison",
+        "last_name": "Float",
+        "city": "Lewis Center",
+        "location": "OH",
+        "age": "M50-59",
+        "key": "jamison_float_oh"
+      },
+      {
+        "first_name": "Kirsten",
+        "last_name": "Hepp",
+        "city": "Chino",
+        "location": "CA",
+        "age": "F40-49",
+        "key": "kirsten_hepp_ca"
+      },
+      {
+        "first_name": "Kristen",
+        "last_name": "Melton",
+        "city": "Tuscumbia",
+        "location": "AL",
+        "age": "F50-59",
+        "key": "kristen_melton_al"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Albanese",
+        "city": "Antioch",
+        "location": "IL",
+        "age": "M50-59",
+        "key": "richard_albanese_il"
+      },
+      {
+        "first_name": "Rick",
+        "last_name": "Raeder",
+        "city": "Bethel Park",
+        "location": "PA",
+        "age": "M60-69",
+        "key": "rick_raeder_pa"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 5
   }
 ]
