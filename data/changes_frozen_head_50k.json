@@ -1946,5 +1946,41 @@
     ],
     "total_new": 0,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-05-23T08:44:13.377216",
+    "count_change": -1,
+    "new_count": 494,
+    "previous_count": 495,
+    "new_entrants": [
+      {
+        "first_name": "Kramer",
+        "last_name": "Reeves",
+        "city": "Carrboro",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "kramer_reeves_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Ryan",
+        "last_name": "Cooper",
+        "city": "Boulder",
+        "location": "CO",
+        "age": "M50-59",
+        "key": "ryan_cooper_co"
+      },
+      {
+        "first_name": "Sam",
+        "last_name": "Marcengill",
+        "city": "Anderson",
+        "location": "SC",
+        "age": "M40-49",
+        "key": "sam_marcengill_sc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 2
   }
 ]

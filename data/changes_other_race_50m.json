@@ -1898,5 +1898,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-23T08:44:13.625811",
+    "count_change": -1,
+    "new_count": 217,
+    "previous_count": 218,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Tonya",
+        "last_name": "Futrell",
+        "city": "Moseley",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "tonya_futrell_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
