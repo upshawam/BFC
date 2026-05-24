@@ -1896,5 +1896,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-24T08:53:54.755315",
+    "count_change": -1,
+    "new_count": 258,
+    "previous_count": 259,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Candi",
+        "last_name": "Hoffman",
+        "city": "Woodbridge",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "candi_hoffman_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
