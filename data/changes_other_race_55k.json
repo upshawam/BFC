@@ -1915,5 +1915,32 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-25T09:23:16.172338",
+    "count_change": -2,
+    "new_count": 256,
+    "previous_count": 258,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Tommy",
+        "last_name": "Dobson",
+        "city": "Owings",
+        "location": "MD",
+        "age": "M50-59",
+        "key": "tommy_dobson_md"
+      },
+      {
+        "first_name": "Zack",
+        "last_name": "Dobson",
+        "city": "Owings",
+        "location": "MD",
+        "age": "M20-29",
+        "key": "zack_dobson_md"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
