@@ -2002,5 +2002,65 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-26T09:12:53.496809",
+    "count_change": -4,
+    "new_count": 490,
+    "previous_count": 494,
+    "new_entrants": [
+      {
+        "first_name": "Bill",
+        "last_name": "Anderson",
+        "city": "Evergreen",
+        "location": "CO",
+        "age": "M50-59",
+        "key": "bill_anderson_co"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Brandon",
+        "last_name": "Wilson",
+        "city": "Cunningham",
+        "location": "KY",
+        "age": "M40-49",
+        "key": "brandon_wilson_ky"
+      },
+      {
+        "first_name": "Dawn",
+        "last_name": "Stone",
+        "city": "Flagstaff",
+        "location": "AZ",
+        "age": "F40-49",
+        "key": "dawn_stone_az"
+      },
+      {
+        "first_name": "Dustin",
+        "last_name": "Mitchell",
+        "city": "Louisville",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "dustin_mitchell_ky"
+      },
+      {
+        "first_name": "Laura",
+        "last_name": "Boselowitz",
+        "city": "Mt Pleasant",
+        "location": "SC",
+        "age": "F50-59",
+        "key": "laura_boselowitz_sc"
+      },
+      {
+        "first_name": "Lise",
+        "last_name": "Brackbill",
+        "city": "Los Alamos",
+        "location": "NM",
+        "age": "F50-59",
+        "key": "lise_brackbill_nm"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 5
   }
 ]

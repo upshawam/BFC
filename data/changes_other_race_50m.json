@@ -1946,5 +1946,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-26T09:12:53.876860",
+    "count_change": -1,
+    "new_count": 215,
+    "previous_count": 216,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Ron",
+        "last_name": "Foster",
+        "city": "Bloomington",
+        "location": "IN",
+        "age": "M50-59",
+        "key": "ron_foster_in"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

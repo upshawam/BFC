@@ -1,5 +1,5 @@
 {
-  "count": 494,
+  "count": 490,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -70,13 +70,6 @@
       "city": "Sevierville",
       "location": "TN",
       "age": "F20-29"
-    },
-    "dustin_mitchell_ky": {
-      "first_name": "Dustin",
-      "last_name": "Mitchell",
-      "city": "Louisville",
-      "location": "KY",
-      "age": "M30-39"
     },
     "austin_schaffner_ky": {
       "first_name": "Austin",
@@ -393,20 +386,6 @@
       "location": "LA",
       "age": "M30-39"
     },
-    "dawn_stone_az": {
-      "first_name": "Dawn",
-      "last_name": "Stone",
-      "city": "Flagstaff",
-      "location": "AZ",
-      "age": "F40-49"
-    },
-    "laura_boselowitz_sc": {
-      "first_name": "Laura",
-      "last_name": "Boselowitz",
-      "city": "Mt Pleasant",
-      "location": "SC",
-      "age": "F50-59"
-    },
     "brian_vermillion_tn": {
       "first_name": "Brian",
       "last_name": "Vermillion",
@@ -491,19 +470,19 @@
       "location": "TN",
       "age": "F30-39"
     },
-    "bram_bell_ky": {
-      "first_name": "Bram",
-      "last_name": "Bell",
-      "city": "Lexington",
-      "location": "KY",
-      "age": "M50-59"
-    },
     "jimmy_warren_tn": {
       "first_name": "Jimmy",
       "last_name": "Warren",
       "city": "Nashville",
       "location": "TN",
       "age": "M30-39"
+    },
+    "bram_bell_ky": {
+      "first_name": "Bram",
+      "last_name": "Bell",
+      "city": "Lexington",
+      "location": "KY",
+      "age": "M50-59"
     },
     "brandon_crews_nc": {
       "first_name": "Brandon",
@@ -1317,13 +1296,6 @@
       "location": "SC",
       "age": "F40-49"
     },
-    "derek_haas_il": {
-      "first_name": "Derek",
-      "last_name": "Haas",
-      "city": "Shiloh",
-      "location": "IL",
-      "age": "M40-49"
-    },
     "jason_cotter_oh": {
       "first_name": "Jason",
       "last_name": "Cotter",
@@ -1343,6 +1315,13 @@
       "last_name": "Gensel",
       "city": "Versailles",
       "location": "KY",
+      "age": "M40-49"
+    },
+    "derek_haas_il": {
+      "first_name": "Derek",
+      "last_name": "Haas",
+      "city": "Shiloh",
+      "location": "IL",
       "age": "M40-49"
     },
     "david_espinoza_wa": {
@@ -1576,19 +1555,19 @@
       "location": "MN",
       "age": "M50-59"
     },
-    "kelly_junkins_ks": {
-      "first_name": "Kelly",
-      "last_name": "Junkins",
-      "city": "Wichita",
-      "location": "KS",
-      "age": "F30-39"
-    },
     "mandy_mullen_co": {
       "first_name": "Mandy",
       "last_name": "Mullen",
       "city": "Windsor",
       "location": "CO",
       "age": "F40-49"
+    },
+    "kelly_junkins_ks": {
+      "first_name": "Kelly",
+      "last_name": "Junkins",
+      "city": "Wichita",
+      "location": "KS",
+      "age": "F30-39"
     },
     "kevin_scott_in": {
       "first_name": "Kevin",
@@ -2044,13 +2023,6 @@
       "city": "Orange",
       "location": "CA",
       "age": "F40-49"
-    },
-    "lise_brackbill_nm": {
-      "first_name": "Lise",
-      "last_name": "Brackbill",
-      "city": "Los Alamos",
-      "location": "NM",
-      "age": "F50-59"
     },
     "stephen_ball_ga": {
       "first_name": "Stephen",
@@ -2633,26 +2605,12 @@
       "location": "ON",
       "age": "M20-29"
     },
-    "brandon_wilson_ky": {
-      "first_name": "Brandon",
-      "last_name": "Wilson",
-      "city": "Cunningham",
-      "location": "KY",
-      "age": "M40-49"
-    },
     "chazz_hall_ga": {
       "first_name": "Chazz",
       "last_name": "Hall",
       "city": "Villa Rica",
       "location": "GA",
       "age": "M30-39"
-    },
-    "monica_rose_tx": {
-      "first_name": "Monica",
-      "last_name": "Rose",
-      "city": "The Woodlands",
-      "location": "TX",
-      "age": "F50-59"
     },
     "gabriel_simpson_md": {
       "first_name": "Gabriel",
@@ -2723,6 +2681,13 @@
       "city": "Waterford",
       "location": "WI",
       "age": "M40-49"
+    },
+    "monica_rose_tx": {
+      "first_name": "Monica",
+      "last_name": "Rose",
+      "city": "The Woodlands",
+      "location": "TX",
+      "age": "F50-59"
     },
     "jessy_vendegnia-nelson_co": {
       "first_name": "Jessy",
@@ -2969,6 +2934,13 @@
       "location": "FRA",
       "age": "M50-59"
     },
+    "bill_anderson_co": {
+      "first_name": "Bill",
+      "last_name": "Anderson",
+      "city": "Evergreen",
+      "location": "CO",
+      "age": "M50-59"
+    },
     "dan_holdt_nj": {
       "first_name": "Dan",
       "last_name": "Holdt",
@@ -3200,19 +3172,19 @@
       "location": "NOR",
       "age": "M30-39"
     },
-    "fatos_vllahinja_alb": {
-      "first_name": "Fatos",
-      "last_name": "Vllahinja",
-      "city": "Prishtina",
-      "location": "ALB",
-      "age": "M30-39"
+    "nils_tracy_nc": {
+      "first_name": "Nils",
+      "last_name": "Tracy",
+      "city": "Cornelius",
+      "location": "NC",
+      "age": "M40-49"
     },
-    "john_steele_ny": {
-      "first_name": "John",
-      "last_name": "Steele",
-      "city": "Avon",
-      "location": "NY",
-      "age": "M20-29"
+    "laina_rogers_on": {
+      "first_name": "Laina",
+      "last_name": "Rogers",
+      "city": "Hamilton",
+      "location": "ON",
+      "age": "F30-39"
     },
     "ezequiel_rios pita_bra": {
       "first_name": "Ezequiel",
@@ -3227,6 +3199,20 @@
       "city": "Pearl",
       "location": "MS",
       "age": "M40-49"
+    },
+    "fatos_vllahinja_alb": {
+      "first_name": "Fatos",
+      "last_name": "Vllahinja",
+      "city": "Prishtina",
+      "location": "ALB",
+      "age": "M30-39"
+    },
+    "john_steele_ny": {
+      "first_name": "John",
+      "last_name": "Steele",
+      "city": "Avon",
+      "location": "NY",
+      "age": "M20-29"
     },
     "pascal_patterson_gbr": {
       "first_name": "Pascal",
@@ -3354,12 +3340,19 @@
       "location": "DEU",
       "age": "M30-39"
     },
-    "nils_tracy_nc": {
-      "first_name": "Nils",
-      "last_name": "Tracy",
-      "city": "Cornelius",
-      "location": "NC",
-      "age": "M40-49"
+    "brian_maclennan_on": {
+      "first_name": "Brian",
+      "last_name": "Maclennan",
+      "city": "Listowel",
+      "location": "ON",
+      "age": "M50-59"
+    },
+    "jamie_stirling_on": {
+      "first_name": "Jamie",
+      "last_name": "Stirling",
+      "city": "Listowel",
+      "location": "ON",
+      "age": "M60-69"
     },
     "mikayla_taylor_ak": {
       "first_name": "Mikayla",
@@ -3375,40 +3368,12 @@
       "location": "NV",
       "age": "M60-69"
     },
-    "laina_rogers_on": {
-      "first_name": "Laina",
-      "last_name": "Rogers",
-      "city": "Hamilton",
-      "location": "ON",
-      "age": "F30-39"
-    },
-    "brian_maclennan_on": {
-      "first_name": "Brian",
-      "last_name": "Maclennan",
-      "city": "Listowel",
-      "location": "ON",
-      "age": "M50-59"
-    },
-    "jamie_stirling_on": {
-      "first_name": "Jamie",
-      "last_name": "Stirling",
-      "city": "Listowel",
-      "location": "ON",
-      "age": "M60-69"
-    },
     "gregory_harris_on": {
       "first_name": "Gregory",
       "last_name": "Harris",
       "city": "Etobicoke",
       "location": "ON",
       "age": "M60-69"
-    },
-    "deborah_kelly_sd": {
-      "first_name": "Deborah",
-      "last_name": "Kelly",
-      "city": "Sioux Falls",
-      "location": "SD",
-      "age": "F50-59"
     },
     "megan_kretschmer_tx": {
       "first_name": "Megan",
@@ -3417,12 +3382,12 @@
       "location": "TX",
       "age": "F40-49"
     },
-    "eleanor_mcdonough_tn": {
-      "first_name": "Eleanor",
-      "last_name": "McDonough",
-      "city": "Knoxville",
-      "location": "TN",
-      "age": "F30-39"
+    "deborah_kelly_sd": {
+      "first_name": "Deborah",
+      "last_name": "Kelly",
+      "city": "Sioux Falls",
+      "location": "SD",
+      "age": "F50-59"
     },
     "sheleena_shah_gbr": {
       "first_name": "Sheleena",
@@ -3445,6 +3410,13 @@
       "location": "ON",
       "age": "M40-49"
     },
+    "eleanor_mcdonough_tn": {
+      "first_name": "Eleanor",
+      "last_name": "McDonough",
+      "city": "Knoxville",
+      "location": "TN",
+      "age": "F30-39"
+    },
     "sue_dionian_fl": {
       "first_name": "Sue",
       "last_name": "Dionian",
@@ -3460,5 +3432,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-05-25T09:23:15.535707"
+  "timestamp": "2026-05-26T09:12:53.494881"
 }
