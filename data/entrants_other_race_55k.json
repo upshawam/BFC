@@ -1,5 +1,5 @@
 {
-  "count": 256,
+  "count": 255,
   "entrants": {
     "grant_rodgers_nc": {
       "first_name": "Grant",
@@ -330,13 +330,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "kristi_wiley_pa": {
-      "first_name": "Kristi",
-      "last_name": "Wiley",
-      "city": "Lumberville",
-      "location": "PA",
-      "age": "F40-49"
-    },
     "lynn_mcguffee_tn": {
       "first_name": "Lynn",
       "last_name": "McGuffee",
@@ -566,6 +559,13 @@
       "last_name": "Jacoby",
       "city": "Frederick",
       "location": "MD",
+      "age": "F40-49"
+    },
+    "kristi_wiley_pa": {
+      "first_name": "Kristi",
+      "last_name": "Wiley",
+      "city": "Lumberville",
+      "location": "PA",
       "age": "F40-49"
     },
     "max_thomas_ga": {
@@ -1639,13 +1639,6 @@
       "location": "TN",
       "age": "M30-39"
     },
-    "yubi_peterson_dc": {
-      "first_name": "Yubi",
-      "last_name": "Peterson",
-      "city": "Washington",
-      "location": "DC",
-      "age": "F20-29"
-    },
     "richard_brantley_fl": {
       "first_name": "Richard",
       "last_name": "Brantley",
@@ -1673,6 +1666,13 @@
       "city": "Lowell",
       "location": "MI",
       "age": "M40-49"
+    },
+    "ashlyn_hocutt_nc": {
+      "first_name": "Ashlyn",
+      "last_name": "Hocutt",
+      "city": "Wilmington",
+      "location": "NC",
+      "age": "F20-29"
     },
     "alex_standiford_nc": {
       "first_name": "Alex",
@@ -1758,13 +1758,6 @@
       "location": "NC",
       "age": "F20-29"
     },
-    "ashlyn_hocutt_nc": {
-      "first_name": "Ashlyn",
-      "last_name": "Hocutt",
-      "city": "Wilmington",
-      "location": "NC",
-      "age": "F20-29"
-    },
     "lesa_finch_tn": {
       "first_name": "Lesa",
       "last_name": "Finch",
@@ -1794,5 +1787,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-05-26T09:12:54.129387"
+  "timestamp": "2026-05-27T09:11:24.480252"
 }

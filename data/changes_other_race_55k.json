@@ -1952,5 +1952,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-27T09:11:24.481600",
+    "count_change": -1,
+    "new_count": 255,
+    "previous_count": 256,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Yubi",
+        "last_name": "Peterson",
+        "city": "Washington",
+        "location": "DC",
+        "age": "F20-29",
+        "key": "yubi_peterson_dc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

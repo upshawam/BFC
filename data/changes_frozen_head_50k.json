@@ -2062,5 +2062,41 @@
     ],
     "total_new": 1,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-05-27T09:11:23.882694",
+    "count_change": 1,
+    "new_count": 491,
+    "previous_count": 490,
+    "new_entrants": [
+      {
+        "first_name": "Abbey",
+        "last_name": "Davidson",
+        "city": "Casper",
+        "location": "WY",
+        "age": "F30-39",
+        "key": "abbey_davidson_wy"
+      },
+      {
+        "first_name": "Cody",
+        "last_name": "Linhart",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "cody_linhart_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Chazz",
+        "last_name": "Hall",
+        "city": "Villa Rica",
+        "location": "GA",
+        "age": "M30-39",
+        "key": "chazz_hall_ga"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
