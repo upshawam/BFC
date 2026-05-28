@@ -1971,5 +1971,15 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-05-28T09:17:49.133583",
+    "count_change": 0,
+    "new_count": 255,
+    "previous_count": 255,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
   }
 ]
