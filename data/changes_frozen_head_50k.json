@@ -2108,5 +2108,105 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-29T09:13:20.505347",
+    "count_change": 9,
+    "new_count": 500,
+    "previous_count": 491,
+    "new_entrants": [
+      {
+        "first_name": "Chris",
+        "last_name": "Hasselback",
+        "city": "Castle Rock",
+        "location": "CO",
+        "age": "M50-59",
+        "key": "chris_hasselback_co"
+      },
+      {
+        "first_name": "Heather",
+        "last_name": "Wilkinson",
+        "city": "Annapolis",
+        "location": "MD",
+        "age": "F30-39",
+        "key": "heather_wilkinson_md"
+      },
+      {
+        "first_name": "Jeff",
+        "last_name": "White",
+        "city": "Columbia",
+        "location": "MO",
+        "age": "M50-59",
+        "key": "jeff_white_mo"
+      },
+      {
+        "first_name": "Joe",
+        "last_name": "Szekely",
+        "city": "West Farmington",
+        "location": "OH",
+        "age": "M40-49",
+        "key": "joe_szekely_oh"
+      },
+      {
+        "first_name": "Julie",
+        "last_name": "Moore",
+        "city": "Lincoln",
+        "location": "NE",
+        "age": "F60-69",
+        "key": "julie_moore_ne"
+      },
+      {
+        "first_name": "Kiel",
+        "last_name": "Ormerod",
+        "city": "Toledo",
+        "location": "OH",
+        "age": "M40-49",
+        "key": "kiel_ormerod_oh"
+      },
+      {
+        "first_name": "Melaine",
+        "last_name": "Whitchelo",
+        "city": "Davenport",
+        "location": "IA",
+        "age": "F60-69",
+        "key": "melaine_whitchelo_ia"
+      },
+      {
+        "first_name": "Ryan",
+        "last_name": "Peters",
+        "city": "Panama City Beach",
+        "location": "FL",
+        "age": "M50-59",
+        "key": "ryan_peters_fl"
+      },
+      {
+        "first_name": "Samuel",
+        "last_name": "Day",
+        "city": "Indianapolis",
+        "location": "IN",
+        "age": "M30-39",
+        "key": "samuel_day_in"
+      },
+      {
+        "first_name": "Trevor",
+        "last_name": "Rockstad",
+        "city": "Gulfport",
+        "location": "MS",
+        "age": "M40-49",
+        "key": "trevor_rockstad_ms"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Al",
+        "last_name": "Vigne",
+        "city": "Babson Park",
+        "location": "FL",
+        "age": "M60-69",
+        "key": "al_vigne_fl"
+      }
+    ],
+    "total_new": 10,
+    "total_dropped": 1
   }
 ]

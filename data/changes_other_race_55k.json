@@ -1981,5 +1981,15 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-29T09:13:21.448311",
+    "count_change": 0,
+    "new_count": 255,
+    "previous_count": 255,
+    "new_entrants": [],
+    "dropped_entrants": [],
+    "total_new": 0,
+    "total_dropped": 0
   }
 ]

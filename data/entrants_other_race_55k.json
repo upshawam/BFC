@@ -435,13 +435,6 @@
       "location": "MI",
       "age": "F50-59"
     },
-    "dave_pollard_va": {
-      "first_name": "Dave",
-      "last_name": "Pollard",
-      "city": "Abingdon",
-      "location": "VA",
-      "age": "M50-59"
-    },
     "richard_abernathy_nc": {
       "first_name": "Richard",
       "last_name": "Abernathy",
@@ -525,6 +518,13 @@
       "city": "Abingdon",
       "location": "VA",
       "age": "F60-69"
+    },
+    "dave_pollard_va": {
+      "first_name": "Dave",
+      "last_name": "Pollard",
+      "city": "Abingdon",
+      "location": "VA",
+      "age": "M50-59"
     },
     "michael_brake_ga": {
       "first_name": "Michael",
@@ -1787,5 +1787,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-05-28T09:17:49.132002"
+  "timestamp": "2026-05-29T09:13:21.447078"
 }
