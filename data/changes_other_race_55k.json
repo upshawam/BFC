@@ -1991,5 +1991,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-30T08:50:34.012384",
+    "count_change": -1,
+    "new_count": 254,
+    "previous_count": 255,
+    "new_entrants": [
+      {
+        "first_name": "Tiffany",
+        "last_name": "Van Orden",
+        "city": "Newport News",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "tiffany_van orden_va"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Diana",
+        "last_name": "Sheppard",
+        "city": "Bristol",
+        "location": "TN",
+        "age": "F60-69",
+        "key": "diana_sheppard_tn"
+      },
+      {
+        "first_name": "Teddijo",
+        "last_name": "Reynolds",
+        "city": "McLean",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "teddijo_reynolds_va"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 2
   }
 ]

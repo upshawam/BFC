@@ -1,5 +1,5 @@
 {
-  "count": 215,
+  "count": 213,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -680,13 +680,6 @@
       "location": "VA",
       "age": "M30-39"
     },
-    "sarah_bradley_nc": {
-      "first_name": "Sarah",
-      "last_name": "Bradley",
-      "city": "Asheville",
-      "location": "NC",
-      "age": "F30-39"
-    },
     "lucas_adams_ky": {
       "first_name": "Lucas",
       "last_name": "Adams",
@@ -1149,13 +1142,6 @@
       "location": "SC",
       "age": "F50-59"
     },
-    "tiffany_van orden_va": {
-      "first_name": "Tiffany",
-      "last_name": "Van Orden",
-      "city": "Newport News",
-      "location": "VA",
-      "age": "F30-39"
-    },
     "nathan_mcclure_nc": {
       "first_name": "Nathan",
       "last_name": "McClure",
@@ -1317,6 +1303,13 @@
       "location": "NC",
       "age": "F30-39"
     },
+    "kady_braswell_nc": {
+      "first_name": "Kady",
+      "last_name": "Braswell",
+      "city": "Lenoir",
+      "location": "NC",
+      "age": "F30-39"
+    },
     "wade_baker_va": {
       "first_name": "Wade",
       "last_name": "Baker",
@@ -1330,13 +1323,6 @@
       "city": "Lynchburg",
       "location": "VA",
       "age": "M20-29"
-    },
-    "kady_braswell_nc": {
-      "first_name": "Kady",
-      "last_name": "Braswell",
-      "city": "Lenoir",
-      "location": "NC",
-      "age": "F30-39"
     },
     "charles_geddes_va": {
       "first_name": "Charles",
@@ -1507,5 +1493,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-29T09:13:20.815103"
+  "timestamp": "2026-05-30T08:50:33.662043"
 }

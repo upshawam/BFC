@@ -1995,5 +1995,32 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-30T08:50:33.663096",
+    "count_change": -2,
+    "new_count": 213,
+    "previous_count": 215,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Sarah",
+        "last_name": "Bradley",
+        "city": "Asheville",
+        "location": "NC",
+        "age": "F30-39",
+        "key": "sarah_bradley_nc"
+      },
+      {
+        "first_name": "Tiffany",
+        "last_name": "Van Orden",
+        "city": "Newport News",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "tiffany_van orden_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
