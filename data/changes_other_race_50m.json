@@ -2022,5 +2022,56 @@
     ],
     "total_new": 0,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-05-31T09:05:04.319483",
+    "count_change": -5,
+    "new_count": 208,
+    "previous_count": 213,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Brea",
+        "last_name": "Taylor",
+        "city": "Ironton",
+        "location": "OH",
+        "age": "F40-49",
+        "key": "brea_taylor_oh"
+      },
+      {
+        "first_name": "Cynthia",
+        "last_name": "Robbs",
+        "city": "Chesterfield",
+        "location": "VA",
+        "age": "F50-59",
+        "key": "cynthia_robbs_va"
+      },
+      {
+        "first_name": "Kathleen",
+        "last_name": "Lokey",
+        "city": "Sylva",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "kathleen_lokey_nc"
+      },
+      {
+        "first_name": "Michelle",
+        "last_name": "Jones",
+        "city": "Richmond",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "michelle_jones_va"
+      },
+      {
+        "first_name": "Mike",
+        "last_name": "Unfried",
+        "city": "Baltimore",
+        "location": "MD",
+        "age": "M50-59",
+        "key": "mike_unfried_md"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 5
   }
 ]

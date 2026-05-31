@@ -2235,5 +2235,65 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-05-31T09:05:03.905808",
+    "count_change": -4,
+    "new_count": 498,
+    "previous_count": 502,
+    "new_entrants": [
+      {
+        "first_name": "Sean",
+        "last_name": "Murphy",
+        "city": "Chapel Hill",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "sean_murphy_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Joe",
+        "last_name": "Dubois",
+        "city": "Sarnia",
+        "location": "ON",
+        "age": "M50-59",
+        "key": "joe_dubois_on"
+      },
+      {
+        "first_name": "Martin",
+        "last_name": "Van Cleeff",
+        "city": "Cary",
+        "location": "NC",
+        "age": "M60-69",
+        "key": "martin_van cleeff_nc"
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "James",
+        "city": "Cedar grove",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "michael_james_nc"
+      },
+      {
+        "first_name": "Sean",
+        "last_name": "Butler",
+        "city": "Pittsboro",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "sean_butler_nc"
+      },
+      {
+        "first_name": "Sheleena",
+        "last_name": "Shah",
+        "city": "Lincoln",
+        "location": "GBR",
+        "age": "F40-49",
+        "key": "sheleena_shah_gbr"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 5
   }
 ]

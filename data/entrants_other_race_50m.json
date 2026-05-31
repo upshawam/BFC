@@ -1,5 +1,5 @@
 {
-  "count": 213,
+  "count": 208,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -75,13 +75,6 @@
       "first_name": "Melissa",
       "last_name": "Clemens Williamson",
       "city": "Bristol",
-      "location": "VA",
-      "age": "F50-59"
-    },
-    "cynthia_robbs_va": {
-      "first_name": "Cynthia",
-      "last_name": "Robbs",
-      "city": "Chesterfield",
       "location": "VA",
       "age": "F50-59"
     },
@@ -855,13 +848,6 @@
       "location": "GA",
       "age": "M40-49"
     },
-    "kathleen_lokey_nc": {
-      "first_name": "Kathleen",
-      "last_name": "Lokey",
-      "city": "Sylva",
-      "location": "NC",
-      "age": "F40-49"
-    },
     "david_broman_pa": {
       "first_name": "David",
       "last_name": "Broman",
@@ -1072,13 +1058,6 @@
       "location": "NC",
       "age": "M30-39"
     },
-    "tarek_haidar_nc": {
-      "first_name": "Tarek",
-      "last_name": "Haidar",
-      "city": "Cary",
-      "location": "NC",
-      "age": "M50-59"
-    },
     "francisco_espinoza_il": {
       "first_name": "Francisco",
       "last_name": "Espinoza",
@@ -1086,19 +1065,19 @@
       "location": "IL",
       "age": "M40-49"
     },
+    "tarek_haidar_nc": {
+      "first_name": "Tarek",
+      "last_name": "Haidar",
+      "city": "Cary",
+      "location": "NC",
+      "age": "M50-59"
+    },
     "michael_rowell_nc": {
       "first_name": "Michael",
       "last_name": "Rowell",
       "city": "Salisbury",
       "location": "NC",
       "age": "M50-59"
-    },
-    "brea_taylor_oh": {
-      "first_name": "Brea",
-      "last_name": "Taylor",
-      "city": "Ironton",
-      "location": "OH",
-      "age": "F40-49"
     },
     "jason_tolley_pa": {
       "first_name": "Jason",
@@ -1219,13 +1198,6 @@
       "location": "NC",
       "age": "F40-49"
     },
-    "mike_unfried_md": {
-      "first_name": "Mike",
-      "last_name": "Unfried",
-      "city": "Baltimore",
-      "location": "MD",
-      "age": "M50-59"
-    },
     "ethan_smith_nc": {
       "first_name": "Ethan",
       "last_name": "Smith",
@@ -1303,27 +1275,6 @@
       "location": "NC",
       "age": "F30-39"
     },
-    "kady_braswell_nc": {
-      "first_name": "Kady",
-      "last_name": "Braswell",
-      "city": "Lenoir",
-      "location": "NC",
-      "age": "F30-39"
-    },
-    "wade_baker_va": {
-      "first_name": "Wade",
-      "last_name": "Baker",
-      "city": "Sterling",
-      "location": "VA",
-      "age": "M40-49"
-    },
-    "nicolas_gambetta_va": {
-      "first_name": "Nicolas",
-      "last_name": "Gambetta",
-      "city": "Lynchburg",
-      "location": "VA",
-      "age": "M20-29"
-    },
     "charles_geddes_va": {
       "first_name": "Charles",
       "last_name": "Geddes",
@@ -1352,13 +1303,6 @@
       "location": "NC",
       "age": "M50-59"
     },
-    "michelle_jones_va": {
-      "first_name": "Michelle",
-      "last_name": "Jones",
-      "city": "Richmond",
-      "location": "VA",
-      "age": "F40-49"
-    },
     "owen_weatherspoon_mo": {
       "first_name": "Owen",
       "last_name": "Weatherspoon",
@@ -1385,6 +1329,20 @@
       "last_name": "Matthews",
       "city": "JONESBOROUGH",
       "location": "TN",
+      "age": "F30-39"
+    },
+    "wade_baker_va": {
+      "first_name": "Wade",
+      "last_name": "Baker",
+      "city": "Sterling",
+      "location": "VA",
+      "age": "M40-49"
+    },
+    "kady_braswell_nc": {
+      "first_name": "Kady",
+      "last_name": "Braswell",
+      "city": "Lenoir",
+      "location": "NC",
       "age": "F30-39"
     },
     "skyler_mcmurray_va": {
@@ -1471,6 +1429,13 @@
       "location": "MD",
       "age": "M20-29"
     },
+    "nicolas_gambetta_va": {
+      "first_name": "Nicolas",
+      "last_name": "Gambetta",
+      "city": "Lynchburg",
+      "location": "VA",
+      "age": "M20-29"
+    },
     "jill_orton_va": {
       "first_name": "Jill",
       "last_name": "Orton",
@@ -1493,5 +1458,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-30T08:50:33.662043"
+  "timestamp": "2026-05-31T09:05:04.318255"
 }
