@@ -2295,5 +2295,81 @@
     ],
     "total_new": 1,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-06-01T09:53:13.393304",
+    "count_change": -4,
+    "new_count": 494,
+    "previous_count": 498,
+    "new_entrants": [
+      {
+        "first_name": "Eleanor",
+        "last_name": "Sigel",
+        "city": "East Palo Alto",
+        "location": "CA",
+        "age": "F20-29",
+        "key": "eleanor_sigel_ca"
+      },
+      {
+        "first_name": "Matt",
+        "last_name": "Hudson",
+        "city": "Lancing",
+        "location": "TN",
+        "age": "M50-59",
+        "key": "matt_hudson_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Darren",
+        "last_name": "Ezzo",
+        "city": "Madison",
+        "location": "AL",
+        "age": "M60-69",
+        "key": "darren_ezzo_al"
+      },
+      {
+        "first_name": "Kelly",
+        "last_name": "Butler",
+        "city": "Pittsboro",
+        "location": "NC",
+        "age": "F50-59",
+        "key": "kelly_butler_nc"
+      },
+      {
+        "first_name": "Mathieu",
+        "last_name": "Doyon",
+        "city": "Petty Harbour",
+        "location": "NL",
+        "age": "M40-49",
+        "key": "mathieu_doyon_nl"
+      },
+      {
+        "first_name": "Peter",
+        "last_name": "Teal",
+        "city": "Schenectady",
+        "location": "NY",
+        "age": "M40-49",
+        "key": "peter_teal_ny"
+      },
+      {
+        "first_name": "Travis",
+        "last_name": "Callahan",
+        "city": "Apex",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "travis_callahan_nc"
+      },
+      {
+        "first_name": "Tyler",
+        "last_name": "Jackson",
+        "city": "Powhatan",
+        "location": "VA",
+        "age": "M30-39",
+        "key": "tyler_jackson_va"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 6
   }
 ]

@@ -2073,5 +2073,24 @@
     ],
     "total_new": 0,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-06-01T09:53:13.795215",
+    "count_change": -1,
+    "new_count": 207,
+    "previous_count": 208,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Amanda",
+        "last_name": "Blondeau",
+        "city": "Crozet",
+        "location": "VA",
+        "age": "F40-49",
+        "key": "amanda_blondeau_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

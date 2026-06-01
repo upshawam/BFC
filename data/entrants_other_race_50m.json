@@ -1,5 +1,5 @@
 {
-  "count": 208,
+  "count": 207,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -365,19 +365,19 @@
       "location": "NC",
       "age": "M50-59"
     },
-    "ryan_raybourn_ky": {
-      "first_name": "Ryan",
-      "last_name": "Raybourn",
-      "city": "Olive Hill",
-      "location": "KY",
-      "age": "M40-49"
-    },
     "brenda_cross_in": {
       "first_name": "Brenda",
       "last_name": "Cross",
       "city": "Chandler",
       "location": "IN",
       "age": "F50-59"
+    },
+    "ryan_raybourn_ky": {
+      "first_name": "Ryan",
+      "last_name": "Raybourn",
+      "city": "Olive Hill",
+      "location": "KY",
+      "age": "M40-49"
     },
     "jason_burcham_va": {
       "first_name": "Jason",
@@ -427,13 +427,6 @@
       "city": "Leesburg",
       "location": "VA",
       "age": "F30-39"
-    },
-    "amanda_blondeau_va": {
-      "first_name": "Amanda",
-      "last_name": "Blondeau",
-      "city": "Crozet",
-      "location": "VA",
-      "age": "F40-49"
     },
     "dustin_anderson_ky": {
       "first_name": "Dustin",
@@ -1338,6 +1331,13 @@
       "location": "VA",
       "age": "M40-49"
     },
+    "nicolas_gambetta_va": {
+      "first_name": "Nicolas",
+      "last_name": "Gambetta",
+      "city": "Lynchburg",
+      "location": "VA",
+      "age": "M20-29"
+    },
     "kady_braswell_nc": {
       "first_name": "Kady",
       "last_name": "Braswell",
@@ -1429,13 +1429,6 @@
       "location": "MD",
       "age": "M20-29"
     },
-    "nicolas_gambetta_va": {
-      "first_name": "Nicolas",
-      "last_name": "Gambetta",
-      "city": "Lynchburg",
-      "location": "VA",
-      "age": "M20-29"
-    },
     "jill_orton_va": {
       "first_name": "Jill",
       "last_name": "Orton",
@@ -1458,5 +1451,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-05-31T09:05:04.318255"
+  "timestamp": "2026-06-01T09:53:13.793898"
 }
