@@ -2092,5 +2092,32 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-06-02T09:29:45.858362",
+    "count_change": -2,
+    "new_count": 205,
+    "previous_count": 207,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Matthew",
+        "last_name": "Melly",
+        "city": "Arlington",
+        "location": "VA",
+        "age": "M30-39",
+        "key": "matthew_melly_va"
+      },
+      {
+        "first_name": "Rene",
+        "last_name": "Cornette",
+        "city": "Grays Knob",
+        "location": "KY",
+        "age": "F40-49",
+        "key": "rene_cornette_ky"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]

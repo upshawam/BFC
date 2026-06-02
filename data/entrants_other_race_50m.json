@@ -1,5 +1,5 @@
 {
-  "count": 207,
+  "count": 205,
   "entrants": {
     "lauren_campbell_va": {
       "first_name": "Lauren",
@@ -659,13 +659,6 @@
       "location": "NC",
       "age": "M20-29"
     },
-    "matthew_melly_va": {
-      "first_name": "Matthew",
-      "last_name": "Melly",
-      "city": "Arlington",
-      "location": "VA",
-      "age": "M30-39"
-    },
     "lucas_adams_ky": {
       "first_name": "Lucas",
       "last_name": "Adams",
@@ -1121,13 +1114,6 @@
       "location": "NC",
       "age": "M40-49"
     },
-    "rene_cornette_ky": {
-      "first_name": "Rene",
-      "last_name": "Cornette",
-      "city": "Grays Knob",
-      "location": "KY",
-      "age": "F40-49"
-    },
     "andrew_shank_va": {
       "first_name": "Andrew",
       "last_name": "Shank",
@@ -1451,5 +1437,5 @@
       "age": "M40-49"
     }
   },
-  "timestamp": "2026-06-01T09:53:13.793898"
+  "timestamp": "2026-06-02T09:29:45.857162"
 }

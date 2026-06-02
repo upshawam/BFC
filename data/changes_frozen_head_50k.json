@@ -2371,5 +2371,40 @@
     ],
     "total_new": 2,
     "total_dropped": 6
+  },
+  {
+    "timestamp": "2026-06-02T09:29:45.423871",
+    "count_change": -3,
+    "new_count": 491,
+    "previous_count": 494,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Laina",
+        "last_name": "Rogers",
+        "city": "Hamilton",
+        "location": "ON",
+        "age": "F30-39",
+        "key": "laina_rogers_on"
+      },
+      {
+        "first_name": "Seva",
+        "last_name": "Granin",
+        "city": "land o lakes",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "seva_granin_fl"
+      },
+      {
+        "first_name": "Travis",
+        "last_name": "Swanson",
+        "city": "Cambridge",
+        "location": "IL",
+        "age": "M40-49",
+        "key": "travis_swanson_il"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 3
   }
 ]

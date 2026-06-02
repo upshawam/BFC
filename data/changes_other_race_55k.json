@@ -6130,5 +6130,33 @@
     "dropped_entrants": [],
     "total_new": 253,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-02T09:29:46.278418",
+    "count_change": 0,
+    "new_count": 256,
+    "previous_count": 256,
+    "new_entrants": [
+      {
+        "first_name": "Rene",
+        "last_name": "Cornette",
+        "city": "Grays Knob",
+        "location": "KY",
+        "age": "F40-49",
+        "key": "rene_cornette_ky"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Brittney",
+        "last_name": "Faust",
+        "city": "Bristol",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "brittney_faust_tn"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]

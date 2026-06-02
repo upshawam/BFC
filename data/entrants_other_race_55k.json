@@ -246,13 +246,6 @@
       "location": "SC",
       "age": "M60-69"
     },
-    "brittney_faust_tn": {
-      "first_name": "Brittney",
-      "last_name": "Faust",
-      "city": "Bristol",
-      "location": "TN",
-      "age": "F30-39"
-    },
     "curtis_satterfield_md": {
       "first_name": "Curtis",
       "last_name": "Satterfield",
@@ -1408,6 +1401,13 @@
       "location": "VA",
       "age": "F30-39"
     },
+    "rene_cornette_ky": {
+      "first_name": "Rene",
+      "last_name": "Cornette",
+      "city": "Grays Knob",
+      "location": "KY",
+      "age": "F40-49"
+    },
     "jessica_willey_nc": {
       "first_name": "Jessica",
       "last_name": "Willey",
@@ -1794,5 +1794,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-06-01T09:53:14.588194"
+  "timestamp": "2026-06-02T09:29:46.277132"
 }
