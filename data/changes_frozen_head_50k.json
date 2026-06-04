@@ -2416,5 +2416,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-04T09:21:57.560387",
+    "count_change": -1,
+    "new_count": 490,
+    "previous_count": 491,
+    "new_entrants": [
+      {
+        "first_name": "Brian",
+        "last_name": "Mayer",
+        "city": "Blacksburg",
+        "location": "VA",
+        "age": "M40-49",
+        "key": "brian_mayer_va"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "April",
+        "last_name": "Bailey",
+        "city": "Cary",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "april_bailey_nc"
+      },
+      {
+        "first_name": "Ben",
+        "last_name": "Snyder",
+        "city": "Trinity",
+        "location": "FL",
+        "age": "M40-49",
+        "key": "ben_snyder_fl"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 2
   }
 ]
