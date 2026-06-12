@@ -6452,5 +6452,48 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-12T09:27:03.403861",
+    "count_change": 4,
+    "new_count": 499,
+    "previous_count": 495,
+    "new_entrants": [
+      {
+        "first_name": "Corey",
+        "last_name": "Artim",
+        "city": "Dayton",
+        "location": "OH",
+        "age": "M40-49",
+        "key": "corey_artim_oh"
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Kier",
+        "city": "Venice",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "jonathan_kier_fl"
+      },
+      {
+        "first_name": "Ronnie",
+        "last_name": "Reineke",
+        "city": "Elgin",
+        "location": "IL",
+        "age": "M30-39",
+        "key": "ronnie_reineke_il"
+      },
+      {
+        "first_name": "Tyler",
+        "last_name": "Gant",
+        "city": "North Wilkesboro",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "tyler_gant_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 4,
+    "total_dropped": 0
   }
 ]
