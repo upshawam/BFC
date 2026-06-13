@@ -6495,5 +6495,24 @@
     "dropped_entrants": [],
     "total_new": 4,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-13T09:06:27.589338",
+    "count_change": 1,
+    "new_count": 500,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Patrick",
+        "last_name": "Heilman",
+        "city": "Greer",
+        "location": "SC",
+        "age": "M40-49",
+        "key": "patrick_heilman_sc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
