@@ -10578,5 +10578,33 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-17T09:41:04.992784",
+    "count_change": 0,
+    "new_count": 504,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Chris",
+        "last_name": "Black",
+        "city": "Newton",
+        "location": "NJ",
+        "age": "M50-59",
+        "key": "chris_black_nj"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Joel",
+        "last_name": "Alconera",
+        "city": "Vancouver",
+        "location": "BC",
+        "age": "M30-39",
+        "key": "joel_alconera_bc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
