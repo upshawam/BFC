@@ -2493,13 +2493,6 @@
       "location": "NC",
       "age": "M20-29"
     },
-    "jessica_fern_or": {
-      "first_name": "Jessica",
-      "last_name": "Fern",
-      "city": "Lake Oswego",
-      "location": "OR",
-      "age": "F40-49"
-    },
     "ross_petrone_ct": {
       "first_name": "Ross",
       "last_name": "Petrone",
@@ -2674,6 +2667,13 @@
       "city": "Reno",
       "location": "NV",
       "age": "M40-49"
+    },
+    "jessica_fern_or": {
+      "first_name": "Jessica",
+      "last_name": "Fern",
+      "city": "Lake Oswego",
+      "location": "OR",
+      "age": "F40-49"
     },
     "kent_lawlor_fl": {
       "first_name": "Kent",
@@ -3270,6 +3270,13 @@
       "location": "KY",
       "age": "M30-39"
     },
+    "aksel_u_nor": {
+      "first_name": "Aksel",
+      "last_name": "U",
+      "city": "Elverum",
+      "location": "NOR",
+      "age": "M30-39"
+    },
     "nils_tracy_nc": {
       "first_name": "Nils",
       "last_name": "Tracy",
@@ -3375,6 +3382,20 @@
       "location": "NE",
       "age": "F60-69"
     },
+    "fatos_vllahinja_alb": {
+      "first_name": "Fatos",
+      "last_name": "Vllahinja",
+      "city": "Prishtina",
+      "location": "ALB",
+      "age": "M30-39"
+    },
+    "karen_gale_ca": {
+      "first_name": "Karen",
+      "last_name": "Gale",
+      "city": "Irvine",
+      "location": "CA",
+      "age": "F50-59"
+    },
     "pascal_patterson_gbr": {
       "first_name": "Pascal",
       "last_name": "Patterson",
@@ -3402,27 +3423,6 @@
       "city": "Canmore",
       "location": "AB",
       "age": "M40-49"
-    },
-    "fatos_vllahinja_alb": {
-      "first_name": "Fatos",
-      "last_name": "Vllahinja",
-      "city": "Prishtina",
-      "location": "ALB",
-      "age": "M30-39"
-    },
-    "aksel_u_nor": {
-      "first_name": "Aksel",
-      "last_name": "U",
-      "city": "Elverum",
-      "location": "NOR",
-      "age": "M30-39"
-    },
-    "karen_gale_ca": {
-      "first_name": "Karen",
-      "last_name": "Gale",
-      "city": "Irvine",
-      "location": "CA",
-      "age": "F50-59"
     },
     "mikayla_taylor_ak": {
       "first_name": "Mikayla",
@@ -3480,13 +3480,6 @@
       "location": "TX",
       "age": "F40-49"
     },
-    "aaron_hardwick_on": {
-      "first_name": "Aaron",
-      "last_name": "Hardwick",
-      "city": "Baysville",
-      "location": "ON",
-      "age": "M40-49"
-    },
     "ryan_peters_fl": {
       "first_name": "Ryan",
       "last_name": "Peters",
@@ -3499,6 +3492,13 @@
       "last_name": "R\u00f6mer",
       "city": "Alvesta",
       "location": "SWE",
+      "age": "M40-49"
+    },
+    "aaron_hardwick_on": {
+      "first_name": "Aaron",
+      "last_name": "Hardwick",
+      "city": "Baysville",
+      "location": "ON",
       "age": "M40-49"
     },
     "manny_arruda_tx": {
@@ -3530,5 +3530,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-06-18T09:32:51.859571"
+  "timestamp": "2026-06-19T09:37:44.376088"
 }
