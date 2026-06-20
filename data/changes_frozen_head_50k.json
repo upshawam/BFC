@@ -10626,5 +10626,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-20T09:06:06.426057",
+    "count_change": 1,
+    "new_count": 505,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Hilliard",
+        "city": "Palm beach gardens",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "daniel_hilliard_fl"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
