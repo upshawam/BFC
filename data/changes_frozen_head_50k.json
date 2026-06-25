@@ -10685,5 +10685,64 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-06-25T09:08:38.020011",
+    "count_change": -6,
+    "new_count": 499,
+    "previous_count": 505,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Alexa",
+        "last_name": "Peterson",
+        "city": "Johnstown",
+        "location": "OH",
+        "age": "F50-59",
+        "key": "alexa_peterson_oh"
+      },
+      {
+        "first_name": "David",
+        "last_name": "Carraway",
+        "city": "Tickfaw",
+        "location": "LA",
+        "age": "M30-39",
+        "key": "david_carraway_la"
+      },
+      {
+        "first_name": "Jennifer",
+        "last_name": "Uhlman",
+        "city": "Thornton",
+        "location": "NH",
+        "age": "F40-49",
+        "key": "jennifer_uhlman_nh"
+      },
+      {
+        "first_name": "Nicholas",
+        "last_name": "Pierce",
+        "city": "Fredericksburg",
+        "location": "VA",
+        "age": "M40-49",
+        "key": "nicholas_pierce_va"
+      },
+      {
+        "first_name": "Patrick",
+        "last_name": "Bene",
+        "city": "New Port Richey",
+        "location": "FL",
+        "age": "M60-69",
+        "key": "patrick_bene_fl"
+      },
+      {
+        "first_name": "Steve",
+        "last_name": "Yob",
+        "city": "Glen Allen",
+        "location": "VA",
+        "age": "M60-69",
+        "key": "steve_yob_va"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 6
   }
 ]
