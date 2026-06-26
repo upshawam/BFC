@@ -10744,5 +10744,65 @@
     ],
     "total_new": 0,
     "total_dropped": 6
+  },
+  {
+    "timestamp": "2026-06-26T09:08:45.970631",
+    "count_change": -4,
+    "new_count": 495,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Crystal",
+        "last_name": "Wheatley",
+        "city": "Louisville",
+        "location": "KY",
+        "age": "F40-49",
+        "key": "crystal_wheatley_ky"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Derrick",
+        "last_name": "Whynot",
+        "city": "Weld",
+        "location": "ME",
+        "age": "M40-49",
+        "key": "derrick_whynot_me"
+      },
+      {
+        "first_name": "Dominick",
+        "last_name": "Daalhuizen",
+        "city": "Beverwijk",
+        "location": "NLD",
+        "age": "M30-39",
+        "key": "dominick_daalhuizen_nld"
+      },
+      {
+        "first_name": "Katie",
+        "last_name": "Roth",
+        "city": "New Orleans",
+        "location": "LA",
+        "age": "F40-49",
+        "key": "katie_roth_la"
+      },
+      {
+        "first_name": "Nikole",
+        "last_name": "Tan",
+        "city": "Sugar Land",
+        "location": "TX",
+        "age": "F50-59",
+        "key": "nikole_tan_tx"
+      },
+      {
+        "first_name": "Nils",
+        "last_name": "Tracy",
+        "city": "Cornelius",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "nils_tracy_nc"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 5
   }
 ]
