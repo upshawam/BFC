@@ -10804,5 +10804,24 @@
     ],
     "total_new": 1,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-06-27T08:57:27.617307",
+    "count_change": -1,
+    "new_count": 494,
+    "previous_count": 495,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Brandon",
+        "last_name": "Crews",
+        "city": "Asheville",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "brandon_crews_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "count": 495,
+  "count": 494,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -532,13 +532,6 @@
       "city": "Lexington",
       "location": "KY",
       "age": "M50-59"
-    },
-    "brandon_crews_nc": {
-      "first_name": "Brandon",
-      "last_name": "Crews",
-      "city": "Asheville",
-      "location": "NC",
-      "age": "M40-49"
     },
     "mark_lilley_on": {
       "first_name": "Mark",
@@ -3361,20 +3354,6 @@
       "location": "AB",
       "age": "M40-49"
     },
-    "mikayla_taylor_ak": {
-      "first_name": "Mikayla",
-      "last_name": "Taylor",
-      "city": "Anchorage",
-      "location": "AK",
-      "age": "F20-29"
-    },
-    "gregory_hoch_nv": {
-      "first_name": "Gregory",
-      "last_name": "Hoch",
-      "city": "Gardnerville",
-      "location": "NV",
-      "age": "M60-69"
-    },
     "brian_maclennan_on": {
       "first_name": "Brian",
       "last_name": "Maclennan",
@@ -3389,19 +3368,19 @@
       "location": "ON",
       "age": "M60-69"
     },
-    "megan_kretschmer_tx": {
-      "first_name": "Megan",
-      "last_name": "Kretschmer",
-      "city": "League City",
-      "location": "TX",
-      "age": "F40-49"
+    "mikayla_taylor_ak": {
+      "first_name": "Mikayla",
+      "last_name": "Taylor",
+      "city": "Anchorage",
+      "location": "AK",
+      "age": "F20-29"
     },
-    "deborah_kelly_sd": {
-      "first_name": "Deborah",
-      "last_name": "Kelly",
-      "city": "Sioux Falls",
-      "location": "SD",
-      "age": "F50-59"
+    "gregory_hoch_nv": {
+      "first_name": "Gregory",
+      "last_name": "Hoch",
+      "city": "Gardnerville",
+      "location": "NV",
+      "age": "M60-69"
     },
     "gregory_harris_on": {
       "first_name": "Gregory",
@@ -3417,6 +3396,20 @@
       "location": "NJ",
       "age": "M50-59"
     },
+    "megan_kretschmer_tx": {
+      "first_name": "Megan",
+      "last_name": "Kretschmer",
+      "city": "League City",
+      "location": "TX",
+      "age": "F40-49"
+    },
+    "deborah_kelly_sd": {
+      "first_name": "Deborah",
+      "last_name": "Kelly",
+      "city": "Sioux Falls",
+      "location": "SD",
+      "age": "F50-59"
+    },
     "ryan_peters_fl": {
       "first_name": "Ryan",
       "last_name": "Peters",
@@ -3431,18 +3424,18 @@
       "location": "TX",
       "age": "M30-39"
     },
-    "aaron_hardwick_on": {
-      "first_name": "Aaron",
-      "last_name": "Hardwick",
-      "city": "Baysville",
-      "location": "ON",
-      "age": "M40-49"
-    },
     "daniel_r\u00f6mer_swe": {
       "first_name": "Daniel",
       "last_name": "R\u00f6mer",
       "city": "Alvesta",
       "location": "SWE",
+      "age": "M40-49"
+    },
+    "aaron_hardwick_on": {
+      "first_name": "Aaron",
+      "last_name": "Hardwick",
+      "city": "Baysville",
+      "location": "ON",
       "age": "M40-49"
     },
     "eleanor_mcdonough_tn": {
@@ -3467,5 +3460,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-06-26T09:08:45.968670"
+  "timestamp": "2026-06-27T08:57:27.615577"
 }
