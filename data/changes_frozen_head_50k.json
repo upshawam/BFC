@@ -10853,5 +10853,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-01T09:11:01.819898",
+    "count_change": -1,
+    "new_count": 493,
+    "previous_count": 494,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "James",
+        "last_name": "Wilkinson",
+        "city": "Chorleywood",
+        "location": "GBR",
+        "age": "M50-59",
+        "key": "james_wilkinson_gbr"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
