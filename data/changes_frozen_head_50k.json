@@ -10912,5 +10912,57 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-06T09:24:11.480025",
+    "count_change": 1,
+    "new_count": 494,
+    "previous_count": 493,
+    "new_entrants": [
+      {
+        "first_name": "John",
+        "last_name": "Fagan",
+        "city": "Westminster",
+        "location": "MD",
+        "age": "M40-49",
+        "key": "john_fagan_md"
+      },
+      {
+        "first_name": "Keely",
+        "last_name": "D",
+        "city": "East granby",
+        "location": "CT",
+        "age": "F30-39",
+        "key": "keely_d_ct"
+      },
+      {
+        "first_name": "Lucas",
+        "last_name": "Martins",
+        "city": "Plano",
+        "location": "TX",
+        "age": "M30-39",
+        "key": "lucas_martins_tx"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Keely",
+        "last_name": "Douglas",
+        "city": "East granby",
+        "location": "CT",
+        "age": "F30-39",
+        "key": "keely_douglas_ct"
+      },
+      {
+        "first_name": "Lucas",
+        "last_name": "Martins",
+        "city": "Ann Arbor",
+        "location": "MI",
+        "age": "M30-39",
+        "key": "lucas_martins_mi"
+      }
+    ],
+    "total_new": 3,
+    "total_dropped": 2
   }
 ]

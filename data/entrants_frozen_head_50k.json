@@ -1,5 +1,5 @@
 {
-  "count": 493,
+  "count": 494,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -939,6 +939,13 @@
       "location": "TN",
       "age": "M20-29"
     },
+    "john_fagan_md": {
+      "first_name": "John",
+      "last_name": "Fagan",
+      "city": "Westminster",
+      "location": "MD",
+      "age": "M40-49"
+    },
     "john_watt_ks": {
       "first_name": "John",
       "last_name": "Watt",
@@ -1765,11 +1772,11 @@
       "location": "NV",
       "age": "F50-59"
     },
-    "lucas_martins_mi": {
+    "lucas_martins_tx": {
       "first_name": "Lucas",
       "last_name": "Martins",
-      "city": "Ann Arbor",
-      "location": "MI",
+      "city": "Plano",
+      "location": "TX",
       "age": "M30-39"
     },
     "sharon_gerrish_mi": {
@@ -2808,13 +2815,6 @@
       "location": "WI",
       "age": "M40-49"
     },
-    "keely_douglas_ct": {
-      "first_name": "Keely",
-      "last_name": "Douglas",
-      "city": "East granby",
-      "location": "CT",
-      "age": "F30-39"
-    },
     "shenoa_creer_ga": {
       "first_name": "Shenoa",
       "last_name": "Creer",
@@ -3438,6 +3438,13 @@
       "location": "TX",
       "age": "M30-39"
     },
+    "aaron_hardwick_on": {
+      "first_name": "Aaron",
+      "last_name": "Hardwick",
+      "city": "Baysville",
+      "location": "ON",
+      "age": "M40-49"
+    },
     "daniel_r\u00f6mer_swe": {
       "first_name": "Daniel",
       "last_name": "R\u00f6mer",
@@ -3445,13 +3452,13 @@
       "location": "SWE",
       "age": "M40-49"
     },
-    "aaron_hardwick_on": {
-      "first_name": "Aaron",
-      "last_name": "Hardwick",
-      "city": "Baysville",
-      "location": "ON",
-      "age": "M40-49"
+    "keely_d_ct": {
+      "first_name": "Keely",
+      "last_name": "D",
+      "city": "East granby",
+      "location": "CT",
+      "age": "F30-39"
     }
   },
-  "timestamp": "2026-07-05T09:03:31.749825"
+  "timestamp": "2026-07-06T09:24:11.477798"
 }
