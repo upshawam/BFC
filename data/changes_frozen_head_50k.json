@@ -10964,5 +10964,32 @@
     ],
     "total_new": 3,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-07-07T09:08:49.917521",
+    "count_change": 2,
+    "new_count": 496,
+    "previous_count": 494,
+    "new_entrants": [
+      {
+        "first_name": "Eric",
+        "last_name": "Swanson",
+        "city": "Sun Prairie",
+        "location": "WI",
+        "age": "M40-49",
+        "key": "eric_swanson_wi"
+      },
+      {
+        "first_name": "Jim",
+        "last_name": "Winn",
+        "city": "Leitchfield",
+        "location": "KY",
+        "age": "M40-49",
+        "key": "jim_winn_ky"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]

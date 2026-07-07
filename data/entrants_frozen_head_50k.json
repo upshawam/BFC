@@ -1,5 +1,5 @@
 {
-  "count": 494,
+  "count": 496,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -407,6 +407,13 @@
       "location": "AL",
       "age": "M50-59"
     },
+    "whitney_dancaster_tn": {
+      "first_name": "Whitney",
+      "last_name": "Dancaster",
+      "city": "Chattanooga",
+      "location": "TN",
+      "age": "F30-39"
+    },
     "kevin_dockemeyer_il": {
       "first_name": "Kevin",
       "last_name": "Dockemeyer",
@@ -427,13 +434,6 @@
       "city": "Gainesville",
       "location": "FL",
       "age": "F40-49"
-    },
-    "whitney_dancaster_tn": {
-      "first_name": "Whitney",
-      "last_name": "Dancaster",
-      "city": "Chattanooga",
-      "location": "TN",
-      "age": "F30-39"
     },
     "derek_taussig_ks": {
       "first_name": "Derek",
@@ -525,6 +525,13 @@
       "city": "Lexington",
       "location": "KY",
       "age": "M50-59"
+    },
+    "jim_winn_ky": {
+      "first_name": "Jim",
+      "last_name": "Winn",
+      "city": "Leitchfield",
+      "location": "KY",
+      "age": "M40-49"
     },
     "mark_lilley_on": {
       "first_name": "Mark",
@@ -2136,6 +2143,13 @@
       "location": "FL",
       "age": "F30-39"
     },
+    "eric_swanson_wi": {
+      "first_name": "Eric",
+      "last_name": "Swanson",
+      "city": "Sun Prairie",
+      "location": "WI",
+      "age": "M40-49"
+    },
     "ian_hurley_pa": {
       "first_name": "Ian",
       "last_name": "Hurley",
@@ -3460,5 +3474,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-07-06T09:24:11.477798"
+  "timestamp": "2026-07-07T09:08:49.915805"
 }
