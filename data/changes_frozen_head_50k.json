@@ -10991,5 +10991,32 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-08T08:53:42.167772",
+    "count_change": -2,
+    "new_count": 494,
+    "previous_count": 496,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Rachel",
+        "last_name": "Cook",
+        "city": "Rochester",
+        "location": "NH",
+        "age": "F40-49",
+        "key": "rachel_cook_nh"
+      },
+      {
+        "first_name": "Rodrigo",
+        "last_name": "Joao",
+        "city": "RIO DE JANEIRO",
+        "location": "BRA",
+        "age": "M40-49",
+        "key": "rodrigo_joao_bra"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
