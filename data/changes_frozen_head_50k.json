@@ -11018,5 +11018,40 @@
     ],
     "total_new": 0,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-07-09T09:07:45.486114",
+    "count_change": 3,
+    "new_count": 497,
+    "previous_count": 494,
+    "new_entrants": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Anderson",
+        "city": "Madison",
+        "location": "AL",
+        "age": "M40-49",
+        "key": "aaron_anderson_al"
+      },
+      {
+        "first_name": "Philip",
+        "last_name": "Gilbert",
+        "city": "Floyd",
+        "location": "VA",
+        "age": "M50-59",
+        "key": "philip_gilbert_va"
+      },
+      {
+        "first_name": "Tom",
+        "last_name": "Eckert",
+        "city": "Brentwood",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "tom_eckert_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 3,
+    "total_dropped": 0
   }
 ]
