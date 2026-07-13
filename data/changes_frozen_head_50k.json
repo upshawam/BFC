@@ -11083,5 +11083,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-13T09:07:21.738440",
+    "count_change": -1,
+    "new_count": 496,
+    "previous_count": 497,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jesse",
+        "last_name": "Bowman",
+        "city": "Liberty Township",
+        "location": "OH",
+        "age": "M40-49",
+        "key": "jesse_bowman_oh"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
