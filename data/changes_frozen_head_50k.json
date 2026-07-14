@@ -11102,5 +11102,33 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-07-14T08:45:26.431520",
+    "count_change": 0,
+    "new_count": 496,
+    "previous_count": 496,
+    "new_entrants": [
+      {
+        "first_name": "Sasha",
+        "last_name": "Stewart",
+        "city": "Johnson City",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "sasha_stewart_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Brandon",
+        "last_name": "Westover",
+        "city": "Orlando",
+        "location": "FL",
+        "age": "M40-49",
+        "key": "brandon_westover_fl"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
