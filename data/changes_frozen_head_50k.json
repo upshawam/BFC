@@ -11130,5 +11130,24 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-07-15T08:48:02.961786",
+    "count_change": -1,
+    "new_count": 495,
+    "previous_count": 496,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Manny",
+        "last_name": "Arruda",
+        "city": "Austin",
+        "location": "TX",
+        "age": "M30-39",
+        "key": "manny_arruda_tx"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
