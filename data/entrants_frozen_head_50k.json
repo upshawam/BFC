@@ -400,13 +400,6 @@
       "location": "AL",
       "age": "M50-59"
     },
-    "jamie_saunders_fl": {
-      "first_name": "Jamie",
-      "last_name": "Saunders",
-      "city": "Gainesville",
-      "location": "FL",
-      "age": "F40-49"
-    },
     "kevin_dockemeyer_il": {
       "first_name": "Kevin",
       "last_name": "Dockemeyer",
@@ -434,6 +427,13 @@
       "city": "Louisville",
       "location": "KY",
       "age": "F30-39"
+    },
+    "jamie_saunders_fl": {
+      "first_name": "Jamie",
+      "last_name": "Saunders",
+      "city": "Gainesville",
+      "location": "FL",
+      "age": "F40-49"
     },
     "paul_hagan_mi": {
       "first_name": "Paul",
@@ -1877,13 +1877,6 @@
       "location": "IRL",
       "age": "M40-49"
     },
-    "david_bushroe_oh": {
-      "first_name": "David",
-      "last_name": "Bushroe",
-      "city": "Bellbrook",
-      "location": "OH",
-      "age": "M60-69"
-    },
     "nicholas_bagwell_tx": {
       "first_name": "Nicholas",
       "last_name": "Bagwell",
@@ -1967,6 +1960,13 @@
       "city": "Myrtle beach",
       "location": "SC",
       "age": "F30-39"
+    },
+    "david_bushroe_oh": {
+      "first_name": "David",
+      "last_name": "Bushroe",
+      "city": "Bellbrook",
+      "location": "OH",
+      "age": "M60-69"
     },
     "sharon_gerrish_mi": {
       "first_name": "Sharon",
@@ -3467,5 +3467,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-07-17T08:45:11.519971"
+  "timestamp": "2026-07-18T08:35:26.410594"
 }
