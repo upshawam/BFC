@@ -15140,5 +15140,49 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-19T08:48:13.396056",
+    "count_change": 2,
+    "new_count": 497,
+    "previous_count": 495,
+    "new_entrants": [
+      {
+        "first_name": "Chad",
+        "last_name": "Lynema",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "chad_lynema_tn"
+      },
+      {
+        "first_name": "Chelsea",
+        "last_name": "Langlois",
+        "city": "Athens",
+        "location": "OH",
+        "age": "F30-39",
+        "key": "chelsea_langlois_oh"
+      },
+      {
+        "first_name": "Nathan",
+        "last_name": "Woodcock",
+        "city": "Clifton park",
+        "location": "NY",
+        "age": "M30-39",
+        "key": "nathan_woodcock_ny"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "David",
+        "last_name": "Espinoza",
+        "city": "Anacortes",
+        "location": "WA",
+        "age": "M40-49",
+        "key": "david_espinoza_wa"
+      }
+    ],
+    "total_new": 3,
+    "total_dropped": 1
   }
 ]
