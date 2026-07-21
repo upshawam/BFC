@@ -15219,5 +15219,73 @@
     "dropped_entrants": [],
     "total_new": 3,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-21T08:55:09.432553",
+    "count_change": 1,
+    "new_count": 501,
+    "previous_count": 500,
+    "new_entrants": [
+      {
+        "first_name": "Garrett",
+        "last_name": "Bracht",
+        "city": "Chicago",
+        "location": "IL",
+        "age": "M20-29",
+        "key": "garrett_bracht_il"
+      },
+      {
+        "first_name": "Ryan",
+        "last_name": "Rougeux",
+        "city": "Orlando",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "ryan_rougeux_fl"
+      },
+      {
+        "first_name": "Taylor",
+        "last_name": "Sink",
+        "city": "Dublin",
+        "location": "VA",
+        "age": "F20-29",
+        "key": "taylor_sink_va"
+      },
+      {
+        "first_name": "Zach",
+        "last_name": "Moody",
+        "city": "Ashland City",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "zach_moody_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Anisha",
+        "last_name": "Franklin",
+        "city": "Geneva",
+        "location": "CHE",
+        "age": "F30-39",
+        "key": "anisha_franklin_che"
+      },
+      {
+        "first_name": "Ryan",
+        "last_name": "Rougeux",
+        "city": "Maryville",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "ryan_rougeux_tn"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Janssens",
+        "city": "Hoeilaart",
+        "location": "BEL",
+        "age": "M50-59",
+        "key": "steven_janssens_bel"
+      }
+    ],
+    "total_new": 4,
+    "total_dropped": 3
   }
 ]
