@@ -15297,5 +15297,49 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-23T08:54:32.851606",
+    "count_change": 0,
+    "new_count": 501,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Sarah",
+        "last_name": "Short",
+        "city": "Marion",
+        "location": "IL",
+        "age": "F30-39",
+        "key": "sarah_short_il"
+      },
+      {
+        "first_name": "William",
+        "last_name": "Hinkle",
+        "city": "Elizabethtown",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "william_hinkle_ky"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Brittany",
+        "last_name": "Burtner",
+        "city": "Big Pine Key",
+        "location": "FL",
+        "age": "F40-49",
+        "key": "brittany_burtner_fl"
+      },
+      {
+        "first_name": "Magdalen",
+        "last_name": "Grismer",
+        "city": "Los Alamos",
+        "location": "NM",
+        "age": "F30-39",
+        "key": "magdalen_grismer_nm"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 2
   }
 ]
