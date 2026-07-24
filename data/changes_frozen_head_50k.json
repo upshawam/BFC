@@ -15341,5 +15341,33 @@
     ],
     "total_new": 2,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-07-24T08:52:54.064651",
+    "count_change": 0,
+    "new_count": 501,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Jacob",
+        "last_name": "Baird",
+        "city": "Sevierville",
+        "location": "TN",
+        "age": "M20-29",
+        "key": "jacob_baird_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Matthew",
+        "last_name": "Kirts",
+        "city": "MURFREESBORO",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "matthew_kirts_tn"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
