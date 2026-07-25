@@ -1,5 +1,5 @@
 {
-  "count": 501,
+  "count": 502,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -1295,6 +1295,13 @@
       "city": "Avery",
       "location": "CA",
       "age": "F40-49"
+    },
+    "josh_kramer_ny": {
+      "first_name": "Josh",
+      "last_name": "Kramer",
+      "city": "Irondequoit",
+      "location": "NY",
+      "age": "M30-39"
     },
     "jay_hunt_co": {
       "first_name": "Jay",
@@ -3509,5 +3516,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-07-24T08:52:54.062626"
+  "timestamp": "2026-07-25T08:42:01.724421"
 }

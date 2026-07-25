@@ -15369,5 +15369,24 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-07-25T08:42:01.726157",
+    "count_change": 1,
+    "new_count": 502,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Josh",
+        "last_name": "Kramer",
+        "city": "Irondequoit",
+        "location": "NY",
+        "age": "M30-39",
+        "key": "josh_kramer_ny"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
