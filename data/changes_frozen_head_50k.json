@@ -15416,5 +15416,24 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-07-27T09:08:26.835812",
+    "count_change": 1,
+    "new_count": 503,
+    "previous_count": 502,
+    "new_entrants": [
+      {
+        "first_name": "Joseph",
+        "last_name": "Csmereka",
+        "city": "Munster",
+        "location": "IN",
+        "age": "M50-59",
+        "key": "joseph_csmereka_in"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
