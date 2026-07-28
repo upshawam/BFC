@@ -15435,5 +15435,105 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-07-28T08:57:11.726260",
+    "count_change": 7,
+    "new_count": 510,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Anisha",
+        "last_name": "Franklin",
+        "city": "Geneva",
+        "location": "",
+        "age": "F30-39",
+        "key": "anisha_franklin_"
+      },
+      {
+        "first_name": "Dominick",
+        "last_name": "Daalhuizen",
+        "city": "Beverwijk",
+        "location": "",
+        "age": "M30-39",
+        "key": "dominick_daalhuizen_"
+      },
+      {
+        "first_name": "Jocelyn",
+        "last_name": "Outlaw",
+        "city": "Etobicoke",
+        "location": "ON",
+        "age": "F40-49",
+        "key": "jocelyn_outlaw_on"
+      },
+      {
+        "first_name": "Joe",
+        "last_name": "Dubois",
+        "city": "Sarnia",
+        "location": "ON",
+        "age": "M50-59",
+        "key": "joe_dubois_on"
+      },
+      {
+        "first_name": "Jonny",
+        "last_name": "Gill",
+        "city": "York",
+        "location": "",
+        "age": "M30-39",
+        "key": "jonny_gill_"
+      },
+      {
+        "first_name": "Kevin",
+        "last_name": "Eulaerts",
+        "city": "Pellenberg",
+        "location": "",
+        "age": "M40-49",
+        "key": "kevin_eulaerts_"
+      },
+      {
+        "first_name": "Laina",
+        "last_name": "Rogers",
+        "city": "Hamilton",
+        "location": "ON",
+        "age": "F30-39",
+        "key": "laina_rogers_on"
+      },
+      {
+        "first_name": "Sarah",
+        "last_name": "Peel-Yates",
+        "city": "Numulgi",
+        "location": "",
+        "age": "F50-59",
+        "key": "sarah_peel-yates_"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Janssens",
+        "city": "Hoeilaart",
+        "location": "",
+        "age": "M50-59",
+        "key": "steven_janssens_"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Amy",
+        "last_name": "Egan",
+        "city": "Moon Township",
+        "location": "PA",
+        "age": "F50-59",
+        "key": "amy_egan_pa"
+      },
+      {
+        "first_name": "Jurgen",
+        "last_name": "Keppens",
+        "city": "Lebbeke",
+        "location": "BEL",
+        "age": "M50-59",
+        "key": "jurgen_keppens_bel"
+      }
+    ],
+    "total_new": 9,
+    "total_dropped": 2
   }
 ]
