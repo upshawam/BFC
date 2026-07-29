@@ -15535,5 +15535,32 @@
     ],
     "total_new": 9,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-07-29T08:58:54.148881",
+    "count_change": -2,
+    "new_count": 508,
+    "previous_count": 510,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Darren",
+        "last_name": "Osborne",
+        "city": "Oakville",
+        "location": "ON",
+        "age": "M50-59",
+        "key": "darren_osborne_on"
+      },
+      {
+        "first_name": "Jessica",
+        "last_name": "Massey",
+        "city": "THREE RIVERS",
+        "location": "MI",
+        "age": "F30-39",
+        "key": "jessica_massey_mi"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
