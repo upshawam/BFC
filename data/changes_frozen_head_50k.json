@@ -15562,5 +15562,24 @@
     ],
     "total_new": 0,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-07-30T08:56:27.994754",
+    "count_change": -1,
+    "new_count": 507,
+    "previous_count": 508,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Megan",
+        "last_name": "Kretschmer",
+        "city": "League City",
+        "location": "TX",
+        "age": "F40-49",
+        "key": "megan_kretschmer_tx"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
