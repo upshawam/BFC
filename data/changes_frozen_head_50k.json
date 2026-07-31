@@ -15581,5 +15581,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-07-31T09:02:09.993660",
+    "count_change": -1,
+    "new_count": 506,
+    "previous_count": 507,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Kara",
+        "last_name": "Volk",
+        "city": "Pittsburgh",
+        "location": "PA",
+        "age": "F40-49",
+        "key": "kara_volk_pa"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
