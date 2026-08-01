@@ -15600,5 +15600,32 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-08-01T08:47:41.186733",
+    "count_change": -2,
+    "new_count": 504,
+    "previous_count": 506,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Aksel",
+        "last_name": "U",
+        "city": "Elverum",
+        "location": "NOR",
+        "age": "M30-39",
+        "key": "aksel_u_nor"
+      },
+      {
+        "first_name": "Autumn",
+        "last_name": "Breazile",
+        "city": "Council Bluffs",
+        "location": "NE",
+        "age": "F20-29",
+        "key": "autumn_breazile_ne"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
