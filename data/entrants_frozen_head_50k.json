@@ -1,5 +1,5 @@
 {
-  "count": 504,
+  "count": 502,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -785,13 +785,6 @@
       "location": "IL",
       "age": "M30-39"
     },
-    "jeffrey_lenard_il": {
-      "first_name": "Jeffrey",
-      "last_name": "Lenard",
-      "city": "Johnsburg",
-      "location": "IL",
-      "age": "M60-69"
-    },
     "tim_atkins_la": {
       "first_name": "Tim",
       "last_name": "Atkins",
@@ -1078,13 +1071,6 @@
       "city": "Phoenix",
       "location": "AZ",
       "age": "M50-59"
-    },
-    "david_musgrave_co": {
-      "first_name": "David",
-      "last_name": "Musgrave",
-      "city": "Colorado Springs",
-      "location": "CO",
-      "age": "M60-69"
     },
     "phil_dammarell_oh": {
       "first_name": "Phil",
@@ -3319,26 +3305,12 @@
       "location": "NE",
       "age": "F60-69"
     },
-    "keely_d_ct": {
-      "first_name": "Keely",
-      "last_name": "D",
-      "city": "East granby",
-      "location": "CT",
-      "age": "F30-39"
-    },
     "ezequiel_rios pita_bra": {
       "first_name": "Ezequiel",
       "last_name": "Rios Pita",
       "city": "Sao Paulo",
       "location": "BRA",
       "age": "M50-59"
-    },
-    "derek_jobson_ab": {
-      "first_name": "Derek",
-      "last_name": "Jobson",
-      "city": "Canmore",
-      "location": "AB",
-      "age": "M40-49"
     },
     "jacob_baird_tn": {
       "first_name": "Jacob",
@@ -3347,12 +3319,12 @@
       "location": "TN",
       "age": "M20-29"
     },
-    "karen_gale_ca": {
-      "first_name": "Karen",
-      "last_name": "Gale",
-      "city": "Irvine",
-      "location": "CA",
-      "age": "F50-59"
+    "keely_d_ct": {
+      "first_name": "Keely",
+      "last_name": "D",
+      "city": "East granby",
+      "location": "CT",
+      "age": "F30-39"
     },
     "fatos_vllahinja_alb": {
       "first_name": "Fatos",
@@ -3360,6 +3332,13 @@
       "city": "Prishtina",
       "location": "ALB",
       "age": "M30-39"
+    },
+    "karen_gale_ca": {
+      "first_name": "Karen",
+      "last_name": "Gale",
+      "city": "Irvine",
+      "location": "CA",
+      "age": "F50-59"
     },
     "pascal_patterson_gbr": {
       "first_name": "Pascal",
@@ -3374,6 +3353,13 @@
       "city": "Hatillo",
       "location": "CRI",
       "age": "M20-29"
+    },
+    "derek_jobson_ab": {
+      "first_name": "Derek",
+      "last_name": "Jobson",
+      "city": "Canmore",
+      "location": "AB",
+      "age": "M40-49"
     },
     "r_kincade_in": {
       "first_name": "R",
@@ -3515,20 +3501,20 @@
       "location": "TN",
       "age": "F30-39"
     },
-    "aaron_hardwick_on": {
-      "first_name": "Aaron",
-      "last_name": "Hardwick",
-      "city": "Baysville",
-      "location": "ON",
-      "age": "M40-49"
-    },
     "daniel_r\u00f6mer_swe": {
       "first_name": "Daniel",
       "last_name": "R\u00f6mer",
       "city": "Alvesta",
       "location": "SWE",
       "age": "M40-49"
+    },
+    "aaron_hardwick_on": {
+      "first_name": "Aaron",
+      "last_name": "Hardwick",
+      "city": "Baysville",
+      "location": "ON",
+      "age": "M40-49"
     }
   },
-  "timestamp": "2026-08-01T08:47:41.184736"
+  "timestamp": "2026-08-02T08:48:50.318266"
 }
