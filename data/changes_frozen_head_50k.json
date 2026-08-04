@@ -15673,5 +15673,24 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-08-04T08:58:18.002552",
+    "count_change": -1,
+    "new_count": 500,
+    "previous_count": 501,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Colleen",
+        "last_name": "Lawrence",
+        "city": "Christiana",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "colleen_lawrence_tn"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
