@@ -19713,5 +19713,89 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-07T08:25:18.230273",
+    "count_change": -1,
+    "new_count": 499,
+    "previous_count": 500,
+    "new_entrants": [
+      {
+        "first_name": "Blake",
+        "last_name": "Dunn",
+        "city": "Nashville",
+        "location": "IN",
+        "age": "M40-49",
+        "key": "blake_dunn_in"
+      },
+      {
+        "first_name": "Jon",
+        "last_name": "Shap",
+        "city": "Franklin",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "jon_shap_tn"
+      },
+      {
+        "first_name": "Lamar",
+        "last_name": "Mair",
+        "city": "Baltimore",
+        "location": "MD",
+        "age": "M40-49",
+        "key": "lamar_mair_md"
+      },
+      {
+        "first_name": "Marcus",
+        "last_name": "Thornton",
+        "city": "Lexington",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "marcus_thornton_ky"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Abbey",
+        "last_name": "Davidson",
+        "city": "Casper",
+        "location": "WY",
+        "age": "F30-39",
+        "key": "abbey_davidson_wy"
+      },
+      {
+        "first_name": "Anna",
+        "last_name": "Schermerhorn",
+        "city": "Riverview",
+        "location": "FL",
+        "age": "F40-49",
+        "key": "anna_schermerhorn_fl"
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Larue",
+        "city": "Des Peres",
+        "location": "MO",
+        "age": "M30-39",
+        "key": "jonathan_larue_mo"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Easter",
+        "city": "Bartlett",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "richard_easter_tn"
+      },
+      {
+        "first_name": "Yuval",
+        "last_name": "Ben-Horin",
+        "city": "Bellevue",
+        "location": "WA",
+        "age": "M50-59",
+        "key": "yuval_ben-horin_wa"
+      }
+    ],
+    "total_new": 4,
+    "total_dropped": 5
   }
 ]
