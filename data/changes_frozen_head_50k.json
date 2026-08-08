@@ -19797,5 +19797,32 @@
     ],
     "total_new": 4,
     "total_dropped": 5
+  },
+  {
+    "timestamp": "2026-08-08T08:13:57.376806",
+    "count_change": 2,
+    "new_count": 501,
+    "previous_count": 499,
+    "new_entrants": [
+      {
+        "first_name": "Rebecca",
+        "last_name": "Kendrick",
+        "city": "Indianapolis",
+        "location": "IN",
+        "age": "F30-39",
+        "key": "rebecca_kendrick_in"
+      },
+      {
+        "first_name": "Seth",
+        "last_name": "Pyles",
+        "city": "Boulder",
+        "location": "CO",
+        "age": "M<20",
+        "key": "seth_pyles_co"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
