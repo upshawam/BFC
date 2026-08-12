@@ -19854,5 +19854,40 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-12T08:30:34.403355",
+    "count_change": 3,
+    "new_count": 504,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Emily",
+        "last_name": "Blain",
+        "city": "Elizabethtown",
+        "location": "KY",
+        "age": "F40-49",
+        "key": "emily_blain_ky"
+      },
+      {
+        "first_name": "Rich",
+        "last_name": "Balasa",
+        "city": "Pipersville",
+        "location": "PA",
+        "age": "M40-49",
+        "key": "rich_balasa_pa"
+      },
+      {
+        "first_name": "Valerie",
+        "last_name": "Matena",
+        "city": "Charlotte",
+        "location": "NC",
+        "age": "F40-49",
+        "key": "valerie_matena_nc"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 3,
+    "total_dropped": 0
   }
 ]
