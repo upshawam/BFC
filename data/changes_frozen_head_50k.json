@@ -19899,5 +19899,41 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-14T08:28:54.132370",
+    "count_change": 1,
+    "new_count": 505,
+    "previous_count": 504,
+    "new_entrants": [
+      {
+        "first_name": "Hannah",
+        "last_name": "Stoneking",
+        "city": "Memphis",
+        "location": "TN",
+        "age": "F20-29",
+        "key": "hannah_stoneking_tn"
+      },
+      {
+        "first_name": "Ramonita",
+        "last_name": "Colon",
+        "city": "Augusta",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "ramonita_colon_ga"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Austin",
+        "last_name": "Gros",
+        "city": "Lebanon",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "austin_gros_tn"
+      }
+    ],
+    "total_new": 2,
+    "total_dropped": 1
   }
 ]
