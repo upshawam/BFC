@@ -19945,5 +19945,24 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-16T08:06:45.279383",
+    "count_change": 1,
+    "new_count": 506,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Frank",
+        "last_name": "Hammond",
+        "city": "Evansville",
+        "location": "IN",
+        "age": "M30-39",
+        "key": "frank_hammond_in"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
