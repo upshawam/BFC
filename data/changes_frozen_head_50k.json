@@ -19964,5 +19964,24 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-17T08:14:44.118299",
+    "count_change": 1,
+    "new_count": 507,
+    "previous_count": 506,
+    "new_entrants": [
+      {
+        "first_name": "Billy",
+        "last_name": "Ward",
+        "city": "Sunbright",
+        "location": "TN",
+        "age": "M50-59",
+        "key": "billy_ward_tn"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
