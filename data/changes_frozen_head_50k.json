@@ -19983,5 +19983,40 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-18T08:10:07.802753",
+    "count_change": -3,
+    "new_count": 504,
+    "previous_count": 507,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Allison",
+        "last_name": "Coultas",
+        "city": "Jonesborough",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "allison_coultas_tn"
+      },
+      {
+        "first_name": "Ray",
+        "last_name": "Egolf",
+        "city": "Landisburg",
+        "location": "PA",
+        "age": "M60-69",
+        "key": "ray_egolf_pa"
+      },
+      {
+        "first_name": "Victoria",
+        "last_name": "Hoch",
+        "city": "Tampa",
+        "location": "FL",
+        "age": "F30-39",
+        "key": "victoria_hoch_fl"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 3
   }
 ]
