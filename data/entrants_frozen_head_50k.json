@@ -1,5 +1,5 @@
 {
-  "count": 504,
+  "count": 503,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -519,13 +519,6 @@
       "location": "CT",
       "age": "F30-39"
     },
-    "jim_winn_ky": {
-      "first_name": "Jim",
-      "last_name": "Winn",
-      "city": "Leitchfield",
-      "location": "KY",
-      "age": "M40-49"
-    },
     "rebecca_whitman_fl": {
       "first_name": "Rebecca",
       "last_name": "Whitman",
@@ -574,6 +567,13 @@
       "city": "Lexington",
       "location": "KY",
       "age": "M50-59"
+    },
+    "jim_winn_ky": {
+      "first_name": "Jim",
+      "last_name": "Winn",
+      "city": "Leitchfield",
+      "location": "KY",
+      "age": "M40-49"
     },
     "mark_lilley_on": {
       "first_name": "Mark",
@@ -792,13 +792,6 @@
       "location": "CO",
       "age": "M40-49"
     },
-    "ausra_butkeviciute_il": {
-      "first_name": "Ausra",
-      "last_name": "Butkeviciute",
-      "city": "Mundelein",
-      "location": "IL",
-      "age": "F40-49"
-    },
     "ronnie_reineke_il": {
       "first_name": "Ronnie",
       "last_name": "Reineke",
@@ -883,6 +876,13 @@
       "location": "IL",
       "age": "M20-29"
     },
+    "ausra_butkeviciute_il": {
+      "first_name": "Ausra",
+      "last_name": "Butkeviciute",
+      "city": "Mundelein",
+      "location": "IL",
+      "age": "F40-49"
+    },
     "chris_davis_tn": {
       "first_name": "Chris",
       "last_name": "Davis",
@@ -938,6 +938,13 @@
       "city": "Atlanta",
       "location": "GA",
       "age": "F50-59"
+    },
+    "william_hinkle_ky": {
+      "first_name": "William",
+      "last_name": "Hinkle",
+      "city": "Elizabethtown",
+      "location": "KY",
+      "age": "M30-39"
     },
     "ran_crump_al": {
       "first_name": "Ran",
@@ -1121,19 +1128,19 @@
       "location": "NY",
       "age": "M40-49"
     },
-    "rick_boze_ky": {
-      "first_name": "Rick",
-      "last_name": "Boze",
-      "city": "Hopkinsville",
-      "location": "KY",
-      "age": "M40-49"
-    },
     "eric_dever_pa": {
       "first_name": "Eric",
       "last_name": "Dever",
       "city": "Quakertown",
       "location": "PA",
       "age": "M30-39"
+    },
+    "rick_boze_ky": {
+      "first_name": "Rick",
+      "last_name": "Boze",
+      "city": "Hopkinsville",
+      "location": "KY",
+      "age": "M40-49"
     },
     "john_watt_ks": {
       "first_name": "John",
@@ -1148,13 +1155,6 @@
       "city": "Loveland",
       "location": "OH",
       "age": "F40-49"
-    },
-    "william_hinkle_ky": {
-      "first_name": "William",
-      "last_name": "Hinkle",
-      "city": "Elizabethtown",
-      "location": "KY",
-      "age": "M30-39"
     },
     "daniel_grant_tn": {
       "first_name": "Daniel",
@@ -1702,6 +1702,13 @@
       "location": "TN",
       "age": "M50-59"
     },
+    "taylor_sink_va": {
+      "first_name": "Taylor",
+      "last_name": "Sink",
+      "city": "Dublin",
+      "location": "VA",
+      "age": "F20-29"
+    },
     "lucas_martins_tx": {
       "first_name": "Lucas",
       "last_name": "Martins",
@@ -2009,13 +2016,6 @@
       "city": "Myrtle beach",
       "location": "SC",
       "age": "F30-39"
-    },
-    "taylor_sink_va": {
-      "first_name": "Taylor",
-      "last_name": "Sink",
-      "city": "Dublin",
-      "location": "VA",
-      "age": "F20-29"
     },
     "sharon_gerrish_mi": {
       "first_name": "Sharon",
@@ -2934,13 +2934,6 @@
       "location": "GA",
       "age": "F50-59"
     },
-    "chad_mccartney_wi": {
-      "first_name": "Chad",
-      "last_name": "McCartney",
-      "city": "New London",
-      "location": "WI",
-      "age": "M40-49"
-    },
     "stewart_milhoan_al": {
       "first_name": "Stewart",
       "last_name": "Milhoan",
@@ -3530,5 +3523,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-08-18T08:10:07.800904"
+  "timestamp": "2026-08-19T08:10:41.204041"
 }

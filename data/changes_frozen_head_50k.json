@@ -20018,5 +20018,24 @@
     ],
     "total_new": 0,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-08-19T08:10:41.205801",
+    "count_change": -1,
+    "new_count": 503,
+    "previous_count": 504,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Chad",
+        "last_name": "McCartney",
+        "city": "New London",
+        "location": "WI",
+        "age": "M40-49",
+        "key": "chad_mccartney_wi"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
