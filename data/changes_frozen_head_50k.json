@@ -20143,5 +20143,33 @@
     ],
     "total_new": 2,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-08-23T08:07:07.895326",
+    "count_change": 0,
+    "new_count": 502,
+    "previous_count": 502,
+    "new_entrants": [
+      {
+        "first_name": "Christopher",
+        "last_name": "Sponza",
+        "city": "Arden",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "christopher_sponza_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Tom",
+        "last_name": "Bodkin",
+        "city": "East Ridge",
+        "location": "TN",
+        "age": "M50-59",
+        "key": "tom_bodkin_tn"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
