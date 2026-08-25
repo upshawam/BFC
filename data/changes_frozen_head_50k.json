@@ -20190,5 +20190,48 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-08-25T08:15:16.890510",
+    "count_change": -4,
+    "new_count": 497,
+    "previous_count": 501,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Bram",
+        "last_name": "Bell",
+        "city": "Lexington",
+        "location": "KY",
+        "age": "M50-59",
+        "key": "bram_bell_ky"
+      },
+      {
+        "first_name": "Daniel",
+        "last_name": "R\u00f6mer",
+        "city": "Alvesta",
+        "location": "SWE",
+        "age": "M40-49",
+        "key": "daniel_r\u00f6mer_swe"
+      },
+      {
+        "first_name": "Henry",
+        "last_name": "Thompson",
+        "city": "Sierra Madre",
+        "location": "CA",
+        "age": "M30-39",
+        "key": "henry_thompson_ca"
+      },
+      {
+        "first_name": "Jim",
+        "last_name": "Bedford",
+        "city": "Chapel Hill",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "jim_bedford_nc"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 4
   }
 ]
