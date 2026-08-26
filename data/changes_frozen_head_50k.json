@@ -20233,5 +20233,24 @@
     ],
     "total_new": 0,
     "total_dropped": 4
+  },
+  {
+    "timestamp": "2026-08-26T08:15:15.373811",
+    "count_change": 1,
+    "new_count": 498,
+    "previous_count": 497,
+    "new_entrants": [
+      {
+        "first_name": "John",
+        "last_name": "Nowak",
+        "city": "Atlanta",
+        "location": "GA",
+        "age": "M40-49",
+        "key": "john_nowak_ga"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 1,
+    "total_dropped": 0
   }
 ]
