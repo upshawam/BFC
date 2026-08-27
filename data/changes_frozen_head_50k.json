@@ -20252,5 +20252,33 @@
     "dropped_entrants": [],
     "total_new": 1,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-08-27T11:24:35.392794",
+    "count_change": 0,
+    "new_count": 498,
+    "previous_count": 498,
+    "new_entrants": [
+      {
+        "first_name": "Pj",
+        "last_name": "Deschenes",
+        "city": "St. Louis",
+        "location": "MO",
+        "age": "M40-49",
+        "key": "pj_deschenes_mo"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Nate",
+        "last_name": "Reis",
+        "city": "Polk City",
+        "location": "IA",
+        "age": "M40-49",
+        "key": "nate_reis_ia"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
