@@ -1,5 +1,5 @@
 {
-  "count": 498,
+  "count": 496,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -225,13 +225,6 @@
       "location": "VA",
       "age": "M30-39"
     },
-    "omar_martinez_tx": {
-      "first_name": "Omar",
-      "last_name": "Martinez",
-      "city": "Fort Worth",
-      "location": "TX",
-      "age": "M40-49"
-    },
     "cole_hetzel_ky": {
       "first_name": "Cole",
       "last_name": "Hetzel",
@@ -330,6 +323,13 @@
       "location": "FL",
       "age": "F20-29"
     },
+    "seth_king_mt": {
+      "first_name": "Seth",
+      "last_name": "King",
+      "city": "Columbia Falls",
+      "location": "MT",
+      "age": "M20-29"
+    },
     "david_branson_al": {
       "first_name": "David",
       "last_name": "Branson",
@@ -371,13 +371,6 @@
       "city": "Newnan",
       "location": "GA",
       "age": "M30-39"
-    },
-    "seth_king_mt": {
-      "first_name": "Seth",
-      "last_name": "King",
-      "city": "Columbia Falls",
-      "location": "MT",
-      "age": "M20-29"
     },
     "carl_jones_ms": {
       "first_name": "Carl",
@@ -2612,13 +2605,6 @@
       "location": "MS",
       "age": "F30-39"
     },
-    "jason_cotter_oh": {
-      "first_name": "Jason",
-      "last_name": "Cotter",
-      "city": "Grove City",
-      "location": "OH",
-      "age": "M50-59"
-    },
     "tania_salaneck_pa": {
       "first_name": "Tania",
       "last_name": "Salaneck",
@@ -3488,5 +3474,5 @@
       "age": "M50-59"
     }
   },
-  "timestamp": "2026-08-27T11:24:35.391316"
+  "timestamp": "2026-08-28T11:52:02.384101"
 }

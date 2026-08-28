@@ -20280,5 +20280,32 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-08-28T11:52:02.386013",
+    "count_change": -2,
+    "new_count": 496,
+    "previous_count": 498,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jason",
+        "last_name": "Cotter",
+        "city": "Grove City",
+        "location": "OH",
+        "age": "M50-59",
+        "key": "jason_cotter_oh"
+      },
+      {
+        "first_name": "Omar",
+        "last_name": "Martinez",
+        "city": "Fort Worth",
+        "location": "TX",
+        "age": "M40-49",
+        "key": "omar_martinez_tx"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 2
   }
 ]
