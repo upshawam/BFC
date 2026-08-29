@@ -20307,5 +20307,33 @@
     ],
     "total_new": 0,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-08-29T08:11:33.444857",
+    "count_change": 0,
+    "new_count": 496,
+    "previous_count": 496,
+    "new_entrants": [
+      {
+        "first_name": "David",
+        "last_name": "Reynolds",
+        "city": "Mascot",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "david_reynolds_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Shenoa",
+        "last_name": "Creer",
+        "city": "Decatur",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "shenoa_creer_ga"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
