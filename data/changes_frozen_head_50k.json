@@ -20335,5 +20335,105 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-08-30T08:11:43.432361",
+    "count_change": 7,
+    "new_count": 503,
+    "previous_count": 496,
+    "new_entrants": [
+      {
+        "first_name": "Balint",
+        "last_name": "Meszaros",
+        "city": "Bartlett",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "balint_meszaros_tn"
+      },
+      {
+        "first_name": "Bill",
+        "last_name": "Ellis",
+        "city": "Johnson City",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "bill_ellis_tn"
+      },
+      {
+        "first_name": "Deana",
+        "last_name": "Kelley",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "deana_kelley_tn"
+      },
+      {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "city": "Chattanooga",
+        "location": "TN",
+        "age": "M20-29",
+        "key": "eric_johnson_tn"
+      },
+      {
+        "first_name": "Heather",
+        "last_name": "Oaks",
+        "city": "Canton",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "heather_oaks_ga"
+      },
+      {
+        "first_name": "Kevin",
+        "last_name": "Hieber",
+        "city": "Elkhart",
+        "location": "IN",
+        "age": "M50-59",
+        "key": "kevin_hieber_in"
+      },
+      {
+        "first_name": "Mila",
+        "last_name": "Lichman",
+        "city": "Wadmalaw Island",
+        "location": "SC",
+        "age": "F30-39",
+        "key": "mila_lichman_sc"
+      },
+      {
+        "first_name": "Nelson",
+        "last_name": "Ackerman",
+        "city": "Shreve",
+        "location": "OH",
+        "age": "M40-49",
+        "key": "nelson_ackerman_oh"
+      },
+      {
+        "first_name": "Romena",
+        "last_name": "Hall",
+        "city": "Vernon Hills",
+        "location": "IL",
+        "age": "F50-59",
+        "key": "romena_hall_il"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Donna",
+        "last_name": "Cunningham",
+        "city": "Louisville",
+        "location": "TN",
+        "age": "F50-59",
+        "key": "donna_cunningham_tn"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Cunningham",
+        "city": "Louisville",
+        "location": "TN",
+        "age": "M60-69",
+        "key": "richard_cunningham_tn"
+      }
+    ],
+    "total_new": 9,
+    "total_dropped": 2
   }
 ]
