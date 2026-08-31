@@ -20435,5 +20435,49 @@
     ],
     "total_new": 9,
     "total_dropped": 2
+  },
+  {
+    "timestamp": "2026-08-31T08:15:45.094600",
+    "count_change": 2,
+    "new_count": 505,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Ben",
+        "last_name": "Clayton",
+        "city": "Williamsburg",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "ben_clayton_ky"
+      },
+      {
+        "first_name": "Jason",
+        "last_name": "Wise",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "jason_wise_tn"
+      },
+      {
+        "first_name": "LeeAnn",
+        "last_name": "Bates",
+        "city": "Toccoa",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "leeann_bates_ga"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Tom",
+        "last_name": "Eckert",
+        "city": "Brentwood",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "tom_eckert_tn"
+      }
+    ],
+    "total_new": 3,
+    "total_dropped": 1
   }
 ]
