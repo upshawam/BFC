@@ -20479,5 +20479,113 @@
     ],
     "total_new": 3,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-01T08:14:45.040887",
+    "count_change": 4,
+    "new_count": 509,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Barry",
+        "last_name": "Howard",
+        "city": "Stockbridge",
+        "location": "GA",
+        "age": "M40-49",
+        "key": "barry_howard_ga"
+      },
+      {
+        "first_name": "Claire",
+        "last_name": "Stewart",
+        "city": "Nashville",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "claire_stewart_tn"
+      },
+      {
+        "first_name": "Erin",
+        "last_name": "Bischoff",
+        "city": "Richmond",
+        "location": "VA",
+        "age": "F30-39",
+        "key": "erin_bischoff_va"
+      },
+      {
+        "first_name": "Ilona",
+        "last_name": "Dovidaitiene",
+        "city": "PALATINE",
+        "location": "IL",
+        "age": "F50-59",
+        "key": "ilona_dovidaitiene_il"
+      },
+      {
+        "first_name": "Jeff",
+        "last_name": "Burkett",
+        "city": "Banks",
+        "location": "AL",
+        "age": "M40-49",
+        "key": "jeff_burkett_al"
+      },
+      {
+        "first_name": "Jesse",
+        "last_name": "Dyer",
+        "city": "Knoxville",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "jesse_dyer_tn"
+      },
+      {
+        "first_name": "Kristian",
+        "last_name": "Olivero",
+        "city": "Edmond",
+        "location": "OK",
+        "age": "M50-59",
+        "key": "kristian_olivero_ok"
+      },
+      {
+        "first_name": "Kyle",
+        "last_name": "Martin",
+        "city": "Springville",
+        "location": "AL",
+        "age": "M30-39",
+        "key": "kyle_martin_al"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "John",
+        "last_name": "Price",
+        "city": "Virginia Beach",
+        "location": "VA",
+        "age": "M70+",
+        "key": "john_price_va"
+      },
+      {
+        "first_name": "Kali",
+        "last_name": "Fatti",
+        "city": "Syracuse",
+        "location": "NY",
+        "age": "F40-49",
+        "key": "kali_fatti_ny"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Wild",
+        "city": "Seymour",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "steven_wild_tn"
+      },
+      {
+        "first_name": "Victor",
+        "last_name": "McKenna",
+        "city": "Coventry",
+        "location": "RI",
+        "age": "M50-59",
+        "key": "victor_mckenna_ri"
+      }
+    ],
+    "total_new": 8,
+    "total_dropped": 4
   }
 ]
