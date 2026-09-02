@@ -1,5 +1,5 @@
 {
-  "count": 509,
+  "count": 508,
   "entrants": {
     "zack_beavin_ma": {
       "first_name": "Zack",
@@ -1324,18 +1324,18 @@
       "location": "TN",
       "age": "M30-39"
     },
-    "trevor_greene_tn": {
-      "first_name": "Trevor",
-      "last_name": "Greene",
-      "city": "Knoxville",
-      "location": "TN",
-      "age": "M40-49"
-    },
     "nicholas_spivey_ga": {
       "first_name": "Nicholas",
       "last_name": "Spivey",
       "city": "Clermont",
       "location": "GA",
+      "age": "M40-49"
+    },
+    "trevor_greene_tn": {
+      "first_name": "Trevor",
+      "last_name": "Greene",
+      "city": "Knoxville",
+      "location": "TN",
       "age": "M40-49"
     },
     "pj_deschenes_mo": {
@@ -1695,13 +1695,6 @@
       "location": "WV",
       "age": "M40-49"
     },
-    "jeremy_schuler_il": {
-      "first_name": "Jeremy",
-      "last_name": "Schuler",
-      "city": "Lisle",
-      "location": "IL",
-      "age": "M30-39"
-    },
     "christian_stout_tn": {
       "first_name": "Christian",
       "last_name": "Stout",
@@ -1715,6 +1708,13 @@
       "city": "Stockbridge",
       "location": "GA",
       "age": "M40-49"
+    },
+    "jeremy_schuler_il": {
+      "first_name": "Jeremy",
+      "last_name": "Schuler",
+      "city": "Lisle",
+      "location": "IL",
+      "age": "M30-39"
     },
     "heather_wilkinson_md": {
       "first_name": "Heather",
@@ -2241,19 +2241,19 @@
       "location": "CA",
       "age": "F40-49"
     },
-    "nate_patrylak_ct": {
-      "first_name": "Nate",
-      "last_name": "Patrylak",
-      "city": "Brooklyn",
-      "location": "CT",
-      "age": "M30-39"
-    },
     "andrew_sossick_irl": {
       "first_name": "Andrew",
       "last_name": "Sossick",
       "city": "Randalstown",
       "location": "IRL",
       "age": "M50-59"
+    },
+    "nate_patrylak_ct": {
+      "first_name": "Nate",
+      "last_name": "Patrylak",
+      "city": "Brooklyn",
+      "location": "CT",
+      "age": "M30-39"
     },
     "larry_irsik_va": {
       "first_name": "Larry",
@@ -3228,13 +3228,6 @@
       "location": "WI",
       "age": "F50-59"
     },
-    "youssef_lidary_mar": {
-      "first_name": "Youssef",
-      "last_name": "Lidary",
-      "city": "Casablanca",
-      "location": "MAR",
-      "age": "M40-49"
-    },
     "jaydn_swords_in": {
       "first_name": "Jaydn",
       "last_name": "Swords",
@@ -3565,5 +3558,5 @@
       "age": "F30-39"
     }
   },
-  "timestamp": "2026-09-01T08:14:45.038723"
+  "timestamp": "2026-09-02T08:14:09.558920"
 }

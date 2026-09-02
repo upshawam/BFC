@@ -20587,5 +20587,24 @@
     ],
     "total_new": 8,
     "total_dropped": 4
+  },
+  {
+    "timestamp": "2026-09-02T08:14:09.561136",
+    "count_change": -1,
+    "new_count": 508,
+    "previous_count": 509,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Youssef",
+        "last_name": "Lidary",
+        "city": "Casablanca",
+        "location": "MAR",
+        "age": "M40-49",
+        "key": "youssef_lidary_mar"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 1
   }
 ]
