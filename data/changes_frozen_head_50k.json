@@ -20606,5 +20606,81 @@
     ],
     "total_new": 0,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-03T08:14:12.949327",
+    "count_change": 0,
+    "new_count": 508,
+    "previous_count": 508,
+    "new_entrants": [
+      {
+        "first_name": "Andrew",
+        "last_name": "Nelson",
+        "city": "Mount Vernon",
+        "location": "KY",
+        "age": "M40-49",
+        "key": "andrew_nelson_ky"
+      },
+      {
+        "first_name": "Joseph",
+        "last_name": "Crum",
+        "city": "Buxton",
+        "location": "NC",
+        "age": "M40-49",
+        "key": "joseph_crum_nc"
+      },
+      {
+        "first_name": "Mark",
+        "last_name": "McKeever",
+        "city": "Powell",
+        "location": "TN",
+        "age": "M60-69",
+        "key": "mark_mckeever_tn"
+      },
+      {
+        "first_name": "Nathan",
+        "last_name": "Payne",
+        "city": "Cherryville",
+        "location": "NC",
+        "age": "M20-29",
+        "key": "nathan_payne_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Christopher",
+        "last_name": "Coles",
+        "city": "Roanoke",
+        "location": "VA",
+        "age": "M50-59",
+        "key": "christopher_coles_va"
+      },
+      {
+        "first_name": "Danny",
+        "last_name": "Harris",
+        "city": "Bryant",
+        "location": "AR",
+        "age": "M40-49",
+        "key": "danny_harris_ar"
+      },
+      {
+        "first_name": "Gregory",
+        "last_name": "Hoch",
+        "city": "Gardnerville",
+        "location": "NV",
+        "age": "M60-69",
+        "key": "gregory_hoch_nv"
+      },
+      {
+        "first_name": "Heather",
+        "last_name": "Daunis",
+        "city": "GONZALES",
+        "location": "LA",
+        "age": "F40-49",
+        "key": "heather_daunis_la"
+      }
+    ],
+    "total_new": 4,
+    "total_dropped": 4
   }
 ]
