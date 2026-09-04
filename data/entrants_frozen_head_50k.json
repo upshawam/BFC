@@ -1044,13 +1044,6 @@
       "location": "PA",
       "age": "M50-59"
     },
-    "rick_boze_ky": {
-      "first_name": "Rick",
-      "last_name": "Boze",
-      "city": "Hopkinsville",
-      "location": "KY",
-      "age": "M40-49"
-    },
     "gabriel_gariepy_qc": {
       "first_name": "Gabriel",
       "last_name": "Gariepy",
@@ -1163,6 +1156,13 @@
       "location": "TX",
       "age": "F40-49"
     },
+    "cameron_castleberry_ga": {
+      "first_name": "Cameron",
+      "last_name": "Castleberry",
+      "city": "Temple",
+      "location": "GA",
+      "age": "M30-39"
+    },
     "ryan_brinkley_tn": {
       "first_name": "Ryan",
       "last_name": "Brinkley",
@@ -1191,6 +1191,13 @@
       "location": "NY",
       "age": "M40-49"
     },
+    "rick_boze_ky": {
+      "first_name": "Rick",
+      "last_name": "Boze",
+      "city": "Hopkinsville",
+      "location": "KY",
+      "age": "M40-49"
+    },
     "eric_dever_pa": {
       "first_name": "Eric",
       "last_name": "Dever",
@@ -1211,13 +1218,6 @@
       "city": "Loveland",
       "location": "OH",
       "age": "F40-49"
-    },
-    "cameron_castleberry_ga": {
-      "first_name": "Cameron",
-      "last_name": "Castleberry",
-      "city": "Temple",
-      "location": "GA",
-      "age": "M30-39"
     },
     "matt_hudson_tn": {
       "first_name": "Matt",
@@ -3558,5 +3558,5 @@
       "age": "F40-49"
     }
   },
-  "timestamp": "2026-09-03T08:14:12.947062"
+  "timestamp": "2026-09-04T08:13:39.576365"
 }
