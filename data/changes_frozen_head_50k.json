@@ -20692,5 +20692,40 @@
     "dropped_entrants": [],
     "total_new": 0,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-09-05T08:11:44.902855",
+    "count_change": -3,
+    "new_count": 505,
+    "previous_count": 508,
+    "new_entrants": [],
+    "dropped_entrants": [
+      {
+        "first_name": "Jeffrey",
+        "last_name": "Kern",
+        "city": "Independence",
+        "location": "MO",
+        "age": "M40-49",
+        "key": "jeffrey_kern_mo"
+      },
+      {
+        "first_name": "Samantha",
+        "last_name": "Cvetkovski",
+        "city": "San Diego",
+        "location": "CA",
+        "age": "F30-39",
+        "key": "samantha_cvetkovski_ca"
+      },
+      {
+        "first_name": "Terra",
+        "last_name": "Turner",
+        "city": "Rockmart",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "terra_turner_ga"
+      }
+    ],
+    "total_new": 0,
+    "total_dropped": 3
   }
 ]
