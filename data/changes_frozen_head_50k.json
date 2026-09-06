@@ -20727,5 +20727,49 @@
     ],
     "total_new": 0,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-09-06T08:11:55.945539",
+    "count_change": -2,
+    "new_count": 503,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Chris",
+        "last_name": "Mershon",
+        "city": "Cary",
+        "location": "NC",
+        "age": "M30-39",
+        "key": "chris_mershon_nc"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Bryan",
+        "last_name": "Bunch",
+        "city": "Union Grove",
+        "location": "AL",
+        "age": "M50-59",
+        "key": "bryan_bunch_al"
+      },
+      {
+        "first_name": "Nena",
+        "last_name": "Smith",
+        "city": "Gallatin",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "nena_smith_tn"
+      },
+      {
+        "first_name": "Roy",
+        "last_name": "Evans",
+        "city": "Galena",
+        "location": "OH",
+        "age": "M30-39",
+        "key": "roy_evans_oh"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 3
   }
 ]
