@@ -20799,5 +20799,49 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-08T08:14:14.817722",
+    "count_change": 2,
+    "new_count": 505,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Carey",
+        "last_name": "Allen",
+        "city": "Oak Ridge",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "carey_allen_tn"
+      },
+      {
+        "first_name": "Jennifer",
+        "last_name": "Brown",
+        "city": "Henderson",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "jennifer_brown_tn"
+      },
+      {
+        "first_name": "Rickey",
+        "last_name": "Brooks",
+        "city": "Pinson",
+        "location": "TN",
+        "age": "M60-69",
+        "key": "rickey_brooks_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Hilliard",
+        "city": "Palm beach gardens",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "daniel_hilliard_fl"
+      }
+    ],
+    "total_new": 3,
+    "total_dropped": 1
   }
 ]
