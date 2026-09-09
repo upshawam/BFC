@@ -20843,5 +20843,49 @@
     ],
     "total_new": 3,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-09T08:13:59.877990",
+    "count_change": -2,
+    "new_count": 503,
+    "previous_count": 505,
+    "new_entrants": [
+      {
+        "first_name": "Tanner",
+        "last_name": "Honan",
+        "city": "Richmond",
+        "location": "KY",
+        "age": "M30-39",
+        "key": "tanner_honan_ky"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Ott",
+        "city": "Jacksonville",
+        "location": "FL",
+        "age": "M50-59",
+        "key": "daniel_ott_fl"
+      },
+      {
+        "first_name": "Joe",
+        "last_name": "Albert",
+        "city": "Portland",
+        "location": "OR",
+        "age": "M40-49",
+        "key": "joe_albert_or"
+      },
+      {
+        "first_name": "Karin",
+        "last_name": "Jessop",
+        "city": "Atlanta",
+        "location": "GA",
+        "age": "F50-59",
+        "key": "karin_jessop_ga"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 3
   }
 ]
