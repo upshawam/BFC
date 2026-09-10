@@ -20887,5 +20887,33 @@
     ],
     "total_new": 1,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-09-10T08:13:31.735731",
+    "count_change": 0,
+    "new_count": 503,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Carrie",
+        "last_name": "Fry",
+        "city": "Gulf Breeze",
+        "location": "FL",
+        "age": "F50-59",
+        "key": "carrie_fry_fl"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Kristina",
+        "last_name": "Myint",
+        "city": "Omaha",
+        "location": "NE",
+        "age": "F40-49",
+        "key": "kristina_myint_ne"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
