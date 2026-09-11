@@ -20915,5 +20915,193 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-11T08:13:30.104942",
+    "count_change": -2,
+    "new_count": 501,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Ben",
+        "last_name": "Demandante",
+        "city": "Piney Flats",
+        "location": "TN",
+        "age": "M30-39",
+        "key": "ben_demandante_tn"
+      },
+      {
+        "first_name": "David",
+        "last_name": "Parsons",
+        "city": "CANANDAIGUA",
+        "location": "NY",
+        "age": "M50-59",
+        "key": "david_parsons_ny"
+      },
+      {
+        "first_name": "Eric",
+        "last_name": "Saggars",
+        "city": "Hermitage",
+        "location": "TN",
+        "age": "M50-59",
+        "key": "eric_saggars_tn"
+      },
+      {
+        "first_name": "Erin",
+        "last_name": "Cross-Kaplan",
+        "city": "FPO",
+        "location": "AE",
+        "age": "F20-29",
+        "key": "erin_cross-kaplan_ae"
+      },
+      {
+        "first_name": "Frank",
+        "last_name": "Dahl",
+        "city": "La Grange",
+        "location": "KY",
+        "age": "M40-49",
+        "key": "frank_dahl_ky"
+      },
+      {
+        "first_name": "Logan",
+        "last_name": "Lacourt",
+        "city": "Colorado Springs",
+        "location": "CO",
+        "age": "M20-29",
+        "key": "logan_lacourt_co"
+      },
+      {
+        "first_name": "Mack",
+        "last_name": "Naber",
+        "city": "Stoughton",
+        "location": "WI",
+        "age": "M40-49",
+        "key": "mack_naber_wi"
+      },
+      {
+        "first_name": "Ricky",
+        "last_name": "Stephens",
+        "city": "Scott City",
+        "location": "MO",
+        "age": "M30-39",
+        "key": "ricky_stephens_mo"
+      },
+      {
+        "first_name": "Walter",
+        "last_name": "Listur",
+        "city": "Marietta",
+        "location": "GA",
+        "age": "M30-39",
+        "key": "walter_listur_ga"
+      },
+      {
+        "first_name": "Will",
+        "last_name": "Estes",
+        "city": "Athens",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "will_estes_tn"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Agatha",
+        "last_name": "McRill",
+        "city": "Comfort",
+        "location": "TX",
+        "age": "F40-49",
+        "key": "agatha_mcrill_tx"
+      },
+      {
+        "first_name": "Glenn",
+        "last_name": "McRill",
+        "city": "Comfort",
+        "location": "TX",
+        "age": "M50-59",
+        "key": "glenn_mcrill_tx"
+      },
+      {
+        "first_name": "Jason",
+        "last_name": "Loyd",
+        "city": "Brentwood",
+        "location": "TN",
+        "age": "M50-59",
+        "key": "jason_loyd_tn"
+      },
+      {
+        "first_name": "Jennifer",
+        "last_name": "Leeson",
+        "city": "Minneapolis",
+        "location": "MN",
+        "age": "X40-49",
+        "key": "jennifer_leeson_mn"
+      },
+      {
+        "first_name": "Jeremy",
+        "last_name": "Anderson",
+        "city": "West Jordan",
+        "location": "UT",
+        "age": "M50-59",
+        "key": "jeremy_anderson_ut"
+      },
+      {
+        "first_name": "Jon",
+        "last_name": "Shap",
+        "city": "Franklin",
+        "location": "TN",
+        "age": "M40-49",
+        "key": "jon_shap_tn"
+      },
+      {
+        "first_name": "Josh",
+        "last_name": "Kramer",
+        "city": "Irondequoit",
+        "location": "NY",
+        "age": "M30-39",
+        "key": "josh_kramer_ny"
+      },
+      {
+        "first_name": "Karen",
+        "last_name": "Fairley",
+        "city": "Hong Kong",
+        "location": "HKG",
+        "age": "F50-59",
+        "key": "karen_fairley_hkg"
+      },
+      {
+        "first_name": "Kelly",
+        "last_name": "Force",
+        "city": "Olathe",
+        "location": "KS",
+        "age": "F40-49",
+        "key": "kelly_force_ks"
+      },
+      {
+        "first_name": "Mariana",
+        "last_name": "Murto Edvinsson",
+        "city": "Skovde",
+        "location": "SWE",
+        "age": "F40-49",
+        "key": "mariana_murto edvinsson_swe"
+      },
+      {
+        "first_name": "Steve",
+        "last_name": "Torok",
+        "city": "Bethel",
+        "location": "OH",
+        "age": "M60-69",
+        "key": "steve_torok_oh"
+      },
+      {
+        "first_name": "Todd",
+        "last_name": "Johns",
+        "city": "Larkspur",
+        "location": "CA",
+        "age": "M50-59",
+        "key": "todd_johns_ca"
+      }
+    ],
+    "total_new": 10,
+    "total_dropped": 12
   }
 ]
