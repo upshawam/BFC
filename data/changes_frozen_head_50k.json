@@ -21103,5 +21103,32 @@
     ],
     "total_new": 10,
     "total_dropped": 12
+  },
+  {
+    "timestamp": "2026-09-12T08:11:41.365007",
+    "count_change": 2,
+    "new_count": 503,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Christopher",
+        "last_name": "Viscovich",
+        "city": "Madison",
+        "location": "AL",
+        "age": "M50-59",
+        "key": "christopher_viscovich_al"
+      },
+      {
+        "first_name": "Travis",
+        "last_name": "Atanasov",
+        "city": "Creston",
+        "location": "OH",
+        "age": "M20-29",
+        "key": "travis_atanasov_oh"
+      }
+    ],
+    "dropped_entrants": [],
+    "total_new": 2,
+    "total_dropped": 0
   }
 ]
