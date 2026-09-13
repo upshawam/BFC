@@ -21130,5 +21130,33 @@
     "dropped_entrants": [],
     "total_new": 2,
     "total_dropped": 0
+  },
+  {
+    "timestamp": "2026-09-13T08:12:36.286673",
+    "count_change": 0,
+    "new_count": 503,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Matthew",
+        "last_name": "Arnold",
+        "city": "33510",
+        "location": "FL",
+        "age": "M20-29",
+        "key": "matthew_arnold_fl"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Rebecca",
+        "last_name": "Adams",
+        "city": "Poughkeepsie",
+        "location": "NY",
+        "age": "F40-49",
+        "key": "rebecca_adams_ny"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 1
   }
 ]
