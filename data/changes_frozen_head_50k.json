@@ -21158,5 +21158,49 @@
     ],
     "total_new": 1,
     "total_dropped": 1
+  },
+  {
+    "timestamp": "2026-09-14T08:15:37.222355",
+    "count_change": -2,
+    "new_count": 501,
+    "previous_count": 503,
+    "new_entrants": [
+      {
+        "first_name": "Ronan",
+        "last_name": "Doherty",
+        "city": "Watertown",
+        "location": "NY",
+        "age": "M20-29",
+        "key": "ronan_doherty_ny"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Andy",
+        "last_name": "Torzewski",
+        "city": "Springfield",
+        "location": "VA",
+        "age": "M40-49",
+        "key": "andy_torzewski_va"
+      },
+      {
+        "first_name": "Jennifer",
+        "last_name": "Cottrell",
+        "city": "Huntington",
+        "location": "WV",
+        "age": "F40-49",
+        "key": "jennifer_cottrell_wv"
+      },
+      {
+        "first_name": "Jesse",
+        "last_name": "Cottrell",
+        "city": "Huntington",
+        "location": "WV",
+        "age": "M40-49",
+        "key": "jesse_cottrell_wv"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 3
   }
 ]
