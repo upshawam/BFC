@@ -21202,5 +21202,81 @@
     ],
     "total_new": 1,
     "total_dropped": 3
+  },
+  {
+    "timestamp": "2026-09-15T08:14:01.155349",
+    "count_change": -6,
+    "new_count": 495,
+    "previous_count": 501,
+    "new_entrants": [
+      {
+        "first_name": "Mark",
+        "last_name": "Kincade",
+        "city": "New London",
+        "location": "CT",
+        "age": "M20-29",
+        "key": "mark_kincade_ct"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Bertrand",
+        "last_name": "De Lavenne",
+        "city": "Cottens",
+        "location": "CHE",
+        "age": "M50-59",
+        "key": "bertrand_de lavenne_che"
+      },
+      {
+        "first_name": "Brandon",
+        "last_name": "Almaguer",
+        "city": "Jacksonville",
+        "location": "FL",
+        "age": "M30-39",
+        "key": "brandon_almaguer_fl"
+      },
+      {
+        "first_name": "Carrie",
+        "last_name": "Pulliam",
+        "city": "Greenbrier",
+        "location": "TN",
+        "age": "F40-49",
+        "key": "carrie_pulliam_tn"
+      },
+      {
+        "first_name": "Chelsea",
+        "last_name": "Langlois",
+        "city": "Athens",
+        "location": "OH",
+        "age": "F30-39",
+        "key": "chelsea_langlois_oh"
+      },
+      {
+        "first_name": "Laura",
+        "last_name": "Boudreau",
+        "city": "Chapmansboro",
+        "location": "TN",
+        "age": "F30-39",
+        "key": "laura_boudreau_tn"
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Demarco",
+        "city": "Baton Rouge",
+        "location": "LA",
+        "age": "M30-39",
+        "key": "michael_demarco_la"
+      },
+      {
+        "first_name": "Penny",
+        "last_name": "Lane",
+        "city": "Austin",
+        "location": "TX",
+        "age": "F60-69",
+        "key": "penny_lane_tx"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 7
   }
 ]
