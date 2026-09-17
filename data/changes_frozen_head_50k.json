@@ -21330,5 +21330,57 @@
     ],
     "total_new": 1,
     "total_dropped": 4
+  },
+  {
+    "timestamp": "2026-09-17T08:14:51.590033",
+    "count_change": -3,
+    "new_count": 489,
+    "previous_count": 492,
+    "new_entrants": [
+      {
+        "first_name": "Penny",
+        "last_name": "Lane",
+        "city": "Austin",
+        "location": "TX",
+        "age": "F60-69",
+        "key": "penny_lane_tx"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Jason",
+        "last_name": "Heng",
+        "city": "Liberty hill",
+        "location": "TX",
+        "age": "M50-59",
+        "key": "jason_heng_tx"
+      },
+      {
+        "first_name": "Keely",
+        "last_name": "D",
+        "city": "East granby",
+        "location": "CT",
+        "age": "F30-39",
+        "key": "keely_d_ct"
+      },
+      {
+        "first_name": "Tom",
+        "last_name": "Mangan",
+        "city": "Pittsburgh",
+        "location": "PA",
+        "age": "M50-59",
+        "key": "tom_mangan_pa"
+      },
+      {
+        "first_name": "Tony",
+        "last_name": "Taylor",
+        "city": "Columbus",
+        "location": "GA",
+        "age": "M50-59",
+        "key": "tony_taylor_ga"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 4
   }
 ]
