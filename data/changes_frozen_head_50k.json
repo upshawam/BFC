@@ -21382,5 +21382,65 @@
     ],
     "total_new": 1,
     "total_dropped": 4
+  },
+  {
+    "timestamp": "2026-09-18T08:13:11.790605",
+    "count_change": -4,
+    "new_count": 485,
+    "previous_count": 489,
+    "new_entrants": [
+      {
+        "first_name": "Grant",
+        "last_name": "Davis",
+        "city": "Warrior",
+        "location": "AL",
+        "age": "M20-29",
+        "key": "grant_davis_al"
+      }
+    ],
+    "dropped_entrants": [
+      {
+        "first_name": "Aubrie",
+        "last_name": "Vickers",
+        "city": "Orange",
+        "location": "CA",
+        "age": "F40-49",
+        "key": "aubrie_vickers_ca"
+      },
+      {
+        "first_name": "Madeline",
+        "last_name": "Fresonke",
+        "city": "Albuquerque",
+        "location": "NM",
+        "age": "F20-29",
+        "key": "madeline_fresonke_nm"
+      },
+      {
+        "first_name": "Phil",
+        "last_name": "Orndorff",
+        "city": "Raleigh",
+        "location": "NC",
+        "age": "M50-59",
+        "key": "phil_orndorff_nc"
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Erickson",
+        "city": "Collins",
+        "location": "IA",
+        "age": "M40-49",
+        "key": "robert_erickson_ia"
+      },
+      {
+        "first_name": "Timothy",
+        "last_name": "Smith",
+        "city": "Grants Pass",
+        "location": "OR",
+        "age": "M40-49",
+        "key": "timothy_smith_or"
+      }
+    ],
+    "total_new": 1,
+    "total_dropped": 5
   }
 ]
